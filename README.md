@@ -4,7 +4,7 @@
     <img alt="Microchip Logo." src="images/microchip_logo_black_red.png">
 </picture> 
 
-## %repoDescritpion%
+## dspic33ch power totem pole demonstration application single phase
 
 Board Image if any.
 
