@@ -6,7 +6,7 @@
     <SignalChannels>
       <SignalChannel>
         <Name>Vin</Name>
-        <Scaling>0.023</Scaling>
+        <Scaling>0.024</Scaling>
         <Offset>0</Offset>
         <Unit>V rms</Unit>
         <Plot>false</Plot>
@@ -26,6 +26,58 @@
         <PlotValMax>127</PlotValMax>
         <SignalChannelIndex>1</SignalChannelIndex>
         <PositionInMessage>21</PositionInMessage>
+        <ProtocolID>514</ProtocolID>
+      </SignalChannel>
+      <SignalChannel>
+        <Name>Gain Factor</Name>
+        <Scaling>0.00003052</Scaling>
+        <Offset>0</Offset>
+        <Unit xsi:nil="true" />
+        <Plot>false</Plot>
+        <PlotValMin>0</PlotValMin>
+        <PlotValMax>16000</PlotValMax>
+        <SignalChannelIndex>2</SignalChannelIndex>
+        <PositionInMessage>9</PositionInMessage>
+        <PageName>Test only</PageName>
+        <ProtocolID>514</ProtocolID>
+      </SignalChannel>
+      <SignalChannel>
+        <Name>I1</Name>
+        <Scaling>1</Scaling>
+        <Offset>0</Offset>
+        <Unit xsi:nil="true" />
+        <Plot>false</Plot>
+        <PlotValMin>0</PlotValMin>
+        <PlotValMax>4095</PlotValMax>
+        <SignalChannelIndex>3</SignalChannelIndex>
+        <PositionInMessage>12</PositionInMessage>
+        <PageName>Test only</PageName>
+        <ProtocolID>514</ProtocolID>
+      </SignalChannel>
+      <SignalChannel>
+        <Name>I2</Name>
+        <Scaling>1</Scaling>
+        <Offset>0</Offset>
+        <Unit xsi:nil="true" />
+        <Plot>false</Plot>
+        <PlotValMin>0</PlotValMin>
+        <PlotValMax>4095</PlotValMax>
+        <SignalChannelIndex>4</SignalChannelIndex>
+        <PositionInMessage>13</PositionInMessage>
+        <PageName>Test only</PageName>
+        <ProtocolID>514</ProtocolID>
+      </SignalChannel>
+      <SignalChannel>
+        <Name>V-Loop out</Name>
+        <Scaling>1</Scaling>
+        <Offset>0</Offset>
+        <Unit xsi:nil="true" />
+        <Plot>false</Plot>
+        <PlotValMin>0</PlotValMin>
+        <PlotValMax>32000</PlotValMax>
+        <SignalChannelIndex>5</SignalChannelIndex>
+        <PositionInMessage>14</PositionInMessage>
+        <PageName>Test only</PageName>
         <ProtocolID>514</ProtocolID>
       </SignalChannel>
       <SignalChannel>
@@ -65,7 +117,7 @@
         <ProtocolID>514</ProtocolID>
       </SignalChannel>
       <SignalChannel>
-        <Name>SiC card1 Temp</Name>
+        <Name>SiC card 1 Temp</Name>
         <Scaling>1</Scaling>
         <Offset>-128</Offset>
         <Unit>°C</Unit>
@@ -78,7 +130,7 @@
       </SignalChannel>
       <SignalChannel>
         <Name>Vout</Name>
-        <Scaling>0.033</Scaling>
+        <Scaling>0.0337</Scaling>
         <Offset>0</Offset>
         <Unit>V</Unit>
         <Plot>false</Plot>
@@ -114,17 +166,47 @@
       <TableViewItem>
         <SignalChannelIndex>1</SignalChannelIndex>
       </TableViewItem>
+      <TableViewItem>
+        <SignalChannelIndex>2</SignalChannelIndex>
+        <PageName>Test only</PageName>
+      </TableViewItem>
+      <TableViewItem>
+        <SignalChannelIndex>3</SignalChannelIndex>
+        <PageName>Test only</PageName>
+      </TableViewItem>
+      <TableViewItem>
+        <SignalChannelIndex>4</SignalChannelIndex>
+        <PageName>Test only</PageName>
+      </TableViewItem>
+      <TableViewItem>
+        <SignalChannelIndex>5</SignalChannelIndex>
+        <PageName>Test only</PageName>
+      </TableViewItem>
     </TableView>
     <OutputValues>
       <OutputValue>
         <Name>Vout Ref (V)</Name>
         <Unit>V</Unit>
-        <Scaling>30</Scaling>
+        <Scaling>29.7</Scaling>
         <Offset>0</Offset>
         <MinimumValue>40</MinimumValue>
         <MaximumValue>60</MaximumValue>
         <DefaultValue>40</DefaultValue>
         <Step>1</Step>
+        <ButtonText>Set</ButtonText>
+        <Data>02 03 00 04 ef 00 [value]</Data>
+        <AutoSendAfterChange>false</AutoSendAfterChange>
+        <PageName>MainPage</PageName>
+      </OutputValue>
+      <OutputValue>
+        <Name>Inverter Current</Name>
+        <Unit>A</Unit>
+        <Scaling>1</Scaling>
+        <Offset>0</Offset>
+        <MinimumValue>0</MinimumValue>
+        <MaximumValue>2000</MaximumValue>
+        <DefaultValue>200</DefaultValue>
+        <Step>50</Step>
         <ButtonText>Set</ButtonText>
         <Data>02 03 00 04 ef 00 [value]</Data>
         <AutoSendAfterChange>false</AutoSendAfterChange>
@@ -242,23 +324,28 @@
           </StatusBit>
           <StatusBit>
             <Name>PFC Mode</Name>
-            <BitIndex>8</BitIndex>
+            <BitIndex>7</BitIndex>
             <ControlType>radio</ControlType>
           </StatusBit>
           <StatusBit>
-            <Name>PFC Mode (voltage loop off)</Name>
-            <BitIndex>10</BitIndex>
+            <Name>PFC Mode (Voltage Loop Off)</Name>
+            <BitIndex>9</BitIndex>
             <ControlType>radio</ControlType>
             <ActiveColor>FF0000</ActiveColor>
           </StatusBit>
           <StatusBit>
             <Name>Grid Tie Inverter</Name>
-            <BitIndex>13</BitIndex>
+            <BitIndex>10</BitIndex>
             <ControlType>radio</ControlType>
           </StatusBit>
           <StatusBit>
             <Name>PFC Mode Interleaved</Name>
-            <BitIndex>15</BitIndex>
+            <BitIndex>11</BitIndex>
+            <ControlType>radio</ControlType>
+          </StatusBit>
+          <StatusBit>
+            <Name>Adaptive Gain</Name>
+            <BitIndex>12</BitIndex>
             <ControlType>radio</ControlType>
           </StatusBit>
         </StatusBits>
@@ -345,6 +432,12 @@
         <Enabled>true</Enabled>
         <RawDataVisible>false</RawDataVisible>
         <Data>02 03 00 02 55 A0</Data>
+      </SendRawDataButton>
+      <SendRawDataButton>
+        <Name>Direction Change</Name>
+        <Enabled>true</Enabled>
+        <RawDataVisible>false</RawDataVisible>
+        <Data>02 03 00 01 ee</Data>
       </SendRawDataButton>
     </SendRawDataButtons>
   </Status>

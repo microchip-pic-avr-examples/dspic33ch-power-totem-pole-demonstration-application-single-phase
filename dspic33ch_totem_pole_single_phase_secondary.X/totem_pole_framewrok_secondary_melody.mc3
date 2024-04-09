@@ -1,0 +1,361 @@
+<config configName="default" projectName="totem_pole_framewrok_secondary_melody" configVersion="1.1" device="dsPIC33CH512MP506S1" deviceLibraryClass="com.microchip.mcc.melody.Library" coreVersion="5.7.0">
+   <usedPackages class="java.util.ArrayList">
+      <package packageName="@mchp-mcc/adc-multicore-driver" version="2.1.3" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/clock-16bit-driver" version="1.1.1" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/cmp-dac-driver" version="1.0.3" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/default-peripheral-initializer-16bit" version="1.0.0" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/dmt-16bit-driver" version="1.0.5" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/main-16bit-manager" version="1.1.2" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/main-core" version="1.0.0" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/pic-16bit" version="5.10.0" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/pic24-dspic33-adc-multicore" version="2.4.3" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/pic24-dspic33-clock-sib" version="1.4.2" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/pic24-dspic33-cmp-dac" version="1.4.0" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/pic24-dspic33-dmt-upb" version="1.1.0" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/pic24-dspic33-interrupt" version="1.3.0" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/pic24-dspic33-pin-manager" version="1.2.0" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/pic24-dspic33-reset" version="1.1.0" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/pic24-dspic33-tmr-class-upb" version="1.5.0" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/pic24-dspic33-wdt-upb-v1" version="1.2.0" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/pin-content-processor" version="3.6.0" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/timer" version="1.1.0" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="@mchp-mcc/wdt-16bit-driver" version="1.0.6" contentType="MELODY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+   </usedPackages>
+   <usedClasses class="java.util.TreeMap">
+      <entry>
+         <string>ADC1</string>
+         <string>class com.microchip.mcc.melody.hw.module.HardwareModule</string>
+      </entry>
+      <entry>
+         <string>Application Builder</string>
+         <string>class com.microchip.mcc.melody.module.FrameworkModule</string>
+      </entry>
+      <entry>
+         <string>CMP1</string>
+         <string>class com.microchip.mcc.melody.hw.module.HardwareModule</string>
+      </entry>
+      <entry>
+         <string>DMT</string>
+         <string>class com.microchip.mcc.melody.hw.module.HardwareModule</string>
+      </entry>
+      <entry>
+         <string>INTERNAL OSCILLATOR</string>
+         <string>class com.microchip.mcc.melody.hw.module.HardwareModule</string>
+      </entry>
+      <entry>
+         <string>INTERRUPT CORE</string>
+         <string>class com.microchip.mcc.melody.hw.module.HardwareModule</string>
+      </entry>
+      <entry>
+         <string>MAIN CORE</string>
+         <string>class com.microchip.mcc.melody.hw.module.HardwareModule</string>
+      </entry>
+      <entry>
+         <string>MAIN MANAGER</string>
+         <string>class com.microchip.mcc.melody.hw.module.HardwareModule</string>
+      </entry>
+      <entry>
+         <string>PWM</string>
+         <string>class com.microchip.mcc.melody.hw.module.HardwareModule</string>
+      </entry>
+      <entry>
+         <string>Pin Manager</string>
+         <string>class com.microchip.mcc.melody.hw.module.HardwareModule</string>
+      </entry>
+      <entry>
+         <string>RESET</string>
+         <string>class com.microchip.mcc.melody.hw.module.HardwareModule</string>
+      </entry>
+      <entry>
+         <string>TMR1</string>
+         <string>class com.microchip.mcc.melody.hw.module.HardwareModule</string>
+      </entry>
+      <entry>
+         <string>WATCHDOG</string>
+         <string>class com.microchip.mcc.melody.hw.module.HardwareModule</string>
+      </entry>
+      <entry>
+         <string>meta</string>
+         <string>class com.microchip.mcc.melody.hw.module.HardwareModule</string>
+      </entry>
+      <entry>
+         <string>module0</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module12</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module2</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module23</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module26</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module3</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module31</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module38</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module4</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module5</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module50</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module52</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module58</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module6</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module64</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module68</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module74</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module81</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+      <entry>
+         <string>module92</string>
+         <string>class com.microchip.mcc.melody.script.module.ScriptModule</string>
+      </entry>
+   </usedClasses>
+   <usedLibraries class="java.util.ArrayList">
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.melody.Library" version="2.7.0"/>
+   </usedLibraries>
+   <tokenMap class="java.util.TreeMap">
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Application Builder" name="graph-location-data"/>
+         <value>{&quot;mccDevice&quot;:{&quot;loc&quot;:&quot;-297.53000000000003 -491.48000000000013&quot;,&quot;pos&quot;:&quot;-297.53000000000003 -491.48000000000013&quot;},&quot;systemGroup&quot;:{&quot;loc&quot;:&quot;-36.81722087378637 -646.7680842546746&quot;,&quot;pos&quot;:&quot;-36.81722087378637 -646.7680842546746&quot;},&quot;module6&quot;:{&quot;loc&quot;:&quot;-24.31722087378637 -634.2680842546746&quot;,&quot;pos&quot;:&quot;-24.31722087378637 -634.2680842546746&quot;},&quot;module5&quot;:{&quot;loc&quot;:&quot;-24.31722087378637 -599.7680842546746&quot;,&quot;pos&quot;:&quot;-24.31722087378637 -599.7680842546746&quot;},&quot;module81&quot;:{&quot;loc&quot;:&quot;-24.31722087378637 -565.2680842546746&quot;,&quot;pos&quot;:&quot;-24.31722087378637 -565.2680842546746&quot;},&quot;module50&quot;:{&quot;loc&quot;:&quot;-24.31722087378637 -530.7680842546746&quot;,&quot;pos&quot;:&quot;-24.31722087378637 -530.7680842546746&quot;},&quot;module2&quot;:{&quot;loc&quot;:&quot;-24.31722087378637 -496.2680842546746&quot;,&quot;pos&quot;:&quot;-24.31722087378637 -496.2680842546746&quot;},&quot;module0&quot;:{&quot;loc&quot;:&quot;-24.31722087378637 -461.7680842546746&quot;,&quot;pos&quot;:&quot;-24.31722087378637 -461.7680842546746&quot;},&quot;module52&quot;:{&quot;loc&quot;:&quot;-24.31722087378637 -427.2680842546746&quot;,&quot;pos&quot;:&quot;-24.31722087378637 -427.2680842546746&quot;},&quot;module3&quot;:{&quot;loc&quot;:&quot;-24.31722087378637 -260.6970067614428&quot;,&quot;pos&quot;:&quot;-24.31722087378637 -260.6970067614428&quot;},&quot;module4&quot;:{&quot;loc&quot;:&quot;-24.31722087378637 -226.19700676144282&quot;,&quot;pos&quot;:&quot;-24.31722087378637 -226.19700676144282&quot;},&quot;module64&quot;:{&quot;loc&quot;:&quot;-24.31722087378637 -191.69700676144282&quot;,&quot;pos&quot;:&quot;-24.31722087378637 -191.69700676144282&quot;},&quot;module31&quot;:{&quot;loc&quot;:&quot;-24.31722087378637 -157.19700676144282&quot;,&quot;pos&quot;:&quot;-24.31722087378637 -157.19700676144282&quot;},&quot;module68&quot;:{&quot;loc&quot;:&quot;-24.31722087378637 -122.69700676144282&quot;,&quot;pos&quot;:&quot;-24.31722087378637 -122.69700676144282&quot;},&quot;module38&quot;:{&quot;loc&quot;:&quot;-78.88 -336.63&quot;,&quot;pos&quot;:&quot;-78.88 -336.63&quot;},&quot;module26&quot;:{&quot;loc&quot;:&quot;-81.68749999999994 -452.18000000000006&quot;,&quot;pos&quot;:&quot;-81.68749999999994 -452.18000000000006&quot;},&quot;module74&quot;:{&quot;loc&quot;:&quot;144.756536407767 -518.6970067614427&quot;,&quot;pos&quot;:&quot;144.756536407767 -518.6970067614427&quot;},&quot;module58&quot;:{&quot;loc&quot;:&quot;112.63681865464645 -454.49958737864074&quot;,&quot;pos&quot;:&quot;112.63681865464645 -454.49958737864074&quot;},&quot;module12&quot;:{&quot;loc&quot;:&quot;-84.0603749999998 -513.6348750000001&quot;,&quot;pos&quot;:&quot;-84.0603749999998 -513.6348750000001&quot;},&quot;module23&quot;:{&quot;loc&quot;:&quot;-80.03000000000009 -392.68000000000006&quot;,&quot;pos&quot;:&quot;-80.03000000000009 -392.68000000000006&quot;},&quot;module92&quot;:{&quot;loc&quot;:&quot;116.64656900138704 -390.48851248266305&quot;,&quot;pos&quot;:&quot;116.64656900138704 -390.48851248266305&quot;}}</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Application Builder" name="state"/>
+         <value>{&quot;userAddedModules&quot;:[&quot;module5&quot;,&quot;module4&quot;,&quot;module6&quot;,&quot;module27&quot;,&quot;module38&quot;,&quot;module0&quot;,&quot;module3&quot;,&quot;module2&quot;,&quot;module76&quot;,&quot;module64&quot;,&quot;module31&quot;,&quot;module74&quot;,&quot;module58&quot;,&quot;module68&quot;,&quot;module57&quot;,&quot;module35&quot;,&quot;module50&quot;,&quot;module81&quot;,&quot;module92&quot;],&quot;version&quot;:&quot;CURRENT&quot;,&quot;modules&quot;:{&quot;module5&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/pic24-dspic33-clock-sib&quot;,&quot;imports&quot;:{&quot;device_meta&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;device-meta&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;meta&quot;}},&quot;pin_standard&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;pin-standard&quot;,&quot;version&quot;:&quot;^0.1.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module4&quot;,&quot;exportId&quot;:&quot;pin-standard&quot;}},&quot;clk_sib_v12&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;clk_sib_v12&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;INTERNAL OSCILLATOR&quot;}},&quot;system_16bit_initializer&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;system-16bit-initializer&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module0&quot;,&quot;exportId&quot;:&quot;system_16bit_initializer&quot;}},&quot;config_16bit_interface&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;config-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{}},&quot;module4&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/pin-content-processor&quot;,&quot;imports&quot;:{&quot;device-meta&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;device-meta&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;meta&quot;}},&quot;pin-architecture&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;pin-architecture&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module3&quot;,&quot;exportId&quot;:&quot;pin-architecture&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{&quot;saved&quot;:{&quot;rows&quot;:{&quot;pcp&quot;:{&quot;GPIO$GPIO$input&quot;:{&quot;pins&quot;:{&quot;RB14&quot;:{&quot;state&quot;:&quot;MUL&quot;},&quot;RC13&quot;:{&quot;state&quot;:&quot;MUL&quot;},&quot;RC14&quot;:{&quot;state&quot;:&quot;UL&quot;},&quot;RD0&quot;:{&quot;state&quot;:&quot;MUL&quot;},&quot;RD1&quot;:{&quot;state&quot;:&quot;MUL&quot;},&quot;RD2&quot;:{&quot;state&quot;:&quot;MUL&quot;},&quot;RB13&quot;:{&quot;state&quot;:&quot;MUL&quot;},&quot;RD13&quot;:{&quot;state&quot;:&quot;MUL&quot;},&quot;RD14&quot;:{&quot;state&quot;:&quot;MUL&quot;},&quot;RD5&quot;:{&quot;state&quot;:&quot;MUL&quot;},&quot;RD6&quot;:{&quot;state&quot;:&quot;MUL&quot;},&quot;RD8&quot;:{&quot;state&quot;:&quot;MUL&quot;},&quot;RD9&quot;:{&quot;state&quot;:&quot;MUL&quot;}}},&quot;GPIO$GPIO$output&quot;:{&quot;pins&quot;:{&quot;RB14&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RC13&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RC14&quot;:{&quot;state&quot;:&quot;UL&quot;},&quot;RD0&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RD1&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RD2&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RB13&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RD13&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RD14&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RD5&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RD6&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RD8&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RD9&quot;:{&quot;state&quot;:&quot;L&quot;}}}},&quot;module26&quot;:{&quot;ADC1$S1ANx$input&quot;:{&quot;pins&quot;:{&quot;RA3&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RA4&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RC0&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RC7&quot;:{&quot;state&quot;:&quot;UL&quot;},&quot;RD10&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RD11&quot;:{&quot;state&quot;:&quot;L&quot;},&quot;RC6&quot;:{&quot;state&quot;:&quot;UL&quot;}}}}},&quot;userEditedData&quot;:{&quot;cname&quot;:{&quot;eview&quot;:{&quot;RB14&quot;:&quot;TP129_RB14&quot;,&quot;RB13&quot;:&quot;ACmonitorTrigger&quot;,&quot;RC13&quot;:&quot;TP126_RC13&quot;,&quot;RD0&quot;:&quot;PWM_L_N&quot;,&quot;RD1&quot;:&quot;PWM_H_N&quot;,&quot;RD13&quot;:&quot;TP4_DPPIM_RD13&quot;,&quot;RD14&quot;:&quot;RELAY&quot;,&quot;RD2&quot;:&quot;TP39_RD2&quot;,&quot;RD5&quot;:&quot;GPIO_V_L&quot;,&quot;RD6&quot;:&quot;GPIO_V_H&quot;,&quot;RD8&quot;:&quot;LED1&quot;,&quot;RD9&quot;:&quot;FAULT&quot;}},&quot;high&quot;:{&quot;eview&quot;:{&quot;RD9&quot;:true}}},&quot;meta&quot;:{&quot;package&quot;:&quot;TQFP64&quot;}}}},&quot;module6&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/clock-16bit-driver&quot;,&quot;imports&quot;:{&quot;clock_16bit_config_interface&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;clock-16bit-config-interface&quot;,&quot;version&quot;:&quot;^1.1.5&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module5&quot;,&quot;exportId&quot;:&quot;clock_16bit_config_interface&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{&quot;main&quot;:{&quot;systemClock&quot;:{&quot;setMaximumSystemFrequency&quot;:true,&quot;mainClockSource&quot;:&quot;FRC Oscillator with PLL&quot;,&quot;fvcoDivider&quot;:&quot;4&quot;,&quot;requestedSystemFrequency_Hz&quot;:2.0E8},&quot;auxClock&quot;:{&quot;auxClockSource&quot;:&quot;FRC Oscillator with PLL&quot;,&quot;afvcoDivider&quot;:&quot;2&quot;,&quot;requestedAuxClockOutputFrequency_Hz&quot;:5.0E8}}}},&quot;module38&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/default-peripheral-initializer-16bit:pwm_pc_upb_v1&quot;,&quot;imports&quot;:{&quot;device_meta&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;device_meta&quot;,&quot;version&quot;:&quot;1.0.0&quot;}},&quot;initializer_system&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;system-16bit-initializer&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module0&quot;,&quot;exportId&quot;:&quot;system_16bit_initializer&quot;}},&quot;hardware&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;pwm_pc_upb_v1&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;PWM&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{&quot;main&quot;:{&quot;PCLKCON&quot;:{&quot;MCLKSEL&quot;:&quot;AFPLLO&quot;},&quot;MPER&quot;:{&quot;MPER&quot;:19992.0},&quot;PG1CONL&quot;:{&quot;MODSEL&quot;:&quot;Center-Aligned&quot;,&quot;HREN&quot;:&quot;enabled&quot;,&quot;ON&quot;:&quot;disabled&quot;,&quot;CLKSEL&quot;:&quot;Master clock&quot;},&quot;PG2CONL&quot;:{&quot;MODSEL&quot;:&quot;Center-Aligned&quot;,&quot;CLKSEL&quot;:&quot;Master clock&quot;,&quot;HREN&quot;:&quot;enabled&quot;},&quot;PG3CONL&quot;:{&quot;MODSEL&quot;:&quot;Center-Aligned&quot;,&quot;CLKSEL&quot;:&quot;Master clock&quot;,&quot;HREN&quot;:&quot;enabled&quot;},&quot;PG1CONH&quot;:{&quot;MSTEN&quot;:&quot;enabled&quot;,&quot;MPERSEL&quot;:&quot;enabled&quot;,&quot;UPDMOD&quot;:&quot;SOC update&quot;},&quot;PG2CONH&quot;:{&quot;SOCS&quot;:&quot;Self-trigger&quot;,&quot;MPERSEL&quot;:&quot;enabled&quot;},&quot;PG3CONH&quot;:{&quot;SOCS&quot;:&quot;Trigger output selected by PG1 or PG5&quot;,&quot;MPERSEL&quot;:&quot;enabled&quot;},&quot;PG1IOCONL&quot;:{&quot;OVRENL&quot;:&quot;enabled&quot;,&quot;OVRENH&quot;:&quot;enabled&quot;,&quot;OSYNC&quot;:&quot;User output overrides occur immediately&quot;},&quot;PG2IOCONL&quot;:{&quot;OSYNC&quot;:&quot;User output overrides occur immediately&quot;,&quot;OVRENL&quot;:&quot;enabled&quot;,&quot;OVRENH&quot;:&quot;enabled&quot;},&quot;PG3IOCONL&quot;:{&quot;OSYNC&quot;:&quot;User output overrides occur immediately&quot;,&quot;OVRENL&quot;:&quot;enabled&quot;,&quot;OVRENH&quot;:&quot;enabled&quot;},&quot;PG1IOCONH&quot;:{&quot;PENL&quot;:&quot;enabled&quot;,&quot;PENH&quot;:&quot;enabled&quot;},&quot;PG2IOCONH&quot;:{&quot;PENL&quot;:&quot;enabled&quot;,&quot;PENH&quot;:&quot;enabled&quot;},&quot;PG3IOCONH&quot;:{&quot;PENL&quot;:&quot;enabled&quot;,&quot;PENH&quot;:&quot;enabled&quot;},&quot;PG1EVTL&quot;:{&quot;UPDTRG&quot;:&quot;Duty Cycle&quot;,&quot;ADTR1EN1&quot;:&quot;enabled&quot;},&quot;PG2EVTL&quot;:{&quot;UPDTRG&quot;:&quot;Duty Cycle&quot;,&quot;PGTRGSEL&quot;:&quot;EOC event&quot;},&quot;PG3EVTL&quot;:{&quot;UPDTRG&quot;:&quot;Duty Cycle&quot;},&quot;PG1EVTH&quot;:{&quot;ADTR2EN2&quot;:&quot;disabled&quot;},&quot;PG1PER&quot;:{&quot;PER&quot;:39992.0},&quot;PG2PER&quot;:{&quot;PER&quot;:39992.0},&quot;PG3PER&quot;:{&quot;PER&quot;:39992.0},&quot;PG1TRIGA&quot;:{&quot;TRIGA&quot;:19800.0},&quot;PG1TRIGB&quot;:{&quot;TRIGB&quot;:0.0},&quot;PG1DTL&quot;:{&quot;DTL&quot;:500.0},&quot;PG2DTL&quot;:{&quot;DTL&quot;:500.0},&quot;PG3DTL&quot;:{&quot;DTL&quot;:500.0},&quot;PG1DTH&quot;:{&quot;DTH&quot;:500.0},&quot;PG2DTH&quot;:{&quot;DTH&quot;:500.0},&quot;PG3DTH&quot;:{&quot;DTH&quot;:500.0}}}},&quot;module26&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/pic24-dspic33-adc-multicore&quot;,&quot;imports&quot;:{&quot;pin_standard&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;pin-standard&quot;,&quot;version&quot;:&quot;^0.1.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module4&quot;,&quot;exportId&quot;:&quot;pin-standard&quot;}},&quot;device_meta&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;device-meta&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;meta&quot;}},&quot;adc_pc_ctrl_upb_v1&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;adc_pc_ctrl_upb_v1&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;ADC1&quot;}},&quot;clock_16bit_interface&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;clock-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module5&quot;,&quot;exportId&quot;:&quot;clock_16bit_interface&quot;}},&quot;system_16bit_initializer&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;system-16bit-initializer&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module0&quot;,&quot;exportId&quot;:&quot;system_16bit_initializer&quot;}},&quot;interrupt_service&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;interrupt-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module2&quot;,&quot;exportId&quot;:&quot;interrupt_16bit_interface&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{}},&quot;module0&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/main-16bit-manager&quot;,&quot;imports&quot;:{&quot;device_meta&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;device-meta&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;meta&quot;}},&quot;main&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;main-16bit-manager&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;MAIN MANAGER&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{}},&quot;module3&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/pic24-dspic33-pin-manager&quot;,&quot;imports&quot;:{&quot;pic24-dspic33-pin-manager&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;pic24-dspic33-pin-manager&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;Pin Manager&quot;}},&quot;device-meta&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;device-meta&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;meta&quot;}},&quot;interrupt-16bit-interface&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;interrupt-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module2&quot;,&quot;exportId&quot;:&quot;interrupt_16bit_interface&quot;}},&quot;system-16bit-initializer&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;system-16bit-initializer&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module0&quot;,&quot;exportId&quot;:&quot;system_16bit_initializer&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{&quot;adapterdata&quot;:{&quot;cname&quot;:{&quot;eview&quot;:{&quot;dataMap&quot;:{&quot;RB14&quot;:{&quot;value&quot;:&quot;TP129_RB14&quot;},&quot;RB13&quot;:{&quot;value&quot;:&quot;ACmonitorTrigger&quot;},&quot;RC13&quot;:{&quot;value&quot;:&quot;TP126_RC13&quot;},&quot;RD0&quot;:{&quot;value&quot;:&quot;PWM_L_N&quot;},&quot;RD1&quot;:{&quot;value&quot;:&quot;PWM_H_N&quot;},&quot;RD13&quot;:{&quot;value&quot;:&quot;TP4_DPPIM_RD13&quot;},&quot;RD14&quot;:{&quot;value&quot;:&quot;RELAY&quot;},&quot;RD2&quot;:{&quot;value&quot;:&quot;TP39_RD2&quot;},&quot;RD5&quot;:{&quot;value&quot;:&quot;GPIO_V_L&quot;},&quot;RD6&quot;:{&quot;value&quot;:&quot;GPIO_V_H&quot;},&quot;RD8&quot;:{&quot;value&quot;:&quot;LED1&quot;},&quot;RD9&quot;:{&quot;value&quot;:&quot;FAULT&quot;}}}},&quot;high&quot;:{&quot;eview&quot;:{&quot;dataMap&quot;:{&quot;RD9&quot;:{&quot;value&quot;:true}}}}}}},&quot;module2&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/pic24-dspic33-interrupt&quot;,&quot;imports&quot;:{&quot;int_16bit_core_v3&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;int_16bit_core_v3&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;INTERRUPT CORE&quot;}},&quot;config_bit&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;config-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;}},&quot;system_16bit_initializer&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;system-16bit-initializer&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module0&quot;,&quot;exportId&quot;:&quot;system_16bit_initializer&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{&quot;main&quot;:{&quot;software&quot;:{&quot;intTable&quot;:[{&quot;rowId&quot;:23.0,&quot;uid&quot;:&quot;dynamicRow_module26_ADCAN0&quot;,&quot;priority&quot;:&quot;4&quot;}]}}}},&quot;module64&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/pic24-dspic33-reset&quot;,&quot;imports&quot;:{&quot;rst_sib_v2&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;rst_sib_v2&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;RESET&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{}},&quot;module31&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/pic24-dspic33-wdt-upb-v1&quot;,&quot;imports&quot;:{&quot;wdt_upb_16bit_v1&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;wdt_upb_16bit_v1&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;WATCHDOG&quot;}},&quot;clock_16bit_interface&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;clock-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module5&quot;,&quot;exportId&quot;:&quot;clock_16bit_interface&quot;}},&quot;config_16bit_interface&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;config-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{}},&quot;module52&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/main-core&quot;,&quot;imports&quot;:{&quot;pin_standard&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;pin-standard&quot;,&quot;version&quot;:&quot;^0.1.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module4&quot;,&quot;exportId&quot;:&quot;pin-standard&quot;}},&quot;msi_upb_Slave_v1&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;msi_upb_Slave_v1&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;MAIN CORE&quot;}},&quot;system_16bit_initializer&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;system-16bit-initializer&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module0&quot;,&quot;exportId&quot;:&quot;system_16bit_initializer&quot;}},&quot;interrupt_service&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;interrupt-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module2&quot;,&quot;exportId&quot;:&quot;interrupt_16bit_interface&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{&quot;main&quot;:{&quot;msi&quot;:{&quot;msiTable&quot;:[{&quot;rowId&quot;:0.0,&quot;uid&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;direction&quot;:&quot;M-\u003eS&quot;,&quot;bufferSize&quot;:&quot;10&quot;},{&quot;rowId&quot;:1.0,&quot;uid&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;direction&quot;:&quot;M-\u003eS&quot;,&quot;bufferSize&quot;:&quot;20&quot;}]},&quot;mainICD&quot;:{&quot;emulatorPinPlacement&quot;:&quot;Communicate on PGC2 and PGD2&quot;}}}},&quot;module74&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/timer&quot;,&quot;imports&quot;:{&quot;timer_periodic&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;timer-periodic&quot;,&quot;version&quot;:&quot;^2.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module12&quot;,&quot;exportId&quot;:&quot;timer_periodic&quot;,&quot;label&quot;:&quot;TMR1&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[&quot;timer_periodic&quot;]},&quot;payload&quot;:{&quot;main&quot;:{&quot;software&quot;:{&quot;requestedTimer_ms&quot;:0.1,&quot;interruptDriven&quot;:false,&quot;enableModule&quot;:false}}}},&quot;module58&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/adc-multicore-driver&quot;,&quot;imports&quot;:{&quot;device_meta&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;device-meta&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;meta&quot;}},&quot;adc_multicore&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;adc-multicore&quot;,&quot;version&quot;:&quot;^2.1.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module26&quot;,&quot;exportId&quot;:&quot;adc_multicore&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{&quot;main&quot;:{&quot;sharedCore&quot;:{&quot;requestedSharedCoreSamplingTime&quot;:0.04,&quot;adcTable&quot;:[{&quot;rowId&quot;:8.0,&quot;uid&quot;:&quot;dynamicRow_S1AN10&quot;,&quot;channelEnable&quot;:true,&quot;trigger&quot;:&quot;S1 PWM Generator1 ADC Trigger1&quot;,&quot;customName&quot;:&quot;FB_Vout&quot;},{&quot;rowId&quot;:10.0,&quot;uid&quot;:&quot;dynamicRow_S1AN12&quot;,&quot;channelEnable&quot;:false,&quot;trigger&quot;:&quot;None&quot;,&quot;customName&quot;:&quot;Channel_S1AN12&quot;},{&quot;rowId&quot;:11.0,&quot;uid&quot;:&quot;dynamicRow_S1AN13&quot;,&quot;channelEnable&quot;:false,&quot;trigger&quot;:&quot;None&quot;},{&quot;rowId&quot;:15.0,&quot;uid&quot;:&quot;dynamicRow_S1AN17&quot;,&quot;channelEnable&quot;:false,&quot;trigger&quot;:&quot;None&quot;,&quot;customName&quot;:&quot;Channel_S1AN17&quot;},{&quot;rowId&quot;:12.0,&quot;uid&quot;:&quot;dynamicRow_S1AN14&quot;,&quot;channelEnable&quot;:false,&quot;trigger&quot;:&quot;None&quot;},{&quot;rowId&quot;:13.0,&quot;uid&quot;:&quot;dynamicRow_S1AN15&quot;,&quot;channelEnable&quot;:true,&quot;trigger&quot;:&quot;Common Software Trigger&quot;,&quot;customName&quot;:&quot;FB_AC_N&quot;},{&quot;rowId&quot;:16.0,&quot;uid&quot;:&quot;dynamicRow_S1AN18&quot;,&quot;channelEnable&quot;:false}]},&quot;Dedicated Core0 Settings&quot;:{&quot;useCore0&quot;:true,&quot;Core0&quot;:[{&quot;rowId&quot;:0.0,&quot;uid&quot;:&quot;dynamicRow_AN0&quot;,&quot;trigger&quot;:&quot;S1 PWM Generator1 ADC Trigger1&quot;,&quot;channelEnable&quot;:true,&quot;interrupt&quot;:true,&quot;customName&quot;:&quot;IL1_F&quot;}],&quot;requestedCore0SamplingTime&quot;:0.04},&quot;Dedicated Core1 Settings&quot;:{&quot;useCore1&quot;:true,&quot;Core1&quot;:[{&quot;rowId&quot;:0.0,&quot;uid&quot;:&quot;dynamicRow_AN1&quot;,&quot;channelEnable&quot;:true,&quot;trigger&quot;:&quot;S1 PWM Generator1 ADC Trigger1&quot;,&quot;customName&quot;:&quot;IL2_F&quot;}],&quot;requestedCore1SamplingTime&quot;:0.04},&quot;software&quot;:{&quot;interruptDriven&quot;:true}}}},&quot;module68&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/wdt-16bit-driver&quot;,&quot;imports&quot;:{&quot;wdt_16bit_interface&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;wdt-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.1&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module31&quot;,&quot;exportId&quot;:&quot;wdt_16bit_interface&quot;}},&quot;device_meta&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;device-meta&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;meta&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{}},&quot;module12&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/pic24-dspic33-tmr-class-upb&quot;,&quot;imports&quot;:{&quot;pin_standard&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;pin-standard&quot;,&quot;version&quot;:&quot;^0.1.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module4&quot;,&quot;exportId&quot;:&quot;pin-standard&quot;}},&quot;tmr_classa_upb_v1&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;tmr_classa_upb_v1&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;TMR1&quot;}},&quot;clock_16bit_interface&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;clock-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module5&quot;,&quot;exportId&quot;:&quot;clock_16bit_interface&quot;}},&quot;system_16bit_initializer&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;system-16bit-initializer&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module0&quot;,&quot;exportId&quot;:&quot;system_16bit_initializer&quot;}},&quot;interrupt_service&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;interrupt-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module2&quot;,&quot;exportId&quot;:&quot;interrupt_16bit_interface&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{&quot;main&quot;:{&quot;software&quot;:{&quot;isPrescalar&quot;:true}}}},&quot;module23&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/pic24-dspic33-cmp-dac&quot;,&quot;imports&quot;:{&quot;pin_standard&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;pin-standard&quot;,&quot;version&quot;:&quot;^0.1.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module4&quot;,&quot;exportId&quot;:&quot;pin-standard&quot;}},&quot;device_meta&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;device-meta&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;meta&quot;}},&quot;clock_16bit_interface&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;clock-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module5&quot;,&quot;exportId&quot;:&quot;clock_16bit_interface&quot;}},&quot;dac_pdm_nbit_upb_v1&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;dac_pdm_nbit_upb_v1&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;CMP1&quot;}},&quot;system_16bit_initializer&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;system-16bit-initializer&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module0&quot;,&quot;exportId&quot;:&quot;system_16bit_initializer&quot;}},&quot;interrupt_service&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;interrupt-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module2&quot;,&quot;exportId&quot;:&quot;interrupt_16bit_interface&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{}},&quot;module50&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/pic24-dspic33-dmt-upb&quot;,&quot;imports&quot;:{&quot;wdt_dmt_upb_v1&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;wdt_dmt_upb_v1&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;DMT&quot;}},&quot;system_16bit_initializer&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;system-16bit-initializer&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module0&quot;,&quot;exportId&quot;:&quot;system_16bit_initializer&quot;}},&quot;interrupt_service&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;interrupt-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module2&quot;,&quot;exportId&quot;:&quot;interrupt_16bit_interface&quot;}},&quot;config_16bit_interface&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;config-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{}},&quot;module81&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/dmt-16bit-driver&quot;,&quot;imports&quot;:{&quot;device_meta&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;device-meta&quot;,&quot;version&quot;:&quot;1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;mccDevice&quot;,&quot;exportId&quot;:&quot;meta&quot;}},&quot;dmt_16bit_interface&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;dmt-16bit-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module50&quot;,&quot;exportId&quot;:&quot;dmt_16bit_interface&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[]},&quot;payload&quot;:{}},&quot;module92&quot;:{&quot;scriptId&quot;:&quot;@mchp-mcc/cmp-dac-driver&quot;,&quot;imports&quot;:{&quot;cmp_interface&quot;:{&quot;interfaceId&quot;:{&quot;name&quot;:&quot;cmp-interface&quot;,&quot;version&quot;:&quot;^1.0.0&quot;},&quot;handle&quot;:{&quot;providerId&quot;:&quot;module23&quot;,&quot;exportId&quot;:&quot;cmp_interface&quot;,&quot;label&quot;:&quot;CMP1&quot;}}},&quot;framewSpecificState&quot;:{&quot;userEditedImports&quot;:[&quot;cmp_interface&quot;]},&quot;payload&quot;:{&quot;main&quot;:{&quot;modeSettings&quot;:{&quot;dacOutputEnable&quot;:true,&quot;dacDataHigh&quot;:205.0}}}}},&quot;content&quot;:{&quot;@mchp-mcc/pic-16bit&quot;:&quot;5.10.0&quot;,&quot;@mchp-mcc/wdt-16bit-driver&quot;:&quot;1.0.6&quot;,&quot;@mchp-mcc/clock-16bit-driver&quot;:&quot;1.1.1&quot;,&quot;@mchp-mcc/pic24-dspic33-dmt-upb&quot;:&quot;1.1.0&quot;,&quot;@mchp-mcc/pic24-dspic33-reset&quot;:&quot;1.1.0&quot;,&quot;@mchp-mcc/pic24-dspic33-clock-sib&quot;:&quot;1.4.2&quot;,&quot;@mchp-mcc/dmt-16bit-driver&quot;:&quot;1.0.5&quot;,&quot;@mchp-mcc/timer&quot;:&quot;1.1.0&quot;,&quot;@mchp-mcc/pic24-dspic33-adc-multicore&quot;:&quot;2.4.3&quot;,&quot;@mchp-mcc/main-core&quot;:&quot;1.0.0&quot;,&quot;@mchp-mcc/main-16bit-manager&quot;:&quot;1.1.2&quot;,&quot;@mchp-mcc/pin-content-processor&quot;:&quot;3.6.0&quot;,&quot;@mchp-mcc/adc-multicore-driver&quot;:&quot;2.1.3&quot;,&quot;@mchp-mcc/pic24-dspic33-wdt-upb-v1&quot;:&quot;1.2.0&quot;,&quot;@mchp-mcc/pic24-dspic33-tmr-class-upb&quot;:&quot;1.5.0&quot;,&quot;@mchp-mcc/pic24-dspic33-interrupt&quot;:&quot;1.3.0&quot;,&quot;@mchp-mcc/cmp-dac-driver&quot;:&quot;1.0.3&quot;,&quot;@mchp-mcc/default-peripheral-initializer-16bit&quot;:&quot;1.0.0&quot;,&quot;@mchp-mcc/pic24-dspic33-pin-manager&quot;:&quot;1.2.0&quot;,&quot;@mchp-mcc/pic24-dspic33-cmp-dac&quot;:&quot;1.4.0&quot;}}</value>
+      </entry>
+   </tokenMap>
+   <generatedFileHashHistoryMap class="java.util.TreeMap">
+      <entry>
+         <file>main.c</file>
+         <hash>edd6be2b78c67a30daaab2db2957fd761d3332068cbb448d2995d4a42382680f</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\adc\adc1.h</file>
+         <hash>9eb380545d4bd58b4ba25d9228f028c22a96f422edb74ea5978f83b9f32d5418</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\adc\adc_features.h</file>
+         <hash>d209ce9460c6eca84769d94ad6f2cab5a945949c94e554809b21a060d067434c</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\adc\adc_interface.h</file>
+         <hash>cc546d5190c8c3ce3981a4d5943c2865a325264bb8bfd440e18fae16ffd67a14</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\adc\adc_types.h</file>
+         <hash>f7f4e021a0b82e605c9be8b0271342eaa491af8546b8c5eab984d4355ccf7f12</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\adc\src\adc1.c</file>
+         <hash>7c9099975f5979da5d342fd4a946d4d94c74cc3a5f5bbda6f53b7acbf0f10997</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\cmp\cmp1.h</file>
+         <hash>8048d75d0251c8a1f9c151f76bfcf6ae0718a736072210352a3b7dc35da2789d</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\cmp\cmp_interface.h</file>
+         <hash>74a80f39874602a634af2373657a6f322ba40196531ee4eb40af30edac0f19fd</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\cmp\src\cmp1.c</file>
+         <hash>d0a307c47d507c8181fee6ffb19b505b7d0f94a73591a547690c1a57a6ed198e</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\main_core\main_core.h</file>
+         <hash>074712b16a0554e3cc530d3eeb31435f736ecbd2621b32bc0b59cbcb06993ff5</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\main_core\main_core_interface.h</file>
+         <hash>c10c95faab6ace57095c24852308ba12d1db7d98b0ad92623f99e2f55cd1019b</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\main_core\main_core_types.h</file>
+         <hash>f49d67c39e366ff8212d42ec8ce23f2878c6e2b9f2fe045b4280d92450432ac7</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\main_core\src\main_core.c</file>
+         <hash>fa1eb023f19707f75fde23e9fa73a80b06dda49cf2495366523e1d395b1c60b0</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\peripheral\pwm.h</file>
+         <hash>73ea3a3d670a3ca0eaaa9bbed609d7c46a21a84f874d9a141de200bf3f31667f</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\peripheral\src\pwm.c</file>
+         <hash>049b52e5671b6931275e133bc9f4e0e50098f928c009f333486c5c38a0c7c554</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\clock.h</file>
+         <hash>2ee35e2e455a0159a2813090a86e6faeb255d5b1fe220ed0c5d2a1dce1b45c1e</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\dmt.h</file>
+         <hash>bf72b1bcaa5880f13f9bf7a5fcdc0136665ceceeb3b91f06efeb88a6f3e1e5db</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\interrupt.h</file>
+         <hash>2ca22be155c9f9f455fe3af7c1b7123312c44eac0239c767ab0a64b0a1c1771f</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\interrupt_types.h</file>
+         <hash>3b3174c2b5353482c51dab5f66213f39346045da0f1513799b3176552c81d33e</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\pins.h</file>
+         <hash>9e0854896b01cff8dfccfff5ce84881dd95bae8e52b14f6263eaf1bb9b17bdb6</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\reset.h</file>
+         <hash>4e8175d3c4a79f6f4bf44ef75e0f9cadd974a6383a0ef90914066c1da64c2384</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\reset_types.h</file>
+         <hash>e5057b45c9a189f691d84eb8be0e9fce07974a91f7d3b22e26a62f8acdd589e2</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\src\clock.c</file>
+         <hash>1a024ffeac5ba9514fa43612efe4063feeda393b23c2ec0b59a9558ee6c5b6b1</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\src\dmt.c</file>
+         <hash>9c76096111643eaa72223b2dc984ed1f4cef67b44a5b271ff545a414f2942487</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\src\dmt_asm.s</file>
+         <hash>8fa227c61d817580042742a181c0d102ddb6aaf993913dec0a9d02cbf42a3d2e</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\src\interrupt.c</file>
+         <hash>c1f61994262f2616007e0bd480c0494b6085b191b9e02b7e524ad0cf51734953</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\src\pins.c</file>
+         <hash>b92f38b1268f20716b3abfafe8451f82b7dc6d650465bc94d5026c429905af2b</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\src\reset.c</file>
+         <hash>e4fbef91d5671f2b044a27fbf182b71186e993eaf8d956eea6b910bd734e701d</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\src\system.c</file>
+         <hash>3fa482a3439bfdd8e1b4a2aa3490b67d622e60256136474ead33c9aaf36f64e7</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\src\traps.c</file>
+         <hash>3d59443be4872904f64cb94cd82427777823209598d26b9e3635cca934ef68d5</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\system.h</file>
+         <hash>8feb708c653ce2b5d881a7273082fdfe23910d5e01310cd63077ea27bbd080bb</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\system_types.h</file>
+         <hash>0c0c77290efb005f154a8f97370764cd6c68d7be6deb7956e08393cb362a73bb</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\traps.h</file>
+         <hash>77818aaccfdf787e8102ce9c5272ab2db8021122171eba11c256e9e600b73a70</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\system\watchdog.h</file>
+         <hash>4f24b517777f06af0c14845fc6cc6bdedbc5270060a617ed46613298cdb8ede1</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\timer\src\tmr1.c</file>
+         <hash>5c744156f566242aa4d0fea26b4bfe7cb2fca28ae96d24d9d51364f321360a06</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\timer\timer_interface.h</file>
+         <hash>db3e05a04692080b01575684f219157fdbd3bf6748775fcc37ce4e348741fed3</hash>
+      </entry>
+      <entry>
+         <file>mcc_generated_files\timer\tmr1.h</file>
+         <hash>5dd99b38c74ecca6e6afb7cd7abb7a2229396db330c3d3bfd69df8b642a12b1b</hash>
+      </entry>
+   </generatedFileHashHistoryMap>
+</config>
