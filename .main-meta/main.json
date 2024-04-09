@@ -7,7 +7,7 @@
       "version":"1.0.0",
       "displayName":"Dual core MPLABX projects for single phase totem pole application",
       "projectName":"dspic33ch-power-totem-pole-demonstration-application-single-phase",
-      "shortDescription":"",
+      "shortDescription":"Dual core MPLABX projects for single phase totem pole application",
       "ide":{
          "name":"MPLABX",
          "semverRange":">=6.15.0"
