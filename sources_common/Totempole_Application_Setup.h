@@ -57,14 +57,21 @@
  *          #define HIGH_VOLTAGE 1 for high voltage
  **********************************************************************************/
 
-#define HIGH_VOLTAGE 1
+#define HIGH_VOLTAGE 0
 
 #define MODE_PFC
 //#define MODE_GRID_TIE_INVERTER
 //#define MODE_INTERLEAVED
 
-#define CANSendID 0x202
-#define CANReceiveID 0x203
+//==============================================================================
+
+#ifdef  MODE_GRID_TIE_INVERTER
+    #define CANSendID 0x302
+    #define CANReceiveID 0x303
+#else
+    #define CANSendID 0x202
+    #define CANReceiveID 0x203
+#endif
 
 //==============================================================================
 

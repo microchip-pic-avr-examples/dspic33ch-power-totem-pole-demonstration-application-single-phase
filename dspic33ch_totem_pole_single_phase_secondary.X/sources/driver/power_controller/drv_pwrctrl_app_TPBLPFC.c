@@ -63,28 +63,28 @@ static void Adaptive_Currentcontroller_Gain(struct PHASE_VALUES_s* PhaseX, uint1
 void Application_handler_PH123(void)
 {
 
-  //  _LATB14 = Phase_Values_PH2.Control_Status_Flags.bits.Soft_Start_Zero_Cross;
-  //  _LATD5 = Phase_Values_PH2.Control_Status_Flags.bits.VAC_Polarity_Changed;
-  //  _LATD6 = Phase_Values_PH2.ACcontrol_Status_Flags_perPhase.bits.Zero_Cross_Range;
-  //  _RC13 = Phase_Values_PH2.ACcontrol_Status_Flags_perPhase.bits.VAC_Polarity;
+  //  = Phase_Values_PH2.Control_Status_Flags.bits.Soft_Start_Zero_Cross;
+  //  = Phase_Values_PH2.Control_Status_Flags.bits.VAC_Polarity_Changed;
+  _LATB14 = Phase_Values_PH1.ACcontrol_Status_Flags_perPhase.bits.Zero_Cross_Range;
+  //  = Phase_Values_PH2.ACcontrol_Status_Flags_perPhase.bits.VAC_Polarity;
 
   //  DAC1DATH = AC_N.Phase_Voltage.Raw;
   //show VAC only for demo purpose
   //    DAC1DATH = (Phase_Values_PH1.Phase_Voltage.Rectified); 
 
-  GPIO_V_H_SetHigh();
+  GPIO_Y_H_SetHigh();
   VOUTaveraging();
-  GPIO_V_H_SetLow();
-  
+  GPIO_Y_H_SetLow();
+
   //Vout limits and dV/dt check
-  GPIO_V_H_SetHigh();
+  GPIO_Y_H_SetHigh();
 #ifdef ADAPTIVE_STEPRESPONSE_ENABLED
   if ((pwr_ctrl_state == PCS_UP_AND_RUNNING))
   {
     VOUT_HystereticCheck();
   }
 #endif
-  GPIO_V_H_SetLow();
+  GPIO_Y_H_SetLow();
   //PHASE #1  
   Handler_PHx(&Phase_Values_PH1, 1);
 
@@ -121,37 +121,37 @@ static void __inline__ Handler_PHx(struct PHASE_VALUES_s* PhaseX, uint16_t PWMnr
     if (PhaseX->Control_Status_Flags.bits.Relay)
     {
 #ifdef AC_CYCLE_SKIPPING_ENABLED 
-      GPIO_V_H_SetHigh();
+      GPIO_Y_H_SetHigh();
       // Burst mode checked after startup ramp or if ref changed during run mode
       if ((pwr_ctrl_state == PCS_UP_AND_RUNNING) || PhaseX->Control_Status_Flags.bits.Reference_Changed)
       {
         BurstMode_PHx(PhaseX, PWMnr);
       }
-      GPIO_V_H_SetLow();
+      GPIO_Y_H_SetLow();
 #endif
-      GPIO_V_H_SetHigh();
+      GPIO_Y_H_SetHigh();
 #ifdef MODE_GRID_TIE_INVERTER
       SoftstartAfterZC_PHx_GTIMode(PhaseX, PWMnr); //GTI special switch handling 
 #endif
 #if defined MODE_PFC || defined MODE_INTERLEAVED
       SoftstartAfterZC_PHx_PFCMode(PhaseX, PWMnr); //PFC mode standard switch handling
 #endif
-      GPIO_V_H_SetLow();
+      GPIO_Y_H_SetLow();
       //synch switch handling based on polarity 
       if ((!PhaseX->Control_Status_Flags.bits.Soft_Start_Zero_Cross) &&
         (!PhaseX->ACcontrol_Status_Flags_perPhase.bits.Zero_Cross_Range) &&
         ((pwr_ctrl_state == PCS_UP_AND_RUNNING) || PhaseX->Control_Status_Flags.bits.Reference_Changed))
       {
-        GPIO_V_H_SetHigh();
+        GPIO_Y_H_SetHigh();
 #ifdef VOLTAGE_LOOP
         if (Vout_Control.Reference.Voltage_Loop_Output > BURST_MODE_VMC_REF_FREEZE)
 #endif
           CCM_PHx(PhaseX, PWMnr);
-        GPIO_V_H_SetLow();
+        GPIO_Y_H_SetLow();
       }
     }
 
-    GPIO_V_H_SetHigh();
+    GPIO_Y_H_SetHigh();
 #ifdef VOLTAGE_LOOP
     if ((Vout_Control.Vout.FilterCounter < 1) && (PWMnr == 1))
     {
@@ -167,8 +167,8 @@ static void __inline__ Handler_PHx(struct PHASE_VALUES_s* PhaseX, uint16_t PWMnr
       }
     }
 #endif
-    GPIO_V_H_SetLow();
-    
+    GPIO_Y_H_SetLow();
+
     //Current loop
     if (!PhaseX->ACcontrol_Status_Flags_perPhase.bits.Zero_Cross_Range)
     {
@@ -183,7 +183,7 @@ static void __inline__ Handler_PHx(struct PHASE_VALUES_s* PhaseX, uint16_t PWMnr
 #ifndef VOLTAGE_LOOP
       if (PhaseX->ACcontrol_Status_Flags_perPhase.bits.VDC_Input_Voltage)
       {
-        PhaseX->Controller_Values.IAC_Reference = (Vout_Control.Reference.Reference_Internal << 1);
+        PhaseX->Controller_Values.IAC_Reference = (Vout_Control.Reference.Reference_Internal << 1); 
       }
 #endif     
 
@@ -191,17 +191,20 @@ static void __inline__ Handler_PHx(struct PHASE_VALUES_s* PhaseX, uint16_t PWMnr
       //inner current loop
       if (!PhaseX->Controller_Values.Control_Freeze) //Freezed because of cycle skipping
       {
-        GPIO_V_H_SetHigh();
+        GPIO_Y_H_SetHigh();
         Adaptive_Currentcontroller_Gain(PhaseX, PWMnr);
-        GPIO_V_H_SetLow();
-        
+        GPIO_Y_H_SetLow();
         PHx_AVG_CM2p2z[PWMnr].KfactorCoeffsB = Adaptive_Gain_Factor;
+
+#ifdef MODE_INTERLEAVED
+        PhaseX->Controller_Values.IAC_Reference >>= 1; //in interleaved mode current demand is half, split to 2 phases
+#endif
 
         XFT_SMPS_Controller2P2ZUpdate(&PHx_AVG_CM2p2z[PWMnr], &PhaseX->Phase_Current.Rectified_Shift, PhaseX->Controller_Values.IAC_Reference,
           &(PhaseX->Controller_Values.Duty_Cycle_Set_Value));
       }
 
-      GPIO_V_H_SetHigh();
+      GPIO_Y_H_SetHigh();
 #ifdef DUTY_RATIO_FEEDFORWARD_ENABLED     
       //DC ff / switch handling when NOT in light load
       if ((!PhaseX->Control_Status_Flags.bits.BurstModeLatched))
@@ -209,8 +212,8 @@ static void __inline__ Handler_PHx(struct PHASE_VALUES_s* PhaseX, uint16_t PWMnr
         DutyCycleFeedForward_PHx(PhaseX);
       }
 #endif
-      GPIO_V_H_SetLow();
-      
+      GPIO_Y_H_SetLow();
+
       //check min/max value
       if (PhaseX->Controller_Values.Duty_Cycle_Set_Value < DCMIN) PhaseX->Controller_Values.Duty_Cycle_Set_Value = 0;
       if (PhaseX->Controller_Values.Duty_Cycle_Set_Value > DCMAX) PhaseX->Controller_Values.Duty_Cycle_Set_Value = DCMAX;
@@ -219,7 +222,6 @@ static void __inline__ Handler_PHx(struct PHASE_VALUES_s* PhaseX, uint16_t PWMnr
       //zero cross startup is in open loop in function SoftstartAfterZC_PHx_XXX
       if (!PhaseX->Control_Status_Flags.bits.Soft_Start_Zero_Cross)
       {
-        TP129_RB14_Toggle();
         PWM_DutyCycleSet(PWMnr, PhaseX->Controller_Values.Duty_Cycle_Set_Value);
       }
     }
@@ -255,7 +257,7 @@ static void __inline__ VOUTaveraging(void)
   VoutAVGsum += Vout_Control.Vout.Raw;
 
   //averaging of input current
-  //  PH1AVGCurrentsum += Phase_Values_PH1.Phase_Current.Rectified;
+  PH1AVGCurrentsum += Phase_Values_PH1.Phase_Current.Rectified;
   //  PH2AVGCurrentsum += Phase_Values_PH2.Phase_Current.Rectified;
 
   if ((Phase_Values_PH1.Control_Status_Flags.bits.VAC_Polarity_Changed)
@@ -302,27 +304,29 @@ static void __inline__ VOUTaveraging(void)
     }
   }
 
-  /*  //averaging of input current  
-   if (pwr_ctrl_state == PCS_UP_AND_RUNNING)
-   {
-     if (((PH1vac_pol_changed_counter > 1) && (Phase_Values_PH1.Phase_Current.FilterCounter > 1)) || (Phase_Values_PH1.Phase_Current.FilterCounter > 4000)) //4000=40ms/10us
-     {
-       Phase_Values_PH1.Phase_Current.Filtered = (uint16_t) (__builtin_divud(PH1AVGCurrentsum, Phase_Values_PH1.Phase_Current.FilterCounter - 1));
-       PH1AVGCurrentsum = 0;
-       PH1AVGCurrentOffset = 0;
-       PH1vac_pol_changed_counter = 0;
-       Phase_Values_PH1.Phase_Current.FilterCounter = 0;
-     }
-     if (((PH2vac_pol_changed_counter > 1) && (Phase_Values_PH2.Phase_Current.FilterCounter > 1)) || (Phase_Values_PH2.Phase_Current.FilterCounter > 4000)) //4000=40ms/10us
-     {
-       Phase_Values_PH2.Phase_Current.Filtered = (uint16_t) (__builtin_divud(PH2AVGCurrentsum, Phase_Values_PH2.Phase_Current.FilterCounter - 1));
-       PH2AVGCurrentsum = 0;
-       PH2AVGCurrentOffset = 0;
-       PH2vac_pol_changed_counter = 0;
-       Phase_Values_PH2.Phase_Current.FilterCounter = 0;
-     }
-   }
-   */
+  //averaging of input current  
+  if (pwr_ctrl_state == PCS_UP_AND_RUNNING)
+  {
+    if (((PH1vac_pol_changed_counter > 1) && (Phase_Values_PH1.Phase_Current.FilterCounter > 1)) || (Phase_Values_PH1.Phase_Current.FilterCounter > 4000)) //4000=40ms/10us
+    {
+      Phase_Values_PH1.Phase_Current.Filtered = (uint16_t) (__builtin_divud(PH1AVGCurrentsum, Phase_Values_PH1.Phase_Current.FilterCounter - 1));
+      PH1AVGCurrentsum = 0;
+      PH1AVGCurrentOffset = 0;
+      PH1vac_pol_changed_counter = 0;
+      Phase_Values_PH1.Phase_Current.FilterCounter = 0;
+    }
+    /*
+         if (((PH2vac_pol_changed_counter > 1) && (Phase_Values_PH2.Phase_Current.FilterCounter > 1)) || (Phase_Values_PH2.Phase_Current.FilterCounter > 4000)) //4000=40ms/10us
+         {
+           Phase_Values_PH2.Phase_Current.Filtered = (uint16_t) (__builtin_divud(PH2AVGCurrentsum, Phase_Values_PH2.Phase_Current.FilterCounter - 1));
+           PH2AVGCurrentsum = 0;
+           PH2AVGCurrentOffset = 0;
+           PH2vac_pol_changed_counter = 0;
+           Phase_Values_PH2.Phase_Current.FilterCounter = 0;
+         }
+     */
+  }
+  
   Phase_Values_PH1.Control_Status_Flags.bits.VAC_Polarity_Changed_last = Phase_Values_PH1.Control_Status_Flags.bits.VAC_Polarity_Changed;
 
 }
@@ -423,7 +427,7 @@ static void __inline__ SoftstartAfterZC_PHx_GTIMode(struct PHASE_VALUES_s* Phase
     if (++PhaseX->Controller_Values.PWM_Counter < OPEN_LOOP_STARTUP_PULSES)
     {
       pg1dc_ = (PhaseX->Controller_Values.PWM_Counter << OPEN_LOOP_PWM_COUNTER_SHIFT);
-      GPIO_V_L_Toggle();
+      GPIO_Y_L_Toggle();
       PWM_DutyCycleSet(PWMnr, pg1dc_);
     }
     else
@@ -523,12 +527,12 @@ static void __inline__ SoftstartAfterZC_PHx_PFCMode(struct PHASE_VALUES_s* Phase
       // charge pump I/O handling: 100us on
       // if no charge pump hardware I/O pins are set without acting
       if (PhaseX->ACcontrol_Status_Flags_perPhase.bits.VAC_Polarity)
-        GPIO_V_H_SetHigh();
+        GPIO_Y_H_SetHigh();
       else
-        GPIO_V_L_SetHigh();
+        GPIO_Y_L_SetHigh();
 #else     
       pg1dc_ = (PhaseX->Controller_Values.PWM_Counter << OPEN_LOOP_PWM_COUNTER_SHIFT);
-      GPIO_V_L_Toggle();
+      GPIO_Y_L_Toggle();
       PWM_DutyCycleSet(PWMnr, pg1dc_);
 #endif
     }
@@ -540,8 +544,8 @@ static void __inline__ SoftstartAfterZC_PHx_PFCMode(struct PHASE_VALUES_s* Phase
 
 #if defined CHARGEPUMP_ENABLED  
       // charge pump I/O handling
-      GPIO_V_H_SetLow();
-      GPIO_V_L_SetLow();
+      GPIO_Y_H_SetLow();
+      GPIO_Y_L_SetLow();
 
       //switch handling when NOT in light load
       if ((!PhaseX->Control_Status_Flags.bits.BurstModeLatched))// && (!Vout_Control.Reference.VOUT_dV_dt_Active))
@@ -823,14 +827,19 @@ static void __inline__ Adaptive_Currentcontroller_Gain(struct PHASE_VALUES_s* Ph
   if (PFC_Flags.bits.AGOn && (Vout_Control.Reference.Voltage_Loop_Output < MAX_GAIN_FACTOR))
   {
     Adaptive_Gain_Factor = MAX_GAIN_FACTOR - Vout_Control.Reference.Voltage_Loop_Output;
-    Adaptive_Gain_Factor += PhaseX->Phase_Voltage.Filtered;
+    //offset factor needs to be adapted on new hardware; 
+    Adaptive_Gain_Factor += PhaseX->Phase_Voltage.Filtered; 
     if (Adaptive_Gain_Factor < MIN_GAIN_FACTOR) Adaptive_Gain_Factor = MIN_GAIN_FACTOR;
   }
   else
   {
     Adaptive_Gain_Factor = 3276; //factor = 0.1
   }
+#ifdef MODE_GRID_TIE_INVERTER
+  Adaptive_Gain_Factor = 8192; //factor = 0.25 (32676*0.25)
+#endif
   //comment out for slider Gain
+
 }
 
 //------------------------------------------------------------------------------

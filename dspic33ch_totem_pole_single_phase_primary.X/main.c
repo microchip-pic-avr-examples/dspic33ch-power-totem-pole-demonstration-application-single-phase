@@ -81,7 +81,7 @@ int main(void)
       Tasks_100us();
       IFS0bits.T1IF = 0; // clear timer 1 flag 
     }
-  }    
+  }
 }
 
 

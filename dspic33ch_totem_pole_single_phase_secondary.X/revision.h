@@ -26,7 +26,7 @@
 
 #define MAJOR       '1'
 #define MINOR       '1'
-#define PATCH       '2'
+#define PATCH       '3'
 
 
 /*******************************************************************************
@@ -50,6 +50,13 @@
  *              extra check before write DC
  *              reset DC to 0 before startup after ZC 
  *          protocolB increased to 10 words to get Vin avg          
+ *******************************************************************************/
+/*******************************************************************************
+ * @fn      revision history 1.1.3
+ * @details dedicated single phase versionaddition to 1.1.2
+ *          Adaptive Gain:  with Vin consideration  
+ *                          #ifdef for GTO with fixed gain of 0.25
+ *          Iac average current calculationfor L1 
  *******************************************************************************/
 
 #endif	/* REVISION_H */

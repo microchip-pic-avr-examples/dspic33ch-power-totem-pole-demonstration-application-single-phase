@@ -3,7 +3,7 @@
 
 This is the initial release demonstrating the following operating modes
 * single phase PFC
-* single phase grid tied inverteR
+* single phase grid tied inverter
 
 ### Features Added\Updated
 

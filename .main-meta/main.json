@@ -10,10 +10,10 @@
       "shortDescription":"Dual core MPLABX projects for single phase totem pole application",
       "ide":{
          "name":"MPLABX",
-         "semverRange":">=6.15.0"
+         "semverRange":">=6.20.0"
       },
       "compiler":{
-         "name":"XC16",
+         "name":"XCDSC",
          "semverRange":"^3.0.0"
       },
       "dfp":{
@@ -22,7 +22,7 @@
       },
 	  "configurator": {
          "name": "MCC",
-         "semverRange": ">=5.5.0"
+         "semverRange": ">=5.7.0"
       },
       "device":{
          "metaDataVersion":"1.0.0",

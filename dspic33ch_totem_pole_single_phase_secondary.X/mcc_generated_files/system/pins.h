@@ -351,105 +351,105 @@
 
 /**
  * @ingroup  pinsdriver
- * @brief    Sets the RD5 GPIO Pin which has a custom name of GPIO_V_L to High
+ * @brief    Sets the RD5 GPIO Pin which has a custom name of GPIO_Y_L to High
  * @pre      The RD5 must be set as Output Pin             
  * @param    none
  * @return   none  
  */
-#define GPIO_V_L_SetHigh()          (_LATD5 = 1)
+#define GPIO_Y_L_SetHigh()          (_LATD5 = 1)
 
 /**
  * @ingroup  pinsdriver
- * @brief    Sets the RD5 GPIO Pin which has a custom name of GPIO_V_L to Low
+ * @brief    Sets the RD5 GPIO Pin which has a custom name of GPIO_Y_L to Low
  * @pre      The RD5 must be set as Output Pin
  * @param    none
  * @return   none  
  */
-#define GPIO_V_L_SetLow()           (_LATD5 = 0)
+#define GPIO_Y_L_SetLow()           (_LATD5 = 0)
 
 /**
  * @ingroup  pinsdriver
- * @brief    Toggles the RD5 GPIO Pin which has a custom name of GPIO_V_L
+ * @brief    Toggles the RD5 GPIO Pin which has a custom name of GPIO_Y_L
  * @pre      The RD5 must be set as Output Pin
  * @param    none
  * @return   none  
  */
-#define GPIO_V_L_Toggle()           (_LATD5 ^= 1)
+#define GPIO_Y_L_Toggle()           (_LATD5 ^= 1)
 
 /**
  * @ingroup  pinsdriver
- * @brief    Reads the value of the RD5 GPIO Pin which has a custom name of GPIO_V_L
+ * @brief    Reads the value of the RD5 GPIO Pin which has a custom name of GPIO_Y_L
  * @param    none
  * @return   none  
  */
-#define GPIO_V_L_GetValue()         _RD5
+#define GPIO_Y_L_GetValue()         _RD5
 
 /**
  * @ingroup  pinsdriver
- * @brief    Configures the RD5 GPIO Pin which has a custom name of GPIO_V_L as Input
+ * @brief    Configures the RD5 GPIO Pin which has a custom name of GPIO_Y_L as Input
  * @param    none
  * @return   none  
  */
-#define GPIO_V_L_SetDigitalInput()  (_TRISD5 = 1)
+#define GPIO_Y_L_SetDigitalInput()  (_TRISD5 = 1)
 
 /**
  * @ingroup  pinsdriver
- * @brief    Configures the RD5 GPIO Pin which has a custom name of GPIO_V_L as Output
+ * @brief    Configures the RD5 GPIO Pin which has a custom name of GPIO_Y_L as Output
  * @param    none
  * @return   none  
  */
-#define GPIO_V_L_SetDigitalOutput() (_TRISD5 = 0)
+#define GPIO_Y_L_SetDigitalOutput() (_TRISD5 = 0)
 
 /**
  * @ingroup  pinsdriver
- * @brief    Sets the RD6 GPIO Pin which has a custom name of GPIO_V_H to High
+ * @brief    Sets the RD6 GPIO Pin which has a custom name of GPIO_Y_H to High
  * @pre      The RD6 must be set as Output Pin             
  * @param    none
  * @return   none  
  */
-#define GPIO_V_H_SetHigh()          (_LATD6 = 1)
+#define GPIO_Y_H_SetHigh()          (_LATD6 = 1)
 
 /**
  * @ingroup  pinsdriver
- * @brief    Sets the RD6 GPIO Pin which has a custom name of GPIO_V_H to Low
+ * @brief    Sets the RD6 GPIO Pin which has a custom name of GPIO_Y_H to Low
  * @pre      The RD6 must be set as Output Pin
  * @param    none
  * @return   none  
  */
-#define GPIO_V_H_SetLow()           (_LATD6 = 0)
+#define GPIO_Y_H_SetLow()           (_LATD6 = 0)
 
 /**
  * @ingroup  pinsdriver
- * @brief    Toggles the RD6 GPIO Pin which has a custom name of GPIO_V_H
+ * @brief    Toggles the RD6 GPIO Pin which has a custom name of GPIO_Y_H
  * @pre      The RD6 must be set as Output Pin
  * @param    none
  * @return   none  
  */
-#define GPIO_V_H_Toggle()           (_LATD6 ^= 1)
+#define GPIO_Y_H_Toggle()           (_LATD6 ^= 1)
 
 /**
  * @ingroup  pinsdriver
- * @brief    Reads the value of the RD6 GPIO Pin which has a custom name of GPIO_V_H
+ * @brief    Reads the value of the RD6 GPIO Pin which has a custom name of GPIO_Y_H
  * @param    none
  * @return   none  
  */
-#define GPIO_V_H_GetValue()         _RD6
+#define GPIO_Y_H_GetValue()         _RD6
 
 /**
  * @ingroup  pinsdriver
- * @brief    Configures the RD6 GPIO Pin which has a custom name of GPIO_V_H as Input
+ * @brief    Configures the RD6 GPIO Pin which has a custom name of GPIO_Y_H as Input
  * @param    none
  * @return   none  
  */
-#define GPIO_V_H_SetDigitalInput()  (_TRISD6 = 1)
+#define GPIO_Y_H_SetDigitalInput()  (_TRISD6 = 1)
 
 /**
  * @ingroup  pinsdriver
- * @brief    Configures the RD6 GPIO Pin which has a custom name of GPIO_V_H as Output
+ * @brief    Configures the RD6 GPIO Pin which has a custom name of GPIO_Y_H as Output
  * @param    none
  * @return   none  
  */
-#define GPIO_V_H_SetDigitalOutput() (_TRISD6 = 0)
+#define GPIO_Y_H_SetDigitalOutput() (_TRISD6 = 0)
 
 /**
  * @ingroup  pinsdriver

@@ -1,5 +1,5 @@
 /*
-© [2024] Microchip Technology Inc. and its subsidiaries.
+ï¿½ [2024] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -68,7 +68,7 @@
 #ifdef HIGHVOLTAGE
     #define BURST_MODE_VMC_REF_FREEZE 200
     #define BURST_MODE_LEVEL_HIGH 150
-#else
+#else 
     #define BURST_MODE_VMC_REF_FREEZE 1900
     #define BURST_MODE_LEVEL_HIGH 1800
 #endif

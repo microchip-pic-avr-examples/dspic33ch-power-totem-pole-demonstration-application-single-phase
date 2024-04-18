@@ -40,8 +40,7 @@
 #include <string.h>
 #include "../can_types.h"    
 #include "../can1.h"
-
-#include "include/drv_usersetup_TPBLPFC.h"
+#include "../../sources_common/Totempole_Application_Setup.h"
 
 // CAN Bus FIFO Memory information
 #define CAN1_FIFO_ALLOCATE_RAM_SIZE    144U // CAN FIFO allocated ram size based on (number of FIFO x FIFO message Payload size x Message object DLC size)

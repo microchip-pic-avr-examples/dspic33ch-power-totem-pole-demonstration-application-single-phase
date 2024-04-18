@@ -33,7 +33,7 @@
 
 #define REV_MAJOR       '1'
 #define REV_MINOR       '1'
-#define REV_PATCH       '2'
+#define REV_PATCH       '3'
 
 /*******************************************************************************
  * @fn      revision history 1.1.2

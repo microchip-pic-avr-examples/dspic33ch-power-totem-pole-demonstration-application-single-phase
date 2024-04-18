@@ -155,10 +155,10 @@ void __inline__ FIFOData_SendToPrim(void)
   // current loop reference for each phase
   SWMRFDATA = Phase_Values_PH1.Controller_Values.IAC_Reference;      
   // word 6 
-  SWMRFDATA = Phase_Values_PH2.Controller_Values.IAC_Reference;
+  SWMRFDATA = Phase_Values_PH1.Phase_Current.Filtered;
   // word 7 
 //  SWMRFDATA = Phase_Values_PH3.Controller_Values.IAC_Reference;         
-  SWMRFDATA = Vout_Control.Reference.Voltage_Loop_Output;//Vout_Control.VBode;
+  SWMRFDATA = Vout_Control.Reference.Voltage_Loop_Output;
   // word 8     
   // state variable (de-coded for power board visualizer GUI)
   SWMRFDATA = (1 << ((uint16_t)pwr_ctrl_state-1));                         
