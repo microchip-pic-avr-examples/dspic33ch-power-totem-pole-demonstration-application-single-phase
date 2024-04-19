@@ -5,9 +5,9 @@
 # 3.8kW / 7.6kW dsPIC33C Totem Pole Demonstration Application
 <p>
   <center>
-    <img src="images/Single phase I.png" alt="hmi-control" width="800"> 
+    <img src="images/dsPIC33C_TP_DA.png" alt="hmi-control" width="800"> 
     <br>
-    3.8kW / 7.6 kW dsPIC33 Totem Pole - UPDATE (wait for milan)
+    3.8kW / 7.6 kW dsPIC33 Totem Pole Demonstration Application
   </center>
 </p>
 
@@ -118,6 +118,7 @@ High Volage Grid Tied Inverter and Low Voltage Grid Tied Inverter
 High Voltage Interleaved PFC and Low Voltage Interleaved PFC  
 
 When the project has high voltage flag enabled, a different compensator is used. Make sure that the correct voltage divider is being used on the hardware. Refer to the Users Guide/Operational Manual for more information.
+
 
 [Back to Contents](#table-of-contents)
 
