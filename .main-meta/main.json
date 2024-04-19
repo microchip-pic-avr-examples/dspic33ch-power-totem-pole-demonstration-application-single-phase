@@ -4,25 +4,25 @@
    "content":{
       "metaDataVersion":"1.3.0",
       "name":"com.microchip.mplabx.project.dspic33ch-power-totem-pole-demonstration-application-single-phase",
-      "version":"x.x.x",
-      "displayName":"xxxxxxxxxxxxxxx",
+      "version":"1.0.0",
+      "displayName":"Dual core MPLABX projects for single phase totem pole application",
       "projectName":"dspic33ch-power-totem-pole-demonstration-application-single-phase",
-      "shortDescription":"xxxxxxxxxxxxxxx",
+      "shortDescription":"Dual core MPLABX projects for single phase totem pole application",
       "ide":{
          "name":"MPLABX",
-         "semverRange":">=5.40.0"
+         "semverRange":">=6.20.0"
       },
       "compiler":{
-         "name":"XC16",
-         "semverRange":"^1.50.0"
+         "name":"XCDSC",
+         "semverRange":"^3.0.0"
       },
       "dfp":{
-         "name":"xxxxxxxxxxxxxxx",
-         "semverRange":">=x.x.x"
+         "name":"dsPIC33CH-MP_DFP",
+         "semverRange":">=1.15.378"
       },
 	  "configurator": {
          "name": "MCC",
-         "semverRange": ">=4.0.1"
+         "semverRange": ">=5.7.0"
       },
       "device":{
          "metaDataVersion":"1.0.0",
@@ -30,13 +30,12 @@
          "content":{
             "metaDataVersion":"1.0.0",
             "category":"com.microchip.device",
-            "name":"xxxxxxxxxxxxxxx",
+            "name":"dsPIC33CH512MP506",
             "versionRange":"*"
          }
       },
       "keywords":[
-         "GPIO",
-         "UART"
+         "SMPS"
       ]
    }
 }
