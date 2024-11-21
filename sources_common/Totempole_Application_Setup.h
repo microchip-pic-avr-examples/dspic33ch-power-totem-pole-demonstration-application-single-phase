@@ -68,8 +68,8 @@
 
 #define HIGH_VOLTAGE 1
 
-//#define MODE_PFC
-#define MODE_GRID_TIE_INVERTER
+#define MODE_PFC
+//#define MODE_GRID_TIE_INVERTER
 //#define MODE_INTERLEAVED
 
 //==============================================================================
