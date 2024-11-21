@@ -1,0 +1,65 @@
+/*----------------------------------------------------------------------------*/
+/* Primary Driver Layer */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	pdrv Driver Layer
+@ingroup	primary-core
+@brief		Primary Driver Layer
+@details    Primary Driver Layer
+*/
+
+
+
+
+/*----------------------------------------------------------------------------*/
+/* VAC Monitor */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	pri-layer-VAC VAC Monitor
+@ingroup	pdrv
+@brief		Driver for Isolated AC Voltage Acquistion Board
+@note		T
+*/
+	
+
+/*----------------------------------------------------------------------------*/
+/* CAN DRIVER */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	pri-layer-CAN CAN Driver
+@ingroup	pdrv
+@brief		CAN DO
+@note		CANT DO CAN WITHOUT CAN.
+*/
+	
+
+
+/*----------------------------------------------------------------------------*/
+/* DMA DRIVER */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	pri-layer-DMA DMA Driver
+@ingroup	pdrv
+@brief		builds upon MCC DMA
+@note		straight from the horses mouth
+*/    
+
+/*----------------------------------------------------------------------------*/
+/* I2C DRIVER */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	pri-layer-I2C I2C Driver
+@ingroup	pdrv
+@brief		builds upon MCC I2C
+@note		two ayes are more than one
+*/    
+
+/*----------------------------------------------------------------------------*/
+/* SPI DRIVER */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	pri-layer-SPI SPI Driver
+@ingroup	pdrv
+@brief		builds upon MCC SPI
+@note		revised alphabet abcdefspi
+*/    

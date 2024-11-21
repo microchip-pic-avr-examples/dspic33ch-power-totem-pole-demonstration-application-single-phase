@@ -1,0 +1,89 @@
+/*----------------------------------------------------------------------------*/
+/* Secondary Driver Layer */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	sdrv Driver Layer
+@ingroup	secondary-core
+@brief		secondary Driver Layer
+@details    secondary Driver Layer
+*/
+
+/*----------------------------------------------------------------------------*/
+/* ADC Driver */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	sec-layer-ADC ADC driver 
+@ingroup	sdrv
+@brief		ADC Driver builds upon MCC driver.
+@note		its all 1s and 0s.
+*/
+
+
+/*----------------------------------------------------------------------------*/
+/* MSI Driver */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	sec-layer-MSI MSI Driver
+@ingroup	sdrv
+@brief		MSI driver 
+@note		Postman
+*/
+
+/*----------------------------------------------------------------------------*/
+/* Main */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	main_task Secondary Core state machine 
+@ingroup	secondary-core
+@brief		main task 
+@note		main task
+*/
+
+/*----------------------------------------------------------------------------*/
+/* Power Controller */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	sec-layer-pcontrol Power Control
+@ingroup	sdrv
+@brief		MSI driver 
+@note		Postman
+*/
+
+/**
+@defgroup	p-controller-TPBLPFC Power Controller driver files found in driver folder
+@ingroup	sec-layer-pcontrol
+@brief		Power controller drv_controller 
+@note		file in driver
+*/
+
+/**
+@defgroup	p-controller-misc-app-TPBLPFC Power Control misc app
+@ingroup	sec-layer-pcontrol
+@brief		Power controller misc app
+@note		file in driver
+*/
+
+
+/**
+@defgroup	p-controller-app-TPBLPFC Power Control app
+@ingroup	sec-layer-pcontrol
+@brief		Power controller app 
+@note		file in driver
+*/
+
+
+/**
+@defgroup	p-controller-smps-TPBLPFC Power Control Compensator
+@ingroup	sec-layer-pcontrol 
+@brief		Power controller smps file wrapping dcdt
+@note		file in driver
+*/
+
+
+/**
+@defgroup	p-controller-type-TPBLPFC Power Control typedef
+@ingroup	sec-layer-pcontrol 
+@brief		Power controller type defintion
+@note		file in device
+*/
+
