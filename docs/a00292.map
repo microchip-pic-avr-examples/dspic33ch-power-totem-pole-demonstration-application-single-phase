@@ -1,0 +1,12 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/mcc_generated_files/adc/adc_types.h" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/mcc_generated_files/adc/adc_types.h">
+<area shape="rect" id="Node000001" title="This is the generated driver types header file for the ADC driver." alt="" coords="139,5,384,119"/>
+<area shape="rect" id="Node000002" href="$a00281.html" title="This is the generated driver header file for the ADC1 driver." alt="" coords="146,328,377,441"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,132,205,167,198,198,196,223,198,248,205,279,225,327,220,329,200,281,193,249,190,223,193,198,200,166,214,130"/>
+<area shape="rect" id="Node000005" href="$a00287_source.html" title=" " alt="" coords="215,167,478,280"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="300,130,319,165,314,168,295,132"/>
+<area shape="rect" id="Node000003" href="$a00293.html" title="This is the generated driver source file for ADC1 driver." alt="" coords="5,489,240,603"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="206,453,173,491,169,487,202,450"/>
+<area shape="rect" id="Node000004" href="$a00844.html" title="This is the generated driver header file for the System driver." alt="" coords="264,489,536,603"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="321,450,353,487,349,491,317,453"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="313,294,294,329,289,326,308,291"/>
+</map>

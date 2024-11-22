@@ -1,0 +1,19 @@
+<map id="CAN1_OperationModeGet" name="CAN1_OperationModeGet">
+<area shape="rect" id="Node000001" title="Get the CAN1 operation mode." alt="" coords="604,105,776,131"/>
+<area shape="rect" id="Node000002" href="$a00405.html#gaf5fa07221c88fc4aadfb447301ebfb0e" title="Sets the CAN1 operation mode." alt="" coords="385,68,556,93"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="601,106,545,96,546,91,602,100"/>
+<area shape="rect" id="Node000007" href="$a00405.html#gad99c960d1ed589ce80aca873a90e068e" title="Writes the CAN message object to specified transmit FIFO channel." alt="" coords="414,129,527,155"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="591,132,528,139,527,133,590,126"/>
+<area shape="rect" id="Node000003" href="$a00405.html#gaeb50d539a3c66d129458ae0927c3ba34" title="Deinitializes CAN1 to POR values." alt="" coords="197,5,324,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="413,67,303,33,305,28,415,61"/>
+<area shape="rect" id="Node000004" href="$a00405.html#gadd8850a15e40f5316f9e614fd70ec956" title="Initializes CAN1 module." alt="" coords="205,55,316,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="371,77,316,74,317,68,372,72"/>
+<area shape="rect" id="Node000006" href="$a00405.html#ga41d9a27d9d5e04efcb58c31006f43f98" title="Sets the CAN node in sleep mode." alt="" coords="213,104,309,129"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="383,98,310,111,309,106,382,93"/>
+<area shape="rect" id="Node000005" href="$a00412.html#ga5e8391114a0cf91ac20002be25e3d352" title="Initializes the System module." alt="" coords="5,55,136,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="192,70,136,70,136,65,192,65"/>
+<area shape="rect" id="Node000008" href="$a00424.html#ga9511f6338931225152a644cd0b011f66" title="send frame to GUI when the FIFO from secondary to primary has been filled" alt="" coords="184,153,337,179"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="401,153,338,160,337,155,400,147"/>
+<area shape="rect" id="Node000009" href="$a00431.html#ga97fda594ad396d08b6a833ebb3b04538" title="tasks run every 100us" alt="" coords="21,153,120,179"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="170,169,120,169,120,163,170,163"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="CAN1_ReceivedMessageCountGet" name="CAN1_ReceivedMessageCountGet">
+<area shape="rect" id="Node000001" title="Returns the number of CAN messages received in all the FIFO." alt="" coords="5,55,228,80"/>
+<area shape="rect" id="Node000002" href="$a00405.html#ga57b30800d7bd3b3c936f578ca1fd7e32" title="This function get the FIFO user address, message depth and payload size information." alt="" coords="319,5,459,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,52,305,30,306,36,188,57"/>
+<area shape="rect" id="Node000003" href="$a00405.html#ga5532c9a884cedd0805a011bf8baaabdd" title="This function get the Receiver FIFO message index value." alt="" coords="276,55,503,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,65,263,65,263,70,228,70"/>
+<area shape="rect" id="Node000004" href="$a00405.html#ga4a6437adcdf1917fffef4e7e5761fda1" title="This returns the CAN1 receive FIFO status." alt="" coords="299,104,480,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="188,77,305,99,304,104,187,83"/>
+</map>

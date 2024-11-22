@@ -1,0 +1,492 @@
+<!-- HTML header for doxygen 1.8.20-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>3.8/7.6 kw Totem pole Demonstration Application: C:/Users/M70027/Documents/Projects/tp-deployment/dspic33ch-power-totem-pole-demonstration-application-single-phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/sources/driver/dma/drv_dma.c Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="mchp.css" rel="stylesheet" type="text/css"/>
+<link href="mchp_theme.css" rel="stylesheet" type="text/css"/>
+<link href="search.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0" style="border:0px; border-spacing: 0px; border-collapse: collapse; vertical-align: middle; width: 100%;">
+    <tbody>
+        <tr style="border: none; background-color: #00000000;">
+            <!--SITE HEADER-->
+            <td style="width: 120px; border: none;">
+                <img alt="Bar" height="60px" src="images/mchp-brandingelement-rgb2.png"/>
+            </td>
+            <td style="width: 220px; border: none;">
+                <img alt="Logo" height=50px src="images/microchip.png"/>
+            </td>
+            <td colspan="4" style="font-size: 16pt; font-weight: bolder;">
+                3.8/7.6 kw Totem pole Demonstration Application (Part-No. (not specified)) 
+            </td>
+            <td style="text-align: right; vertical-align: middle;">
+                        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+            </td>
+            <!--END SITE HEADER-->
+        </tr>
+        <tr style="height:36px; border:none; background-color: #000000b0;">
+            <td style="width: 70px; color: white; font-size:14px; font-weight: bolder; margin-left: 30px;">
+                <div style="margin-left: 30px;">Content</div>
+            </td>
+            <td style="width: 10px; color: white; font-size:14px; font-weight: bolder;">
+                &nbsp;
+            </td>
+            <td style="width: 100px; color: white; font-size:14px; font-weight: bolder;">
+                <!-- Overview -->
+            </td>
+            <td style="width: 130px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Documentation -->
+            </td>
+            <td style="width: 170px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Additional Resources -->
+            </td>
+            <td style="width: auto; color: white; font-size:14px; font-weight: bolder;"> 
+              &nbsp;
+            </td>
+            <td style="width: 310px; margin-right: 30px; color: white; font-size:10px; font-weight: lighter; text-align: right;">
+                &nbsp;
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('a00233_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">drv_dma.c</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="a00233.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">/*</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">    (c) 2022 Microchip Technology Inc. and its subsidiaries. You may use this</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">    software and any derivatives exclusively with Microchip products.</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment"></span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">    THIS SOFTWARE IS SUPPLIED BY MICROCHIP &quot;AS IS&quot;. NO WARRANTIES, WHETHER</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">    EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY IMPLIED</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">    WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">    PARTICULAR PURPOSE, OR ITS INTERACTION WITH MICROCHIP PRODUCTS, COMBINATION</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment">    WITH ANY OTHER PRODUCTS, OR USE IN ANY APPLICATION.</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment"></span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="comment">    IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE,</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="comment">    INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">    WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP HAS</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">    BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO THE</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">    FULLEST EXTENT ALLOWED BY LAW, MICROCHIP&#39;S TOTAL LIABILITY ON ALL CLAIMS IN</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="comment">    ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY,</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">    THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment"></span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment">    MICROCHIP PROVIDES THIS SOFTWARE CONDITIONALLY UPON YOUR ACCEPTANCE OF THESE</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment">    TERMS.</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment">*/</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="comment">// from MCC</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#include &quot;system/pins.h&quot;</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#include &quot;secondary_core/sec_core_interface.h&quot;</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">// from elsewhere</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#include &quot;<a class="code" href="a00254.html">driver/spi/drv_spi.h</a>&quot;</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#include &quot;<a class="code" href="a00230.html">driver/can/drv_can.h</a>&quot;</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#include &quot;<a class="code" href="a00260.html">driver/vac_monitor/vac_monitor.h</a>&quot;</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#include &quot;<a class="code" href="a00107.html">dma/dma.h</a>&quot;</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#include &quot;<a class="code" href="a00113.html">dma/dma_types.h</a>&quot;</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#include &quot;<a class="code" href="a00122.html">secondary_core/sec_core1.h</a>&quot;</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#include &quot;../mcc_generated_files/cmp/cmp1.h&quot;</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">// local typedefs</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="a00233.html#ae7e39fb0d25181b4e5dd5f13cd802ddd">   57</a></span><span class="keyword">typedef</span> <span class="keyword">enum</span> {<a class="code hl_enumvalue" href="a00233.html#ae7e39fb0d25181b4e5dd5f13cd802ddda7048030823f9211e9e951d2c31eb42aa">STATE_WAIT_VALID_VIN_SENSE_OFFSET</a> = 0, <a class="code hl_enumvalue" href="a00233.html#ae7e39fb0d25181b4e5dd5f13cd802ddda5308cb733f6f31e0bee804532eab29f5">STATE_ONLINE</a>} <a class="code hl_enumeration" href="a00233.html#ae7e39fb0d25181b4e5dd5f13cd802ddd">DRV_DMA_STATES_t</a>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="foldopen" id="foldopen00059" data-start="{" data-end="};">
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="a00503.html">   59</a></span><span class="keyword">struct </span><a class="code hl_struct" href="a00503.html">DRV_DMA_DATA_s</a> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>{</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="a00503.html#ad37e583c8ae8ab2f61898e6cdcbd0771">   61</a></span>  <a class="code hl_struct" href="a00599.html">VACM_t</a> <a class="code hl_variable" href="a00503.html#ad37e583c8ae8ab2f61898e6cdcbd0771">phase1</a>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="a00503.html#a63dabbf0dd11ab47c9b0a12638166f7d">   62</a></span>  <a class="code hl_struct" href="a00599.html">VACM_t</a> <a class="code hl_variable" href="a00503.html#a63dabbf0dd11ab47c9b0a12638166f7d">phase2</a>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="a00503.html#a03ca9cb8bfff1efde85c30e8ea86372b">   63</a></span>  <a class="code hl_struct" href="a00599.html">VACM_t</a> <a class="code hl_variable" href="a00503.html#a03ca9cb8bfff1efde85c30e8ea86372b">phase3</a>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="a00503.html#a776d2aaf2f8e9958e8295b77edd6c350">   65</a></span>  uint16_t <a class="code hl_variable" href="a00503.html#a776d2aaf2f8e9958e8295b77edd6c350">vinAdcBuf1</a>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="a00503.html#a9221215e78352468ebfc4f9ed5f14de6">   66</a></span>  uint16_t <a class="code hl_variable" href="a00503.html#a9221215e78352468ebfc4f9ed5f14de6">vinAdcBuf2</a>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="a00503.html#a082ca169646472da5f6463b589c368af">   67</a></span>  uint16_t <a class="code hl_variable" href="a00503.html#a082ca169646472da5f6463b589c368af">vinAdcBuf3</a>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="a00503.html#a9051987ff7cb8283f8aee8d59bfc2b87">   69</a></span>  int16_t <a class="code hl_variable" href="a00503.html#a9051987ff7cb8283f8aee8d59bfc2b87">vacOpAmpBias</a>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="a00503.html#a4e3b01d06e6202a5407dcd78f4e23ed0">   71</a></span>  uint16_t <a class="code hl_variable" href="a00503.html#a4e3b01d06e6202a5407dcd78f4e23ed0">coreBuffers</a>[10];</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="a00503.html#a63fe8eb73a9c691ae492380e7b98fcc0">   73</a></span>  uint16_t* <a class="code hl_variable" href="a00503.html#a63fe8eb73a9c691ae492380e7b98fcc0">vinAdcRaw</a>;   <span class="comment">// pointer to SPI data</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="a00503.html#a0aecb3af9ce1839f57b2519de15d144c">   75</a></span>  <a class="code hl_enumeration" href="a00233.html#ae7e39fb0d25181b4e5dd5f13cd802ddd">DRV_DMA_STATES_t</a> <a class="code hl_variable" href="a00503.html#a0aecb3af9ce1839f57b2519de15d144c">state</a>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>};</div>
+</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="a00233.html#a16c51b4aae178dc2ec7588ce233e24fb">   78</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="a00503.html">DRV_DMA_DATA_s</a> <a class="code hl_struct" href="a00503.html">DRV_DMA_DATA_t</a>;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">   79</a></span><span class="keyword">static</span> <a class="code hl_struct" href="a00503.html">DRV_DMA_DATA_t</a> <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="foldopen" id="foldopen00090" data-start="{" data-end="}">
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="a00425.html#ga2cbf2efea529b8033999a6fa72a6b3a1">   90</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="a00425.html#ga2cbf2efea529b8033999a6fa72a6b3a1">DRV_DMA_init</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>{</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  memset((<span class="keywordtype">void</span>*) &amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>, 0x00U, <span class="keyword">sizeof</span> (<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>));</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  <span class="comment">// initialize, for each phase monitor object</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  <span class="comment">// - pointer to ADC result</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  <span class="comment">// - counter reset value for Vin average calculation</span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  <span class="comment">// - pointer to ADC reading of AC sense offset on isolated voltage acquisition board</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#ad37e583c8ae8ab2f61898e6cdcbd0771">phase1</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#a63347ac955fc7d6d2c82e0e1e2e07c63">ptr_adcbuf</a> = (uint16_t *) (&amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a776d2aaf2f8e9958e8295b77edd6c350">vinAdcBuf1</a>);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>  <span class="comment">// avgcalc_buffer: measure period over half cycle, assume nominal 50Hz, for counter reset is based on number of 10us ticks in 10ms</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#ad37e583c8ae8ab2f61898e6cdcbd0771">phase1</a>.<a class="code hl_variable" href="a00599.html#a75f8ff8700667279db8d63a44e0917b1">avgcalc_buffer</a>.<a class="code hl_variable" href="a00591.html#a220652504c8b8f60e26fd10d72642bcc">counter_reset</a> = (uint16_t) (<a class="code hl_define" href="a00423.html#gab98daf8e7a4933937c20ac690ce54889">FCALL_AC_MONITOR</a> / 50.0 / 2.0); </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#ad37e583c8ae8ab2f61898e6cdcbd0771">phase1</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#a3ca26ec20692a7e991a73d3b99286ebd">ptr_offset</a> = (int16_t*) (&amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a9051987ff7cb8283f8aee8d59bfc2b87">vacOpAmpBias</a>);</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63dabbf0dd11ab47c9b0a12638166f7d">phase2</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#a63347ac955fc7d6d2c82e0e1e2e07c63">ptr_adcbuf</a> = (uint16_t *) (&amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a9221215e78352468ebfc4f9ed5f14de6">vinAdcBuf2</a>);</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63dabbf0dd11ab47c9b0a12638166f7d">phase2</a>.<a class="code hl_variable" href="a00599.html#a75f8ff8700667279db8d63a44e0917b1">avgcalc_buffer</a>.<a class="code hl_variable" href="a00591.html#a220652504c8b8f60e26fd10d72642bcc">counter_reset</a> = (uint16_t) (<a class="code hl_define" href="a00423.html#gab98daf8e7a4933937c20ac690ce54889">FCALL_AC_MONITOR</a> / 50.0 / 2.0);</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63dabbf0dd11ab47c9b0a12638166f7d">phase2</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#a3ca26ec20692a7e991a73d3b99286ebd">ptr_offset</a> = (int16_t*) (&amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a9051987ff7cb8283f8aee8d59bfc2b87">vacOpAmpBias</a>);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a03ca9cb8bfff1efde85c30e8ea86372b">phase3</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#a63347ac955fc7d6d2c82e0e1e2e07c63">ptr_adcbuf</a> = (uint16_t *) (&amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a082ca169646472da5f6463b589c368af">vinAdcBuf3</a>);</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a03ca9cb8bfff1efde85c30e8ea86372b">phase3</a>.<a class="code hl_variable" href="a00599.html#a75f8ff8700667279db8d63a44e0917b1">avgcalc_buffer</a>.<a class="code hl_variable" href="a00591.html#a220652504c8b8f60e26fd10d72642bcc">counter_reset</a> = (uint16_t) (<a class="code hl_define" href="a00423.html#gab98daf8e7a4933937c20ac690ce54889">FCALL_AC_MONITOR</a> / 50.0 / 2.0);</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>  <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a03ca9cb8bfff1efde85c30e8ea86372b">phase3</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#a3ca26ec20692a7e991a73d3b99286ebd">ptr_offset</a> = (int16_t*) (&amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a9051987ff7cb8283f8aee8d59bfc2b87">vacOpAmpBias</a>);</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>  <span class="comment">// initialize pointer to raw ADC data, for this project it coming from DMA via SPI</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  <span class="comment">// from this SPI data, we determine selfDma.vinAdcBuf1, selfDma.vinAdcBuf2 and selfDma.vinAdcBuf3</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63fe8eb73a9c691ae492380e7b98fcc0">vinAdcRaw</a> = <a class="code hl_function" href="a00427.html#gacfb2d4f9a7e4d15d0619bdd9aee9c797">Drv_SPI_get_Adr_Data_Obj</a>();  </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>  </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  <span class="comment">// initialize state so that first we read the measured value of AC sense offset</span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a0aecb3af9ce1839f57b2519de15d144c">state</a> = <a class="code hl_enumvalue" href="a00233.html#ae7e39fb0d25181b4e5dd5f13cd802ddda7048030823f9211e9e951d2c31eb42aa">STATE_WAIT_VALID_VIN_SENSE_OFFSET</a>;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>}</div>
+</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="foldopen" id="foldopen00134" data-start="{" data-end="}">
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="a00425.html#ga4adccb4f21fb8d44ea561de9881dcb68">  134</a></span><span class="keyword">static</span> <span class="keywordtype">void</span> __attribute__((always_inline)) <a class="code hl_function" href="a00425.html#ga4adccb4f21fb8d44ea561de9881dcb68">DMA_Channel_updateAdcBuffers</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>{</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>  <span class="comment">// update data received via SPI</span></div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>  <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a776d2aaf2f8e9958e8295b77edd6c350">vinAdcBuf1</a> = <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63fe8eb73a9c691ae492380e7b98fcc0">vinAdcRaw</a>[0] &amp; 0x0FFF;</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>  <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a9221215e78352468ebfc4f9ed5f14de6">vinAdcBuf2</a> = ((<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63fe8eb73a9c691ae492380e7b98fcc0">vinAdcRaw</a>[0] &amp; 0xF000) &gt;&gt; 12) + ((<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63fe8eb73a9c691ae492380e7b98fcc0">vinAdcRaw</a>[1] &amp; 0x00FF) &lt;&lt; 4);</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>  <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a082ca169646472da5f6463b589c368af">vinAdcBuf3</a> = ((<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63fe8eb73a9c691ae492380e7b98fcc0">vinAdcRaw</a>[1] &amp; 0xFF00) &gt;&gt; 8) + ((<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63fe8eb73a9c691ae492380e7b98fcc0">vinAdcRaw</a>[2] &amp; 0x000F) &lt;&lt; 8);</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>}</div>
+</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
+<div class="foldopen" id="foldopen00151" data-start="{" data-end="}">
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno"><a class="line" href="a00425.html#ga41351a49d0335be286c2947c26d0a07c">  151</a></span><span class="keyword">static</span> <span class="keywordtype">void</span> __attribute__((always_inline)) <a class="code hl_function" href="a00425.html#ga41351a49d0335be286c2947c26d0a07c">DMA_Channel_doAcMonitor</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>{</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>  <span class="comment">// run the AC monitor state machines using the data received over SPI as input</span></div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>  <a class="code hl_function" href="a00257.html#a3a965bf809d4454e8cc529cc6c3eed03">vacm_state_machine</a>(&amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#ad37e583c8ae8ab2f61898e6cdcbd0771">phase1</a>);</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>  <a class="code hl_function" href="a00257.html#a3a965bf809d4454e8cc529cc6c3eed03">vacm_state_machine</a>(&amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63dabbf0dd11ab47c9b0a12638166f7d">phase2</a>);</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>  <a class="code hl_function" href="a00257.html#a3a965bf809d4454e8cc529cc6c3eed03">vacm_state_machine</a>(&amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a03ca9cb8bfff1efde85c30e8ea86372b">phase3</a>);</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>}</div>
+</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
+<div class="foldopen" id="foldopen00169" data-start="{" data-end="}">
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno"><a class="line" href="a00233.html#a09daa6f01d9fe67bd0f25b0529239702">  169</a></span><span class="keyword">static</span> <span class="keywordtype">void</span> __attribute__((always_inline)) <a class="code hl_function" href="a00233.html#a09daa6f01d9fe67bd0f25b0529239702">DMA_Channel_updateCoreBuffers</a>(uint16_t * coreBuffer)</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>{</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>    </div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>  <span class="comment">//&lt;&lt;&lt;&lt; only for Debug purpose---------------</span></div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>  DAC1DATH = <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#ad37e583c8ae8ab2f61898e6cdcbd0771">phase1</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#a7e76fa585608d265c17dcebead34e78f">raw</a>;  </div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>  <span class="comment">//&lt;&lt;&lt;&lt; only for Debug purpose---------------</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>  coreBuffer[0] = <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#ad37e583c8ae8ab2f61898e6cdcbd0771">phase1</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#ae3d4db6a5affc6b035b393a020b6b723">rectified</a>;</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>  coreBuffer[1] = <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63dabbf0dd11ab47c9b0a12638166f7d">phase2</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#ae3d4db6a5affc6b035b393a020b6b723">rectified</a>;</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>  coreBuffer[2] = <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a03ca9cb8bfff1efde85c30e8ea86372b">phase3</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#ae3d4db6a5affc6b035b393a020b6b723">rectified</a>;</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>  coreBuffer[3] = <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#ad37e583c8ae8ab2f61898e6cdcbd0771">phase1</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#a25462ee5df2b62555907b14d8b711eac">vloop_ff</a>;</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>  coreBuffer[4] = <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63dabbf0dd11ab47c9b0a12638166f7d">phase2</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#a25462ee5df2b62555907b14d8b711eac">vloop_ff</a>;</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>  coreBuffer[5] = <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a03ca9cb8bfff1efde85c30e8ea86372b">phase3</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#a25462ee5df2b62555907b14d8b711eac">vloop_ff</a>;</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>  coreBuffer[7] = <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#ad37e583c8ae8ab2f61898e6cdcbd0771">phase1</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#ab4e662194d9dcfde258e389307eea268">avg</a>;</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>  coreBuffer[8] = <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63dabbf0dd11ab47c9b0a12638166f7d">phase2</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#ab4e662194d9dcfde258e389307eea268">avg</a>;</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>  coreBuffer[9] = <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a03ca9cb8bfff1efde85c30e8ea86372b">phase3</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#ab4e662194d9dcfde258e389307eea268">avg</a>;</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>}</div>
+</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span> </div>
+<div class="foldopen" id="foldopen00195" data-start="{" data-end="}">
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno"><a class="line" href="a00425.html#ga786371bac3733bb2c0aaca7e0903b1ad">  195</a></span><span class="keyword">static</span> <span class="keywordtype">void</span> __attribute__((always_inline)) <a class="code hl_function" href="a00425.html#ga786371bac3733bb2c0aaca7e0903b1ad">DMA_Channel_resetAcMonitor</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>{</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>  <span class="comment">// set AC ok flags to zero so that secondary core will shut off PFC as soon as possible</span></div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>  <a class="code hl_function" href="a00257.html#a634dc3732b7ac4380c54073b237ca710">vacm_reset_phase_monitor_object</a>(&amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#ad37e583c8ae8ab2f61898e6cdcbd0771">phase1</a>);</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>  <a class="code hl_function" href="a00257.html#a634dc3732b7ac4380c54073b237ca710">vacm_reset_phase_monitor_object</a>(&amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63dabbf0dd11ab47c9b0a12638166f7d">phase2</a>);</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>  <a class="code hl_function" href="a00257.html#a634dc3732b7ac4380c54073b237ca710">vacm_reset_phase_monitor_object</a>(&amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a03ca9cb8bfff1efde85c30e8ea86372b">phase3</a>);</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>  <a class="code hl_function" href="a00257.html#ab8d656125539f79d931212bc2faa5a65">vacm_reset_state_machine</a>(&amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#ad37e583c8ae8ab2f61898e6cdcbd0771">phase1</a>);</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>  <a class="code hl_function" href="a00257.html#ab8d656125539f79d931212bc2faa5a65">vacm_reset_state_machine</a>(&amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63dabbf0dd11ab47c9b0a12638166f7d">phase2</a>);</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>  <a class="code hl_function" href="a00257.html#ab8d656125539f79d931212bc2faa5a65">vacm_reset_state_machine</a>(&amp;<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a03ca9cb8bfff1efde85c30e8ea86372b">phase3</a>);</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>}</div>
+</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span> </div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
+<div class="foldopen" id="foldopen00217" data-start="{" data-end="}">
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno"><a class="line" href="a00233.html#adac725c6b0d49af14421e9812a0f58bb">  217</a></span><span class="keyword">static</span> <span class="keywordtype">void</span> __attribute__((always_inline)) <a class="code hl_function" href="a00233.html#adac725c6b0d49af14421e9812a0f58bb">DMA_Channel_updateStatusAndSendData</a>(uint16_t * coreBuffer)</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>{</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>  <span class="comment">// update status flags. The bit-fields are organized in such a way so they can be packed quickly</span></div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>  <span class="comment">// into one 16-bit word for transmission via mailbox to secondary core</span></div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>  uint16_t phase1_status = <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#ad37e583c8ae8ab2f61898e6cdcbd0771">phase1</a>.<a class="code hl_variable" href="a00599.html#a57116a7b23349ee7c7337ade54bcbf7a">status</a>.<a class="code hl_variable" href="a00563.html#a3f0c55f449560b03ce0ac43270c26600">value</a> &amp; 0x001F;</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>  uint16_t phase2_status = (<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63dabbf0dd11ab47c9b0a12638166f7d">phase2</a>.<a class="code hl_variable" href="a00599.html#a57116a7b23349ee7c7337ade54bcbf7a">status</a>.<a class="code hl_variable" href="a00563.html#a3f0c55f449560b03ce0ac43270c26600">value</a> &amp; 0x001F) &lt;&lt; 5;</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>  uint16_t phase3_status = (<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a03ca9cb8bfff1efde85c30e8ea86372b">phase3</a>.<a class="code hl_variable" href="a00599.html#a57116a7b23349ee7c7337ade54bcbf7a">status</a>.<a class="code hl_variable" href="a00563.html#a3f0c55f449560b03ce0ac43270c26600">value</a> &amp; 0x001F) &lt;&lt; 10;</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>  coreBuffer[6] = phase1_status + phase2_status + phase3_status + <a class="code hl_define" href="a00423.html#ga5a25977bbabd1e67ea7d3b81462e6b54">HV_FLAG</a>;</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>  <span class="comment">// send data to secondary core via mailbox B</span></div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>  <a class="code hl_function" href="a00421.html#gab313dfcda98b03477bba5f3812dbb3cc">SEC_CORE1_ProtocolWrite</a>(<a class="code hl_enumvalue" href="a00128.html#gada65a5b8ea36ba413b492f193eb1945bac4b2a85e017d8c36d1477969eec144c5">MSI1_ProtocolB</a>, coreBuffer);</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>}</div>
+</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span> </div>
+<div class="foldopen" id="foldopen00241" data-start="{" data-end="}">
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno"><a class="line" href="a00233.html#a5852ed0c8edfa25272ab834b747611ba">  241</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="a00233.html#a5852ed0c8edfa25272ab834b747611ba">DRV_DMA_getVinAverage</a>(uint16_t * vinAvg)</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>{</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>  vinAvg[0] = <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#ad37e583c8ae8ab2f61898e6cdcbd0771">phase1</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#ab4e662194d9dcfde258e389307eea268">avg</a>;</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>  vinAvg[1] = <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63dabbf0dd11ab47c9b0a12638166f7d">phase2</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#ab4e662194d9dcfde258e389307eea268">avg</a>;</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>  vinAvg[2] = <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a03ca9cb8bfff1efde85c30e8ea86372b">phase3</a>.<a class="code hl_variable" href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">vin</a>.<a class="code hl_variable" href="a00587.html#ab4e662194d9dcfde258e389307eea268">avg</a>;</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>}</div>
+</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span> </div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
+<div class="foldopen" id="foldopen00257" data-start="{" data-end="}">
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno"><a class="line" href="a00425.html#gaf058b1be15bd59ec5d57d06d1657b5e8">  257</a></span>uint16_t* <a class="code hl_function" href="a00425.html#gaf058b1be15bd59ec5d57d06d1657b5e8">DRV_DMA_getCoreBuffer</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>{</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a4e3b01d06e6202a5407dcd78f4e23ed0">coreBuffers</a>;</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>}</div>
+</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span> </div>
+<div class="foldopen" id="foldopen00286" data-start="{" data-end="}">
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno"><a class="line" href="a00418.html#ga9f16d166d637fd9005839b1e1822dc63">  286</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="a00418.html#ga9f16d166d637fd9005839b1e1822dc63">DMA_ChannelCallback</a>(<span class="keyword">enum</span> <a class="code hl_enumeration" href="a00418.html#ga65401caf94ff032ea4ab68f69db153b5">DMA_CHANNEL</a> channel)</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>{ </div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="a00427.html#ga0c28951a0ab80e65e5bd85682bf5920a">Drv_SPI_get_Connected_Flag</a>())</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>  {</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>    <span class="comment">// SPI is connected</span></div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="a00427.html#gaec46774e0546a80dbf2fed2e9e545d8a">Drv_SPI_Checksum</a>()) </div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    {     </div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>      <span class="comment">// SPI checksum test passes</span></div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>      <a class="code hl_function" href="a00251.html#a7ece87b119e452b7f519eb129057319a">Drv_SPI_Reset_Timeout_Counter</a>(<a class="code hl_define" href="a00254.html#ae348eb54ac8a449fc08bd7ecd03ba751">SPI_TIMEOUT_IN_100us_TICKS</a>);  </div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>      <span class="keywordflow">switch</span>(<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a0aecb3af9ce1839f57b2519de15d144c">state</a>)</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>      {</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="a00233.html#ae7e39fb0d25181b4e5dd5f13cd802ddda7048030823f9211e9e951d2c31eb42aa">STATE_WAIT_VALID_VIN_SENSE_OFFSET</a>:</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>        {</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>          <span class="comment">// wait for a valid reading of the op-amp offset before running AC monitor</span></div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>          <span class="comment">// on isolated voltage acquisition board, the offset is only measured at startup</span></div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>          <span class="comment">// so once we have a valid reading we exit this state</span></div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>          <span class="comment">// a valid reading of the AC offset is one that is within +/- 5% of the expected value of 1.65V</span></div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>          int16_t opAmpBias = (int16_t) ((<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a63fe8eb73a9c691ae492380e7b98fcc0">vinAdcRaw</a>[2] &amp; 0xFFF0) &gt;&gt; 4);   <span class="comment">// unpack ADC reading from data received over SPI</span></div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>          <a class="code hl_function" href="a00418.html#gad10f447e17425a18eac1b5186e2e8699">DMA_ChannelEnable</a>(0);  <span class="comment">// Enable DMA Channel, this needs to be done for correct operation</span></div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>          <span class="keywordflow">if</span> ((opAmpBias &lt; <a class="code hl_define" href="a00260.html#a640eb02c434aef73e53eb2b8ef0a5947">OPAMP_BIAS_HIGH_LIMIT</a>) &amp;&amp; (opAmpBias &gt; <a class="code hl_define" href="a00260.html#a7a6a9eb979af14d21ae2857bbfd8d54e">OPAMP_BIAS_LOW_LIMIT</a>))</div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>          {</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>            <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a9051987ff7cb8283f8aee8d59bfc2b87">vacOpAmpBias</a> = opAmpBias; <span class="comment">// store reading</span></div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>            <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a0aecb3af9ce1839f57b2519de15d144c">state</a> = <a class="code hl_enumvalue" href="a00233.html#ae7e39fb0d25181b4e5dd5f13cd802ddda5308cb733f6f31e0bee804532eab29f5">STATE_ONLINE</a>;     <span class="comment">// onto normal running state</span></div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>          }          </div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>        }</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>        </div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="a00233.html#ae7e39fb0d25181b4e5dd5f13cd802ddda5308cb733f6f31e0bee804532eab29f5">STATE_ONLINE</a>:</div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>        {</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>          <span class="comment">// this is the normal running state</span></div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>          <span class="comment">// update ADC buffers with data received over SPI</span></div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>          <a class="code hl_function" href="a00425.html#ga4adccb4f21fb8d44ea561de9881dcb68">DMA_Channel_updateAdcBuffers</a>();  </div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span> </div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>          <span class="comment">// Enable DMA Channel, this needs to be done for correct operation</span></div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>          <span class="comment">// doing it here means that the SPI/DMA peripherals are ready to</span></div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>          <span class="comment">// receive new SPI data from the isolated voltage acquisition board</span></div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>          <span class="comment">// while we are still processing the current data</span></div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>          <a class="code hl_function" href="a00418.html#gad10f447e17425a18eac1b5186e2e8699">DMA_ChannelEnable</a>(0);</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>          </div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>          <span class="comment">// run AC monitor for each of the 3 phases</span></div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>          <a class="code hl_function" href="a00425.html#ga41351a49d0335be286c2947c26d0a07c">DMA_Channel_doAcMonitor</a>(); </div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>          </div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>          <span class="comment">// update buffer used to send data across to sec. core via mailbox</span></div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>          <a class="code hl_function" href="a00233.html#a09daa6f01d9fe67bd0f25b0529239702">DMA_Channel_updateCoreBuffers</a>(<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a4e3b01d06e6202a5407dcd78f4e23ed0">coreBuffers</a>); </div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>        }</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>        </div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>          <a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a0aecb3af9ce1839f57b2519de15d144c">state</a> = <a class="code hl_enumvalue" href="a00233.html#ae7e39fb0d25181b4e5dd5f13cd802ddda7048030823f9211e9e951d2c31eb42aa">STATE_WAIT_VALID_VIN_SENSE_OFFSET</a>;</div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>      } <span class="comment">// switch(selfDma.state)</span></div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>    }</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>    <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>    {</div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>      <span class="comment">// checksum test failed. </span></div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>      <a class="code hl_function" href="a00418.html#gad10f447e17425a18eac1b5186e2e8699">DMA_ChannelEnable</a>(0);  <span class="comment">// Enable DMA Channel, this needs to be done for correct operation</span></div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>      </div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>      <span class="comment">// Reset AC monitor. In this case the secondary core should turn off PFC</span></div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>      <span class="comment">// as the AC OK flags for each phase will be cleared</span></div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>      <a class="code hl_function" href="a00425.html#ga786371bac3733bb2c0aaca7e0903b1ad">DMA_Channel_resetAcMonitor</a>();</div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>    }    </div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>  }</div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>  <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>  {</div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>      <span class="comment">// SPI not connected</span></div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>      <a class="code hl_function" href="a00418.html#gad10f447e17425a18eac1b5186e2e8699">DMA_ChannelEnable</a>(0);  <span class="comment">// Enable DMA Channel, this needs to be done for correct operation</span></div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>      </div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>      <span class="comment">// Reset AC monitor. In this case the secondary core should turn off PFC</span></div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>      <span class="comment">// as the AC OK flags for each phase will be cleared</span></div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>      <a class="code hl_function" href="a00425.html#ga786371bac3733bb2c0aaca7e0903b1ad">DMA_Channel_resetAcMonitor</a>();</div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>  }</div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>  </div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>  <span class="comment">// update status flags and send data to sec. core via mailbox B</span></div>
+<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>  <a class="code hl_function" href="a00233.html#adac725c6b0d49af14421e9812a0f58bb">DMA_Channel_updateStatusAndSendData</a>(<a class="code hl_variable" href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a>.<a class="code hl_variable" href="a00503.html#a4e3b01d06e6202a5407dcd78f4e23ed0">coreBuffers</a>);</div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>}</div>
+</div>
+<div class="ttc" id="aa00107_html"><div class="ttname"><a href="a00107.html">dma.h</a></div><div class="ttdoc">This is the generated driver header file for the DMA driver.</div></div>
+<div class="ttc" id="aa00113_html"><div class="ttname"><a href="a00113.html">dma_types.h</a></div><div class="ttdoc">This is the generated driver types header file for the DMA driver.</div></div>
+<div class="ttc" id="aa00122_html"><div class="ttname"><a href="a00122.html">sec_core1.h</a></div><div class="ttdoc">This is the generated driver header file for the SEC_CORE1 driver.</div></div>
+<div class="ttc" id="aa00128_html_gada65a5b8ea36ba413b492f193eb1945bac4b2a85e017d8c36d1477969eec144c5"><div class="ttname"><a href="a00128.html#gada65a5b8ea36ba413b492f193eb1945bac4b2a85e017d8c36d1477969eec144c5">MSI1_ProtocolB</a></div><div class="ttdeci">@ MSI1_ProtocolB</div><div class="ttdef"><b>Definition</b> <a href="a00128_source.html#l00075">sec_core_types.h:75</a></div></div>
+<div class="ttc" id="aa00230_html"><div class="ttname"><a href="a00230.html">drv_can.h</a></div><div class="ttdoc">header of the CAN Driver</div></div>
+<div class="ttc" id="aa00233_html_a09daa6f01d9fe67bd0f25b0529239702"><div class="ttname"><a href="a00233.html#a09daa6f01d9fe67bd0f25b0529239702">DMA_Channel_updateCoreBuffers</a></div><div class="ttdeci">static void DMA_Channel_updateCoreBuffers(uint16_t *coreBuffer)</div><div class="ttdef"><b>Definition</b> <a href="#l00169">drv_dma.c:169</a></div></div>
+<div class="ttc" id="aa00233_html_a5726cc2a40a7ad6d601b0a4ff26475ae"><div class="ttname"><a href="a00233.html#a5726cc2a40a7ad6d601b0a4ff26475ae">selfDma</a></div><div class="ttdeci">static DRV_DMA_DATA_t selfDma</div><div class="ttdef"><b>Definition</b> <a href="#l00079">drv_dma.c:79</a></div></div>
+<div class="ttc" id="aa00233_html_a5852ed0c8edfa25272ab834b747611ba"><div class="ttname"><a href="a00233.html#a5852ed0c8edfa25272ab834b747611ba">DRV_DMA_getVinAverage</a></div><div class="ttdeci">void DRV_DMA_getVinAverage(uint16_t *vinAvg)</div><div class="ttdef"><b>Definition</b> <a href="#l00241">drv_dma.c:241</a></div></div>
+<div class="ttc" id="aa00233_html_adac725c6b0d49af14421e9812a0f58bb"><div class="ttname"><a href="a00233.html#adac725c6b0d49af14421e9812a0f58bb">DMA_Channel_updateStatusAndSendData</a></div><div class="ttdeci">static void DMA_Channel_updateStatusAndSendData(uint16_t *coreBuffer)</div><div class="ttdef"><b>Definition</b> <a href="#l00217">drv_dma.c:217</a></div></div>
+<div class="ttc" id="aa00233_html_ae7e39fb0d25181b4e5dd5f13cd802ddd"><div class="ttname"><a href="a00233.html#ae7e39fb0d25181b4e5dd5f13cd802ddd">DRV_DMA_STATES_t</a></div><div class="ttdeci">DRV_DMA_STATES_t</div><div class="ttdef"><b>Definition</b> <a href="#l00057">drv_dma.c:57</a></div></div>
+<div class="ttc" id="aa00233_html_ae7e39fb0d25181b4e5dd5f13cd802ddda5308cb733f6f31e0bee804532eab29f5"><div class="ttname"><a href="a00233.html#ae7e39fb0d25181b4e5dd5f13cd802ddda5308cb733f6f31e0bee804532eab29f5">STATE_ONLINE</a></div><div class="ttdeci">@ STATE_ONLINE</div><div class="ttdef"><b>Definition</b> <a href="#l00057">drv_dma.c:57</a></div></div>
+<div class="ttc" id="aa00233_html_ae7e39fb0d25181b4e5dd5f13cd802ddda7048030823f9211e9e951d2c31eb42aa"><div class="ttname"><a href="a00233.html#ae7e39fb0d25181b4e5dd5f13cd802ddda7048030823f9211e9e951d2c31eb42aa">STATE_WAIT_VALID_VIN_SENSE_OFFSET</a></div><div class="ttdeci">@ STATE_WAIT_VALID_VIN_SENSE_OFFSET</div><div class="ttdef"><b>Definition</b> <a href="#l00057">drv_dma.c:57</a></div></div>
+<div class="ttc" id="aa00251_html_a7ece87b119e452b7f519eb129057319a"><div class="ttname"><a href="a00251.html#a7ece87b119e452b7f519eb129057319a">Drv_SPI_Reset_Timeout_Counter</a></div><div class="ttdeci">void Drv_SPI_Reset_Timeout_Counter(uint16_t count)</div><div class="ttdef"><b>Definition</b> <a href="a00251_source.html#l00087">drv_spi.c:87</a></div></div>
+<div class="ttc" id="aa00254_html"><div class="ttname"><a href="a00254.html">drv_spi.h</a></div><div class="ttdoc">This is the driver source file for spi builds upon mcc.</div></div>
+<div class="ttc" id="aa00254_html_ae348eb54ac8a449fc08bd7ecd03ba751"><div class="ttname"><a href="a00254.html#ae348eb54ac8a449fc08bd7ecd03ba751">SPI_TIMEOUT_IN_100us_TICKS</a></div><div class="ttdeci">#define SPI_TIMEOUT_IN_100us_TICKS</div><div class="ttdef"><b>Definition</b> <a href="a00254_source.html#l00044">drv_spi.h:44</a></div></div>
+<div class="ttc" id="aa00257_html_a3a965bf809d4454e8cc529cc6c3eed03"><div class="ttname"><a href="a00257.html#a3a965bf809d4454e8cc529cc6c3eed03">vacm_state_machine</a></div><div class="ttdeci">void vacm_state_machine(struct VACM_s *vacm_obj)</div><div class="ttdef"><b>Definition</b> <a href="a00257_source.html#l00125">vac_monitor.c:125</a></div></div>
+<div class="ttc" id="aa00257_html_a634dc3732b7ac4380c54073b237ca710"><div class="ttname"><a href="a00257.html#a634dc3732b7ac4380c54073b237ca710">vacm_reset_phase_monitor_object</a></div><div class="ttdeci">void vacm_reset_phase_monitor_object(struct VACM_s *vacm_obj)</div><div class="ttdef"><b>Definition</b> <a href="a00257_source.html#l00085">vac_monitor.c:85</a></div></div>
+<div class="ttc" id="aa00257_html_ab8d656125539f79d931212bc2faa5a65"><div class="ttname"><a href="a00257.html#ab8d656125539f79d931212bc2faa5a65">vacm_reset_state_machine</a></div><div class="ttdeci">void vacm_reset_state_machine(struct VACM_s *vacm_obj)</div><div class="ttdef"><b>Definition</b> <a href="a00257_source.html#l00110">vac_monitor.c:110</a></div></div>
+<div class="ttc" id="aa00260_html"><div class="ttname"><a href="a00260.html">vac_monitor.h</a></div><div class="ttdoc">header of the VAC</div></div>
+<div class="ttc" id="aa00260_html_a640eb02c434aef73e53eb2b8ef0a5947"><div class="ttname"><a href="a00260.html#a640eb02c434aef73e53eb2b8ef0a5947">OPAMP_BIAS_HIGH_LIMIT</a></div><div class="ttdeci">#define OPAMP_BIAS_HIGH_LIMIT</div><div class="ttdef"><b>Definition</b> <a href="a00260_source.html#l00316">vac_monitor.h:316</a></div></div>
+<div class="ttc" id="aa00260_html_a7a6a9eb979af14d21ae2857bbfd8d54e"><div class="ttname"><a href="a00260.html#a7a6a9eb979af14d21ae2857bbfd8d54e">OPAMP_BIAS_LOW_LIMIT</a></div><div class="ttdeci">#define OPAMP_BIAS_LOW_LIMIT</div><div class="ttdef"><b>Definition</b> <a href="a00260_source.html#l00317">vac_monitor.h:317</a></div></div>
+<div class="ttc" id="aa00418_html_ga65401caf94ff032ea4ab68f69db153b5"><div class="ttname"><a href="a00418.html#ga65401caf94ff032ea4ab68f69db153b5">DMA_CHANNEL</a></div><div class="ttdeci">DMA_CHANNEL</div><div class="ttdoc">Defines the DMA channles that are selected from the MCC Melody User Interface for the DMA transfers....</div><div class="ttdef"><b>Definition</b> <a href="a00113_source.html#l00050">dma_types.h:51</a></div></div>
+<div class="ttc" id="aa00418_html_ga9f16d166d637fd9005839b1e1822dc63"><div class="ttname"><a href="a00418.html#ga9f16d166d637fd9005839b1e1822dc63">DMA_ChannelCallback</a></div><div class="ttdeci">void DMA_ChannelCallback(enum DMA_CHANNEL channel)</div><div class="ttdoc">This is the default callback with weak attribute. The user can override and implement the default cal...</div><div class="ttdef"><b>Definition</b> <a href="#l00286">drv_dma.c:286</a></div></div>
+<div class="ttc" id="aa00418_html_gad10f447e17425a18eac1b5186e2e8699"><div class="ttname"><a href="a00418.html#gad10f447e17425a18eac1b5186e2e8699">DMA_ChannelEnable</a></div><div class="ttdeci">static void DMA_ChannelEnable(enum DMA_CHANNEL channel)</div><div class="ttdoc">This inline function enables the DMA channel.</div><div class="ttdef"><b>Definition</b> <a href="a00107_source.html#l00142">dma.h:142</a></div></div>
+<div class="ttc" id="aa00421_html_gab313dfcda98b03477bba5f3812dbb3cc"><div class="ttname"><a href="a00421.html#gab313dfcda98b03477bba5f3812dbb3cc">SEC_CORE1_ProtocolWrite</a></div><div class="ttdeci">bool SEC_CORE1_ProtocolWrite(enum SEC_CORE_PROTOCOLS protocolName, uint16_t *pData)</div><div class="ttdoc">This routine writes data to mailbox.</div><div class="ttdef"><b>Definition</b> <a href="a00131_source.html#l00365">sec_core1.c:365</a></div></div>
+<div class="ttc" id="aa00423_html_ga5a25977bbabd1e67ea7d3b81462e6b54"><div class="ttname"><a href="a00423.html#ga5a25977bbabd1e67ea7d3b81462e6b54">HV_FLAG</a></div><div class="ttdeci">#define HV_FLAG</div><div class="ttdoc">Used when sending status word from primary to secondary core.</div><div class="ttdef"><b>Definition</b> <a href="a00260_source.html#l00309">vac_monitor.h:309</a></div></div>
+<div class="ttc" id="aa00423_html_gab98daf8e7a4933937c20ac690ce54889"><div class="ttname"><a href="a00423.html#gab98daf8e7a4933937c20ac690ce54889">FCALL_AC_MONITOR</a></div><div class="ttdeci">#define FCALL_AC_MONITOR</div><div class="ttdoc">frequency at which AC monitor code is executed (in Hertz)</div><div class="ttdef"><b>Definition</b> <a href="a00260_source.html#l00084">vac_monitor.h:84</a></div></div>
+<div class="ttc" id="aa00425_html_ga2cbf2efea529b8033999a6fa72a6b3a1"><div class="ttname"><a href="a00425.html#ga2cbf2efea529b8033999a6fa72a6b3a1">DRV_DMA_init</a></div><div class="ttdeci">void DRV_DMA_init(void)</div><div class="ttdoc">initialize the local DMA structure</div><div class="ttdef"><b>Definition</b> <a href="#l00090">drv_dma.c:90</a></div></div>
+<div class="ttc" id="aa00425_html_ga41351a49d0335be286c2947c26d0a07c"><div class="ttname"><a href="a00425.html#ga41351a49d0335be286c2947c26d0a07c">DMA_Channel_doAcMonitor</a></div><div class="ttdeci">static void DMA_Channel_doAcMonitor(void)</div><div class="ttdoc">run AC monitor for each of the 3 phases</div><div class="ttdef"><b>Definition</b> <a href="#l00151">drv_dma.c:151</a></div></div>
+<div class="ttc" id="aa00425_html_ga4adccb4f21fb8d44ea561de9881dcb68"><div class="ttname"><a href="a00425.html#ga4adccb4f21fb8d44ea561de9881dcb68">DMA_Channel_updateAdcBuffers</a></div><div class="ttdeci">static void DMA_Channel_updateAdcBuffers(void)</div><div class="ttdoc">unpack the ADC measurements of phase voltages and place in buffers</div><div class="ttdef"><b>Definition</b> <a href="#l00134">drv_dma.c:134</a></div></div>
+<div class="ttc" id="aa00425_html_ga786371bac3733bb2c0aaca7e0903b1ad"><div class="ttname"><a href="a00425.html#ga786371bac3733bb2c0aaca7e0903b1ad">DMA_Channel_resetAcMonitor</a></div><div class="ttdeci">static void DMA_Channel_resetAcMonitor(void)</div><div class="ttdoc">reset the 3 AC monitor objects</div><div class="ttdef"><b>Definition</b> <a href="#l00195">drv_dma.c:195</a></div></div>
+<div class="ttc" id="aa00425_html_gaf058b1be15bd59ec5d57d06d1657b5e8"><div class="ttname"><a href="a00425.html#gaf058b1be15bd59ec5d57d06d1657b5e8">DRV_DMA_getCoreBuffer</a></div><div class="ttdeci">uint16_t * DRV_DMA_getCoreBuffer(void)</div><div class="ttdoc">API function to get core buffer.</div><div class="ttdef"><b>Definition</b> <a href="#l00257">drv_dma.c:257</a></div></div>
+<div class="ttc" id="aa00427_html_ga0c28951a0ab80e65e5bd85682bf5920a"><div class="ttname"><a href="a00427.html#ga0c28951a0ab80e65e5bd85682bf5920a">Drv_SPI_get_Connected_Flag</a></div><div class="ttdeci">bool Drv_SPI_get_Connected_Flag(void)</div><div class="ttdoc">retrieve the value of the flag &quot;selfSpi.connected&quot;</div><div class="ttdef"><b>Definition</b> <a href="a00251_source.html#l00102">drv_spi.c:102</a></div></div>
+<div class="ttc" id="aa00427_html_gacfb2d4f9a7e4d15d0619bdd9aee9c797"><div class="ttname"><a href="a00427.html#gacfb2d4f9a7e4d15d0619bdd9aee9c797">Drv_SPI_get_Adr_Data_Obj</a></div><div class="ttdeci">uint16_t * Drv_SPI_get_Adr_Data_Obj(void)</div><div class="ttdoc">get address of the SPI data buffer</div><div class="ttdef"><b>Definition</b> <a href="a00251_source.html#l00131">drv_spi.c:131</a></div></div>
+<div class="ttc" id="aa00427_html_gaec46774e0546a80dbf2fed2e9e545d8a"><div class="ttname"><a href="a00427.html#gaec46774e0546a80dbf2fed2e9e545d8a">Drv_SPI_Checksum</a></div><div class="ttdeci">bool Drv_SPI_Checksum(void)</div><div class="ttdoc">check if computed and transmitted checksum match</div><div class="ttdef"><b>Definition</b> <a href="a00251_source.html#l00172">drv_spi.c:172</a></div></div>
+<div class="ttc" id="aa00503_html"><div class="ttname"><a href="a00503.html">DRV_DMA_DATA_s</a></div><div class="ttdef"><b>Definition</b> <a href="#l00059">drv_dma.c:60</a></div></div>
+<div class="ttc" id="aa00503_html_a03ca9cb8bfff1efde85c30e8ea86372b"><div class="ttname"><a href="a00503.html#a03ca9cb8bfff1efde85c30e8ea86372b">DRV_DMA_DATA_s::phase3</a></div><div class="ttdeci">VACM_t phase3</div><div class="ttdef"><b>Definition</b> <a href="#l00063">drv_dma.c:63</a></div></div>
+<div class="ttc" id="aa00503_html_a082ca169646472da5f6463b589c368af"><div class="ttname"><a href="a00503.html#a082ca169646472da5f6463b589c368af">DRV_DMA_DATA_s::vinAdcBuf3</a></div><div class="ttdeci">uint16_t vinAdcBuf3</div><div class="ttdef"><b>Definition</b> <a href="#l00067">drv_dma.c:67</a></div></div>
+<div class="ttc" id="aa00503_html_a0aecb3af9ce1839f57b2519de15d144c"><div class="ttname"><a href="a00503.html#a0aecb3af9ce1839f57b2519de15d144c">DRV_DMA_DATA_s::state</a></div><div class="ttdeci">DRV_DMA_STATES_t state</div><div class="ttdef"><b>Definition</b> <a href="#l00075">drv_dma.c:75</a></div></div>
+<div class="ttc" id="aa00503_html_a4e3b01d06e6202a5407dcd78f4e23ed0"><div class="ttname"><a href="a00503.html#a4e3b01d06e6202a5407dcd78f4e23ed0">DRV_DMA_DATA_s::coreBuffers</a></div><div class="ttdeci">uint16_t coreBuffers[10]</div><div class="ttdef"><b>Definition</b> <a href="#l00071">drv_dma.c:71</a></div></div>
+<div class="ttc" id="aa00503_html_a63dabbf0dd11ab47c9b0a12638166f7d"><div class="ttname"><a href="a00503.html#a63dabbf0dd11ab47c9b0a12638166f7d">DRV_DMA_DATA_s::phase2</a></div><div class="ttdeci">VACM_t phase2</div><div class="ttdef"><b>Definition</b> <a href="#l00062">drv_dma.c:62</a></div></div>
+<div class="ttc" id="aa00503_html_a63fe8eb73a9c691ae492380e7b98fcc0"><div class="ttname"><a href="a00503.html#a63fe8eb73a9c691ae492380e7b98fcc0">DRV_DMA_DATA_s::vinAdcRaw</a></div><div class="ttdeci">uint16_t * vinAdcRaw</div><div class="ttdef"><b>Definition</b> <a href="#l00073">drv_dma.c:73</a></div></div>
+<div class="ttc" id="aa00503_html_a776d2aaf2f8e9958e8295b77edd6c350"><div class="ttname"><a href="a00503.html#a776d2aaf2f8e9958e8295b77edd6c350">DRV_DMA_DATA_s::vinAdcBuf1</a></div><div class="ttdeci">uint16_t vinAdcBuf1</div><div class="ttdef"><b>Definition</b> <a href="#l00065">drv_dma.c:65</a></div></div>
+<div class="ttc" id="aa00503_html_a9051987ff7cb8283f8aee8d59bfc2b87"><div class="ttname"><a href="a00503.html#a9051987ff7cb8283f8aee8d59bfc2b87">DRV_DMA_DATA_s::vacOpAmpBias</a></div><div class="ttdeci">int16_t vacOpAmpBias</div><div class="ttdef"><b>Definition</b> <a href="#l00069">drv_dma.c:69</a></div></div>
+<div class="ttc" id="aa00503_html_a9221215e78352468ebfc4f9ed5f14de6"><div class="ttname"><a href="a00503.html#a9221215e78352468ebfc4f9ed5f14de6">DRV_DMA_DATA_s::vinAdcBuf2</a></div><div class="ttdeci">uint16_t vinAdcBuf2</div><div class="ttdef"><b>Definition</b> <a href="#l00066">drv_dma.c:66</a></div></div>
+<div class="ttc" id="aa00503_html_ad37e583c8ae8ab2f61898e6cdcbd0771"><div class="ttname"><a href="a00503.html#ad37e583c8ae8ab2f61898e6cdcbd0771">DRV_DMA_DATA_s::phase1</a></div><div class="ttdeci">VACM_t phase1</div><div class="ttdef"><b>Definition</b> <a href="#l00061">drv_dma.c:61</a></div></div>
+<div class="ttc" id="aa00563_html_a3f0c55f449560b03ce0ac43270c26600"><div class="ttname"><a href="a00563.html#a3f0c55f449560b03ce0ac43270c26600">VACM_STATUS_s::value</a></div><div class="ttdeci">volatile uint16_t value</div><div class="ttdef"><b>Definition</b> <a href="a00263_source.html#l00074">vac_monitor_typedef.h:74</a></div></div>
+<div class="ttc" id="aa00587_html_a25462ee5df2b62555907b14d8b711eac"><div class="ttname"><a href="a00587.html#a25462ee5df2b62555907b14d8b711eac">VACM_VIN_s::vloop_ff</a></div><div class="ttdeci">uint16_t vloop_ff</div><div class="ttdef"><b>Definition</b> <a href="a00263_source.html#l00133">vac_monitor_typedef.h:133</a></div></div>
+<div class="ttc" id="aa00587_html_a3ca26ec20692a7e991a73d3b99286ebd"><div class="ttname"><a href="a00587.html#a3ca26ec20692a7e991a73d3b99286ebd">VACM_VIN_s::ptr_offset</a></div><div class="ttdeci">int16_t * ptr_offset</div><div class="ttdef"><b>Definition</b> <a href="a00263_source.html#l00129">vac_monitor_typedef.h:129</a></div></div>
+<div class="ttc" id="aa00587_html_a63347ac955fc7d6d2c82e0e1e2e07c63"><div class="ttname"><a href="a00587.html#a63347ac955fc7d6d2c82e0e1e2e07c63">VACM_VIN_s::ptr_adcbuf</a></div><div class="ttdeci">uint16_t * ptr_adcbuf</div><div class="ttdoc">Pointer to register or variable where the value is read from (e.g. ADCBUFx) or written to (e....</div><div class="ttdef"><b>Definition</b> <a href="a00263_source.html#l00125">vac_monitor_typedef.h:125</a></div></div>
+<div class="ttc" id="aa00587_html_a7e76fa585608d265c17dcebead34e78f"><div class="ttname"><a href="a00587.html#a7e76fa585608d265c17dcebead34e78f">VACM_VIN_s::raw</a></div><div class="ttdeci">uint16_t raw</div><div class="ttdef"><b>Definition</b> <a href="a00263_source.html#l00126">vac_monitor_typedef.h:126</a></div></div>
+<div class="ttc" id="aa00587_html_ab4e662194d9dcfde258e389307eea268"><div class="ttname"><a href="a00587.html#ab4e662194d9dcfde258e389307eea268">VACM_VIN_s::avg</a></div><div class="ttdeci">uint16_t avg</div><div class="ttdef"><b>Definition</b> <a href="a00263_source.html#l00130">vac_monitor_typedef.h:130</a></div></div>
+<div class="ttc" id="aa00587_html_ae3d4db6a5affc6b035b393a020b6b723"><div class="ttname"><a href="a00587.html#ae3d4db6a5affc6b035b393a020b6b723">VACM_VIN_s::rectified</a></div><div class="ttdeci">uint16_t rectified</div><div class="ttdef"><b>Definition</b> <a href="a00263_source.html#l00128">vac_monitor_typedef.h:128</a></div></div>
+<div class="ttc" id="aa00591_html_a220652504c8b8f60e26fd10d72642bcc"><div class="ttname"><a href="a00591.html#a220652504c8b8f60e26fd10d72642bcc">VACM_AVGCALC_BUFFER_s::counter_reset</a></div><div class="ttdeci">uint16_t counter_reset</div><div class="ttdef"><b>Definition</b> <a href="a00263_source.html#l00148">vac_monitor_typedef.h:148</a></div></div>
+<div class="ttc" id="aa00599_html"><div class="ttname"><a href="a00599.html">VACM_s</a></div><div class="ttdoc">Main AC Monitor data object data type declaration.</div><div class="ttdef"><b>Definition</b> <a href="a00263_source.html#l00201">vac_monitor_typedef.h:202</a></div></div>
+<div class="ttc" id="aa00599_html_a57116a7b23349ee7c7337ade54bcbf7a"><div class="ttname"><a href="a00599.html#a57116a7b23349ee7c7337ade54bcbf7a">VACM_s::status</a></div><div class="ttdeci">VACM_STATUS_t status</div><div class="ttdoc">AC monitor status flags.</div><div class="ttdef"><b>Definition</b> <a href="a00263_source.html#l00204">vac_monitor_typedef.h:204</a></div></div>
+<div class="ttc" id="aa00599_html_a75f8ff8700667279db8d63a44e0917b1"><div class="ttname"><a href="a00599.html#a75f8ff8700667279db8d63a44e0917b1">VACM_s::avgcalc_buffer</a></div><div class="ttdeci">VACM_AVGCALC_BUFFER_t avgcalc_buffer</div><div class="ttdoc">used for store information needed at runtime for calculation of average of rectified input voltage</div><div class="ttdef"><b>Definition</b> <a href="a00263_source.html#l00208">vac_monitor_typedef.h:208</a></div></div>
+<div class="ttc" id="aa00599_html_ac4a1f38410e859f4a2cdead0d49a3867"><div class="ttname"><a href="a00599.html#ac4a1f38410e859f4a2cdead0d49a3867">VACM_s::vin</a></div><div class="ttdeci">VACM_VIN_t vin</div><div class="ttdoc">information related to input voltage</div><div class="ttdef"><b>Definition</b> <a href="a00263_source.html#l00207">vac_monitor_typedef.h:207</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.20-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath" style="padding-bottom: 12px; vertical-align: bottom;"><!-- id is needed for treeview function! -->
+  <ul>
+    <p class="footer" style="text-align: center; font-size: 90%;">
+      © Copyright 1998-2022 Microchip Technology Inc. All rights reserved.
+    </p>
+    </ul>
+</div>
+</body>
+</html>

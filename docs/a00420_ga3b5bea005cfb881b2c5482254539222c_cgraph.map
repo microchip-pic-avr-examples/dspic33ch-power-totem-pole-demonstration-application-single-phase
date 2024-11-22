@@ -1,0 +1,5 @@
+<map id="MAIN_CORE_FIFOWrite" name="MAIN_CORE_FIFOWrite">
+<area shape="rect" id="Node000001" title="This routine transfers FIFO data to Main Core." alt="" coords="5,5,171,31"/>
+<area shape="rect" id="Node000002" href="$a00420.html#ga230fcab3202dcf88d1fff13c85e05965" title="This inline function checks whether the status of Write FIFO is Full. Returns true if last write by M..." alt="" coords="219,5,415,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,15,205,15,205,21,171,21"/>
+</map>

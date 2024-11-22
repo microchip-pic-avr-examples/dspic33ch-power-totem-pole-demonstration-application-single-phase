@@ -1,0 +1,9 @@
+<map id="CAN1_TX_FIFO_MessageSendRequest" name="CAN1_TX_FIFO_MessageSendRequest">
+<area shape="rect" id="Node000001" title="This function enables The FIFO transmit message send request bit." alt="" coords="515,5,717,45"/>
+<area shape="rect" id="Node000002" href="$a00405.html#gad99c960d1ed589ce80aca873a90e068e" title="Writes the CAN message object to specified transmit FIFO channel." alt="" coords="353,13,467,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="501,28,467,28,467,23,501,23"/>
+<area shape="rect" id="Node000003" href="$a00424.html#ga9511f6338931225152a644cd0b011f66" title="send frame to GUI when the FIFO from secondary to primary has been filled" alt="" coords="152,13,305,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="339,28,306,28,306,23,339,23"/>
+<area shape="rect" id="Node000004" href="$a00431.html#ga97fda594ad396d08b6a833ebb3b04538" title="tasks run every 100us" alt="" coords="5,13,104,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="138,28,104,28,104,23,138,23"/>
+</map>

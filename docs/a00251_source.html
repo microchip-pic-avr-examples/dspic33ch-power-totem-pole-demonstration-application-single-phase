@@ -1,0 +1,414 @@
+<!-- HTML header for doxygen 1.8.20-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>3.8/7.6 kw Totem pole Demonstration Application: C:/Users/M70027/Documents/Projects/tp-deployment/dspic33ch-power-totem-pole-demonstration-application-single-phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/sources/driver/spi/drv_spi.c Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="mchp.css" rel="stylesheet" type="text/css"/>
+<link href="mchp_theme.css" rel="stylesheet" type="text/css"/>
+<link href="search.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0" style="border:0px; border-spacing: 0px; border-collapse: collapse; vertical-align: middle; width: 100%;">
+    <tbody>
+        <tr style="border: none; background-color: #00000000;">
+            <!--SITE HEADER-->
+            <td style="width: 120px; border: none;">
+                <img alt="Bar" height="60px" src="images/mchp-brandingelement-rgb2.png"/>
+            </td>
+            <td style="width: 220px; border: none;">
+                <img alt="Logo" height=50px src="images/microchip.png"/>
+            </td>
+            <td colspan="4" style="font-size: 16pt; font-weight: bolder;">
+                3.8/7.6 kw Totem pole Demonstration Application (Part-No. (not specified)) 
+            </td>
+            <td style="text-align: right; vertical-align: middle;">
+                        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+            </td>
+            <!--END SITE HEADER-->
+        </tr>
+        <tr style="height:36px; border:none; background-color: #000000b0;">
+            <td style="width: 70px; color: white; font-size:14px; font-weight: bolder; margin-left: 30px;">
+                <div style="margin-left: 30px;">Content</div>
+            </td>
+            <td style="width: 10px; color: white; font-size:14px; font-weight: bolder;">
+                &nbsp;
+            </td>
+            <td style="width: 100px; color: white; font-size:14px; font-weight: bolder;">
+                <!-- Overview -->
+            </td>
+            <td style="width: 130px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Documentation -->
+            </td>
+            <td style="width: 170px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Additional Resources -->
+            </td>
+            <td style="width: auto; color: white; font-size:14px; font-weight: bolder;"> 
+              &nbsp;
+            </td>
+            <td style="width: 310px; margin-right: 30px; color: white; font-size:10px; font-weight: lighter; text-align: right;">
+                &nbsp;
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('a00251_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">drv_spi.c</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="a00251.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">/*</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">    (c) 2022 Microchip Technology Inc. and its subsidiaries. You may use this</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">    software and any derivatives exclusively with Microchip products.</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment"></span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">    THIS SOFTWARE IS SUPPLIED BY MICROCHIP &quot;AS IS&quot;. NO WARRANTIES, WHETHER</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">    EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY IMPLIED</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">    WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">    PARTICULAR PURPOSE, OR ITS INTERACTION WITH MICROCHIP PRODUCTS, COMBINATION</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment">    WITH ANY OTHER PRODUCTS, OR USE IN ANY APPLICATION.</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment"></span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="comment">    IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE,</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="comment">    INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">    WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP HAS</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">    BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO THE</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">    FULLEST EXTENT ALLOWED BY LAW, MICROCHIP&#39;S TOTAL LIABILITY ON ALL CLAIMS IN</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="comment">    ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY,</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">    THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment"></span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment">    MICROCHIP PROVIDES THIS SOFTWARE CONDITIONALLY UPON YOUR ACCEPTANCE OF THESE</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment">    TERMS.</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#include &lt;p33CH512MP506.h&gt;</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#include &lt;libpic30.h&gt;</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &quot;<a class="code" href="a00254.html">drv_spi.h</a>&quot;</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#include &quot;<a class="code" href="a00230.html">driver/can/drv_can.h</a>&quot;</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment">// MCC header files</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#include &quot;system/pins.h&quot;</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#include &quot;<a class="code" href="a00134.html">spi_client/spi1.h</a>&quot;</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#include &quot;<a class="code" href="a00107.html">dma/dma.h</a>&quot;</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#include &quot;timer/timer_interface.h&quot;</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#include &quot;<a class="code" href="a00203.html">timer/sccp1.h</a>&quot;</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#include &quot;<a class="code" href="a00206.html">timer/sccp2.h</a>&quot;</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#include &quot;system/pins.h&quot;</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment">// local typedefs</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="foldopen" id="foldopen00055" data-start="{" data-end="};">
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="a00559.html">   55</a></span><span class="keyword">typedef</span> <span class="keyword">struct</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>{</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="a00559.html#ab36823025f12a809217f7771125658c2">   57</a></span>  <span class="keywordtype">bool</span>      <a class="code hl_variable" href="a00559.html#ab36823025f12a809217f7771125658c2">connected</a>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="a00559.html#aaebe8313fa1122a4514319e63918bcf5">   58</a></span>  uint16_t  data[4];</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="a00559.html#a4589c2b0ede1f8d7cd4a492055da7374">   59</a></span>  <span class="keywordtype">bool</span>      <a class="code hl_variable" href="a00559.html#a4589c2b0ede1f8d7cd4a492055da7374">checksum_ok</a>;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="a00559.html#a1f26587e02c1677f7017646d2c6bb627">   60</a></span>  int16_t   <a class="code hl_variable" href="a00559.html#a1f26587e02c1677f7017646d2c6bb627">timeout_counter</a>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>} <a class="code hl_struct" href="a00559.html">DRV_SPI_t</a>;</div>
+</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="comment">// local variable definitions</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="a00251.html#aa1425c87766ccf08543848b01358d23a">   67</a></span><span class="keyword">static</span> <a class="code hl_struct" href="a00559.html">DRV_SPI_t</a> <a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a> __attribute__((address(0x1800))); <span class="comment">// set fixed address for DMA</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment">// local function declarations</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="a00427.html#ga145f1f1255a7289b74ff5907798d21fa">SPI_Synchronize</a>(<span class="keywordtype">void</span>); <span class="comment">// local</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="comment">// API function definitions</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="foldopen" id="foldopen00087" data-start="{" data-end="}">
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="a00251.html#a7ece87b119e452b7f519eb129057319a">   87</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="a00251.html#a7ece87b119e452b7f519eb129057319a">Drv_SPI_Reset_Timeout_Counter</a>(uint16_t count)</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>{</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  <a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#a1f26587e02c1677f7017646d2c6bb627">timeout_counter</a> = count; </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>}</div>
+</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="foldopen" id="foldopen00102" data-start="{" data-end="}">
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="a00427.html#ga0c28951a0ab80e65e5bd85682bf5920a">  102</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="a00427.html#ga0c28951a0ab80e65e5bd85682bf5920a">Drv_SPI_get_Connected_Flag</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>{</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>  <span class="keywordflow">return</span> (<a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#ab36823025f12a809217f7771125658c2">connected</a>);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>}</div>
+</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="foldopen" id="foldopen00117" data-start="{" data-end="}">
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="a00427.html#gaf3fad6443af569b0da78810b219ebaaf">  117</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="a00427.html#gaf3fad6443af569b0da78810b219ebaaf">Drv_SPI_get_ChecksumOK_Flag</a>(<span class="keywordtype">void</span>) <span class="comment">// API</span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>{</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  <span class="keywordflow">return</span> (<a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#a4589c2b0ede1f8d7cd4a492055da7374">checksum_ok</a>);</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>}</div>
+</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="foldopen" id="foldopen00131" data-start="{" data-end="}">
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="a00427.html#gacfb2d4f9a7e4d15d0619bdd9aee9c797">  131</a></span>uint16_t* <a class="code hl_function" href="a00427.html#gacfb2d4f9a7e4d15d0619bdd9aee9c797">Drv_SPI_get_Adr_Data_Obj</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>{</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>  <span class="keywordflow">return</span> (<a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#aaebe8313fa1122a4514319e63918bcf5">data</a>);</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>}</div>
+</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
+<div class="foldopen" id="foldopen00146" data-start="{" data-end="}">
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno"><a class="line" href="a00427.html#ga931d1aef6dcb7d881ab27cf66cd94d00">  146</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="a00427.html#ga931d1aef6dcb7d881ab27cf66cd94d00">Drv_SPI_Timeout</a>(<span class="keywordtype">void</span>) <span class="comment">// API</span></div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>{</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>  <a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#a1f26587e02c1677f7017646d2c6bb627">timeout_counter</a>--;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#a1f26587e02c1677f7017646d2c6bb627">timeout_counter</a> &lt;= 0)</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>  {</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    <span class="comment">// this will only get executed if there</span></div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    <span class="comment">// has been no SPI comms for 1ms</span></div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    <a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#a1f26587e02c1677f7017646d2c6bb627">timeout_counter</a> = 10; <span class="comment">// 1ms (10*100us)            </span></div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    <a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#ab36823025f12a809217f7771125658c2">connected</a> = <span class="keyword">false</span>; <span class="comment">// SPI not connected</span></div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    <a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#a4589c2b0ede1f8d7cd4a492055da7374">checksum_ok</a> = <span class="keyword">false</span>; <span class="comment">// checksum invalid</span></div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    <a class="code hl_function" href="a00427.html#ga145f1f1255a7289b74ff5907798d21fa">SPI_Synchronize</a>(); <span class="comment">// try to sync to SPI bus </span></div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>  }</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>}</div>
+</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
+<div class="foldopen" id="foldopen00172" data-start="{" data-end="}">
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno"><a class="line" href="a00427.html#gaec46774e0546a80dbf2fed2e9e545d8a">  172</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="a00427.html#gaec46774e0546a80dbf2fed2e9e545d8a">Drv_SPI_Checksum</a>(<span class="keywordtype">void</span>) </div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>{</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>  <span class="keywordtype">bool</span> test_passed = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>  <span class="comment">// checksum preset with 0x0055 so that transmission of all zeros won&#39;t </span></div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>  <span class="comment">// result in a false pass</span></div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>  uint16_t i;</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>  uint16_t checksum = 0x0055;</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>  <span class="keywordflow">for</span> (i = 0; i &lt; 3; i++)</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>  {</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>    checksum = checksum + <a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#aaebe8313fa1122a4514319e63918bcf5">data</a>[i];</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>  }</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>  <span class="comment">// compare calculated checksum against checksum transmitted in word 3</span></div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>  <span class="keywordflow">if</span> (checksum == <a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#aaebe8313fa1122a4514319e63918bcf5">data</a>[3])</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>  {</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    <span class="comment">// calculated and transmitted checksums match</span></div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    <a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#a4589c2b0ede1f8d7cd4a492055da7374">checksum_ok</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    test_passed = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>  }</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>  <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>  {</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>    <span class="comment">// calculated and transmitted checksums don&#39;t match</span></div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    <a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#a4589c2b0ede1f8d7cd4a492055da7374">checksum_ok</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    <a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#ab36823025f12a809217f7771125658c2">connected</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    </div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    <span class="comment">// reset timeout counter so as we attempt to re-sync to SPI bus </span></div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>    <span class="comment">// as soon as possible</span></div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    <span class="comment">// setting 1 means that the next time Drv_SPI_Timeout() is called</span></div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>    <span class="comment">// we will attempt to re-sync to SPI bus, this should be max 100us</span></div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>    <a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#a1f26587e02c1677f7017646d2c6bb627">timeout_counter</a> = 1;  </div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>    test_passed = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>  }</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>  <span class="keywordflow">return</span> (test_passed);</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>}</div>
+</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span> </div>
+<div class="foldopen" id="foldopen00238" data-start="{" data-end="}">
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno"><a class="line" href="a00427.html#ga145f1f1255a7289b74ff5907798d21fa">  238</a></span><span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="a00427.html#ga145f1f1255a7289b74ff5907798d21fa">SPI_Synchronize</a>(<span class="keywordtype">void</span>) <span class="comment">// local</span></div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>{</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>  <a class="code hl_function" href="a00418.html#gab59dab7bbec7ad0589d0fa8f57769a94">DMA_ChannelDisable</a>(0); <span class="comment">// disable DMA channel 0</span></div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>  SPI1CON1Lbits.SPIEN = 0; <span class="comment">// disable SPI</span></div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>  </div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>  <a class="code hl_define" href="a00416.html#ga54d924dfd6ba8529c8d7ecf9efc57dba">SPI_Timeout_40us_Timer_Start</a>();</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>  </div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span><span class="comment">//  SCCP2_TMR_Start(); // set to time out after 40us</span></div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>  IFS1bits.CCT2IF = 0; <span class="comment">// clear SCCP2 timer overflow flag</span></div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span> </div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>  <span class="comment">// clear timer (should use MCC API functions but they don&#39;t work)</span></div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>  CCP2TMRL = 0;</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>  CCP2TMRH = 0;</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>  </div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>  <a class="code hl_define" href="a00416.html#ga08eaf7daf13727809919dd5e82057614">SPI_BusIdle_1us_Timer_Start</a>();</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span><span class="comment">//  SCCP1_TMR_Start(); // set to time out after 1us</span></div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>  IFS0bits.CCT1IF = 0; <span class="comment">// clear timer overflow flag</span></div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span> </div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>  <span class="comment">// clear timer (should use MCC API functions but they don&#39;t work)</span></div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>  CCP1TMRL = 0;</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>  CCP1TMRH = 0;</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span> </div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>  <span class="keywordflow">do</span></div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>  {</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    <span class="comment">// stay here until one of the 2 timers expires</span></div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span><span class="comment">//    if (SCK1IN_GetValue() == 0) </span></div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    <span class="keywordflow">if</span> (_RC8 == 0)</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>    {</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>      <span class="comment">// SPI_CLK is low, so SPI bus is not in idle state. Reset 1us timer</span></div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>      CCP1TMRL = 0;</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>      CCP1TMRH = 0;</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    }</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>  } <span class="keywordflow">while</span> ((!IFS0bits.CCT1IF) &amp;&amp; (!IFS1bits.CCT2IF));</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>  <span class="comment">// check which timer expired first</span></div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>  <span class="keywordflow">if</span> (IFS0bits.CCT1IF)</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>  {</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>    <span class="comment">// SCCP1 expired, meaning we detected that the SPI bus is idle</span></div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>    <span class="comment">// (SPI_CLK has been high continuously for 1us)</span></div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>    <span class="comment">// since SPI bus is idle, we can now enable the SPI and DMA peripherals</span></div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>    <a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#ab36823025f12a809217f7771125658c2">connected</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>    <a class="code hl_function" href="a00419.html#ga0607cad7a6b302950091fea719146a54">SPI1_Initialize</a>();</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>    SPI1CON1Lbits.SPIEN = 1;</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span> </div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    <a class="code hl_function" href="a00418.html#ga3950883876bea54b441aaf14ff17d47e">DMA_Initialize</a>();</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span> </div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    <span class="comment">// address to which the DMA sends the incoming data (destination address)</span></div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>    <span class="comment">// is overwritten via DMADST0 register</span></div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>    DMADST0 = (uint16_t) &amp; <a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#aaebe8313fa1122a4514319e63918bcf5">data</a>[0];</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>    <a class="code hl_function" href="a00418.html#gad10f447e17425a18eac1b5186e2e8699">DMA_ChannelEnable</a>(0);</div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>  }</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>  <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>  {</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    <span class="comment">// SCCP2 expired, meaning we didn&#39;t detect SPI bus in idle over a 40us period </span></div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    <a class="code hl_variable" href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a>.<a class="code hl_variable" href="a00559.html#ab36823025f12a809217f7771125658c2">connected</a> = <span class="keyword">false</span>; <span class="comment">// could not establish SPI connection, try again later</span></div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>  }</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span> </div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>  <span class="comment">// stop timers and exit</span></div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>  Nop();</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>  Nop();</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>  Nop();</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>  Nop();</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>  Nop();</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>  <a class="code hl_define" href="a00416.html#ga4981a099ca777d06ae83498f76b7549e">SPI_BusIdle_1us_Timer_Stop</a>();</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>  <a class="code hl_define" href="a00416.html#ga3163f761453acc3add4d8aef07a1710f">SPI_Timeout_40us_Timer_Stop</a>();</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>}</div>
+</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span> </div>
+<div class="ttc" id="aa00107_html"><div class="ttname"><a href="a00107.html">dma.h</a></div><div class="ttdoc">This is the generated driver header file for the DMA driver.</div></div>
+<div class="ttc" id="aa00134_html"><div class="ttname"><a href="a00134.html">spi1.h</a></div><div class="ttdoc">This is the generated driver header file for the SPI1 driver.</div></div>
+<div class="ttc" id="aa00203_html"><div class="ttname"><a href="a00203.html">sccp1.h</a></div><div class="ttdoc">This is the generated driver header file for the SCCP1-TIMER driver.</div></div>
+<div class="ttc" id="aa00206_html"><div class="ttname"><a href="a00206.html">sccp2.h</a></div><div class="ttdoc">This is the generated driver header file for the SCCP2-TIMER driver.</div></div>
+<div class="ttc" id="aa00230_html"><div class="ttname"><a href="a00230.html">drv_can.h</a></div><div class="ttdoc">header of the CAN Driver</div></div>
+<div class="ttc" id="aa00251_html_a7ece87b119e452b7f519eb129057319a"><div class="ttname"><a href="a00251.html#a7ece87b119e452b7f519eb129057319a">Drv_SPI_Reset_Timeout_Counter</a></div><div class="ttdeci">void Drv_SPI_Reset_Timeout_Counter(uint16_t count)</div><div class="ttdef"><b>Definition</b> <a href="#l00087">drv_spi.c:87</a></div></div>
+<div class="ttc" id="aa00251_html_aa1425c87766ccf08543848b01358d23a"><div class="ttname"><a href="a00251.html#aa1425c87766ccf08543848b01358d23a">selfSpi</a></div><div class="ttdeci">static DRV_SPI_t selfSpi</div><div class="ttdef"><b>Definition</b> <a href="#l00067">drv_spi.c:67</a></div></div>
+<div class="ttc" id="aa00254_html"><div class="ttname"><a href="a00254.html">drv_spi.h</a></div><div class="ttdoc">This is the driver source file for spi builds upon mcc.</div></div>
+<div class="ttc" id="aa00416_html_ga08eaf7daf13727809919dd5e82057614"><div class="ttname"><a href="a00416.html#ga08eaf7daf13727809919dd5e82057614">SPI_BusIdle_1us_Timer_Start</a></div><div class="ttdeci">#define SPI_BusIdle_1us_Timer_Start</div><div class="ttdoc">This macro defines the Custom Name for SCCP1_Timer_Start API.</div><div class="ttdef"><b>Definition</b> <a href="a00203_source.html#l00080">sccp1.h:80</a></div></div>
+<div class="ttc" id="aa00416_html_ga3163f761453acc3add4d8aef07a1710f"><div class="ttname"><a href="a00416.html#ga3163f761453acc3add4d8aef07a1710f">SPI_Timeout_40us_Timer_Stop</a></div><div class="ttdeci">#define SPI_Timeout_40us_Timer_Stop</div><div class="ttdoc">This macro defines the Custom Name for SCCP2_Timer_Stop API.</div><div class="ttdef"><b>Definition</b> <a href="a00206_source.html#l00085">sccp2.h:85</a></div></div>
+<div class="ttc" id="aa00416_html_ga4981a099ca777d06ae83498f76b7549e"><div class="ttname"><a href="a00416.html#ga4981a099ca777d06ae83498f76b7549e">SPI_BusIdle_1us_Timer_Stop</a></div><div class="ttdeci">#define SPI_BusIdle_1us_Timer_Stop</div><div class="ttdoc">This macro defines the Custom Name for SCCP1_Timer_Stop API.</div><div class="ttdef"><b>Definition</b> <a href="a00203_source.html#l00085">sccp1.h:85</a></div></div>
+<div class="ttc" id="aa00416_html_ga54d924dfd6ba8529c8d7ecf9efc57dba"><div class="ttname"><a href="a00416.html#ga54d924dfd6ba8529c8d7ecf9efc57dba">SPI_Timeout_40us_Timer_Start</a></div><div class="ttdeci">#define SPI_Timeout_40us_Timer_Start</div><div class="ttdoc">This macro defines the Custom Name for SCCP2_Timer_Start API.</div><div class="ttdef"><b>Definition</b> <a href="a00206_source.html#l00080">sccp2.h:80</a></div></div>
+<div class="ttc" id="aa00418_html_ga3950883876bea54b441aaf14ff17d47e"><div class="ttname"><a href="a00418.html#ga3950883876bea54b441aaf14ff17d47e">DMA_Initialize</a></div><div class="ttdeci">void DMA_Initialize(void)</div><div class="ttdoc">Initializes the DMA module.</div><div class="ttdef"><b>Definition</b> <a href="a00116_source.html#l00067">dma.c:67</a></div></div>
+<div class="ttc" id="aa00418_html_gab59dab7bbec7ad0589d0fa8f57769a94"><div class="ttname"><a href="a00418.html#gab59dab7bbec7ad0589d0fa8f57769a94">DMA_ChannelDisable</a></div><div class="ttdeci">static void DMA_ChannelDisable(enum DMA_CHANNEL channel)</div><div class="ttdoc">This inline function disables the DMA channel.</div><div class="ttdef"><b>Definition</b> <a href="a00107_source.html#l00175">dma.h:175</a></div></div>
+<div class="ttc" id="aa00418_html_gad10f447e17425a18eac1b5186e2e8699"><div class="ttname"><a href="a00418.html#gad10f447e17425a18eac1b5186e2e8699">DMA_ChannelEnable</a></div><div class="ttdeci">static void DMA_ChannelEnable(enum DMA_CHANNEL channel)</div><div class="ttdoc">This inline function enables the DMA channel.</div><div class="ttdef"><b>Definition</b> <a href="a00107_source.html#l00142">dma.h:142</a></div></div>
+<div class="ttc" id="aa00419_html_ga0607cad7a6b302950091fea719146a54"><div class="ttname"><a href="a00419.html#ga0607cad7a6b302950091fea719146a54">SPI1_Initialize</a></div><div class="ttdeci">void SPI1_Initialize(void)</div><div class="ttdoc">Initializes SPI1 module, using the given initialization data. This function must be called before any...</div><div class="ttdef"><b>Definition</b> <a href="a00140_source.html#l00086">spi1.c:86</a></div></div>
+<div class="ttc" id="aa00427_html_ga0c28951a0ab80e65e5bd85682bf5920a"><div class="ttname"><a href="a00427.html#ga0c28951a0ab80e65e5bd85682bf5920a">Drv_SPI_get_Connected_Flag</a></div><div class="ttdeci">bool Drv_SPI_get_Connected_Flag(void)</div><div class="ttdoc">retrieve the value of the flag &quot;selfSpi.connected&quot;</div><div class="ttdef"><b>Definition</b> <a href="#l00102">drv_spi.c:102</a></div></div>
+<div class="ttc" id="aa00427_html_ga145f1f1255a7289b74ff5907798d21fa"><div class="ttname"><a href="a00427.html#ga145f1f1255a7289b74ff5907798d21fa">SPI_Synchronize</a></div><div class="ttdeci">static void SPI_Synchronize(void)</div><div class="ttdoc">synchronize to SPI bus</div><div class="ttdef"><b>Definition</b> <a href="#l00238">drv_spi.c:238</a></div></div>
+<div class="ttc" id="aa00427_html_ga931d1aef6dcb7d881ab27cf66cd94d00"><div class="ttname"><a href="a00427.html#ga931d1aef6dcb7d881ab27cf66cd94d00">Drv_SPI_Timeout</a></div><div class="ttdeci">void Drv_SPI_Timeout(void)</div><div class="ttdoc">check for SPI timeout</div><div class="ttdef"><b>Definition</b> <a href="#l00146">drv_spi.c:146</a></div></div>
+<div class="ttc" id="aa00427_html_gacfb2d4f9a7e4d15d0619bdd9aee9c797"><div class="ttname"><a href="a00427.html#gacfb2d4f9a7e4d15d0619bdd9aee9c797">Drv_SPI_get_Adr_Data_Obj</a></div><div class="ttdeci">uint16_t * Drv_SPI_get_Adr_Data_Obj(void)</div><div class="ttdoc">get address of the SPI data buffer</div><div class="ttdef"><b>Definition</b> <a href="#l00131">drv_spi.c:131</a></div></div>
+<div class="ttc" id="aa00427_html_gaec46774e0546a80dbf2fed2e9e545d8a"><div class="ttname"><a href="a00427.html#gaec46774e0546a80dbf2fed2e9e545d8a">Drv_SPI_Checksum</a></div><div class="ttdeci">bool Drv_SPI_Checksum(void)</div><div class="ttdoc">check if computed and transmitted checksum match</div><div class="ttdef"><b>Definition</b> <a href="#l00172">drv_spi.c:172</a></div></div>
+<div class="ttc" id="aa00427_html_gaf3fad6443af569b0da78810b219ebaaf"><div class="ttname"><a href="a00427.html#gaf3fad6443af569b0da78810b219ebaaf">Drv_SPI_get_ChecksumOK_Flag</a></div><div class="ttdeci">bool Drv_SPI_get_ChecksumOK_Flag(void)</div><div class="ttdoc">retrieve the value of the flag &quot;selfSpi.checksum_ok&quot;</div><div class="ttdef"><b>Definition</b> <a href="#l00117">drv_spi.c:117</a></div></div>
+<div class="ttc" id="aa00559_html"><div class="ttname"><a href="a00559.html">DRV_SPI_t</a></div><div class="ttdef"><b>Definition</b> <a href="#l00055">drv_spi.c:56</a></div></div>
+<div class="ttc" id="aa00559_html_a1f26587e02c1677f7017646d2c6bb627"><div class="ttname"><a href="a00559.html#a1f26587e02c1677f7017646d2c6bb627">DRV_SPI_t::timeout_counter</a></div><div class="ttdeci">int16_t timeout_counter</div><div class="ttdef"><b>Definition</b> <a href="#l00060">drv_spi.c:60</a></div></div>
+<div class="ttc" id="aa00559_html_a4589c2b0ede1f8d7cd4a492055da7374"><div class="ttname"><a href="a00559.html#a4589c2b0ede1f8d7cd4a492055da7374">DRV_SPI_t::checksum_ok</a></div><div class="ttdeci">bool checksum_ok</div><div class="ttdef"><b>Definition</b> <a href="#l00059">drv_spi.c:59</a></div></div>
+<div class="ttc" id="aa00559_html_aaebe8313fa1122a4514319e63918bcf5"><div class="ttname"><a href="a00559.html#aaebe8313fa1122a4514319e63918bcf5">DRV_SPI_t::data</a></div><div class="ttdeci">uint16_t data[4]</div><div class="ttdef"><b>Definition</b> <a href="#l00058">drv_spi.c:58</a></div></div>
+<div class="ttc" id="aa00559_html_ab36823025f12a809217f7771125658c2"><div class="ttname"><a href="a00559.html#ab36823025f12a809217f7771125658c2">DRV_SPI_t::connected</a></div><div class="ttdeci">bool connected</div><div class="ttdef"><b>Definition</b> <a href="#l00057">drv_spi.c:57</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.20-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath" style="padding-bottom: 12px; vertical-align: bottom;"><!-- id is needed for treeview function! -->
+  <ul>
+    <p class="footer" style="text-align: center; font-size: 90%;">
+      © Copyright 1998-2022 Microchip Technology Inc. All rights reserved.
+    </p>
+    </ul>
+</div>
+</body>
+</html>

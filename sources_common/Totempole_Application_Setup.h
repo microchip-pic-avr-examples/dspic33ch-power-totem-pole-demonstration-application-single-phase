@@ -1,5 +1,14 @@
+/**
+ * Totempole Application Setup
+ * 
+ * @file      Totempole_Application_Setup.h
+ * 
+ * @ingroup   setup
+ * 
+ * @brief     Allows the user to easily change the operation modes 
+*/
 /*
-© [2024] Microchip Technology Inc. and its subsidiaries.
+ï¿½ [2024] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -57,11 +66,11 @@
  *          #define HIGH_VOLTAGE 1 for high voltage
  **********************************************************************************/
 
-#define HIGH_VOLTAGE 0
+#define HIGH_VOLTAGE 1
 
-#define MODE_PFC
+//#define MODE_PFC
 //#define MODE_GRID_TIE_INVERTER
-//#define MODE_INTERLEAVED
+#define MODE_INTERLEAVED
 
 //==============================================================================
 
@@ -85,6 +94,22 @@
     #error "MODE SETUP ERROR: #defines in Totempole_Application_Setup.h is wrong"
 #endif
 
+//==============================================================================
+//<<< EXPERTS ONLY 
+/******************************************************************************
+ * @ingroup setup
+ * @fn      
+ * @brief   special mode to measure current loop
+ * @details 
+ *          setup to drive PFC with DC input voltage and only 
+ *          current loop running
+ *          measure current loop frequency response with tool like 
+ *          Bode100 from Omicron
+ *          load is typ. running in Constant Voltage to limit Vout
+ *          see dedicated chapter/video for setup
+ *******************************************************************************/
+//#define CURRENT_LOOP_BODE_MEASUREMENT
+        
 //==============================================================================
 //==============================================================================
 

@@ -1,0 +1,5 @@
+<map id="PWM_Initialize" name="PWM_Initialize">
+<area shape="rect" id="Node000001" title="Initializes PWM module, using the given initialization data." alt="" coords="184,5,293,31"/>
+<area shape="rect" id="Node000002" href="$a00412.html#ga5e8391114a0cf91ac20002be25e3d352" title="Initializes the System module." alt="" coords="5,5,136,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,21,136,21,136,15,170,15"/>
+</map>

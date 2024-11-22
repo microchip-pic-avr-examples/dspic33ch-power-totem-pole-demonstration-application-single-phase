@@ -1,0 +1,9 @@
+<map id="SoftStart_StateHandler" name="SoftStart_StateHandler">
+<area shape="rect" id="Node000001" title="check run bit during soft start" alt="" coords="5,31,160,56"/>
+<area shape="rect" id="Node000002" href="$a00365.html#a315b78111431dff7a91b13e42f9133b1" title="stop and reset power controller" alt="" coords="208,31,396,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,41,194,41,194,46,160,46"/>
+<area shape="rect" id="Node000003" href="$a00407.html#ga531b59d8823e3ebda2da60f48582bcf3" title="This inline function enables PWM override on PWMH output for specific PWM generator selected by the a..." alt="" coords="444,5,619,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="396,30,430,26,431,32,396,36"/>
+<area shape="rect" id="Node000004" href="$a00407.html#ga2548ca8feda75ba6ab784280679da6ae" title="This inline function enables PWM override on PWML output for specific PWM generator selected by the a..." alt="" coords="445,55,617,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="396,51,432,54,432,60,396,56"/>
+</map>

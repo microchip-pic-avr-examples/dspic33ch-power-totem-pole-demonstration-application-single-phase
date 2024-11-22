@@ -1,0 +1,1832 @@
+<!-- HTML header for doxygen 1.8.20-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>3.8/7.6 kw Totem pole Demonstration Application: MSI-Secondary Driver</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="mchp.css" rel="stylesheet" type="text/css"/>
+<link href="mchp_theme.css" rel="stylesheet" type="text/css"/>
+<link href="search.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0" style="border:0px; border-spacing: 0px; border-collapse: collapse; vertical-align: middle; width: 100%;">
+    <tbody>
+        <tr style="border: none; background-color: #00000000;">
+            <!--SITE HEADER-->
+            <td style="width: 120px; border: none;">
+                <img alt="Bar" height="60px" src="images/mchp-brandingelement-rgb2.png"/>
+            </td>
+            <td style="width: 220px; border: none;">
+                <img alt="Logo" height=50px src="images/microchip.png"/>
+            </td>
+            <td colspan="4" style="font-size: 16pt; font-weight: bolder;">
+                3.8/7.6 kw Totem pole Demonstration Application (Part-No. (not specified)) 
+            </td>
+            <td style="text-align: right; vertical-align: middle;">
+                        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+            </td>
+            <!--END SITE HEADER-->
+        </tr>
+        <tr style="height:36px; border:none; background-color: #000000b0;">
+            <td style="width: 70px; color: white; font-size:14px; font-weight: bolder; margin-left: 30px;">
+                <div style="margin-left: 30px;">Content</div>
+            </td>
+            <td style="width: 10px; color: white; font-size:14px; font-weight: bolder;">
+                &nbsp;
+            </td>
+            <td style="width: 100px; color: white; font-size:14px; font-weight: bolder;">
+                <!-- Overview -->
+            </td>
+            <td style="width: 130px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Documentation -->
+            </td>
+            <td style="width: 170px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Additional Resources -->
+            </td>
+            <td style="width: auto; color: white; font-size:14px; font-weight: bolder;"> 
+              &nbsp;
+            </td>
+            <td style="width: 310px; margin-right: 30px; color: white; font-size:10px; font-weight: lighter; text-align: right;">
+                &nbsp;
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('a00421.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#files">Files</a> &#124;
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">MSI-Secondary Driver<div class="ingroups"><a class="el" href="a00401.html">MPLABX MCC Melody Code Generator</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>This is the generated driver interface file for SEC_CORE driver.  
+<a href="#details">More...</a></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for MSI-Secondary Driver:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00421.svg" width="359" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="files" name="files"></a>
+Files</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00122.html">sec_core1.h</a></td></tr>
+<tr class="memdesc:a00122"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the generated driver header file for the SEC_CORE1 driver. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00128.html">sec_core_types.h</a></td></tr>
+<tr class="memdesc:a00128"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the generated driver types header file for the SEC_CORE driver. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00131.html">sec_core1.c</a></td></tr>
+<tr class="memdesc:a00131"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the generated driver source file for SEC_CORE1 driver. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00475.html">SEC_CORE_INTERFACE</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure containing the function pointers of SEC_CORE driver.  <a href="a00475.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ga03f17a9a960eda5c9283da3b8fe042ea" id="r_ga03f17a9a960eda5c9283da3b8fe042ea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga03f17a9a960eda5c9283da3b8fe042ea">MSIInterface_Initialize</a>&#160;&#160;&#160;<a class="el" href="#ga7ef278f3af3ccf73befec438057e65f0">SEC_CORE1_Initialize</a></td></tr>
+<tr class="memdesc:ga03f17a9a960eda5c9283da3b8fe042ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#ga7ef278f3af3ccf73befec438057e65f0">SEC_CORE1_Initialize</a> API.  <br /></td></tr>
+<tr class="separator:ga03f17a9a960eda5c9283da3b8fe042ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga543831951e4820d909d035b2bcb45224" id="r_ga543831951e4820d909d035b2bcb45224"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga543831951e4820d909d035b2bcb45224">MSIInterface_Deinitialize</a>&#160;&#160;&#160;<a class="el" href="#gae97e27017fdd6b2b9f8a8add4349f72b">SEC_CORE1_Deinitialize</a></td></tr>
+<tr class="memdesc:ga543831951e4820d909d035b2bcb45224"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#gae97e27017fdd6b2b9f8a8add4349f72b">SEC_CORE1_Deinitialize</a> API.  <br /></td></tr>
+<tr class="separator:ga543831951e4820d909d035b2bcb45224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7af2450be8a84cea80dc7734342ab1a4" id="r_ga7af2450be8a84cea80dc7734342ab1a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7af2450be8a84cea80dc7734342ab1a4">MSIInterface_Program</a>&#160;&#160;&#160;<a class="el" href="#ga565251642d564723a0e92be765002502">SEC_CORE1_Program</a></td></tr>
+<tr class="memdesc:ga7af2450be8a84cea80dc7734342ab1a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#ga565251642d564723a0e92be765002502">SEC_CORE1_Program</a> API.  <br /></td></tr>
+<tr class="separator:ga7af2450be8a84cea80dc7734342ab1a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61dbd16eccd01e8f8fb4a201f6864e07" id="r_ga61dbd16eccd01e8f8fb4a201f6864e07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga61dbd16eccd01e8f8fb4a201f6864e07">MSIInterface_Strat</a>&#160;&#160;&#160;SEC_CORE1_Strat</td></tr>
+<tr class="memdesc:ga61dbd16eccd01e8f8fb4a201f6864e07"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for SEC_CORE1_Strat API.  <br /></td></tr>
+<tr class="separator:ga61dbd16eccd01e8f8fb4a201f6864e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga634824536a7eb6e1bd702307dcc74dd7" id="r_ga634824536a7eb6e1bd702307dcc74dd7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga634824536a7eb6e1bd702307dcc74dd7">MSIInterface_InterruptRequestGenerate</a>&#160;&#160;&#160;<a class="el" href="#ga06161ba5286d03944c209968f9b4bcff">SEC_CORE1_InterruptRequestGenerate</a></td></tr>
+<tr class="memdesc:ga634824536a7eb6e1bd702307dcc74dd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#ga06161ba5286d03944c209968f9b4bcff">SEC_CORE1_InterruptRequestGenerate</a> API.  <br /></td></tr>
+<tr class="separator:ga634824536a7eb6e1bd702307dcc74dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4e402abc45a973eebd634c703e04932" id="r_gab4e402abc45a973eebd634c703e04932"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab4e402abc45a973eebd634c703e04932">MSIInterface_IsInterruptRequestAcknowledged</a>&#160;&#160;&#160;<a class="el" href="#gab4265632e9db65663ceae09b5e3b1912">SEC_CORE1_IsInterruptRequestAcknowledged</a></td></tr>
+<tr class="memdesc:gab4e402abc45a973eebd634c703e04932"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#gab4265632e9db65663ceae09b5e3b1912">SEC_CORE1_IsInterruptRequestAcknowledged</a> API.  <br /></td></tr>
+<tr class="separator:gab4e402abc45a973eebd634c703e04932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4ee5a717cf1b8362533b378b4db0c462" id="r_ga4ee5a717cf1b8362533b378b4db0c462"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4ee5a717cf1b8362533b378b4db0c462">MSIInterface_InterruptRequestComplete</a>&#160;&#160;&#160;<a class="el" href="#ga6abd1d38120109a6bbe1f32f7b8a0a03">SEC_CORE1_InterruptRequestComplete</a></td></tr>
+<tr class="memdesc:ga4ee5a717cf1b8362533b378b4db0c462"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#ga6abd1d38120109a6bbe1f32f7b8a0a03">SEC_CORE1_InterruptRequestComplete</a> API.  <br /></td></tr>
+<tr class="separator:ga4ee5a717cf1b8362533b378b4db0c462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga253602e2361643d04812ee63bb5082ca" id="r_ga253602e2361643d04812ee63bb5082ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga253602e2361643d04812ee63bb5082ca">MSIInterface_IsInterruptRequested</a>&#160;&#160;&#160;<a class="el" href="#ga81fad43f379084ee9da62de482d061e2">SEC_CORE1_IsInterruptRequested</a></td></tr>
+<tr class="memdesc:ga253602e2361643d04812ee63bb5082ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#ga81fad43f379084ee9da62de482d061e2">SEC_CORE1_IsInterruptRequested</a> API.  <br /></td></tr>
+<tr class="separator:ga253602e2361643d04812ee63bb5082ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf0ef4090b51468c0dc3d4b136aff87c3" id="r_gaf0ef4090b51468c0dc3d4b136aff87c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0ef4090b51468c0dc3d4b136aff87c3">MSIInterface_InterruptRequestAcknowledge</a>&#160;&#160;&#160;<a class="el" href="#ga3201c344020d43a9f264c7c1fef45cd6">SEC_CORE1_InterruptRequestAcknowledge</a></td></tr>
+<tr class="memdesc:gaf0ef4090b51468c0dc3d4b136aff87c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#ga3201c344020d43a9f264c7c1fef45cd6">SEC_CORE1_InterruptRequestAcknowledge</a> API.  <br /></td></tr>
+<tr class="separator:gaf0ef4090b51468c0dc3d4b136aff87c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac9dab335acfaa0d40829071ba12613e7" id="r_gac9dab335acfaa0d40829071ba12613e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac9dab335acfaa0d40829071ba12613e7">MSIInterface_InterruptRequestAcknowledgeComplete</a>&#160;&#160;&#160;<a class="el" href="#gac02e22a89e54047bfc275a848acee2c6">SEC_CORE1_InterruptRequestAcknowledgeComplete</a></td></tr>
+<tr class="memdesc:gac9dab335acfaa0d40829071ba12613e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#gac02e22a89e54047bfc275a848acee2c6">SEC_CORE1_InterruptRequestAcknowledgeComplete</a> API.  <br /></td></tr>
+<tr class="separator:gac9dab335acfaa0d40829071ba12613e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8ced8a959e4e5f18fd59f777dd813e4b" id="r_ga8ced8a959e4e5f18fd59f777dd813e4b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8ced8a959e4e5f18fd59f777dd813e4b">MSIInterface_GetResetCause</a>&#160;&#160;&#160;<a class="el" href="#ga3a8176683427d23fbceda1e2220ba9dd">SEC_CORE1_GetResetCause</a></td></tr>
+<tr class="memdesc:ga8ced8a959e4e5f18fd59f777dd813e4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#ga3a8176683427d23fbceda1e2220ba9dd">SEC_CORE1_GetResetCause</a> API.  <br /></td></tr>
+<tr class="separator:ga8ced8a959e4e5f18fd59f777dd813e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba8b1a08a5505c783b5cc7ae3e6807e8" id="r_gaba8b1a08a5505c783b5cc7ae3e6807e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaba8b1a08a5505c783b5cc7ae3e6807e8">MSIInterface_ResetCauseClear</a>&#160;&#160;&#160;<a class="el" href="#gae08e4e8143dccc08edfa2f258d862de4">SEC_CORE1_ResetCauseClear</a></td></tr>
+<tr class="memdesc:gaba8b1a08a5505c783b5cc7ae3e6807e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#gae08e4e8143dccc08edfa2f258d862de4">SEC_CORE1_ResetCauseClear</a> API.  <br /></td></tr>
+<tr class="separator:gaba8b1a08a5505c783b5cc7ae3e6807e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga080d469404a071df654175c1f12137e5" id="r_ga080d469404a071df654175c1f12137e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga080d469404a071df654175c1f12137e5">MSIInterface_SystemStatusGet</a>&#160;&#160;&#160;<a class="el" href="#ga98329b28713d631cf19b27284b591c5a">SEC_CORE1_SystemStatusGet</a></td></tr>
+<tr class="memdesc:ga080d469404a071df654175c1f12137e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#ga98329b28713d631cf19b27284b591c5a">SEC_CORE1_SystemStatusGet</a> API.  <br /></td></tr>
+<tr class="separator:ga080d469404a071df654175c1f12137e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4779fa4438214c202732dcc54caf1e7c" id="r_ga4779fa4438214c202732dcc54caf1e7c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4779fa4438214c202732dcc54caf1e7c">MSIInterface_WriteFIFOEnable</a>&#160;&#160;&#160;<a class="el" href="#gad5da3a551ebdb1cbaa377d0ddf83ded1">SEC_CORE1_WriteFIFOEnable</a></td></tr>
+<tr class="memdesc:ga4779fa4438214c202732dcc54caf1e7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#gad5da3a551ebdb1cbaa377d0ddf83ded1">SEC_CORE1_WriteFIFOEnable</a> API.  <br /></td></tr>
+<tr class="separator:ga4779fa4438214c202732dcc54caf1e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa6e08e9208f9ce70d66d26b9bddc8b74" id="r_gaa6e08e9208f9ce70d66d26b9bddc8b74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa6e08e9208f9ce70d66d26b9bddc8b74">MSIInterface_WriteFIFODisable</a>&#160;&#160;&#160;<a class="el" href="#ga4592673a7d5464967847be6323126cc9">SEC_CORE1_WriteFIFODisable</a></td></tr>
+<tr class="memdesc:gaa6e08e9208f9ce70d66d26b9bddc8b74"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#ga4592673a7d5464967847be6323126cc9">SEC_CORE1_WriteFIFODisable</a> API.  <br /></td></tr>
+<tr class="separator:gaa6e08e9208f9ce70d66d26b9bddc8b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga83e8a63f2edeb892534700fdc645d581" id="r_ga83e8a63f2edeb892534700fdc645d581"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga83e8a63f2edeb892534700fdc645d581">MSIInterface_ReadFIFOEnable</a>&#160;&#160;&#160;<a class="el" href="#gafe4dd6a1b20caa4b04429411cab70ea6">SEC_CORE1_ReadFIFOEnable</a></td></tr>
+<tr class="memdesc:ga83e8a63f2edeb892534700fdc645d581"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#gafe4dd6a1b20caa4b04429411cab70ea6">SEC_CORE1_ReadFIFOEnable</a> API.  <br /></td></tr>
+<tr class="separator:ga83e8a63f2edeb892534700fdc645d581"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf44468a4b8cb2438e6db18c230a07618" id="r_gaf44468a4b8cb2438e6db18c230a07618"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf44468a4b8cb2438e6db18c230a07618">MSIInterface_ReadFIFODisable</a>&#160;&#160;&#160;<a class="el" href="#gafbb2914aacb1ab62b715c8240d211bf8">SEC_CORE1_ReadFIFODisable</a></td></tr>
+<tr class="memdesc:gaf44468a4b8cb2438e6db18c230a07618"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#gafbb2914aacb1ab62b715c8240d211bf8">SEC_CORE1_ReadFIFODisable</a> API.  <br /></td></tr>
+<tr class="separator:gaf44468a4b8cb2438e6db18c230a07618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6cea1f5ba8b861f169ce460fcd6e429c" id="r_ga6cea1f5ba8b861f169ce460fcd6e429c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6cea1f5ba8b861f169ce460fcd6e429c">MSIInterface_FIFORead</a>&#160;&#160;&#160;<a class="el" href="#ga532c0206e5465cbb656f9fccf69a35e6">SEC_CORE1_FIFORead</a></td></tr>
+<tr class="memdesc:ga6cea1f5ba8b861f169ce460fcd6e429c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#ga532c0206e5465cbb656f9fccf69a35e6">SEC_CORE1_FIFORead</a> API.  <br /></td></tr>
+<tr class="separator:ga6cea1f5ba8b861f169ce460fcd6e429c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga938b20165188a47143d4b5d628f8ae4c" id="r_ga938b20165188a47143d4b5d628f8ae4c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga938b20165188a47143d4b5d628f8ae4c">MSIInterface_FIFOWrite</a>&#160;&#160;&#160;<a class="el" href="#ga3355ef1d7b372e1d3c8c3e4c0fbb87da">SEC_CORE1_FIFOWrite</a></td></tr>
+<tr class="memdesc:ga938b20165188a47143d4b5d628f8ae4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#ga3355ef1d7b372e1d3c8c3e4c0fbb87da">SEC_CORE1_FIFOWrite</a> API.  <br /></td></tr>
+<tr class="separator:ga938b20165188a47143d4b5d628f8ae4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa86f42e28bc7916ccb04bf22178a29d5" id="r_gaa86f42e28bc7916ccb04bf22178a29d5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa86f42e28bc7916ccb04bf22178a29d5">MSIInterface_FIFOReadIsFull</a>&#160;&#160;&#160;<a class="el" href="#gaf69c0c8c755b8353d679ee14793b4b79">SEC_CORE1_FIFOReadIsFull</a></td></tr>
+<tr class="memdesc:gaa86f42e28bc7916ccb04bf22178a29d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#gaf69c0c8c755b8353d679ee14793b4b79">SEC_CORE1_FIFOReadIsFull</a> API.  <br /></td></tr>
+<tr class="separator:gaa86f42e28bc7916ccb04bf22178a29d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaee4d49b22ad047fe7a8845b40528ced7" id="r_gaee4d49b22ad047fe7a8845b40528ced7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaee4d49b22ad047fe7a8845b40528ced7">MSIInterface_FIFOReadIsEmpty</a>&#160;&#160;&#160;<a class="el" href="#gab5cec597f7fdc18c481d1d3d1d9c7fab">SEC_CORE1_FIFOReadIsEmpty</a></td></tr>
+<tr class="memdesc:gaee4d49b22ad047fe7a8845b40528ced7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#gab5cec597f7fdc18c481d1d3d1d9c7fab">SEC_CORE1_FIFOReadIsEmpty</a> API.  <br /></td></tr>
+<tr class="separator:gaee4d49b22ad047fe7a8845b40528ced7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeae1328e60c06cb5ce5349b95fc9c6bf" id="r_gaeae1328e60c06cb5ce5349b95fc9c6bf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeae1328e60c06cb5ce5349b95fc9c6bf">MSIInterface_FIFOWriteIsFull</a>&#160;&#160;&#160;<a class="el" href="#gae2a8e983197032ff0a21c300f6e047df">SEC_CORE1_FIFOWriteIsFull</a></td></tr>
+<tr class="memdesc:gaeae1328e60c06cb5ce5349b95fc9c6bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#gae2a8e983197032ff0a21c300f6e047df">SEC_CORE1_FIFOWriteIsFull</a> API.  <br /></td></tr>
+<tr class="separator:gaeae1328e60c06cb5ce5349b95fc9c6bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf195c3fcb9c6c92699efd02b8dad27d6" id="r_gaf195c3fcb9c6c92699efd02b8dad27d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf195c3fcb9c6c92699efd02b8dad27d6">MSIInterface_FIFOWriteIsEmpty</a>&#160;&#160;&#160;<a class="el" href="#ga85fa9c42aadf069e6fbe83665f5a3e34">SEC_CORE1_FIFOWriteIsEmpty</a></td></tr>
+<tr class="memdesc:gaf195c3fcb9c6c92699efd02b8dad27d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#ga85fa9c42aadf069e6fbe83665f5a3e34">SEC_CORE1_FIFOWriteIsEmpty</a> API.  <br /></td></tr>
+<tr class="separator:gaf195c3fcb9c6c92699efd02b8dad27d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga50391a2273a542846bb04c3f06d98ea6" id="r_ga50391a2273a542846bb04c3f06d98ea6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga50391a2273a542846bb04c3f06d98ea6">MSIInterface_ProtocolWrite</a>&#160;&#160;&#160;<a class="el" href="#gab313dfcda98b03477bba5f3812dbb3cc">SEC_CORE1_ProtocolWrite</a></td></tr>
+<tr class="memdesc:ga50391a2273a542846bb04c3f06d98ea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#gab313dfcda98b03477bba5f3812dbb3cc">SEC_CORE1_ProtocolWrite</a> API.  <br /></td></tr>
+<tr class="separator:ga50391a2273a542846bb04c3f06d98ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gada337f80e6488887bc5af35d45ecc578" id="r_gada337f80e6488887bc5af35d45ecc578"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gada337f80e6488887bc5af35d45ecc578">MSIInterface_ProtocolRead</a>&#160;&#160;&#160;<a class="el" href="#gabd8ffb1d5a7fcbc0ae22b718225581de">SEC_CORE1_ProtocolRead</a></td></tr>
+<tr class="memdesc:gada337f80e6488887bc5af35d45ecc578"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#gabd8ffb1d5a7fcbc0ae22b718225581de">SEC_CORE1_ProtocolRead</a> API.  <br /></td></tr>
+<tr class="separator:gada337f80e6488887bc5af35d45ecc578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa888f2eb3c0051819c84ff4c2547ca95" id="r_gaa888f2eb3c0051819c84ff4c2547ca95"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa888f2eb3c0051819c84ff4c2547ca95">MSIInterface_ProtocolIsFull</a>&#160;&#160;&#160;<a class="el" href="#gadbb9d93585c54018fc8532c5860a3d67">SEC_CORE1_ProtocolIsFull</a></td></tr>
+<tr class="memdesc:gaa888f2eb3c0051819c84ff4c2547ca95"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#gadbb9d93585c54018fc8532c5860a3d67">SEC_CORE1_ProtocolIsFull</a> API.  <br /></td></tr>
+<tr class="separator:gaa888f2eb3c0051819c84ff4c2547ca95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad577555408a92d5bf143567b805c3b0a" id="r_gad577555408a92d5bf143567b805c3b0a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad577555408a92d5bf143567b805c3b0a">MSIInterface_ProtocolIsEmpty</a>&#160;&#160;&#160;<a class="el" href="#ga7048b9c95d3c78e856b4af93f8bac646">SEC_CORE1_ProtocolIsEmpty</a></td></tr>
+<tr class="memdesc:gad577555408a92d5bf143567b805c3b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the Custom Name for <a class="el" href="#ga7048b9c95d3c78e856b4af93f8bac646">SEC_CORE1_ProtocolIsEmpty</a> API.  <br /></td></tr>
+<tr class="separator:gad577555408a92d5bf143567b805c3b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:gac884e0c06139d221f7e58be999fe5451" id="r_gac884e0c06139d221f7e58be999fe5451"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac884e0c06139d221f7e58be999fe5451">SEC_CORE_SYSTEM_STATUS</a> { <a class="el" href="#gac884e0c06139d221f7e58be999fe5451af5ea57aacbd81fd627c5e2391fa9e1f9">SEC_CORE_SYSTEM_STATUS_NOT_IN_LOW_POWER_MODE</a> = 0
+, <a class="el" href="#gac884e0c06139d221f7e58be999fe5451ad91a7c30c8dff2556578d802da7ea82a">SEC_CORE_SYSTEM_STATUS_SLEEP_MODE</a> = 1
+, <a class="el" href="#gac884e0c06139d221f7e58be999fe5451a3811570b81bbddbc153ab3f9db646149">SEC_CORE_SYSTEM_STATUS_IDLE_MODE</a> = 2
+, <a class="el" href="#gac884e0c06139d221f7e58be999fe5451ac77dbaabe1e6bda4cd35bb6d3af1d96f">SEC_CORE_SYSTEM_STATUS_RUNNING_STATE</a> = 3
+, <a class="el" href="#gac884e0c06139d221f7e58be999fe5451a2f4c002c1035681041f3d29f69876113">SEC_CORE_SYSTEM_STATUS_IN_RESET_STATE</a> = 4
+ }</td></tr>
+<tr class="memdesc:gac884e0c06139d221f7e58be999fe5451"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the status enumeration for sec_core.  <a href="#gac884e0c06139d221f7e58be999fe5451">More...</a><br /></td></tr>
+<tr class="separator:gac884e0c06139d221f7e58be999fe5451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga408eadd228af512780d67fd4d83ef396" id="r_ga408eadd228af512780d67fd4d83ef396"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga408eadd228af512780d67fd4d83ef396">SEC_CORE_RESET_CAUSE</a> { <a class="el" href="#ga408eadd228af512780d67fd4d83ef396abc5810cb0127720ffdc40034249ef892">SEC_CORE_RESET_CAUSE_WATCHDOG</a> = 0
+, <a class="el" href="#ga408eadd228af512780d67fd4d83ef396af02de3ff9f0785fe37bc3fe34bca6ca3">SEC_CORE_RESET_CAUSE_UNSPECIFIED</a> = 1
+ }</td></tr>
+<tr class="memdesc:ga408eadd228af512780d67fd4d83ef396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the sec_core reset cause enumeration.  <a href="#ga408eadd228af512780d67fd4d83ef396">More...</a><br /></td></tr>
+<tr class="separator:ga408eadd228af512780d67fd4d83ef396"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gada65a5b8ea36ba413b492f193eb1945b" id="r_gada65a5b8ea36ba413b492f193eb1945b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gada65a5b8ea36ba413b492f193eb1945b">SEC_CORE_PROTOCOLS</a> { <a class="el" href="#gada65a5b8ea36ba413b492f193eb1945ba725845072767bd7dff12256255d591f5">MSI1_ProtocolA</a>
+, <a class="el" href="#gada65a5b8ea36ba413b492f193eb1945bac4b2a85e017d8c36d1477969eec144c5">MSI1_ProtocolB</a>
+ }</td></tr>
+<tr class="memdesc:gada65a5b8ea36ba413b492f193eb1945b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the list of Protocols configured for SEC_CORE_driver.  <a href="#gada65a5b8ea36ba413b492f193eb1945b">More...</a><br /></td></tr>
+<tr class="separator:gada65a5b8ea36ba413b492f193eb1945b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5f77e5ee6340e3ecc33e938c2599e767" id="r_ga5f77e5ee6340e3ecc33e938c2599e767"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f77e5ee6340e3ecc33e938c2599e767">SEC_CORE_PROTOCOL_SIZE</a> { <a class="el" href="#ga5f77e5ee6340e3ecc33e938c2599e767ac359a545b14434ffea99c7d421a649e4">MSI1_ProtocolA_SIZE</a> = 5
+, <a class="el" href="#ga5f77e5ee6340e3ecc33e938c2599e767af8b5fd56e6ea89f5e7b5e014fc18f107">MSI1_ProtocolB_SIZE</a> = 10
+ }</td></tr>
+<tr class="memdesc:ga5f77e5ee6340e3ecc33e938c2599e767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the size for Protocols.  <a href="#ga5f77e5ee6340e3ecc33e938c2599e767">More...</a><br /></td></tr>
+<tr class="separator:ga5f77e5ee6340e3ecc33e938c2599e767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga7ef278f3af3ccf73befec438057e65f0" id="r_ga7ef278f3af3ccf73befec438057e65f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7ef278f3af3ccf73befec438057e65f0">SEC_CORE1_Initialize</a> (void)</td></tr>
+<tr class="memdesc:ga7ef278f3af3ccf73befec438057e65f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine initializes the MSI driver. This routine must be called before any other MSI routine is called. This routine should only be called once during system initialization.  <br /></td></tr>
+<tr class="separator:ga7ef278f3af3ccf73befec438057e65f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae97e27017fdd6b2b9f8a8add4349f72b" id="r_gae97e27017fdd6b2b9f8a8add4349f72b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae97e27017fdd6b2b9f8a8add4349f72b">SEC_CORE1_Deinitialize</a> (void)</td></tr>
+<tr class="memdesc:gae97e27017fdd6b2b9f8a8add4349f72b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitializes SEC_CORE1 to POR values.  <br /></td></tr>
+<tr class="separator:gae97e27017fdd6b2b9f8a8add4349f72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga76e01a18ba3f683afc15f5ae2e624bff" id="r_ga76e01a18ba3f683afc15f5ae2e624bff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga76e01a18ba3f683afc15f5ae2e624bff">SEC_CORE1_Start</a> (void)</td></tr>
+<tr class="memdesc:ga76e01a18ba3f683afc15f5ae2e624bff"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine enables secondary core.  <br /></td></tr>
+<tr class="separator:ga76e01a18ba3f683afc15f5ae2e624bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga565251642d564723a0e92be765002502" id="r_ga565251642d564723a0e92be765002502"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga565251642d564723a0e92be765002502">SEC_CORE1_Program</a> (void)</td></tr>
+<tr class="memdesc:ga565251642d564723a0e92be765002502"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine programs secondary.  <br /></td></tr>
+<tr class="separator:ga565251642d564723a0e92be765002502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga06161ba5286d03944c209968f9b4bcff" id="r_ga06161ba5286d03944c209968f9b4bcff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga06161ba5286d03944c209968f9b4bcff">SEC_CORE1_InterruptRequestGenerate</a> (void)</td></tr>
+<tr class="memdesc:ga06161ba5286d03944c209968f9b4bcff"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine generates interrupt to SEC_CORE1.  <br /></td></tr>
+<tr class="separator:ga06161ba5286d03944c209968f9b4bcff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4265632e9db65663ceae09b5e3b1912" id="r_gab4265632e9db65663ceae09b5e3b1912"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab4265632e9db65663ceae09b5e3b1912">SEC_CORE1_IsInterruptRequestAcknowledged</a> (void)</td></tr>
+<tr class="memdesc:gab4265632e9db65663ceae09b5e3b1912"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine returns the status of interrupt request acknowledge from the SEC_CORE1.  <br /></td></tr>
+<tr class="separator:gab4265632e9db65663ceae09b5e3b1912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6abd1d38120109a6bbe1f32f7b8a0a03" id="r_ga6abd1d38120109a6bbe1f32f7b8a0a03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6abd1d38120109a6bbe1f32f7b8a0a03">SEC_CORE1_InterruptRequestComplete</a> (void)</td></tr>
+<tr class="memdesc:ga6abd1d38120109a6bbe1f32f7b8a0a03"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine clears interrupt to SEC_CORE1.  <br /></td></tr>
+<tr class="separator:ga6abd1d38120109a6bbe1f32f7b8a0a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga81fad43f379084ee9da62de482d061e2" id="r_ga81fad43f379084ee9da62de482d061e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga81fad43f379084ee9da62de482d061e2">SEC_CORE1_IsInterruptRequested</a> (void)</td></tr>
+<tr class="memdesc:ga81fad43f379084ee9da62de482d061e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine returns the status of interrupt request from the SEC_CORE1.  <br /></td></tr>
+<tr class="separator:ga81fad43f379084ee9da62de482d061e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3201c344020d43a9f264c7c1fef45cd6" id="r_ga3201c344020d43a9f264c7c1fef45cd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3201c344020d43a9f264c7c1fef45cd6">SEC_CORE1_InterruptRequestAcknowledge</a> (void)</td></tr>
+<tr class="memdesc:ga3201c344020d43a9f264c7c1fef45cd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine acknowledges interrupt received from SEC_CORE1.  <br /></td></tr>
+<tr class="separator:ga3201c344020d43a9f264c7c1fef45cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac02e22a89e54047bfc275a848acee2c6" id="r_gac02e22a89e54047bfc275a848acee2c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac02e22a89e54047bfc275a848acee2c6">SEC_CORE1_InterruptRequestAcknowledgeComplete</a> (void)</td></tr>
+<tr class="memdesc:gac02e22a89e54047bfc275a848acee2c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine clears acknowledge for interrupt received from SEC_CORE1.  <br /></td></tr>
+<tr class="separator:gac02e22a89e54047bfc275a848acee2c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a8176683427d23fbceda1e2220ba9dd" id="r_ga3a8176683427d23fbceda1e2220ba9dd"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#ga408eadd228af512780d67fd4d83ef396">SEC_CORE_RESET_CAUSE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3a8176683427d23fbceda1e2220ba9dd">SEC_CORE1_GetResetCause</a> (void)</td></tr>
+<tr class="memdesc:ga3a8176683427d23fbceda1e2220ba9dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine returns the cause for SEC_CORE1 reset.  <br /></td></tr>
+<tr class="separator:ga3a8176683427d23fbceda1e2220ba9dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae08e4e8143dccc08edfa2f258d862de4" id="r_gae08e4e8143dccc08edfa2f258d862de4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae08e4e8143dccc08edfa2f258d862de4">SEC_CORE1_ResetCauseClear</a> (enum <a class="el" href="#ga408eadd228af512780d67fd4d83ef396">SEC_CORE_RESET_CAUSE</a> resetCause)</td></tr>
+<tr class="memdesc:gae08e4e8143dccc08edfa2f258d862de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine clears the cause for SEC_CORE1 reset.  <br /></td></tr>
+<tr class="separator:gae08e4e8143dccc08edfa2f258d862de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga98329b28713d631cf19b27284b591c5a" id="r_ga98329b28713d631cf19b27284b591c5a"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#gac884e0c06139d221f7e58be999fe5451">SEC_CORE_SYSTEM_STATUS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga98329b28713d631cf19b27284b591c5a">SEC_CORE1_SystemStatusGet</a> (void)</td></tr>
+<tr class="memdesc:ga98329b28713d631cf19b27284b591c5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine returns Secondary system status.  <br /></td></tr>
+<tr class="separator:ga98329b28713d631cf19b27284b591c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga532c0206e5465cbb656f9fccf69a35e6" id="r_ga532c0206e5465cbb656f9fccf69a35e6"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga532c0206e5465cbb656f9fccf69a35e6">SEC_CORE1_FIFORead</a> (uint16_t *pData, uint16_t wordCount)</td></tr>
+<tr class="memdesc:ga532c0206e5465cbb656f9fccf69a35e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine reads FIFO data sent from the SEC_CORE1.  <br /></td></tr>
+<tr class="separator:ga532c0206e5465cbb656f9fccf69a35e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3355ef1d7b372e1d3c8c3e4c0fbb87da" id="r_ga3355ef1d7b372e1d3c8c3e4c0fbb87da"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3355ef1d7b372e1d3c8c3e4c0fbb87da">SEC_CORE1_FIFOWrite</a> (uint16_t *pData, uint16_t wordCount)</td></tr>
+<tr class="memdesc:ga3355ef1d7b372e1d3c8c3e4c0fbb87da"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine transfers FIFO data to SEC_CORE1.  <br /></td></tr>
+<tr class="separator:ga3355ef1d7b372e1d3c8c3e4c0fbb87da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad5da3a551ebdb1cbaa377d0ddf83ded1" id="r_gad5da3a551ebdb1cbaa377d0ddf83ded1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad5da3a551ebdb1cbaa377d0ddf83ded1">SEC_CORE1_WriteFIFOEnable</a> (void)</td></tr>
+<tr class="memdesc:gad5da3a551ebdb1cbaa377d0ddf83ded1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This inline function Enables the Write FIFO.  <br /></td></tr>
+<tr class="separator:gad5da3a551ebdb1cbaa377d0ddf83ded1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4592673a7d5464967847be6323126cc9" id="r_ga4592673a7d5464967847be6323126cc9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4592673a7d5464967847be6323126cc9">SEC_CORE1_WriteFIFODisable</a> (void)</td></tr>
+<tr class="memdesc:ga4592673a7d5464967847be6323126cc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This inline function Disables the Write FIFO.  <br /></td></tr>
+<tr class="separator:ga4592673a7d5464967847be6323126cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafe4dd6a1b20caa4b04429411cab70ea6" id="r_gafe4dd6a1b20caa4b04429411cab70ea6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafe4dd6a1b20caa4b04429411cab70ea6">SEC_CORE1_ReadFIFOEnable</a> (void)</td></tr>
+<tr class="memdesc:gafe4dd6a1b20caa4b04429411cab70ea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This inline function Enables the Read FIFO.  <br /></td></tr>
+<tr class="separator:gafe4dd6a1b20caa4b04429411cab70ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafbb2914aacb1ab62b715c8240d211bf8" id="r_gafbb2914aacb1ab62b715c8240d211bf8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafbb2914aacb1ab62b715c8240d211bf8">SEC_CORE1_ReadFIFODisable</a> (void)</td></tr>
+<tr class="memdesc:gafbb2914aacb1ab62b715c8240d211bf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This inline function Disables the Read FIFO.  <br /></td></tr>
+<tr class="separator:gafbb2914aacb1ab62b715c8240d211bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf69c0c8c755b8353d679ee14793b4b79" id="r_gaf69c0c8c755b8353d679ee14793b4b79"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf69c0c8c755b8353d679ee14793b4b79">SEC_CORE1_FIFOReadIsFull</a> (void)</td></tr>
+<tr class="memdesc:gaf69c0c8c755b8353d679ee14793b4b79"><td class="mdescLeft">&#160;</td><td class="mdescRight">This inline function checks whether the status of Read FIFO is full. last write by Secondary core to Read FIFO (RFDATA) was into the last free location.  <br /></td></tr>
+<tr class="separator:gaf69c0c8c755b8353d679ee14793b4b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab5cec597f7fdc18c481d1d3d1d9c7fab" id="r_gab5cec597f7fdc18c481d1d3d1d9c7fab"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab5cec597f7fdc18c481d1d3d1d9c7fab">SEC_CORE1_FIFOReadIsEmpty</a> (void)</td></tr>
+<tr class="memdesc:gab5cec597f7fdc18c481d1d3d1d9c7fab"><td class="mdescLeft">&#160;</td><td class="mdescRight">This inline function checks whether the status of Read FIFO is Empty. Returns true if last read by Main core from Read FIFO (RFDATA) emptied the FIFO of all valid data or FIFO is disabled (and initialized to the empty state)  <br /></td></tr>
+<tr class="separator:gab5cec597f7fdc18c481d1d3d1d9c7fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae2a8e983197032ff0a21c300f6e047df" id="r_gae2a8e983197032ff0a21c300f6e047df"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae2a8e983197032ff0a21c300f6e047df">SEC_CORE1_FIFOWriteIsFull</a> (void)</td></tr>
+<tr class="memdesc:gae2a8e983197032ff0a21c300f6e047df"><td class="mdescLeft">&#160;</td><td class="mdescRight">This inline function checks whether the status of Write FIFO is Full. Returns true if last write by Main core to Write FIFO (WFDATA) was into the last free location.  <br /></td></tr>
+<tr class="separator:gae2a8e983197032ff0a21c300f6e047df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga85fa9c42aadf069e6fbe83665f5a3e34" id="r_ga85fa9c42aadf069e6fbe83665f5a3e34"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga85fa9c42aadf069e6fbe83665f5a3e34">SEC_CORE1_FIFOWriteIsEmpty</a> (void)</td></tr>
+<tr class="memdesc:ga85fa9c42aadf069e6fbe83665f5a3e34"><td class="mdescLeft">&#160;</td><td class="mdescRight">This inline function checks whether the status of Write FIFO is Empty. Returns true if last write by Main core to Write FIFO (WFDATA) was into the last free location.  <br /></td></tr>
+<tr class="separator:ga85fa9c42aadf069e6fbe83665f5a3e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab313dfcda98b03477bba5f3812dbb3cc" id="r_gab313dfcda98b03477bba5f3812dbb3cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab313dfcda98b03477bba5f3812dbb3cc">SEC_CORE1_ProtocolWrite</a> (enum <a class="el" href="#gada65a5b8ea36ba413b492f193eb1945b">SEC_CORE_PROTOCOLS</a> protocolName, uint16_t *pData)</td></tr>
+<tr class="memdesc:gab313dfcda98b03477bba5f3812dbb3cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine writes data to mailbox.  <br /></td></tr>
+<tr class="separator:gab313dfcda98b03477bba5f3812dbb3cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd8ffb1d5a7fcbc0ae22b718225581de" id="r_gabd8ffb1d5a7fcbc0ae22b718225581de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabd8ffb1d5a7fcbc0ae22b718225581de">SEC_CORE1_ProtocolRead</a> (enum <a class="el" href="#gada65a5b8ea36ba413b492f193eb1945b">SEC_CORE_PROTOCOLS</a> protocolName, uint16_t *pData)</td></tr>
+<tr class="memdesc:gabd8ffb1d5a7fcbc0ae22b718225581de"><td class="mdescLeft">&#160;</td><td class="mdescRight">This routine reads data from mailbox.  <br /></td></tr>
+<tr class="separator:gabd8ffb1d5a7fcbc0ae22b718225581de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadbb9d93585c54018fc8532c5860a3d67" id="r_gadbb9d93585c54018fc8532c5860a3d67"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadbb9d93585c54018fc8532c5860a3d67">SEC_CORE1_ProtocolIsFull</a> (enum <a class="el" href="#gada65a5b8ea36ba413b492f193eb1945b">SEC_CORE_PROTOCOLS</a> protocolName)</td></tr>
+<tr class="memdesc:gadbb9d93585c54018fc8532c5860a3d67"><td class="mdescLeft">&#160;</td><td class="mdescRight">This inline function checks whether mailbox is full. Returns true if new data are ready to read. Returns false when no data are available to be read by secondary.  <br /></td></tr>
+<tr class="separator:gadbb9d93585c54018fc8532c5860a3d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7048b9c95d3c78e856b4af93f8bac646" id="r_ga7048b9c95d3c78e856b4af93f8bac646"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7048b9c95d3c78e856b4af93f8bac646">SEC_CORE1_ProtocolIsEmpty</a> (enum <a class="el" href="#gada65a5b8ea36ba413b492f193eb1945b">SEC_CORE_PROTOCOLS</a> protocolName)</td></tr>
+<tr class="memdesc:ga7048b9c95d3c78e856b4af93f8bac646"><td class="mdescLeft">&#160;</td><td class="mdescRight">This inline function checks whether mailbox is empty. Returns true if Protocol is empty indicating mailbox is ready to write by secondary. Returns false indicating write operation cannot be performed by secondary.  <br /></td></tr>
+<tr class="separator:ga7048b9c95d3c78e856b4af93f8bac646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ga791ba2105fe24c1336220d3677737da8" id="r_ga791ba2105fe24c1336220d3677737da8"><td class="memItemLeft" align="right" valign="top">const struct <a class="el" href="a00475.html">SEC_CORE_INTERFACE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga791ba2105fe24c1336220d3677737da8">MSIInterface</a></td></tr>
+<tr class="memdesc:ga791ba2105fe24c1336220d3677737da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure object of type <a class="el" href="a00475.html" title="Structure containing the function pointers of SEC_CORE driver.">SEC_CORE_INTERFACE</a> with the custom name given by the user in the Melody Driver User interface. The default name e.g. Secondary1 can be changed by the user in the SEC_CORE user interface. This allows defining a structure with application specific name using the 'Custom Name' field. Application specific name allows the API Portability.  <br /></td></tr>
+<tr class="separator:ga791ba2105fe24c1336220d3677737da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>/**</p>
+<div class="fragment"></div><!-- fragment --><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga543831951e4820d909d035b2bcb45224" name="ga543831951e4820d909d035b2bcb45224"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga543831951e4820d909d035b2bcb45224">&#9670;&#160;</a></span>MSIInterface_Deinitialize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_Deinitialize&#160;&#160;&#160;<a class="el" href="#gae97e27017fdd6b2b9f8a8add4349f72b">SEC_CORE1_Deinitialize</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00072">72</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="ga6cea1f5ba8b861f169ce460fcd6e429c" name="ga6cea1f5ba8b861f169ce460fcd6e429c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6cea1f5ba8b861f169ce460fcd6e429c">&#9670;&#160;</a></span>MSIInterface_FIFORead</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_FIFORead&#160;&#160;&#160;<a class="el" href="#ga532c0206e5465cbb656f9fccf69a35e6">SEC_CORE1_FIFORead</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00168">168</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gaee4d49b22ad047fe7a8845b40528ced7" name="gaee4d49b22ad047fe7a8845b40528ced7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaee4d49b22ad047fe7a8845b40528ced7">&#9670;&#160;</a></span>MSIInterface_FIFOReadIsEmpty</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_FIFOReadIsEmpty&#160;&#160;&#160;<a class="el" href="#gab5cec597f7fdc18c481d1d3d1d9c7fab">SEC_CORE1_FIFOReadIsEmpty</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00186">186</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gaa86f42e28bc7916ccb04bf22178a29d5" name="gaa86f42e28bc7916ccb04bf22178a29d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa86f42e28bc7916ccb04bf22178a29d5">&#9670;&#160;</a></span>MSIInterface_FIFOReadIsFull</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_FIFOReadIsFull&#160;&#160;&#160;<a class="el" href="#gaf69c0c8c755b8353d679ee14793b4b79">SEC_CORE1_FIFOReadIsFull</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00180">180</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="ga938b20165188a47143d4b5d628f8ae4c" name="ga938b20165188a47143d4b5d628f8ae4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga938b20165188a47143d4b5d628f8ae4c">&#9670;&#160;</a></span>MSIInterface_FIFOWrite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_FIFOWrite&#160;&#160;&#160;<a class="el" href="#ga3355ef1d7b372e1d3c8c3e4c0fbb87da">SEC_CORE1_FIFOWrite</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00174">174</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gaf195c3fcb9c6c92699efd02b8dad27d6" name="gaf195c3fcb9c6c92699efd02b8dad27d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf195c3fcb9c6c92699efd02b8dad27d6">&#9670;&#160;</a></span>MSIInterface_FIFOWriteIsEmpty</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_FIFOWriteIsEmpty&#160;&#160;&#160;<a class="el" href="#ga85fa9c42aadf069e6fbe83665f5a3e34">SEC_CORE1_FIFOWriteIsEmpty</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00198">198</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gaeae1328e60c06cb5ce5349b95fc9c6bf" name="gaeae1328e60c06cb5ce5349b95fc9c6bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeae1328e60c06cb5ce5349b95fc9c6bf">&#9670;&#160;</a></span>MSIInterface_FIFOWriteIsFull</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_FIFOWriteIsFull&#160;&#160;&#160;<a class="el" href="#gae2a8e983197032ff0a21c300f6e047df">SEC_CORE1_FIFOWriteIsFull</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00192">192</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="ga8ced8a959e4e5f18fd59f777dd813e4b" name="ga8ced8a959e4e5f18fd59f777dd813e4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ced8a959e4e5f18fd59f777dd813e4b">&#9670;&#160;</a></span>MSIInterface_GetResetCause</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_GetResetCause&#160;&#160;&#160;<a class="el" href="#ga3a8176683427d23fbceda1e2220ba9dd">SEC_CORE1_GetResetCause</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00126">126</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="ga03f17a9a960eda5c9283da3b8fe042ea" name="ga03f17a9a960eda5c9283da3b8fe042ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga03f17a9a960eda5c9283da3b8fe042ea">&#9670;&#160;</a></span>MSIInterface_Initialize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_Initialize&#160;&#160;&#160;<a class="el" href="#ga7ef278f3af3ccf73befec438057e65f0">SEC_CORE1_Initialize</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00066">66</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gaf0ef4090b51468c0dc3d4b136aff87c3" name="gaf0ef4090b51468c0dc3d4b136aff87c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf0ef4090b51468c0dc3d4b136aff87c3">&#9670;&#160;</a></span>MSIInterface_InterruptRequestAcknowledge</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_InterruptRequestAcknowledge&#160;&#160;&#160;<a class="el" href="#ga3201c344020d43a9f264c7c1fef45cd6">SEC_CORE1_InterruptRequestAcknowledge</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00114">114</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gac9dab335acfaa0d40829071ba12613e7" name="gac9dab335acfaa0d40829071ba12613e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac9dab335acfaa0d40829071ba12613e7">&#9670;&#160;</a></span>MSIInterface_InterruptRequestAcknowledgeComplete</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_InterruptRequestAcknowledgeComplete&#160;&#160;&#160;<a class="el" href="#gac02e22a89e54047bfc275a848acee2c6">SEC_CORE1_InterruptRequestAcknowledgeComplete</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00120">120</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="ga4ee5a717cf1b8362533b378b4db0c462" name="ga4ee5a717cf1b8362533b378b4db0c462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4ee5a717cf1b8362533b378b4db0c462">&#9670;&#160;</a></span>MSIInterface_InterruptRequestComplete</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_InterruptRequestComplete&#160;&#160;&#160;<a class="el" href="#ga6abd1d38120109a6bbe1f32f7b8a0a03">SEC_CORE1_InterruptRequestComplete</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00102">102</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="ga634824536a7eb6e1bd702307dcc74dd7" name="ga634824536a7eb6e1bd702307dcc74dd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga634824536a7eb6e1bd702307dcc74dd7">&#9670;&#160;</a></span>MSIInterface_InterruptRequestGenerate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_InterruptRequestGenerate&#160;&#160;&#160;<a class="el" href="#ga06161ba5286d03944c209968f9b4bcff">SEC_CORE1_InterruptRequestGenerate</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00090">90</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gab4e402abc45a973eebd634c703e04932" name="gab4e402abc45a973eebd634c703e04932"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab4e402abc45a973eebd634c703e04932">&#9670;&#160;</a></span>MSIInterface_IsInterruptRequestAcknowledged</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_IsInterruptRequestAcknowledged&#160;&#160;&#160;<a class="el" href="#gab4265632e9db65663ceae09b5e3b1912">SEC_CORE1_IsInterruptRequestAcknowledged</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00096">96</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="ga253602e2361643d04812ee63bb5082ca" name="ga253602e2361643d04812ee63bb5082ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga253602e2361643d04812ee63bb5082ca">&#9670;&#160;</a></span>MSIInterface_IsInterruptRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_IsInterruptRequested&#160;&#160;&#160;<a class="el" href="#ga81fad43f379084ee9da62de482d061e2">SEC_CORE1_IsInterruptRequested</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00108">108</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="ga7af2450be8a84cea80dc7734342ab1a4" name="ga7af2450be8a84cea80dc7734342ab1a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7af2450be8a84cea80dc7734342ab1a4">&#9670;&#160;</a></span>MSIInterface_Program</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_Program&#160;&#160;&#160;<a class="el" href="#ga565251642d564723a0e92be765002502">SEC_CORE1_Program</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00078">78</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gad577555408a92d5bf143567b805c3b0a" name="gad577555408a92d5bf143567b805c3b0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad577555408a92d5bf143567b805c3b0a">&#9670;&#160;</a></span>MSIInterface_ProtocolIsEmpty</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_ProtocolIsEmpty&#160;&#160;&#160;<a class="el" href="#ga7048b9c95d3c78e856b4af93f8bac646">SEC_CORE1_ProtocolIsEmpty</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00222">222</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gaa888f2eb3c0051819c84ff4c2547ca95" name="gaa888f2eb3c0051819c84ff4c2547ca95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa888f2eb3c0051819c84ff4c2547ca95">&#9670;&#160;</a></span>MSIInterface_ProtocolIsFull</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_ProtocolIsFull&#160;&#160;&#160;<a class="el" href="#gadbb9d93585c54018fc8532c5860a3d67">SEC_CORE1_ProtocolIsFull</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00216">216</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gada337f80e6488887bc5af35d45ecc578" name="gada337f80e6488887bc5af35d45ecc578"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gada337f80e6488887bc5af35d45ecc578">&#9670;&#160;</a></span>MSIInterface_ProtocolRead</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_ProtocolRead&#160;&#160;&#160;<a class="el" href="#gabd8ffb1d5a7fcbc0ae22b718225581de">SEC_CORE1_ProtocolRead</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00210">210</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="ga50391a2273a542846bb04c3f06d98ea6" name="ga50391a2273a542846bb04c3f06d98ea6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga50391a2273a542846bb04c3f06d98ea6">&#9670;&#160;</a></span>MSIInterface_ProtocolWrite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_ProtocolWrite&#160;&#160;&#160;<a class="el" href="#gab313dfcda98b03477bba5f3812dbb3cc">SEC_CORE1_ProtocolWrite</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00204">204</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gaf44468a4b8cb2438e6db18c230a07618" name="gaf44468a4b8cb2438e6db18c230a07618"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf44468a4b8cb2438e6db18c230a07618">&#9670;&#160;</a></span>MSIInterface_ReadFIFODisable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_ReadFIFODisable&#160;&#160;&#160;<a class="el" href="#gafbb2914aacb1ab62b715c8240d211bf8">SEC_CORE1_ReadFIFODisable</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00162">162</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="ga83e8a63f2edeb892534700fdc645d581" name="ga83e8a63f2edeb892534700fdc645d581"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga83e8a63f2edeb892534700fdc645d581">&#9670;&#160;</a></span>MSIInterface_ReadFIFOEnable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_ReadFIFOEnable&#160;&#160;&#160;<a class="el" href="#gafe4dd6a1b20caa4b04429411cab70ea6">SEC_CORE1_ReadFIFOEnable</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00156">156</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gaba8b1a08a5505c783b5cc7ae3e6807e8" name="gaba8b1a08a5505c783b5cc7ae3e6807e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaba8b1a08a5505c783b5cc7ae3e6807e8">&#9670;&#160;</a></span>MSIInterface_ResetCauseClear</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_ResetCauseClear&#160;&#160;&#160;<a class="el" href="#gae08e4e8143dccc08edfa2f258d862de4">SEC_CORE1_ResetCauseClear</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00132">132</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="ga61dbd16eccd01e8f8fb4a201f6864e07" name="ga61dbd16eccd01e8f8fb4a201f6864e07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga61dbd16eccd01e8f8fb4a201f6864e07">&#9670;&#160;</a></span>MSIInterface_Strat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_Strat&#160;&#160;&#160;SEC_CORE1_Strat</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00084">84</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="ga080d469404a071df654175c1f12137e5" name="ga080d469404a071df654175c1f12137e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga080d469404a071df654175c1f12137e5">&#9670;&#160;</a></span>MSIInterface_SystemStatusGet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_SystemStatusGet&#160;&#160;&#160;<a class="el" href="#ga98329b28713d631cf19b27284b591c5a">SEC_CORE1_SystemStatusGet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00138">138</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gaa6e08e9208f9ce70d66d26b9bddc8b74" name="gaa6e08e9208f9ce70d66d26b9bddc8b74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa6e08e9208f9ce70d66d26b9bddc8b74">&#9670;&#160;</a></span>MSIInterface_WriteFIFODisable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_WriteFIFODisable&#160;&#160;&#160;<a class="el" href="#ga4592673a7d5464967847be6323126cc9">SEC_CORE1_WriteFIFODisable</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00150">150</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="ga4779fa4438214c202732dcc54caf1e7c" name="ga4779fa4438214c202732dcc54caf1e7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4779fa4438214c202732dcc54caf1e7c">&#9670;&#160;</a></span>MSIInterface_WriteFIFOEnable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSIInterface_WriteFIFOEnable&#160;&#160;&#160;<a class="el" href="#gad5da3a551ebdb1cbaa377d0ddf83ded1">SEC_CORE1_WriteFIFOEnable</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00144">144</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ga5f77e5ee6340e3ecc33e938c2599e767" name="ga5f77e5ee6340e3ecc33e938c2599e767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5f77e5ee6340e3ecc33e938c2599e767">&#9670;&#160;</a></span>SEC_CORE_PROTOCOL_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ga5f77e5ee6340e3ecc33e938c2599e767">SEC_CORE_PROTOCOL_SIZE</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section note"><dt>Note</dt><dd>Size not required for the driver but will be required for application to create the buffers </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ga5f77e5ee6340e3ecc33e938c2599e767ac359a545b14434ffea99c7d421a649e4" name="ga5f77e5ee6340e3ecc33e938c2599e767ac359a545b14434ffea99c7d421a649e4"></a>MSI1_ProtocolA_SIZE&#160;</td><td class="fielddoc"><p>Size of ProtocolA in 16-bit word </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga5f77e5ee6340e3ecc33e938c2599e767af8b5fd56e6ea89f5e7b5e014fc18f107" name="ga5f77e5ee6340e3ecc33e938c2599e767af8b5fd56e6ea89f5e7b5e014fc18f107"></a>MSI1_ProtocolB_SIZE&#160;</td><td class="fielddoc"><p>Size of ProtocolB in 16-bit word </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="a00128_source.html#l00084">84</a> of file <a class="el" href="a00128_source.html">sec_core_types.h</a>.</p>
+
+</div>
+</div>
+<a id="gada65a5b8ea36ba413b492f193eb1945b" name="gada65a5b8ea36ba413b492f193eb1945b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gada65a5b8ea36ba413b492f193eb1945b">&#9670;&#160;</a></span>SEC_CORE_PROTOCOLS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#gada65a5b8ea36ba413b492f193eb1945b">SEC_CORE_PROTOCOLS</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section note"><dt>Note</dt><dd>These Protocols are required to create the buffer by the application </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gada65a5b8ea36ba413b492f193eb1945ba725845072767bd7dff12256255d591f5" name="gada65a5b8ea36ba413b492f193eb1945ba725845072767bd7dff12256255d591f5"></a>MSI1_ProtocolA&#160;</td><td class="fielddoc"><p>Custom-name of ProtocolA for write operation only </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gada65a5b8ea36ba413b492f193eb1945bac4b2a85e017d8c36d1477969eec144c5" name="gada65a5b8ea36ba413b492f193eb1945bac4b2a85e017d8c36d1477969eec144c5"></a>MSI1_ProtocolB&#160;</td><td class="fielddoc"><p>Custom-name of ProtocolB for write operation only </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="a00128_source.html#l00072">72</a> of file <a class="el" href="a00128_source.html">sec_core_types.h</a>.</p>
+
+</div>
+</div>
+<a id="ga408eadd228af512780d67fd4d83ef396" name="ga408eadd228af512780d67fd4d83ef396"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga408eadd228af512780d67fd4d83ef396">&#9670;&#160;</a></span>SEC_CORE_RESET_CAUSE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ga408eadd228af512780d67fd4d83ef396">SEC_CORE_RESET_CAUSE</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ga408eadd228af512780d67fd4d83ef396abc5810cb0127720ffdc40034249ef892" name="ga408eadd228af512780d67fd4d83ef396abc5810cb0127720ffdc40034249ef892"></a>SEC_CORE_RESET_CAUSE_WATCHDOG&#160;</td><td class="fielddoc"><p>sec_core reset caused from Watchdog Timer </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga408eadd228af512780d67fd4d83ef396af02de3ff9f0785fe37bc3fe34bca6ca3" name="ga408eadd228af512780d67fd4d83ef396af02de3ff9f0785fe37bc3fe34bca6ca3"></a>SEC_CORE_RESET_CAUSE_UNSPECIFIED&#160;</td><td class="fielddoc"><p>sec_core reset cause is unspecified </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="a00128_source.html#l00060">60</a> of file <a class="el" href="a00128_source.html">sec_core_types.h</a>.</p>
+
+</div>
+</div>
+<a id="gac884e0c06139d221f7e58be999fe5451" name="gac884e0c06139d221f7e58be999fe5451"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac884e0c06139d221f7e58be999fe5451">&#9670;&#160;</a></span>SEC_CORE_SYSTEM_STATUS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#gac884e0c06139d221f7e58be999fe5451">SEC_CORE_SYSTEM_STATUS</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gac884e0c06139d221f7e58be999fe5451af5ea57aacbd81fd627c5e2391fa9e1f9" name="gac884e0c06139d221f7e58be999fe5451af5ea57aacbd81fd627c5e2391fa9e1f9"></a>SEC_CORE_SYSTEM_STATUS_NOT_IN_LOW_POWER_MODE&#160;</td><td class="fielddoc"><p>sec_core status is in Low power mode </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gac884e0c06139d221f7e58be999fe5451ad91a7c30c8dff2556578d802da7ea82a" name="gac884e0c06139d221f7e58be999fe5451ad91a7c30c8dff2556578d802da7ea82a"></a>SEC_CORE_SYSTEM_STATUS_SLEEP_MODE&#160;</td><td class="fielddoc"><p>sec_core status is in Sleep mode </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gac884e0c06139d221f7e58be999fe5451a3811570b81bbddbc153ab3f9db646149" name="gac884e0c06139d221f7e58be999fe5451a3811570b81bbddbc153ab3f9db646149"></a>SEC_CORE_SYSTEM_STATUS_IDLE_MODE&#160;</td><td class="fielddoc"><p>sec_core status is in Idle mode </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gac884e0c06139d221f7e58be999fe5451ac77dbaabe1e6bda4cd35bb6d3af1d96f" name="gac884e0c06139d221f7e58be999fe5451ac77dbaabe1e6bda4cd35bb6d3af1d96f"></a>SEC_CORE_SYSTEM_STATUS_RUNNING_STATE&#160;</td><td class="fielddoc"><p>sec_core status is in Running state </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gac884e0c06139d221f7e58be999fe5451a2f4c002c1035681041f3d29f69876113" name="gac884e0c06139d221f7e58be999fe5451a2f4c002c1035681041f3d29f69876113"></a>SEC_CORE_SYSTEM_STATUS_IN_RESET_STATE&#160;</td><td class="fielddoc"><p>sec_core status is in Reset state </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="a00128_source.html#l00046">46</a> of file <a class="el" href="a00128_source.html">sec_core_types.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="gae97e27017fdd6b2b9f8a8add4349f72b" name="gae97e27017fdd6b2b9f8a8add4349f72b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae97e27017fdd6b2b9f8a8add4349f72b">&#9670;&#160;</a></span>SEC_CORE1_Deinitialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SEC_CORE1_Deinitialize </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00204">204</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+
+</div>
+</div>
+<a id="ga532c0206e5465cbb656f9fccf69a35e6" name="ga532c0206e5465cbb656f9fccf69a35e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga532c0206e5465cbb656f9fccf69a35e6">&#9670;&#160;</a></span>SEC_CORE1_FIFORead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SEC_CORE1_FIFORead </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t *</td>          <td class="paramname"><span class="paramname"><em>pData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t</td>          <td class="paramname"><span class="paramname"><em>wordCount</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section pre"><dt>Precondition</dt><dd>SEC_CORE1_ReadFIFOEnable should be called before calling this routine. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">*pData</td><td>- Pointer to an array to store the read data </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">wordCount</td><td>- Number of words to be read. <br  />
+ </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of words read. <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00325">325</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+<div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00421_ga532c0206e5465cbb656f9fccf69a35e6_cgraph.svg" width="440" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="gab5cec597f7fdc18c481d1d3d1d9c7fab" name="gab5cec597f7fdc18c481d1d3d1d9c7fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab5cec597f7fdc18c481d1d3d1d9c7fab">&#9670;&#160;</a></span>SEC_CORE1_FIFOReadIsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool SEC_CORE1_FIFOReadIsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>true - Read FIFO is Empty </dd>
+<dd>
+false - Read FIFO is not Empty (Read FIFO contains valid data not yet read by the Main core) </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00420">420</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+<div id="dynsection-2" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00421_gab5cec597f7fdc18c481d1d3d1d9c7fab_icgraph.svg" width="440" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="gaf69c0c8c755b8353d679ee14793b4b79" name="gaf69c0c8c755b8353d679ee14793b4b79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf69c0c8c755b8353d679ee14793b4b79">&#9670;&#160;</a></span>SEC_CORE1_FIFOReadIsFull()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool SEC_CORE1_FIFOReadIsFull </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>true - Read FIFO is full </dd>
+<dd>
+false - Read FIFO is not full </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00407">407</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="ga3355ef1d7b372e1d3c8c3e4c0fbb87da" name="ga3355ef1d7b372e1d3c8c3e4c0fbb87da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3355ef1d7b372e1d3c8c3e4c0fbb87da">&#9670;&#160;</a></span>SEC_CORE1_FIFOWrite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SEC_CORE1_FIFOWrite </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t *</td>          <td class="paramname"><span class="paramname"><em>pData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t</td>          <td class="paramname"><span class="paramname"><em>wordCount</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section pre"><dt>Precondition</dt><dd><a class="el" href="#gad5da3a551ebdb1cbaa377d0ddf83ded1" title="This inline function Enables the Write FIFO.">SEC_CORE1_WriteFIFOEnable()</a> should be called before calling this routine. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">*pData</td><td>- Pointer to an array which has data for transmission. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">wordCount</td><td>- Number of words to be transfer. <br  />
+ </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of words transferred. <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00345">345</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+<div id="dynsection-3" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00421_ga3355ef1d7b372e1d3c8c3e4c0fbb87da_cgraph.svg" width="424" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga85fa9c42aadf069e6fbe83665f5a3e34" name="ga85fa9c42aadf069e6fbe83665f5a3e34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga85fa9c42aadf069e6fbe83665f5a3e34">&#9670;&#160;</a></span>SEC_CORE1_FIFOWriteIsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool SEC_CORE1_FIFOWriteIsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>true - Write FIFO is Empty </dd>
+<dd>
+false - Write FIFO is not Empty (Write FIFO contains valid data not yet read by the Secondary core) </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00446">446</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gae2a8e983197032ff0a21c300f6e047df" name="gae2a8e983197032ff0a21c300f6e047df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae2a8e983197032ff0a21c300f6e047df">&#9670;&#160;</a></span>SEC_CORE1_FIFOWriteIsFull()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool SEC_CORE1_FIFOWriteIsFull </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>true - Write FIFO is full </dd>
+<dd>
+false - Write FIFO is not full </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00433">433</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+<div id="dynsection-4" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00421_gae2a8e983197032ff0a21c300f6e047df_icgraph.svg" width="424" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga3a8176683427d23fbceda1e2220ba9dd" name="ga3a8176683427d23fbceda1e2220ba9dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3a8176683427d23fbceda1e2220ba9dd">&#9670;&#160;</a></span>SEC_CORE1_GetResetCause()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ga408eadd228af512780d67fd4d83ef396">SEC_CORE_RESET_CAUSE</a> SEC_CORE1_GetResetCause </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>SECONDARY_RESET_CAUSE: Enum which provides the cause for SEC_CORE1 reset. <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00273">273</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+
+</div>
+</div>
+<a id="ga7ef278f3af3ccf73befec438057e65f0" name="ga7ef278f3af3ccf73befec438057e65f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7ef278f3af3ccf73befec438057e65f0">&#9670;&#160;</a></span>SEC_CORE1_Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SEC_CORE1_Initialize </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00194">194</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+<div id="dynsection-5" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00421_ga7ef278f3af3ccf73befec438057e65f0_icgraph.svg" width="344" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga3201c344020d43a9f264c7c1fef45cd6" name="ga3201c344020d43a9f264c7c1fef45cd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3201c344020d43a9f264c7c1fef45cd6">&#9670;&#160;</a></span>SEC_CORE1_InterruptRequestAcknowledge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SEC_CORE1_InterruptRequestAcknowledge </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00263">263</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+
+</div>
+</div>
+<a id="gac02e22a89e54047bfc275a848acee2c6" name="gac02e22a89e54047bfc275a848acee2c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac02e22a89e54047bfc275a848acee2c6">&#9670;&#160;</a></span>SEC_CORE1_InterruptRequestAcknowledgeComplete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SEC_CORE1_InterruptRequestAcknowledgeComplete </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00268">268</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+
+</div>
+</div>
+<a id="ga6abd1d38120109a6bbe1f32f7b8a0a03" name="ga6abd1d38120109a6bbe1f32f7b8a0a03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6abd1d38120109a6bbe1f32f7b8a0a03">&#9670;&#160;</a></span>SEC_CORE1_InterruptRequestComplete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SEC_CORE1_InterruptRequestComplete </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00254">254</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+
+</div>
+</div>
+<a id="ga06161ba5286d03944c209968f9b4bcff" name="ga06161ba5286d03944c209968f9b4bcff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga06161ba5286d03944c209968f9b4bcff">&#9670;&#160;</a></span>SEC_CORE1_InterruptRequestGenerate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SEC_CORE1_InterruptRequestGenerate </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00243">243</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+
+</div>
+</div>
+<a id="gab4265632e9db65663ceae09b5e3b1912" name="gab4265632e9db65663ceae09b5e3b1912"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab4265632e9db65663ceae09b5e3b1912">&#9670;&#160;</a></span>SEC_CORE1_IsInterruptRequestAcknowledged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SEC_CORE1_IsInterruptRequestAcknowledged </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True - when SEC_CORE1 has acknowledged Main MSI interrupt request. </dd>
+<dd>
+False - when SEC_CORE1 has not acknowledged Main MSI interrupt request. <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00248">248</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+
+</div>
+</div>
+<a id="ga81fad43f379084ee9da62de482d061e2" name="ga81fad43f379084ee9da62de482d061e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga81fad43f379084ee9da62de482d061e2">&#9670;&#160;</a></span>SEC_CORE1_IsInterruptRequested()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SEC_CORE1_IsInterruptRequested </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True - when SEC_CORE1 has issued interrupt to Main Core. </dd>
+<dd>
+False - when SEC_CORE1 has not issued interrupt to Main Core. <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00259">259</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+
+</div>
+</div>
+<a id="ga565251642d564723a0e92be765002502" name="ga565251642d564723a0e92be765002502"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga565251642d564723a0e92be765002502">&#9670;&#160;</a></span>SEC_CORE1_Program()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SEC_CORE1_Program </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00227">227</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+
+</div>
+</div>
+<a id="ga7048b9c95d3c78e856b4af93f8bac646" name="ga7048b9c95d3c78e856b4af93f8bac646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7048b9c95d3c78e856b4af93f8bac646">&#9670;&#160;</a></span>SEC_CORE1_ProtocolIsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool SEC_CORE1_ProtocolIsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="#gada65a5b8ea36ba413b492f193eb1945b">SEC_CORE_PROTOCOLS</a></td>          <td class="paramname"><span class="paramname"><em>protocolName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">protocolName</td><td>- Selected protocol </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true - Mailbox is empty </dd>
+<dd>
+false - Mailbox is full </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00507">507</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+<div id="dynsection-6" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00421_ga7048b9c95d3c78e856b4af93f8bac646_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="gadbb9d93585c54018fc8532c5860a3d67" name="gadbb9d93585c54018fc8532c5860a3d67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadbb9d93585c54018fc8532c5860a3d67">&#9670;&#160;</a></span>SEC_CORE1_ProtocolIsFull()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool SEC_CORE1_ProtocolIsFull </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="#gada65a5b8ea36ba413b492f193eb1945b">SEC_CORE_PROTOCOLS</a></td>          <td class="paramname"><span class="paramname"><em>protocolName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">protocolName</td><td>- Selected protocol </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true - Mailbox is full </dd>
+<dd>
+false - Mailbox is empty </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00480">480</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gabd8ffb1d5a7fcbc0ae22b718225581de" name="gabd8ffb1d5a7fcbc0ae22b718225581de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd8ffb1d5a7fcbc0ae22b718225581de">&#9670;&#160;</a></span>SEC_CORE1_ProtocolRead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SEC_CORE1_ProtocolRead </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="#gada65a5b8ea36ba413b492f193eb1945b">SEC_CORE_PROTOCOLS</a></td>          <td class="paramname"><span class="paramname"><em>protocolName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *</td>          <td class="paramname"><span class="paramname"><em>pData</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">protocolName</td><td>- Selected protocol </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*pData</td><td>- Pointer to a structure to store the read data <br  />
+ </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true - successful read </dd>
+<dd>
+false - unsuccessful read <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00411">411</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+
+</div>
+</div>
+<a id="gab313dfcda98b03477bba5f3812dbb3cc" name="gab313dfcda98b03477bba5f3812dbb3cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab313dfcda98b03477bba5f3812dbb3cc">&#9670;&#160;</a></span>SEC_CORE1_ProtocolWrite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SEC_CORE1_ProtocolWrite </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="#gada65a5b8ea36ba413b492f193eb1945b">SEC_CORE_PROTOCOLS</a></td>          <td class="paramname"><span class="paramname"><em>protocolName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *</td>          <td class="paramname"><span class="paramname"><em>pData</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">protocolName</td><td>- Selected protocol </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*pData</td><td>- Pointer to a structure which has data for transmission. <br  />
+ </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true - successful write </dd>
+<dd>
+false - unsuccessful write <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00365">365</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+<div id="dynsection-7" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00421_gab313dfcda98b03477bba5f3812dbb3cc_cgraph.svg" width="448" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-8" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00421_gab313dfcda98b03477bba5f3812dbb3cc_icgraph.svg" width="638" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="gafbb2914aacb1ab62b715c8240d211bf8" name="gafbb2914aacb1ab62b715c8240d211bf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafbb2914aacb1ab62b715c8240d211bf8">&#9670;&#160;</a></span>SEC_CORE1_ReadFIFODisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void SEC_CORE1_ReadFIFODisable </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00395">395</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gafe4dd6a1b20caa4b04429411cab70ea6" name="gafe4dd6a1b20caa4b04429411cab70ea6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafe4dd6a1b20caa4b04429411cab70ea6">&#9670;&#160;</a></span>SEC_CORE1_ReadFIFOEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void SEC_CORE1_ReadFIFOEnable </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00384">384</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gae08e4e8143dccc08edfa2f258d862de4" name="gae08e4e8143dccc08edfa2f258d862de4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae08e4e8143dccc08edfa2f258d862de4">&#9670;&#160;</a></span>SEC_CORE1_ResetCauseClear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SEC_CORE1_ResetCauseClear </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="#ga408eadd228af512780d67fd4d83ef396">SEC_CORE_RESET_CAUSE</a></td>          <td class="paramname"><span class="paramname"><em>resetCause</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section pre"><dt>Precondition</dt><dd>SECONDARY_RESET_CAUSE: Enum which provides the cause for SEC_CORE1 reset. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">resetCause</td><td>- reset to be cleared </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00289">289</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+
+</div>
+</div>
+<a id="ga76e01a18ba3f683afc15f5ae2e624bff" name="ga76e01a18ba3f683afc15f5ae2e624bff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga76e01a18ba3f683afc15f5ae2e624bff">&#9670;&#160;</a></span>SEC_CORE1_Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SEC_CORE1_Start </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00211">211</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+
+</div>
+</div>
+<a id="ga98329b28713d631cf19b27284b591c5a" name="ga98329b28713d631cf19b27284b591c5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga98329b28713d631cf19b27284b591c5a">&#9670;&#160;</a></span>SEC_CORE1_SystemStatusGet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#gac884e0c06139d221f7e58be999fe5451">SEC_CORE_SYSTEM_STATUS</a> SEC_CORE1_SystemStatusGet </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>SEC_CORE_SYSTEM_STATUS: Enum which provides the status of SEC_CORE1. <br  />
+ </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00300">300</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+
+</div>
+</div>
+<a id="ga4592673a7d5464967847be6323126cc9" name="ga4592673a7d5464967847be6323126cc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4592673a7d5464967847be6323126cc9">&#9670;&#160;</a></span>SEC_CORE1_WriteFIFODisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void SEC_CORE1_WriteFIFODisable </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00373">373</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<a id="gad5da3a551ebdb1cbaa377d0ddf83ded1" name="gad5da3a551ebdb1cbaa377d0ddf83ded1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5da3a551ebdb1cbaa377d0ddf83ded1">&#9670;&#160;</a></span>SEC_CORE1_WriteFIFOEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void SEC_CORE1_WriteFIFOEnable </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00122_source.html#l00362">362</a> of file <a class="el" href="a00122_source.html">sec_core1.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ga791ba2105fe24c1336220d3677737da8" name="ga791ba2105fe24c1336220d3677737da8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga791ba2105fe24c1336220d3677737da8">&#9670;&#160;</a></span>MSIInterface</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const struct <a class="el" href="a00475.html">SEC_CORE_INTERFACE</a> MSIInterface</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00131_source.html#l00155">155</a> of file <a class="el" href="a00131_source.html">sec_core1.c</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.20-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath" style="padding-bottom: 12px; vertical-align: bottom;"><!-- id is needed for treeview function! -->
+  <ul>
+    <p class="footer" style="text-align: center; font-size: 90%;">
+      © Copyright 1998-2022 Microchip Technology Inc. All rights reserved.
+    </p>
+    </ul>
+</div>
+</body>
+</html>

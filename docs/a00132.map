@@ -1,0 +1,25 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/mcc_generated_files/secondary_core/src/sec_core1.c" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/mcc_generated_files/secondary_core/src/sec_core1.c">
+<area shape="rect" id="Node000001" title="This is the generated driver source file for SEC_CORE1 driver." alt="" coords="67,5,308,133"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,328,73,353"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,135,111,183,76,255,51,316,46,314,71,252,106,180,137,132"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="379,181,457,207"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="307,131,385,172,383,177,305,136"/>
+<area shape="rect" id="Node000004" href="$a00128.html" title="This is the generated driver types header file for the SEC_CORE driver." alt="" coords="115,328,252,353"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="150,135,122,192,101,255,98,268,100,279,119,302,144,319,141,324,116,306,96,281,92,268,95,254,117,190,146,132"/>
+<area shape="rect" id="Node000005" href="$a00125_source.html" title=" " alt="" coords="110,255,265,280"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="190,134,190,241,185,241,185,134"/>
+<area shape="rect" id="Node000008" href="$a00122.html" title="This is the generated driver header file for the SEC_CORE1 driver." alt="" coords="249,181,355,207"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="248,132,284,169,280,173,244,135"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="165,282,77,324,75,320,162,278"/>
+<area shape="poly" id="edge8_Node000005_Node000004" title=" " alt="" coords="189,280,187,315,182,314,184,280"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="276,328,341,353"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="208,278,279,319,276,323,205,282"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="366,328,441,353"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="223,277,356,321,355,326,221,283"/>
+<area shape="poly" id="edge13_Node000008_Node000004" title=" " alt="" coords="304,207,297,242,290,263,279,282,254,306,225,324,223,319,251,302,275,278,285,261,292,241,298,206"/>
+<area shape="poly" id="edge14_Node000008_Node000005" title=" " alt="" coords="285,209,219,250,216,245,282,204"/>
+<area shape="poly" id="edge11_Node000008_Node000006" title=" " alt="" coords="309,206,323,254,324,286,319,315,313,314,318,286,318,255,304,208"/>
+<area shape="poly" id="edge12_Node000008_Node000007" title=" " alt="" coords="312,206,390,315,385,318,308,209"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="441,255,488,280"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="329,204,430,248,428,253,327,209"/>
+</map>

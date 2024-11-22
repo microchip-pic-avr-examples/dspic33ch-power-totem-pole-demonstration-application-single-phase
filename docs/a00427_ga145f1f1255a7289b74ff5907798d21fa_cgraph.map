@@ -1,0 +1,15 @@
+<map id="SPI_Synchronize" name="SPI_Synchronize">
+<area shape="rect" id="Node000001" title="synchronize to SPI bus" alt="" coords="5,80,128,105"/>
+<area shape="rect" id="Node000002" href="$a00418.html#gab59dab7bbec7ad0589d0fa8f57769a94" title="This inline function disables the DMA channel." alt="" coords="176,5,324,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,77,175,40,194,33,195,38,177,44,94,82"/>
+<area shape="rect" id="Node000003" href="$a00418.html#gad10f447e17425a18eac1b5186e2e8699" title="This inline function enables the DMA channel." alt="" coords="177,55,323,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="128,82,163,77,164,82,129,87"/>
+<area shape="rect" id="Node000004" href="$a00418.html#ga3950883876bea54b441aaf14ff17d47e" title="Initializes the DMA module." alt="" coords="197,104,303,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="129,98,184,105,183,111,128,103"/>
+<area shape="rect" id="Node000007" href="$a00419.html#ga0607cad7a6b302950091fea719146a54" title="Initializes SPI1 module, using the given initialization data. This function must be called before any..." alt="" coords="198,153,302,179"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="96,103,177,138,198,146,197,151,175,143,94,108"/>
+<area shape="rect" id="Node000005" href="$a00418.html#ga9f16d166d637fd9005839b1e1822dc63" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="396,80,551,105"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="303,108,382,100,383,105,303,114"/>
+<area shape="rect" id="Node000006" href="$a00418.html#gab9190941904dd0add59b63f1e774fb2c" title="This function can be used to override default callback and to define custom callback for DMA Channel ..." alt="" coords="372,129,575,155"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="303,120,359,126,358,132,303,125"/>
+</map>

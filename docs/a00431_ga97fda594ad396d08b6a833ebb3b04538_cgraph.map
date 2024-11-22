@@ -1,0 +1,73 @@
+<map id="Tasks_100us" name="Tasks_100us">
+<area shape="rect" id="Node000001" title="tasks run every 100us" alt="" coords="5,573,104,599"/>
+<area shape="rect" id="Node000002" href="$a00424.html#ga77b41fe067ba8e8d666827b686e52cff" title="received message from GUI. Send the data to the secondary core using mailbox protocol A" alt="" coords="152,281,315,307"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,572,215,317,220,320,66,574"/>
+<area shape="rect" id="Node000014" href="$a00424.html#ga9511f6338931225152a644cd0b011f66" title="send frame to GUI when the FIFO from secondary to primary has been filled" alt="" coords="157,573,310,599"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="104,583,143,583,143,589,104,589"/>
+<area shape="rect" id="Node000026" href="$a00427.html#ga931d1aef6dcb7d881ab27cf66cd94d00" title="check for SPI timeout" alt="" coords="173,725,294,751"/>
+<area shape="poly" id="edge31_Node000001_Node000026" title=" " alt="" coords="73,597,208,714,205,718,69,601"/>
+<area shape="rect" id="Node000003" href="$a00405.html#ga4fe1df4cd9f0ce122687dcfab0713b5b" title="Reads the received single message object." alt="" coords="420,141,528,167"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="255,279,438,171,441,176,258,284"/>
+<area shape="rect" id="Node000010" href="$a00405.html#gac27e97593d8d9bd7787d116910adc40d" title="Returns the number of CAN messages received in all the FIFO." alt="" coords="363,244,585,269"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="315,279,378,269,379,274,316,284"/>
+<area shape="rect" id="Node000012" href="$a00421.html#gab313dfcda98b03477bba5f3812dbb3cc" title="This routine writes data to mailbox." alt="" coords="381,305,567,331"/>
+<area shape="poly" id="edge13_Node000002_Node000012" title=" " alt="" coords="316,299,367,305,366,310,315,305"/>
+<area shape="rect" id="Node000004" href="$a00405.html#ga57b30800d7bd3b3c936f578ca1fd7e32" title="This function get the FIFO user address, message depth and payload size information." alt="" coords="677,219,817,244"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="512,164,634,203,672,213,670,218,633,209,510,169"/>
+<area shape="rect" id="Node000005" href="$a00405.html#gaa89329ca22f234476d55536c446b70e3" title="This function read the message object from receive FIFO and update to the user &#160;&#160;message object point..." alt="" coords="648,5,845,31"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="488,139,548,90,588,63,632,40,652,32,654,37,634,44,591,67,551,95,491,143"/>
+<area shape="rect" id="Node000007" href="$a00405.html#ga0dab5f41a5a5ef032d23c2ba4890a866" title="This function Update the receive FIFO message increment tail position." alt="" coords="636,55,857,80"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="504,139,563,115,633,90,668,81,669,86,634,95,564,120,506,144"/>
+<area shape="rect" id="Node000008" href="$a00405.html#ga224fbf549503a57f5818cc8391105b8f" title="This function is used to clear the CAN1 receive FIFO overflow status bit." alt="" coords="643,105,851,145"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="528,146,629,135,629,140,528,151"/>
+<area shape="rect" id="Node000009" href="$a00405.html#ga4a6437adcdf1917fffef4e7e5761fda1" title="This returns the CAN1 receive FIFO status." alt="" coords="656,169,837,195"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="528,157,642,169,642,174,528,162"/>
+<area shape="rect" id="Node000006" href="$a00405.html#ga61d156b0e75424f9b630cef5c424ac13" title="This function get the DLC enum based decimal value." alt="" coords="920,368,1099,393"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="843,28,862,40,897,75,926,115,950,159,969,204,995,289,1007,354,1002,355,990,291,964,206,945,161,922,118,893,78,858,44,840,33"/>
+<area shape="poly" id="edge10_Node000010_Node000004" title=" " alt="" coords="585,244,663,236,663,242,586,249"/>
+<area shape="poly" id="edge12_Node000010_Node000009" title=" " alt="" coords="511,241,633,203,667,195,668,200,634,209,512,247"/>
+<area shape="rect" id="Node000011" href="$a00405.html#ga5532c9a884cedd0805a011bf8baaabdd" title="This function get the Receiver FIFO message index value." alt="" coords="633,268,860,293"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="586,264,620,267,620,272,585,269"/>
+<area shape="rect" id="Node000013" href="$a00421.html#ga7048b9c95d3c78e856b4af93f8bac646" title="This inline function checks whether mailbox is empty. Returns true if Protocol is empty indicating ma..." alt="" coords="645,317,848,343"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="568,319,632,322,631,328,567,325"/>
+<area shape="rect" id="Node000015" href="$a00405.html#gad99c960d1ed589ce80aca873a90e068e" title="Writes the CAN message object to specified transmit FIFO channel." alt="" coords="417,468,531,493"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="252,571,300,540,362,509,403,494,405,499,364,514,303,545,254,576"/>
+<area shape="rect" id="Node000020" href="$a00425.html#gaf058b1be15bd59ec5d57d06d1657b5e8" title="API function to get core buffer." alt="" coords="389,524,559,549"/>
+<area shape="poly" id="edge24_Node000014_Node000020" title=" " alt="" coords="295,571,397,550,398,555,296,576"/>
+<area shape="rect" id="Node000021" href="$a00233.html#a5852ed0c8edfa25272ab834b747611ba" title=" " alt="" coords="387,573,561,599"/>
+<area shape="poly" id="edge25_Node000014_Node000021" title=" " alt="" coords="311,583,373,583,373,589,311,589"/>
+<area shape="rect" id="Node000022" href="$a00426.html#ga5fe2662b714b85fd1b430cf48528c656" title="read copy of i2c_write object" alt="" coords="663,632,830,657"/>
+<area shape="poly" id="edge26_Node000014_Node000022" title=" " alt="" coords="297,596,363,607,514,625,650,636,649,641,513,630,362,613,296,601"/>
+<area shape="rect" id="Node000023" href="$a00424.html#ga9547e1b813e407c1cedf72e3b4744ea0" title="Update housekeeping flags related to PIC16s on SiC cards and PIC16 on main power board." alt="" coords="403,674,545,714"/>
+<area shape="poly" id="edge27_Node000014_Node000023" title=" " alt="" coords="257,597,305,624,364,653,398,667,396,672,362,658,303,629,255,601"/>
+<area shape="poly" id="edge18_Node000015_Node000004" title=" " alt="" coords="485,466,530,413,583,341,596,316,603,294,612,273,632,253,662,238,664,243,635,257,617,276,608,296,601,318,588,343,534,416,489,470"/>
+<area shape="poly" id="edge17_Node000015_Node000006" title=" " alt="" coords="495,466,555,433,593,416,633,403,703,389,775,380,906,375,907,380,775,386,704,394,634,409,595,421,557,438,497,470"/>
+<area shape="rect" id="Node000016" href="$a00405.html#ga0980f888cad241edaa859783bb4a89d7" title="This function Read the message object from user input and update to the CAN1 TX FIFO." alt="" coords="655,419,838,444"/>
+<area shape="poly" id="edge19_Node000015_Node000016" title=" " alt="" coords="531,468,662,444,663,449,532,473"/>
+<area shape="rect" id="Node000017" href="$a00405.html#gaedd6e334545a38cd71fe86ff4f9e78c3" title="Get the CAN1 operation mode." alt="" coords="661,468,833,493"/>
+<area shape="poly" id="edge21_Node000015_Node000017" title=" " alt="" coords="531,478,647,478,647,483,531,483"/>
+<area shape="rect" id="Node000018" href="$a00405.html#ga1d293f033f5d27b360cf00d4644c63eb" title="Returns the CAN1 transmitter FIFO status." alt="" coords="646,517,847,543"/>
+<area shape="poly" id="edge22_Node000015_Node000018" title=" " alt="" coords="532,488,663,512,662,517,531,494"/>
+<area shape="rect" id="Node000019" href="$a00405.html#gaedb86f6e4e8ac0efba711d7f3d7b688c" title="This function enables The FIFO transmit message send request bit." alt="" coords="645,567,848,607"/>
+<area shape="poly" id="edge23_Node000015_Node000019" title=" " alt="" coords="532,488,560,497,587,509,602,520,611,531,621,541,635,552,651,560,649,564,632,556,617,545,607,534,598,524,584,514,558,502,530,494"/>
+<area shape="poly" id="edge20_Node000016_Node000006" title=" " alt="" coords="813,416,929,393,930,399,814,421"/>
+<area shape="poly" id="edge28_Node000023_Node000022" title=" " alt="" coords="545,679,662,657,663,662,546,684"/>
+<area shape="rect" id="Node000024" href="$a00427.html#gaf3fad6443af569b0da78810b219ebaaf" title="retrieve the value of the flag &quot;selfSpi.checksum_ok&quot;" alt="" coords="640,681,853,707"/>
+<area shape="poly" id="edge29_Node000023_Node000024" title=" " alt="" coords="546,691,626,691,626,697,546,697"/>
+<area shape="rect" id="Node000025" href="$a00427.html#ga0c28951a0ab80e65e5bd85682bf5920a" title="retrieve the value of the flag &quot;selfSpi.connected&quot;" alt="" coords="649,731,844,756"/>
+<area shape="poly" id="edge30_Node000023_Node000025" title=" " alt="" coords="546,704,663,726,662,731,545,709"/>
+<area shape="rect" id="Node000027" href="$a00427.html#ga145f1f1255a7289b74ff5907798d21fa" title="synchronize to SPI bus" alt="" coords="413,829,535,855"/>
+<area shape="poly" id="edge32_Node000026_Node000027" title=" " alt="" coords="265,748,432,821,430,826,263,753"/>
+<area shape="rect" id="Node000028" href="$a00418.html#gab59dab7bbec7ad0589d0fa8f57769a94" title="This inline function disables the DMA channel." alt="" coords="673,780,821,805"/>
+<area shape="poly" id="edge33_Node000027_Node000028" title=" " alt="" coords="535,828,662,805,663,810,536,834"/>
+<area shape="rect" id="Node000029" href="$a00418.html#gad10f447e17425a18eac1b5186e2e8699" title="This inline function enables the DMA channel." alt="" coords="674,829,819,855"/>
+<area shape="poly" id="edge34_Node000027_Node000029" title=" " alt="" coords="536,839,660,839,660,845,536,845"/>
+<area shape="rect" id="Node000030" href="$a00418.html#ga3950883876bea54b441aaf14ff17d47e" title="Initializes the DMA module." alt="" coords="694,879,799,904"/>
+<area shape="poly" id="edge35_Node000027_Node000030" title=" " alt="" coords="536,850,681,877,680,882,535,856"/>
+<area shape="rect" id="Node000033" href="$a00419.html#ga0607cad7a6b302950091fea719146a54" title="Initializes SPI1 module, using the given initialization data. This function must be called before any..." alt="" coords="695,928,799,953"/>
+<area shape="poly" id="edge38_Node000027_Node000033" title=" " alt="" coords="500,852,560,882,634,913,682,926,681,931,632,918,558,887,498,857"/>
+<area shape="rect" id="Node000031" href="$a00418.html#ga9f16d166d637fd9005839b1e1822dc63" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="932,853,1087,879"/>
+<area shape="poly" id="edge36_Node000030_Node000031" title=" " alt="" coords="799,884,918,872,918,877,800,889"/>
+<area shape="rect" id="Node000032" href="$a00418.html#gab9190941904dd0add59b63f1e774fb2c" title="This function can be used to override default callback and to define custom callback for DMA Channel ..." alt="" coords="908,903,1111,928"/>
+<area shape="poly" id="edge37_Node000030_Node000032" title=" " alt="" coords="800,893,894,902,894,907,799,899"/>
+</map>

@@ -1,0 +1,31 @@
+<map id="CAN1_ErrorNotificationEnable" name="CAN1_ErrorNotificationEnable">
+<area shape="rect" id="Node000001" title="This function enables the CAN1 error notification interrupt." alt="" coords="5,363,200,388"/>
+<area shape="rect" id="Node000002" href="$a00405.html#gacbe5d017b9015e9756ea3530da8cc8db" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="280,5,444,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,362,113,303,136,216,155,168,179,121,209,77,246,40,266,28,269,32,250,44,213,81,184,124,160,170,141,217,118,304,108,363"/>
+<area shape="rect" id="Node000003" href="$a00405.html#ga55e70b90188be64bc08f86ac9d0d7566" title="This function can be used to override default callback and to define custom callback for CAN1_BusErro..." alt="" coords="256,55,468,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="104,362,116,311,143,237,161,196,185,157,213,120,246,89,253,84,256,89,250,93,217,124,189,160,166,199,147,239,122,312,109,363"/>
+<area shape="rect" id="Node000004" href="$a00405.html#ga63ae61e90d5f2b4353ff69c3d774cd69" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="248,104,476,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="106,361,121,318,150,258,191,194,217,165,246,140,258,133,261,137,250,144,221,169,195,197,154,260,126,320,111,363"/>
+<area shape="rect" id="Node000005" href="$a00405.html#gae58473b24d41be10392bd3cd5703b278" title="This function can be used to override default callback and to define custom callback for CAN1_BusWake..." alt="" coords="248,154,476,194"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="109,361,129,329,160,287,199,242,246,204,258,197,260,202,250,208,203,246,164,290,133,332,113,364"/>
+<area shape="rect" id="Node000006" href="$a00405.html#ga9fd5634a4a1d0a49935799d20133a5b3" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="261,219,463,244"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="114,360,168,309,205,279,247,254,268,246,270,251,249,259,208,284,171,313,118,364"/>
+<area shape="rect" id="Node000007" href="$a00405.html#gadf09a964fe2b5f408d5467bf0a195e7e" title="This function can be used to override default callback and to define custom callback for CAN1_Invalid..." alt="" coords="261,269,463,309"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="134,360,247,318,272,310,274,315,249,323,136,365"/>
+<area shape="rect" id="Node000008" href="$a00405.html#ga9f3a8787946348d5982bd754b1907ec2" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="267,333,457,359"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="200,362,253,356,254,361,201,367"/>
+<area shape="rect" id="Node000009" href="$a00405.html#ga180079a3530dfacdb86a24f764f6fc4d" title="This function can be used to override default callback and to define custom callback for CAN1_ModeCha..." alt="" coords="267,383,457,423"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="201,383,254,389,254,394,200,388"/>
+<area shape="rect" id="Node000010" href="$a00405.html#gad8a749c14d472ac82978c7e593d06543" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="255,448,469,473"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="132,386,185,409,249,433,283,442,281,447,247,438,183,414,129,390"/>
+<area shape="rect" id="Node000011" href="$a00405.html#ga1ce191440d01b9f65ab3c8837f6c4c5d" title="This function can be used to override default callback and to define custom callback for CAN1_RxBuffe..." alt="" coords="255,498,469,538"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="119,386,173,433,210,459,249,482,268,491,266,496,247,487,207,464,170,437,115,390"/>
+<area shape="rect" id="Node000012" href="$a00405.html#ga9c0579a2606bbdcf40073c96c82e3fc9" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="269,563,455,588"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="113,387,132,420,162,464,202,510,249,548,264,555,261,560,247,552,198,513,158,467,128,423,108,390"/>
+<area shape="rect" id="Node000013" href="$a00405.html#ga589e67cdfd74495013704b8357df54ad" title="This function can be used to override default callback and to define custom callback for CAN1_SystemE..." alt="" coords="269,613,455,653"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="111,387,128,428,157,485,197,545,222,573,250,597,260,604,257,608,246,601,218,577,193,549,152,488,123,430,106,389"/>
+<area shape="rect" id="Node000014" href="$a00405.html#ga348dcbe373245ad35f5d4a22250ae3b8" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="275,677,449,703"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="109,388,121,439,147,514,166,555,189,595,217,631,250,663,264,672,261,676,246,667,213,635,184,598,161,557,142,516,116,441,104,389"/>
+<area shape="rect" id="Node000015" href="$a00405.html#gaf093799d78b962becbf6810614899884" title="This function can be used to override default callback and to define custom callback for CAN1_TxAttem..." alt="" coords="251,727,473,752"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="108,388,118,447,141,535,159,584,183,631,213,675,250,712,258,718,255,722,246,716,209,678,179,634,155,586,136,537,112,448,103,389"/>
+</map>

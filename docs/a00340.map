@@ -1,0 +1,7 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/sources/devices/dev_TPBLPFC_numberconnection_typedef.h" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/sources/devices/dev_TPBLPFC_numberconnection_typedef.h">
+<area shape="rect" id="Node000001" title="This is the typedef file for power controller." alt="" coords="169,5,549,119"/>
+<area shape="rect" id="Node000002" href="$a00335.html" title="This is the typedef file for power controller." alt="" coords="5,167,385,280"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="294,130,255,168,251,164,290,126"/>
+<area shape="rect" id="Node000003" href="$a00347.html" title="This is the driver source file for adc builds upon mcc." alt="" coords="409,167,640,280"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="429,126,468,164,465,168,425,130"/>
+</map>

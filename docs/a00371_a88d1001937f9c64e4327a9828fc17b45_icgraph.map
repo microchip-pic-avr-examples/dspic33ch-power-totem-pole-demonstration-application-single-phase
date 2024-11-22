@@ -1,0 +1,7 @@
+<map id="VOUTaveraging" name="VOUTaveraging">
+<area shape="rect" id="Node000001" title="average voltage calculation of Vout" alt="" coords="396,5,507,31"/>
+<area shape="rect" id="Node000002" href="$a00371.html#aa7b8e2dc355948aa24cf22ca82f9e805" title=" " alt="" coords="181,5,348,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="382,21,348,21,348,15,382,15"/>
+<area shape="rect" id="Node000003" href="$a00347.html#a968747854ba14331aa9f85784178d0da" title=" " alt="" coords="5,5,133,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="168,21,133,21,133,15,168,15"/>
+</map>

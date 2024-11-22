@@ -1,0 +1,23 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/mcc_generated_files/system" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/mcc_generated_files/system">
+<area shape="rect" id="node1" href="dir_088b9c902e78e85eacf03862923f015f.html" title="spi_client" alt="" coords="27,136,104,161"/>
+<area shape="rect" id="node2" href="dir_91f005fe80a27f2132f3c1960f4a65ee.html" title="dma" alt="" coords="129,136,175,161"/>
+<area shape="rect" id="node3" href="dir_8eddd449871ce19b94582b2ec82472d9.html" title="secondary_core" alt="" coords="200,136,315,161"/>
+<area shape="rect" id="node4" href="dir_3c1ea7231d7549b0341bfd9c2059fcb7.html" title="can" alt="" coords="339,136,381,161"/>
+<area shape="rect" id="node5" href="dir_4510931da534e5f55778f93852ece6d6.html" title="cmp" alt="" coords="406,136,453,161"/>
+<area shape="rect" id="node6" href="dir_4fd74e915f8706ef8307175cf8aa9a2c.html" title="timer" alt="" coords="477,136,528,161"/>
+<area shape="rect" id="node8" href="dir_7a122fbbdd90816f98bc6b373da13967.html" title="src" alt="" coords="288,63,328,88"/>
+<area shape="poly" id="edge1" href="dir_000045_000039.html" alt="" coords="288,85,118,135,116,130,287,80"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000045_000039.html" title="1" alt="" coords="120,132,128,146"/>
+<area shape="poly" id="edge6" href="dir_000045_000014.html" alt="" coords="289,88,189,134,187,129,287,83"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000045_000014.html" title="1" alt="" coords="191,130,199,144"/>
+<area shape="poly" id="edge5" href="dir_000045_000034.html" alt="" coords="302,90,276,126,271,123,297,87"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000045_000034.html" title="1" alt="" coords="279,119,287,133"/>
+<area shape="poly" id="edge2" href="dir_000045_000002.html" alt="" coords="319,87,346,123,341,126,314,90"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000045_000002.html" title="1" alt="" coords="344,109,352,124"/>
+<area shape="poly" id="edge3" href="dir_000045_000004.html" alt="" coords="326,86,343,96,397,127,395,132,340,101,323,90"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000045_000004.html" title="1" alt="" coords="392,113,400,127"/>
+<area shape="poly" id="edge4" href="dir_000045_000056.html" alt="" coords="325,86,342,96,401,117,465,133,463,138,399,122,340,101,322,91"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000045_000056.html" title="3" alt="" coords="458,119,466,134"/>
+<area shape="rect" id="clust2" href="dir_260b2124d9ff135763bfd64e94311819.html" alt="" coords="277,52,429,99"/>
+<area shape="rect" id="clust1" href="dir_8b8092b65979f07985080485b64ccbfd.html" title="mcc_generated_files" alt="" coords="16,16,539,172"/>
+</map>

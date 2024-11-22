@@ -1,0 +1,13 @@
+<map id="Adaptive_Currentcontroller_Gain" name="Adaptive_Currentcontroller_Gain">
+<area shape="rect" id="Node000001" title=" " alt="" coords="543,31,749,56"/>
+<area shape="rect" id="Node000002" href="$a00371.html#a647fd6dacbfbcebe49cc34111a01493b" title=" " alt="" coords="396,31,495,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="529,46,495,46,495,41,529,41"/>
+<area shape="rect" id="Node000003" href="$a00371.html#aa7b8e2dc355948aa24cf22ca82f9e805" title=" " alt="" coords="181,5,348,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="382,37,348,32,349,27,383,32"/>
+<area shape="rect" id="Node000005" href="$a00371.html#a87fa9190951df7c866d828b8ad7b526b" title=" " alt="" coords="181,55,348,80"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="383,54,349,59,348,54,382,49"/>
+<area shape="rect" id="Node000004" href="$a00347.html#a968747854ba14331aa9f85784178d0da" title=" " alt="" coords="5,5,133,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="168,21,133,21,133,15,168,15"/>
+<area shape="rect" id="Node000006" href="$a00347.html#a6ac2591aa2e32874156ad3f8bf477d2f" title=" " alt="" coords="5,55,133,80"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="168,70,133,70,133,65,168,65"/>
+</map>

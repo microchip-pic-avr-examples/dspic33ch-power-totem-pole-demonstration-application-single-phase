@@ -1,0 +1,13 @@
+<map id="SoftstartAfterZC_PHx_GTIMode" name="SoftstartAfterZC_PHx_GTIMode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,97,152,137"/>
+<area shape="rect" id="Node000002" href="$a00407.html#ga37968a783e44cd80643478d2b559dbf4" title="This inline function sets the PWM generator specific duty cycle register." alt="" coords="218,5,361,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,94,148,66,199,40,218,32,220,37,201,44,151,71,109,99"/>
+<area shape="rect" id="Node000003" href="$a00407.html#ga957b002605bfb2239a26f174808b2ad8" title="This inline function disables PWM override on PWMH output for specific PWM generator selected by the ..." alt="" coords="200,55,379,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="152,97,220,81,222,86,153,102"/>
+<area shape="rect" id="Node000004" href="$a00407.html#ga531b59d8823e3ebda2da60f48582bcf3" title="This inline function enables PWM override on PWMH output for specific PWM generator selected by the a..." alt="" coords="202,104,377,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="152,114,188,114,188,119,152,119"/>
+<area shape="rect" id="Node000005" href="$a00407.html#gabbedef830c43428e96c7d5125662a8a6" title="This inline function disables PWM override on PWML output for specific PWM generator selected by the ..." alt="" coords="202,153,377,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="153,131,222,148,220,153,152,136"/>
+<area shape="rect" id="Node000006" href="$a00407.html#ga2548ca8feda75ba6ab784280679da6ae" title="This inline function enables PWM override on PWML output for specific PWM generator selected by the a..." alt="" coords="203,203,375,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="109,134,152,162,201,188,223,196,221,201,199,192,149,166,106,139"/>
+</map>

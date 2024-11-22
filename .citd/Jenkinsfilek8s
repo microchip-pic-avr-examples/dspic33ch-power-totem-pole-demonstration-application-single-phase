@@ -46,7 +46,7 @@ pipeline {
             4. GITHUB_PAGES_DEVELOP_ROOT ( Branch: Develop, index file path: /root )
             5. GITHUB_PAGES_DEVELOP_DOCS ( Branch: Develop, index file path: /Docs )
         */
-        GITHUB_PAGES = 'GITHUB_PAGES_NONE'    
+        GITHUB_PAGES = 'GITHUB_PAGES_MASTER_DOCS'    
 
         /*
             Project Build Stage Information

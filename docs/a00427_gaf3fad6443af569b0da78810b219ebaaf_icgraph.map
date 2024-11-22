@@ -1,0 +1,9 @@
+<map id="Drv_SPI_get_ChecksumOK_Flag" name="Drv_SPI_get_ChecksumOK_Flag">
+<area shape="rect" id="Node000001" title="retrieve the value of the flag &quot;selfSpi.checksum_ok&quot;" alt="" coords="544,13,757,38"/>
+<area shape="rect" id="Node000002" href="$a00424.html#ga9547e1b813e407c1cedf72e3b4744ea0" title="Update housekeeping flags related to PIC16s on SiC cards and PIC16 on main power board." alt="" coords="353,5,496,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="530,28,496,28,496,23,530,23"/>
+<area shape="rect" id="Node000003" href="$a00424.html#ga9511f6338931225152a644cd0b011f66" title="send frame to GUI when the FIFO from secondary to primary has been filled" alt="" coords="152,13,305,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="339,28,306,28,306,23,339,23"/>
+<area shape="rect" id="Node000004" href="$a00431.html#ga97fda594ad396d08b6a833ebb3b04538" title="tasks run every 100us" alt="" coords="5,13,104,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="138,28,104,28,104,23,138,23"/>
+</map>

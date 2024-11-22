@@ -1,0 +1,24 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/sources/devices/dev_TPBLPFC_typedef.h" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/sources/devices/dev_TPBLPFC_typedef.h">
+<area shape="rect" id="Node000001" title="This is the typedef file for power controller." alt="" coords="719,5,985,119"/>
+<area shape="rect" id="Node000002" href="$a00730_source.html" title=" " alt="" coords="5,350,280,449"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="705,82,596,98,485,117,386,141,348,155,319,169,269,208,227,256,193,306,168,351,163,348,189,303,223,253,266,205,316,164,346,150,385,136,484,112,596,92,704,77"/>
+<area shape="rect" id="Node000003" href="$a00742_source.html" title=" " alt="" coords="305,343,535,456"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="705,76,599,88,492,106,444,119,402,133,368,150,346,168,329,198,327,227,334,257,346,294,357,318,372,341,367,344,353,321,342,296,329,259,321,227,324,197,342,165,365,145,400,128,442,114,491,101,598,82,705,70"/>
+<area shape="rect" id="Node000004" href="$a00335.html" title="This is the typedef file for power controller." alt="" coords="662,174,1042,287"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="855,132,855,173,849,173,849,132"/>
+<area shape="rect" id="Node000005" href="$a00341.html" title="This is the typedef file for power controller." alt="" coords="1067,174,1333,287"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="982,122,1085,171,1083,176,980,127"/>
+<area shape="rect" id="Node000006" href="$a00347.html" title="This is the driver source file for adc builds upon mcc." alt="" coords="559,343,790,456"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="708,115,677,139,653,168,643,188,637,210,635,256,642,301,653,342,648,343,636,302,629,256,632,209,638,186,648,165,674,135,705,111"/>
+<area shape="rect" id="Node000007" href="$a00353.html" title="This is the driver source file for MSI." alt="" coords="1358,174,1589,287"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1000,82,1167,114,1258,137,1346,164,1366,171,1364,176,1344,169,1257,142,1166,120,998,87"/>
+<area shape="rect" id="Node000008" href="$a00371.html" title="This is the driver source file for the power controller app." alt="" coords="1613,167,1843,295"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="999,67,1130,77,1282,96,1444,124,1602,164,1613,168,1612,173,1601,169,1443,129,1281,101,1129,83,999,72"/>
+<area shape="rect" id="Node000009" href="$a00365.html" title="This is the driver source file for the power controller misc app." alt="" coords="1867,167,2098,295"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="999,69,1212,84,1458,105,1690,132,1784,148,1857,164,1868,168,1866,173,1855,169,1783,153,1689,138,1458,111,1211,90,999,75"/>
+<area shape="rect" id="Node000010" href="$a00368.html" title="This is the driver header file for the power controller misc app." alt="" coords="355,167,586,295"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="707,126,606,169,587,178,585,173,604,164,705,121"/>
+<area shape="poly" id="edge10_Node000010_Node000002" title=" " alt="" coords="344,299,239,352,237,347,342,294"/>
+<area shape="poly" id="edge11_Node000010_Node000003" title=" " alt="" coords="450,309,440,343,434,341,445,307"/>
+<area shape="poly" id="edge12_Node000010_Node000006" title=" " alt="" coords="560,301,608,340,604,344,557,305"/>
+</map>

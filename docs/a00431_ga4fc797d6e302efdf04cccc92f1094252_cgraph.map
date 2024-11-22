@@ -1,0 +1,9 @@
+<map id="VACOK_Check" name="VACOK_Check">
+<area shape="rect" id="Node000001" title="check VACok flag(s) in fast while loop" alt="" coords="5,31,117,56"/>
+<area shape="rect" id="Node000002" href="$a00365.html#a315b78111431dff7a91b13e42f9133b1" title="stop and reset power controller" alt="" coords="165,31,353,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,41,151,41,151,46,118,46"/>
+<area shape="rect" id="Node000003" href="$a00407.html#ga531b59d8823e3ebda2da60f48582bcf3" title="This inline function enables PWM override on PWMH output for specific PWM generator selected by the a..." alt="" coords="401,5,576,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="353,30,388,26,388,32,354,36"/>
+<area shape="rect" id="Node000004" href="$a00407.html#ga2548ca8feda75ba6ab784280679da6ae" title="This inline function enables PWM override on PWML output for specific PWM generator selected by the a..." alt="" coords="403,55,575,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="354,51,390,54,389,60,353,56"/>
+</map>

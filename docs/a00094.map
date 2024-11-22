@@ -1,0 +1,16 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/mcc_generated_files/can/can_types.h" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/mcc_generated_files/can/can_types.h">
+<area shape="rect" id="Node000001" title="This is the generated driver types header file for the CAN driver using CCL." alt="" coords="163,5,408,119"/>
+<area shape="rect" id="Node000002" href="$a00083.html" title="This is the generated driver header file for the CAN1 driver using CCL." alt="" coords="289,328,511,441"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="286,133,292,205,300,243,313,279,327,303,343,326,339,329,322,306,308,281,295,244,287,206,281,133"/>
+<area shape="rect" id="Node000003" href="$a00095.html" title="This is the generated driver source file for CAN1 driver using CCL." alt="" coords="5,489,240,603"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="265,133,144,490,139,488,260,131"/>
+<area shape="rect" id="Node000006" href="$a00089_source.html" title=" " alt="" coords="323,167,586,280"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="356,126,397,164,393,168,352,130"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="292,451,221,492,218,487,290,446"/>
+<area shape="rect" id="Node000004" href="$a00841.html" title="This is the generated driver header file for the System driver." alt="" coords="264,489,536,603"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="403,455,403,489,397,489,397,455"/>
+<area shape="rect" id="Node000005" href="$a00227.html" title="This is the driver source file for CAN driver." alt="" coords="560,489,781,603"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="508,446,577,487,575,492,505,451"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="434,294,422,328,417,327,429,292"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="502,290,635,487,631,490,497,293"/>
+</map>

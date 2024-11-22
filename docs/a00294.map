@@ -1,0 +1,22 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/mcc_generated_files/adc/src/adc1.c" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/mcc_generated_files/adc/src/adc1.c">
+<area shape="rect" id="Node000001" title="This is the generated driver source file for ADC1 driver." alt="" coords="5,5,240,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="42,167,110,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,120,88,155,83,153,98,118"/>
+<area shape="rect" id="Node000003" href="$a00281.html" title="This is the generated driver header file for the ADC1 driver." alt="" coords="134,167,207,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,118,163,153,158,155,144,120"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="35,240,82,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="154,194,90,235,87,230,151,190"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="39,321,113,346"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="166,193,93,310,88,307,161,191"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="138,321,203,346"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="173,192,173,307,168,307,168,192"/>
+<area shape="rect" id="Node000007" href="$a00290.html" title="This is the generated driver types header file for the ADC driver." alt="" coords="380,321,473,346"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="209,187,269,207,333,238,377,272,411,308,407,312,373,276,331,242,267,211,207,192"/>
+<area shape="rect" id="Node000008" href="$a00287_source.html" title=" " alt="" coords="209,240,319,265"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="187,190,240,229,236,234,184,194"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="238,268,117,318,115,313,236,263"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="252,268,197,314,193,310,249,263"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="289,263,392,312,390,317,287,268"/>
+<area shape="rect" id="Node000009" href="$a00784_source.html" title=" " alt="" coords="228,313,356,353"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="271,265,283,300,278,301,266,266"/>
+</map>

@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['secondary_5fimage_0',['SECONDARY_IMAGE',['../a00131.html#a7aa473c228b3b4fca7166b9966546246',1,'sec_core1.c']]],
+  ['secondary_5fnumber_1',['SECONDARY_NUMBER',['../a00131.html#a466513eddfe020e1504f65c0a97c0452',1,'sec_core1.c']]],
+  ['soft_5fstart_5framp_5fspeed_2',['SOFT_START_RAMP_SPEED',['../a00365.html#ad4c0f91f892779dae47e6f9bfdbb1ad5',1,'drv_pwrctrl_app_misc_TPBLPFC.c']]],
+  ['spi1_5fclient_5fbyteexchange_3',['SPI1_Client_ByteExchange',['../a00134.html#a2144e2da2723228b64bd28ed50d78240',1,'spi1.h']]],
+  ['spi1_5fclient_5fbyteread_4',['SPI1_Client_ByteRead',['../a00134.html#af51f38c5a446bad9f4585a699d10d8cb',1,'spi1.h']]],
+  ['spi1_5fclient_5fbytewrite_5',['SPI1_Client_ByteWrite',['../a00134.html#a1407938ab5ecb4f72e3988f5fc0ac767',1,'spi1.h']]],
+  ['spi1_5fclient_5fclose_6',['SPI1_Client_Close',['../a00134.html#ad1f1a848e0ec3882aae676ff33fa0ab6',1,'spi1.h']]],
+  ['spi1_5fclient_5fdeinitialize_7',['SPI1_Client_Deinitialize',['../a00134.html#a794ad0c6c28cc6dd07d121fac8c45057',1,'spi1.h']]],
+  ['spi1_5fclient_5finitialize_8',['SPI1_Client_Initialize',['../a00134.html#ae9a9bf5686a2510f9c39d109f1a295ce',1,'spi1.h']]],
+  ['spi1_5fclient_5fisrxready_9',['SPI1_Client_IsRxReady',['../a00134.html#abef10405b88abbee9eaa5f1a656da8b2',1,'spi1.h']]],
+  ['spi1_5fclient_5fistxready_10',['SPI1_Client_IsTxReady',['../a00134.html#ab78ac224fd8bceddf51ad419e9a288f8',1,'spi1.h']]],
+  ['spi1_5fclient_5fopen_11',['SPI1_Client_Open',['../a00134.html#a9053b5c968c07672223a870763d94082',1,'spi1.h']]],
+  ['spi1_5fdummy_5fdata_12',['SPI1_DUMMY_DATA',['../a00140.html#a638c4d239fac723fbdffe4eeadda4ed1',1,'spi1.c']]],
+  ['spi_5ftimeout_13',['SPI_TIMEOUT',['../a00254.html#a0131f2774f4e3dd71567400683b60405',1,'drv_spi.h']]],
+  ['spi_5ftimeout_5fin_5f100us_5fticks_14',['SPI_TIMEOUT_IN_100us_TICKS',['../a00254.html#ae348eb54ac8a449fc08bd7ecd03ba751',1,'drv_spi.h']]],
+  ['step_5fdelay_15',['STEP_DELAY',['../a00365.html#adc7e59eed8e42ab586f1f71dab7d882d',1,'drv_pwrctrl_app_misc_TPBLPFC.c']]],
+  ['synchronous_5factive_5fswitch_16',['SYNCHRONOUS_ACTIVE_SWITCH',['../a00392.html#aa383575b9823f21599324134fa3138c6',1,'PFC_frameworkSetup.h']]]
+];

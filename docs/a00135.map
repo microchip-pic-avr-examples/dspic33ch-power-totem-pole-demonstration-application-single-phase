@@ -1,0 +1,14 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/mcc_generated_files/spi_client/spi1.h" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/mcc_generated_files/spi_client/spi1.h">
+<area shape="rect" id="Node000001" title="This is the generated driver header file for the SPI1 driver." alt="" coords="57,5,299,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,240,71,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,121,59,143,42,168,34,197,35,226,30,227,29,197,37,166,55,139,77,117"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="102,240,177,265"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,118,216,155,215,175,210,193,194,216,173,234,170,230,190,213,205,191,210,174,211,156,203,119"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="233,240,301,265"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="208,118,231,166,259,226,254,228,226,168,203,120"/>
+<area shape="rect" id="Node000005" href="$a00137_source.html" title=" " alt="" coords="51,167,195,192"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="154,120,137,156,132,153,149,118"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="111,194,64,233,61,229,108,190"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="129,192,136,226,131,227,123,193"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="148,190,233,231,230,236,145,194"/>
+</map>

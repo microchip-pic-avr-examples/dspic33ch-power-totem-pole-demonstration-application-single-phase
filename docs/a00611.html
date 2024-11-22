@@ -1,0 +1,680 @@
+<!-- HTML header for doxygen 1.8.20-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>3.8/7.6 kw Totem pole Demonstration Application: MAIN_CORE_INTERFACE Struct Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="mchp.css" rel="stylesheet" type="text/css"/>
+<link href="mchp_theme.css" rel="stylesheet" type="text/css"/>
+<link href="search.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0" style="border:0px; border-spacing: 0px; border-collapse: collapse; vertical-align: middle; width: 100%;">
+    <tbody>
+        <tr style="border: none; background-color: #00000000;">
+            <!--SITE HEADER-->
+            <td style="width: 120px; border: none;">
+                <img alt="Bar" height="60px" src="images/mchp-brandingelement-rgb2.png"/>
+            </td>
+            <td style="width: 220px; border: none;">
+                <img alt="Logo" height=50px src="images/microchip.png"/>
+            </td>
+            <td colspan="4" style="font-size: 16pt; font-weight: bolder;">
+                3.8/7.6 kw Totem pole Demonstration Application (Part-No. (not specified)) 
+            </td>
+            <td style="text-align: right; vertical-align: middle;">
+                        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+            </td>
+            <!--END SITE HEADER-->
+        </tr>
+        <tr style="height:36px; border:none; background-color: #000000b0;">
+            <td style="width: 70px; color: white; font-size:14px; font-weight: bolder; margin-left: 30px;">
+                <div style="margin-left: 30px;">Content</div>
+            </td>
+            <td style="width: 10px; color: white; font-size:14px; font-weight: bolder;">
+                &nbsp;
+            </td>
+            <td style="width: 100px; color: white; font-size:14px; font-weight: bolder;">
+                <!-- Overview -->
+            </td>
+            <td style="width: 130px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Documentation -->
+            </td>
+            <td style="width: 170px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Additional Resources -->
+            </td>
+            <td style="width: auto; color: white; font-size:14px; font-weight: bolder;"> 
+              &nbsp;
+            </td>
+            <td style="width: 310px; margin-right: 30px; color: white; font-size:10px; font-weight: lighter; text-align: right;">
+                &nbsp;
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('a00611.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Data Fields</a>  </div>
+  <div class="headertitle"><div class="title">MAIN_CORE_INTERFACE Struct Reference<div class="ingroups"><a class="el" href="a00401.html">MPLABX MCC Melody Code Generator</a> &raquo; <a class="el" href="a00420.html">MSI-Main Driver</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Structure containing the function pointers of MAIN_CORE driver.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="a00299_source.html">main_core_interface.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for MAIN_CORE_INTERFACE:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00609.svg" width="226" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Data Fields</h2></td></tr>
+<tr class="memitem:afea2a7e78ccb7643d694c4bd7fa2ed5f" id="r_afea2a7e78ccb7643d694c4bd7fa2ed5f"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afea2a7e78ccb7643d694c4bd7fa2ed5f">Initialize</a> )(void)</td></tr>
+<tr class="memdesc:afea2a7e78ccb7643d694c4bd7fa2ed5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_Initialize.  <br /></td></tr>
+<tr class="separator:afea2a7e78ccb7643d694c4bd7fa2ed5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6aa2863d2196e9f95f70fde91049ee6" id="r_ab6aa2863d2196e9f95f70fde91049ee6"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6aa2863d2196e9f95f70fde91049ee6">Deinitialize</a> )(void)</td></tr>
+<tr class="memdesc:ab6aa2863d2196e9f95f70fde91049ee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_Deinitialize.  <br /></td></tr>
+<tr class="separator:ab6aa2863d2196e9f95f70fde91049ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67248793519661949863684a5052da7e" id="r_a67248793519661949863684a5052da7e"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67248793519661949863684a5052da7e">InterruptRequestGenerate</a> )(void)</td></tr>
+<tr class="memdesc:a67248793519661949863684a5052da7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_InterruptRequestGenerate.  <br /></td></tr>
+<tr class="separator:a67248793519661949863684a5052da7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a268861be1c68ed5c66a175cdd83e3ad2" id="r_a268861be1c68ed5c66a175cdd83e3ad2"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a268861be1c68ed5c66a175cdd83e3ad2">IsInterruptRequestAcknowledged</a> )(void)</td></tr>
+<tr class="memdesc:a268861be1c68ed5c66a175cdd83e3ad2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_IsInterruptRequestAcknowledged.  <br /></td></tr>
+<tr class="separator:a268861be1c68ed5c66a175cdd83e3ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8567f6e89414d58767ee5d87f472258d" id="r_a8567f6e89414d58767ee5d87f472258d"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8567f6e89414d58767ee5d87f472258d">InterruptRequestComplete</a> )(void)</td></tr>
+<tr class="memdesc:a8567f6e89414d58767ee5d87f472258d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_InterruptRequestComplete.  <br /></td></tr>
+<tr class="separator:a8567f6e89414d58767ee5d87f472258d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3271c6ed5a6646080ef6b7d9399c656e" id="r_a3271c6ed5a6646080ef6b7d9399c656e"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3271c6ed5a6646080ef6b7d9399c656e">IsInterruptRequested</a> )(void)</td></tr>
+<tr class="memdesc:a3271c6ed5a6646080ef6b7d9399c656e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_IsInterruptRequested.  <br /></td></tr>
+<tr class="separator:a3271c6ed5a6646080ef6b7d9399c656e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae81275708138f445b63ee1a800c8f7ef" id="r_ae81275708138f445b63ee1a800c8f7ef"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae81275708138f445b63ee1a800c8f7ef">InterruptRequestAcknowledge</a> )(void)</td></tr>
+<tr class="memdesc:ae81275708138f445b63ee1a800c8f7ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_InterruptRequestAcknowledge.  <br /></td></tr>
+<tr class="separator:ae81275708138f445b63ee1a800c8f7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5afb0939ab9febf8ef387343f3e3e20" id="r_ae5afb0939ab9febf8ef387343f3e3e20"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5afb0939ab9febf8ef387343f3e3e20">InterruptRequestAcknowledgeComplete</a> )(void)</td></tr>
+<tr class="memdesc:ae5afb0939ab9febf8ef387343f3e3e20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_InterruptRequestAcknowledgeComplete.  <br /></td></tr>
+<tr class="separator:ae5afb0939ab9febf8ef387343f3e3e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e41a5c512f500dd004dfca5a5b75e3c" id="r_a4e41a5c512f500dd004dfca5a5b75e3c"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="a00420.html#ga060e8590b940d7921c6f397e67237178">MAIN_CORE_SYSTEM_STATUS</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e41a5c512f500dd004dfca5a5b75e3c">SystemStatusGet</a> )(void)</td></tr>
+<tr class="memdesc:a4e41a5c512f500dd004dfca5a5b75e3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_SystemStatusGet.  <br /></td></tr>
+<tr class="separator:a4e41a5c512f500dd004dfca5a5b75e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ffe5888bc1019186d5294aacea83694" id="r_a6ffe5888bc1019186d5294aacea83694"><td class="memItemLeft" align="right" valign="top">uint16_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ffe5888bc1019186d5294aacea83694">FIFORead</a> )(uint16_t *pData, uint16_t wordCount)</td></tr>
+<tr class="memdesc:a6ffe5888bc1019186d5294aacea83694"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_FIFORead.  <br /></td></tr>
+<tr class="separator:a6ffe5888bc1019186d5294aacea83694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae72ab5ba11a943a2e2d6ac1159753165" id="r_ae72ab5ba11a943a2e2d6ac1159753165"><td class="memItemLeft" align="right" valign="top">uint16_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae72ab5ba11a943a2e2d6ac1159753165">FIFOWrite</a> )(uint16_t *pData, uint16_t wordCount)</td></tr>
+<tr class="memdesc:ae72ab5ba11a943a2e2d6ac1159753165"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_FIFOWrite.  <br /></td></tr>
+<tr class="separator:ae72ab5ba11a943a2e2d6ac1159753165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab678d37796dd977491c035554873e4a3" id="r_ab678d37796dd977491c035554873e4a3"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab678d37796dd977491c035554873e4a3">FIFOReadIsFull</a> )(void)</td></tr>
+<tr class="memdesc:ab678d37796dd977491c035554873e4a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_FIFOReadIsFull.  <br /></td></tr>
+<tr class="separator:ab678d37796dd977491c035554873e4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad4838c82576280765a3b1e425c072f2" id="r_aad4838c82576280765a3b1e425c072f2"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad4838c82576280765a3b1e425c072f2">FIFOReadIsEmpty</a> )(void)</td></tr>
+<tr class="memdesc:aad4838c82576280765a3b1e425c072f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_FIFOReadIsEmpty.  <br /></td></tr>
+<tr class="separator:aad4838c82576280765a3b1e425c072f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ffa6440d81e95d331aed3efa28b465b" id="r_a3ffa6440d81e95d331aed3efa28b465b"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ffa6440d81e95d331aed3efa28b465b">FIFOWriteIsFull</a> )(void)</td></tr>
+<tr class="memdesc:a3ffa6440d81e95d331aed3efa28b465b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_FIFOWriteIsFull.  <br /></td></tr>
+<tr class="separator:a3ffa6440d81e95d331aed3efa28b465b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe6beea46970590c7678664af8bee549" id="r_abe6beea46970590c7678664af8bee549"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe6beea46970590c7678664af8bee549">FIFOWriteIsEmpty</a> )(void)</td></tr>
+<tr class="memdesc:abe6beea46970590c7678664af8bee549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_FIFOWriteIsEmpty.  <br /></td></tr>
+<tr class="separator:abe6beea46970590c7678664af8bee549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b95fab1ec431402c4152bf0a4d12aaf" id="r_a0b95fab1ec431402c4152bf0a4d12aaf"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b95fab1ec431402c4152bf0a4d12aaf">ProtocolRead</a> )(enum <a class="el" href="a00420.html#gab117763a489f55a579a084fa7f10ca68">MAIN_CORE_PROTOCOLS</a> protocolName, uint16_t *pData)</td></tr>
+<tr class="memdesc:a0b95fab1ec431402c4152bf0a4d12aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_ProtocolRead.  <br /></td></tr>
+<tr class="separator:a0b95fab1ec431402c4152bf0a4d12aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad20b6e926320f6fd3505ee79e3091cab" id="r_ad20b6e926320f6fd3505ee79e3091cab"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad20b6e926320f6fd3505ee79e3091cab">ProtocolWrite</a> )(enum <a class="el" href="a00420.html#gab117763a489f55a579a084fa7f10ca68">MAIN_CORE_PROTOCOLS</a> protocolName, uint16_t *pData)</td></tr>
+<tr class="memdesc:ad20b6e926320f6fd3505ee79e3091cab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_ProtocolRead.  <br /></td></tr>
+<tr class="separator:ad20b6e926320f6fd3505ee79e3091cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56b6fa37a2c4b0f4460a0b6e538e7013" id="r_a56b6fa37a2c4b0f4460a0b6e538e7013"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56b6fa37a2c4b0f4460a0b6e538e7013">ProtocolIsFull</a> )(enum <a class="el" href="a00420.html#gab117763a489f55a579a084fa7f10ca68">MAIN_CORE_PROTOCOLS</a> protocolName)</td></tr>
+<tr class="memdesc:a56b6fa37a2c4b0f4460a0b6e538e7013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_ProtocolIsFull.  <br /></td></tr>
+<tr class="separator:a56b6fa37a2c4b0f4460a0b6e538e7013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc4830f608cb2ffbcb7f1fd829735ed0" id="r_acc4830f608cb2ffbcb7f1fd829735ed0"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc4830f608cb2ffbcb7f1fd829735ed0">ProtocolIsEmpty</a> )(enum <a class="el" href="a00420.html#gab117763a489f55a579a084fa7f10ca68">MAIN_CORE_PROTOCOLS</a> protocolName)</td></tr>
+<tr class="memdesc:acc4830f608cb2ffbcb7f1fd829735ed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_ProtocolIsEmpty.  <br /></td></tr>
+<tr class="separator:acc4830f608cb2ffbcb7f1fd829735ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77e5000d3b8decee95b995d2c5dbfd0e" id="r_a77e5000d3b8decee95b995d2c5dbfd0e"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77e5000d3b8decee95b995d2c5dbfd0e">ProtocolCallbackRegister</a> )(enum <a class="el" href="a00420.html#gab117763a489f55a579a084fa7f10ca68">MAIN_CORE_PROTOCOLS</a> protocolName, void(*handler)(void))</td></tr>
+<tr class="memdesc:a77e5000d3b8decee95b995d2c5dbfd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_ProtocolCallbackRegister.  <br /></td></tr>
+<tr class="separator:a77e5000d3b8decee95b995d2c5dbfd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13d9957b71c62ae73b78997ca99216f1" id="r_a13d9957b71c62ae73b78997ca99216f1"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13d9957b71c62ae73b78997ca99216f1">ReadFIFODataReadyCallbackRegister</a> )(void(*handler)(void))</td></tr>
+<tr class="memdesc:a13d9957b71c62ae73b78997ca99216f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_ReadFIFODataReadyCallbackRegister.  <br /></td></tr>
+<tr class="separator:a13d9957b71c62ae73b78997ca99216f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93a590769178a8b889e58d1767cd64df" id="r_a93a590769178a8b889e58d1767cd64df"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93a590769178a8b889e58d1767cd64df">WriteFIFOEmptyCallbackRegister</a> )(void(*handler)(void))</td></tr>
+<tr class="memdesc:a93a590769178a8b889e58d1767cd64df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_WriteFIFOEmptyCallbackRegister.  <br /></td></tr>
+<tr class="separator:a93a590769178a8b889e58d1767cd64df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4485e520b55201576b97edc3e3daabe" id="r_aa4485e520b55201576b97edc3e3daabe"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4485e520b55201576b97edc3e3daabe">FIFOOverFLowUnderFlowCallbackRegister</a> )(void(*handler)(void))</td></tr>
+<tr class="memdesc:aa4485e520b55201576b97edc3e3daabe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_FIFOOverFLowUnderFlowCallbackRegister.  <br /></td></tr>
+<tr class="separator:aa4485e520b55201576b97edc3e3daabe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2031befad05cc19fecd28b3943c37379" id="r_a2031befad05cc19fecd28b3943c37379"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2031befad05cc19fecd28b3943c37379">MainInitiatedCallbackRegister</a> )(void(*handler)(void))</td></tr>
+<tr class="memdesc:a2031befad05cc19fecd28b3943c37379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_MainInitiatedCallbackRegister.  <br /></td></tr>
+<tr class="separator:a2031befad05cc19fecd28b3943c37379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a1f52a4ca595dab1e56915ab3cbee0a" id="r_a1a1f52a4ca595dab1e56915ab3cbee0a"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a1f52a4ca595dab1e56915ab3cbee0a">MainBreakCallbackRegister</a> )(void(*handler)(void))</td></tr>
+<tr class="memdesc:a1a1f52a4ca595dab1e56915ab3cbee0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_MainBreakCallbackRegister.  <br /></td></tr>
+<tr class="separator:a1a1f52a4ca595dab1e56915ab3cbee0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afadf2f85f27a9dc237fbbe7aee1cbe1e" id="r_afadf2f85f27a9dc237fbbe7aee1cbe1e"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afadf2f85f27a9dc237fbbe7aee1cbe1e">MainResetCallbackRegister</a> )(void(*handler)(void))</td></tr>
+<tr class="memdesc:afadf2f85f27a9dc237fbbe7aee1cbe1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to MAIN_CORE_MainResetCallbackRegister.  <br /></td></tr>
+<tr class="separator:afadf2f85f27a9dc237fbbe7aee1cbe1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00033">33</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+</div><h2 class="groupheader">Field Documentation</h2>
+<a id="ab6aa2863d2196e9f95f70fde91049ee6" name="ab6aa2863d2196e9f95f70fde91049ee6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6aa2863d2196e9f95f70fde91049ee6">&#9670;&#160;</a></span>Deinitialize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* Deinitialize) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00038">38</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="aa4485e520b55201576b97edc3e3daabe" name="aa4485e520b55201576b97edc3e3daabe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4485e520b55201576b97edc3e3daabe">&#9670;&#160;</a></span>FIFOOverFLowUnderFlowCallbackRegister</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* FIFOOverFLowUnderFlowCallbackRegister) (void(*handler)(void))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00101">101</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a6ffe5888bc1019186d5294aacea83694" name="a6ffe5888bc1019186d5294aacea83694"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ffe5888bc1019186d5294aacea83694">&#9670;&#160;</a></span>FIFORead</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t(* FIFORead) (uint16_t *pData, uint16_t wordCount)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00062">62</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="aad4838c82576280765a3b1e425c072f2" name="aad4838c82576280765a3b1e425c072f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad4838c82576280765a3b1e425c072f2">&#9670;&#160;</a></span>FIFOReadIsEmpty</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool(* FIFOReadIsEmpty) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00071">71</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="ab678d37796dd977491c035554873e4a3" name="ab678d37796dd977491c035554873e4a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab678d37796dd977491c035554873e4a3">&#9670;&#160;</a></span>FIFOReadIsFull</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool(* FIFOReadIsFull) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00068">68</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="ae72ab5ba11a943a2e2d6ac1159753165" name="ae72ab5ba11a943a2e2d6ac1159753165"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae72ab5ba11a943a2e2d6ac1159753165">&#9670;&#160;</a></span>FIFOWrite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t(* FIFOWrite) (uint16_t *pData, uint16_t wordCount)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00065">65</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="abe6beea46970590c7678664af8bee549" name="abe6beea46970590c7678664af8bee549"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe6beea46970590c7678664af8bee549">&#9670;&#160;</a></span>FIFOWriteIsEmpty</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool(* FIFOWriteIsEmpty) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00077">77</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a3ffa6440d81e95d331aed3efa28b465b" name="a3ffa6440d81e95d331aed3efa28b465b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ffa6440d81e95d331aed3efa28b465b">&#9670;&#160;</a></span>FIFOWriteIsFull</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool(* FIFOWriteIsFull) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00074">74</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="afea2a7e78ccb7643d694c4bd7fa2ed5f" name="afea2a7e78ccb7643d694c4bd7fa2ed5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afea2a7e78ccb7643d694c4bd7fa2ed5f">&#9670;&#160;</a></span>Initialize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* Initialize) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00035">35</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="ae81275708138f445b63ee1a800c8f7ef" name="ae81275708138f445b63ee1a800c8f7ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae81275708138f445b63ee1a800c8f7ef">&#9670;&#160;</a></span>InterruptRequestAcknowledge</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* InterruptRequestAcknowledge) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00053">53</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="ae5afb0939ab9febf8ef387343f3e3e20" name="ae5afb0939ab9febf8ef387343f3e3e20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5afb0939ab9febf8ef387343f3e3e20">&#9670;&#160;</a></span>InterruptRequestAcknowledgeComplete</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* InterruptRequestAcknowledgeComplete) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00056">56</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a8567f6e89414d58767ee5d87f472258d" name="a8567f6e89414d58767ee5d87f472258d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8567f6e89414d58767ee5d87f472258d">&#9670;&#160;</a></span>InterruptRequestComplete</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* InterruptRequestComplete) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00047">47</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a67248793519661949863684a5052da7e" name="a67248793519661949863684a5052da7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67248793519661949863684a5052da7e">&#9670;&#160;</a></span>InterruptRequestGenerate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* InterruptRequestGenerate) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00041">41</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a268861be1c68ed5c66a175cdd83e3ad2" name="a268861be1c68ed5c66a175cdd83e3ad2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a268861be1c68ed5c66a175cdd83e3ad2">&#9670;&#160;</a></span>IsInterruptRequestAcknowledged</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool(* IsInterruptRequestAcknowledged) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00044">44</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a3271c6ed5a6646080ef6b7d9399c656e" name="a3271c6ed5a6646080ef6b7d9399c656e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3271c6ed5a6646080ef6b7d9399c656e">&#9670;&#160;</a></span>IsInterruptRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool(* IsInterruptRequested) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00050">50</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a1a1f52a4ca595dab1e56915ab3cbee0a" name="a1a1f52a4ca595dab1e56915ab3cbee0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a1f52a4ca595dab1e56915ab3cbee0a">&#9670;&#160;</a></span>MainBreakCallbackRegister</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* MainBreakCallbackRegister) (void(*handler)(void))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00107">107</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a2031befad05cc19fecd28b3943c37379" name="a2031befad05cc19fecd28b3943c37379"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2031befad05cc19fecd28b3943c37379">&#9670;&#160;</a></span>MainInitiatedCallbackRegister</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* MainInitiatedCallbackRegister) (void(*handler)(void))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00104">104</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="afadf2f85f27a9dc237fbbe7aee1cbe1e" name="afadf2f85f27a9dc237fbbe7aee1cbe1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afadf2f85f27a9dc237fbbe7aee1cbe1e">&#9670;&#160;</a></span>MainResetCallbackRegister</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* MainResetCallbackRegister) (void(*handler)(void))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00110">110</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a77e5000d3b8decee95b995d2c5dbfd0e" name="a77e5000d3b8decee95b995d2c5dbfd0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77e5000d3b8decee95b995d2c5dbfd0e">&#9670;&#160;</a></span>ProtocolCallbackRegister</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* ProtocolCallbackRegister) (enum <a class="el" href="a00420.html#gab117763a489f55a579a084fa7f10ca68">MAIN_CORE_PROTOCOLS</a> protocolName, void(*handler)(void))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00092">92</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="acc4830f608cb2ffbcb7f1fd829735ed0" name="acc4830f608cb2ffbcb7f1fd829735ed0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc4830f608cb2ffbcb7f1fd829735ed0">&#9670;&#160;</a></span>ProtocolIsEmpty</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool(* ProtocolIsEmpty) (enum <a class="el" href="a00420.html#gab117763a489f55a579a084fa7f10ca68">MAIN_CORE_PROTOCOLS</a> protocolName)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00089">89</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a56b6fa37a2c4b0f4460a0b6e538e7013" name="a56b6fa37a2c4b0f4460a0b6e538e7013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56b6fa37a2c4b0f4460a0b6e538e7013">&#9670;&#160;</a></span>ProtocolIsFull</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool(* ProtocolIsFull) (enum <a class="el" href="a00420.html#gab117763a489f55a579a084fa7f10ca68">MAIN_CORE_PROTOCOLS</a> protocolName)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00086">86</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a0b95fab1ec431402c4152bf0a4d12aaf" name="a0b95fab1ec431402c4152bf0a4d12aaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b95fab1ec431402c4152bf0a4d12aaf">&#9670;&#160;</a></span>ProtocolRead</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool(* ProtocolRead) (enum <a class="el" href="a00420.html#gab117763a489f55a579a084fa7f10ca68">MAIN_CORE_PROTOCOLS</a> protocolName, uint16_t *pData)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00080">80</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="ad20b6e926320f6fd3505ee79e3091cab" name="ad20b6e926320f6fd3505ee79e3091cab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad20b6e926320f6fd3505ee79e3091cab">&#9670;&#160;</a></span>ProtocolWrite</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool(* ProtocolWrite) (enum <a class="el" href="a00420.html#gab117763a489f55a579a084fa7f10ca68">MAIN_CORE_PROTOCOLS</a> protocolName, uint16_t *pData)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00083">83</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a13d9957b71c62ae73b78997ca99216f1" name="a13d9957b71c62ae73b78997ca99216f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13d9957b71c62ae73b78997ca99216f1">&#9670;&#160;</a></span>ReadFIFODataReadyCallbackRegister</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* ReadFIFODataReadyCallbackRegister) (void(*handler)(void))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00095">95</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a4e41a5c512f500dd004dfca5a5b75e3c" name="a4e41a5c512f500dd004dfca5a5b75e3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e41a5c512f500dd004dfca5a5b75e3c">&#9670;&#160;</a></span>SystemStatusGet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00420.html#ga060e8590b940d7921c6f397e67237178">MAIN_CORE_SYSTEM_STATUS</a>(* SystemStatusGet) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00056">56</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a93a590769178a8b889e58d1767cd64df" name="a93a590769178a8b889e58d1767cd64df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93a590769178a8b889e58d1767cd64df">&#9670;&#160;</a></span>WriteFIFOEmptyCallbackRegister</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* WriteFIFOEmptyCallbackRegister) (void(*handler)(void))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00299_source.html#l00098">98</a> of file <a class="el" href="a00299_source.html">main_core_interface.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>C:/Users/M70027/Documents/Projects/tp-deployment/dspic33ch-power-totem-pole-demonstration-application-single-phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/mcc_generated_files/main_core/<a class="el" href="a00299_source.html">main_core_interface.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.20-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath" style="padding-bottom: 12px; vertical-align: bottom;"><!-- id is needed for treeview function! -->
+  <ul>
+    <p class="footer" style="text-align: center; font-size: 90%;">
+      © Copyright 1998-2022 Microchip Technology Inc. All rights reserved.
+    </p>
+    </ul>
+</div>
+</body>
+</html>

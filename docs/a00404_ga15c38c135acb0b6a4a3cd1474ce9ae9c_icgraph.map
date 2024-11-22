@@ -1,0 +1,7 @@
+<map id="ADC1_CommonCallback" name="ADC1_CommonCallback">
+<area shape="rect" id="Node000001" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="343,5,508,31"/>
+<area shape="rect" id="Node000002" href="$a00404.html#gad272fc3ade4d66bfb9580444418b97ee" title="Initializes ADC1 module, using the given initialization data This function must be called before any ..." alt="" coords="184,5,295,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="329,21,295,21,295,15,329,15"/>
+<area shape="rect" id="Node000003" href="$a00412.html#ga5e8391114a0cf91ac20002be25e3d352" title="Initializes the System module." alt="" coords="5,5,136,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="170,21,136,21,136,15,170,15"/>
+</map>
