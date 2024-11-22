@@ -1,0 +1,5 @@
+<map id="CAN_Receive_from_GUI" name="CAN_Receive_from_GUI">
+<area shape="rect" id="Node000001" title="received message from GUI. Send the data to the secondary core using mailbox protocol A" alt="" coords="152,5,315,31"/>
+<area shape="rect" id="Node000002" href="$a00431.html#ga97fda594ad396d08b6a833ebb3b04538" title="tasks run every 100us" alt="" coords="5,5,104,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,21,104,21,104,15,138,15"/>
+</map>

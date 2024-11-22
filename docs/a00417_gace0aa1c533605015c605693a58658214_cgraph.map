@@ -1,0 +1,5 @@
+<map id="UART1_BaudRateGet" name="UART1_BaudRateGet">
+<area shape="rect" id="Node000001" title="Gets the actual Baud&#45;Rate of UART1." alt="" coords="5,5,153,31"/>
+<area shape="rect" id="Node000002" href="$a00417.html#gae17ce6d866cf1df1a98a30b8b8aef089" title="Gets the BRG value of UART1." alt="" coords="201,5,355,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,15,187,15,187,21,154,21"/>
+</map>

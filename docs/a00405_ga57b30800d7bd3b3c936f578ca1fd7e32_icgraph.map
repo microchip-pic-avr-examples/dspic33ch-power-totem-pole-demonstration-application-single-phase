@@ -1,0 +1,19 @@
+<map id="CAN1_FIFO_InfoGet" name="CAN1_FIFO_InfoGet">
+<area shape="rect" id="Node000001" title="This function get the FIFO user address, message depth and payload size information." alt="" coords="633,80,773,105"/>
+<area shape="rect" id="Node000002" href="$a00405.html#ga4fe1df4cd9f0ce122687dcfab0713b5b" title="Reads the received single message object." alt="" coords="420,5,528,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="663,76,584,45,528,30,529,25,586,39,665,72"/>
+<area shape="rect" id="Node000005" href="$a00405.html#gac27e97593d8d9bd7787d116910adc40d" title="Returns the number of CAN messages received in all the FIFO." alt="" coords="363,55,585,80"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="619,86,585,82,586,77,620,81"/>
+<area shape="rect" id="Node000006" href="$a00405.html#ga2c655a58965fff8578916b59bed47297" title="Reads the received single message object from the CAN1 receive FIFO." alt="" coords="383,104,565,129"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="619,104,566,110,565,104,619,99"/>
+<area shape="rect" id="Node000007" href="$a00405.html#gad99c960d1ed589ce80aca873a90e068e" title="Writes the CAN message object to specified transmit FIFO channel." alt="" coords="417,153,531,179"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="664,114,586,145,531,159,530,153,585,139,662,109"/>
+<area shape="rect" id="Node000003" href="$a00424.html#ga77b41fe067ba8e8d666827b686e52cff" title="received message from GUI. Send the data to the secondary core using mailbox protocol A" alt="" coords="152,55,315,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="407,34,297,57,296,52,406,29"/>
+<area shape="rect" id="Node000004" href="$a00431.html#ga97fda594ad396d08b6a833ebb3b04538" title="tasks run every 100us" alt="" coords="5,80,104,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="139,83,105,88,104,83,138,78"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="349,70,315,70,315,65,349,65"/>
+<area shape="rect" id="Node000008" href="$a00424.html#ga9511f6338931225152a644cd0b011f66" title="send frame to GUI when the FIFO from secondary to primary has been filled" alt="" coords="157,129,310,155"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="403,162,310,152,311,147,404,156"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="173,128,101,108,103,103,174,123"/>
+</map>

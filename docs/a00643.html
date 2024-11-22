@@ -1,0 +1,454 @@
+<!-- HTML header for doxygen 1.8.20-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>3.8/7.6 kw Totem pole Demonstration Application: CONTROL_STATUS_FLAGS_s Struct Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="mchp.css" rel="stylesheet" type="text/css"/>
+<link href="mchp_theme.css" rel="stylesheet" type="text/css"/>
+<link href="search.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0" style="border:0px; border-spacing: 0px; border-collapse: collapse; vertical-align: middle; width: 100%;">
+    <tbody>
+        <tr style="border: none; background-color: #00000000;">
+            <!--SITE HEADER-->
+            <td style="width: 120px; border: none;">
+                <img alt="Bar" height="60px" src="images/mchp-brandingelement-rgb2.png"/>
+            </td>
+            <td style="width: 220px; border: none;">
+                <img alt="Logo" height=50px src="images/microchip.png"/>
+            </td>
+            <td colspan="4" style="font-size: 16pt; font-weight: bolder;">
+                3.8/7.6 kw Totem pole Demonstration Application (Part-No. (not specified)) 
+            </td>
+            <td style="text-align: right; vertical-align: middle;">
+                        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+            </td>
+            <!--END SITE HEADER-->
+        </tr>
+        <tr style="height:36px; border:none; background-color: #000000b0;">
+            <td style="width: 70px; color: white; font-size:14px; font-weight: bolder; margin-left: 30px;">
+                <div style="margin-left: 30px;">Content</div>
+            </td>
+            <td style="width: 10px; color: white; font-size:14px; font-weight: bolder;">
+                &nbsp;
+            </td>
+            <td style="width: 100px; color: white; font-size:14px; font-weight: bolder;">
+                <!-- Overview -->
+            </td>
+            <td style="width: 130px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Documentation -->
+            </td>
+            <td style="width: 170px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Additional Resources -->
+            </td>
+            <td style="width: auto; color: white; font-size:14px; font-weight: bolder;"> 
+              &nbsp;
+            </td>
+            <td style="width: 310px; margin-right: 30px; color: white; font-size:10px; font-weight: lighter; text-align: right;">
+                &nbsp;
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('a00643.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Data Fields</a>  </div>
+  <div class="headertitle"><div class="title">CONTROL_STATUS_FLAGS_s Struct Reference</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for CONTROL_STATUS_FLAGS_s:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00641.svg" width="207" height="356"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Data Fields</h2></td></tr>
+<tr class="memitem:a5c9784f3531db77b8ef44ea01974dd9a" id="r_a5c9784f3531db77b8ef44ea01974dd9a"><td class="memItemLeft" >union {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b9cbc2096b7d759e104b7097736b82b" id="r_a0b9cbc2096b7d759e104b7097736b82b"><td class="memItemLeft" >&#160;&#160;&#160;struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a0b9cbc2096b7d759e104b7097736b82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77a14dbbb61e54b4636eefef3f08fd79" id="r_a77a14dbbb61e54b4636eefef3f08fd79"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile unsigned&#160;&#160;&#160;<a class="el" href="#a77a14dbbb61e54b4636eefef3f08fd79">Soft_Start_Zero_Cross</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a77a14dbbb61e54b4636eefef3f08fd79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d810747ce655bbfad922b207c37bca7" id="r_a1d810747ce655bbfad922b207c37bca7"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile unsigned&#160;&#160;&#160;<a class="el" href="#a1d810747ce655bbfad922b207c37bca7">VAC_Polarity_last</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a1d810747ce655bbfad922b207c37bca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79fd80ac3f0049d44c5b27f1112589a2" id="r_a79fd80ac3f0049d44c5b27f1112589a2"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile unsigned&#160;&#160;&#160;<a class="el" href="#a79fd80ac3f0049d44c5b27f1112589a2">Relay</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a79fd80ac3f0049d44c5b27f1112589a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2f7b25e426c72b9db63bc860a1dbfa6" id="r_ae2f7b25e426c72b9db63bc860a1dbfa6"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile unsigned&#160;&#160;&#160;<a class="el" href="#ae2f7b25e426c72b9db63bc860a1dbfa6">Stop</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ae2f7b25e426c72b9db63bc860a1dbfa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa820e2e5167a540c24826755568f5197" id="r_aa820e2e5167a540c24826755568f5197"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile unsigned&#160;&#160;&#160;<a class="el" href="#aa820e2e5167a540c24826755568f5197">Fault</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:aa820e2e5167a540c24826755568f5197"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eaf657bc10bd3a6e1c445bc48cf3185" id="r_a2eaf657bc10bd3a6e1c445bc48cf3185"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile unsigned&#160;&#160;&#160;<a class="el" href="#a2eaf657bc10bd3a6e1c445bc48cf3185">VAC_Polarity_Changed</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a2eaf657bc10bd3a6e1c445bc48cf3185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e98e711324e0162231f58a6b412bff4" id="r_a8e98e711324e0162231f58a6b412bff4"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile unsigned&#160;&#160;&#160;<a class="el" href="#a8e98e711324e0162231f58a6b412bff4">VAC_Polarity_Changed_last</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a8e98e711324e0162231f58a6b412bff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd74de82f3b4f52064e96fc280804230" id="r_abd74de82f3b4f52064e96fc280804230"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile unsigned&#160;&#160;&#160;<a class="el" href="#abd74de82f3b4f52064e96fc280804230">CCM</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:abd74de82f3b4f52064e96fc280804230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5713cf231aac7bede756a16a9549dbb0" id="r_a5713cf231aac7bede756a16a9549dbb0"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile unsigned&#160;&#160;&#160;<a class="el" href="#a5713cf231aac7bede756a16a9549dbb0">BurstModeDetected</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a5713cf231aac7bede756a16a9549dbb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a8c4114932eed71f0a38ce97da3a838" id="r_a6a8c4114932eed71f0a38ce97da3a838"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile unsigned&#160;&#160;&#160;<a class="el" href="#a6a8c4114932eed71f0a38ce97da3a838">BurstModeLatched</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a6a8c4114932eed71f0a38ce97da3a838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1168d70bed02492c83545cffad0a6c7f" id="r_a1168d70bed02492c83545cffad0a6c7f"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile unsigned&#160;&#160;&#160;<a class="el" href="#a1168d70bed02492c83545cffad0a6c7f">Reference_Changed</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a1168d70bed02492c83545cffad0a6c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b8b261207d48823a4dedfde1ad66954" id="r_a2b8b261207d48823a4dedfde1ad66954"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile unsigned&#160;&#160;&#160;<a class="el" href="#a2b8b261207d48823a4dedfde1ad66954">VariableGain</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a2b8b261207d48823a4dedfde1ad66954"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b9cbc2096b7d759e104b7097736b82b" id="r_a0b9cbc2096b7d759e104b7097736b82b"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="#a0b9cbc2096b7d759e104b7097736b82b">bits</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a0b9cbc2096b7d759e104b7097736b82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c55f449560b03ce0ac43270c26600" id="r_a3f0c55f449560b03ce0ac43270c26600"><td class="memItemLeft" >&#160;&#160;&#160;volatile uint16_t&#160;&#160;&#160;<a class="el" href="#a3f0c55f449560b03ce0ac43270c26600">value</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a3f0c55f449560b03ce0ac43270c26600"><td class="mdescLeft">&#160;</td><td class="mdescRight">buffer for 16-bit word read/write operations  <a href="#a3f0c55f449560b03ce0ac43270c26600">More...</a><br /></td></tr>
+<tr class="separator:a3f0c55f449560b03ce0ac43270c26600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c9784f3531db77b8ef44ea01974dd9a" id="r_a5c9784f3531db77b8ef44ea01974dd9a"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom">&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a5c9784f3531db77b8ef44ea01974dd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="a00344_source.html#l00126">126</a> of file <a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a>.</p>
+</div><h2 class="groupheader">Field Documentation</h2>
+<a id="a5c9784f3531db77b8ef44ea01974dd9a" name="a5c9784f3531db77b8ef44ea01974dd9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c9784f3531db77b8ef44ea01974dd9a">&#9670;&#160;</a></span>[union]</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">union  { ... } </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b9cbc2096b7d759e104b7097736b82b" name="a0b9cbc2096b7d759e104b7097736b82b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b9cbc2096b7d759e104b7097736b82b">&#9670;&#160;</a></span>[struct]</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct  { ... }  bits</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5713cf231aac7bede756a16a9549dbb0" name="a5713cf231aac7bede756a16a9549dbb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5713cf231aac7bede756a16a9549dbb0">&#9670;&#160;</a></span>BurstModeDetected</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned BurstModeDetected</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00344_source.html#l00138">138</a> of file <a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a6a8c4114932eed71f0a38ce97da3a838" name="a6a8c4114932eed71f0a38ce97da3a838"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a8c4114932eed71f0a38ce97da3a838">&#9670;&#160;</a></span>BurstModeLatched</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned BurstModeLatched</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00344_source.html#l00139">139</a> of file <a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="abd74de82f3b4f52064e96fc280804230" name="abd74de82f3b4f52064e96fc280804230"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd74de82f3b4f52064e96fc280804230">&#9670;&#160;</a></span>CCM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned CCM</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00344_source.html#l00137">137</a> of file <a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="aa820e2e5167a540c24826755568f5197" name="aa820e2e5167a540c24826755568f5197"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa820e2e5167a540c24826755568f5197">&#9670;&#160;</a></span>Fault</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned Fault</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00344_source.html#l00134">134</a> of file <a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a1168d70bed02492c83545cffad0a6c7f" name="a1168d70bed02492c83545cffad0a6c7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1168d70bed02492c83545cffad0a6c7f">&#9670;&#160;</a></span>Reference_Changed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned Reference_Changed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00344_source.html#l00140">140</a> of file <a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a79fd80ac3f0049d44c5b27f1112589a2" name="a79fd80ac3f0049d44c5b27f1112589a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79fd80ac3f0049d44c5b27f1112589a2">&#9670;&#160;</a></span>Relay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned Relay</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00344_source.html#l00132">132</a> of file <a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a77a14dbbb61e54b4636eefef3f08fd79" name="a77a14dbbb61e54b4636eefef3f08fd79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77a14dbbb61e54b4636eefef3f08fd79">&#9670;&#160;</a></span>Soft_Start_Zero_Cross</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned Soft_Start_Zero_Cross</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00344_source.html#l00130">130</a> of file <a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="ae2f7b25e426c72b9db63bc860a1dbfa6" name="ae2f7b25e426c72b9db63bc860a1dbfa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2f7b25e426c72b9db63bc860a1dbfa6">&#9670;&#160;</a></span>Stop</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned Stop</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00344_source.html#l00133">133</a> of file <a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a2eaf657bc10bd3a6e1c445bc48cf3185" name="a2eaf657bc10bd3a6e1c445bc48cf3185"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eaf657bc10bd3a6e1c445bc48cf3185">&#9670;&#160;</a></span>VAC_Polarity_Changed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned VAC_Polarity_Changed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00344_source.html#l00135">135</a> of file <a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a8e98e711324e0162231f58a6b412bff4" name="a8e98e711324e0162231f58a6b412bff4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e98e711324e0162231f58a6b412bff4">&#9670;&#160;</a></span>VAC_Polarity_Changed_last</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned VAC_Polarity_Changed_last</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00344_source.html#l00136">136</a> of file <a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a1d810747ce655bbfad922b207c37bca7" name="a1d810747ce655bbfad922b207c37bca7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d810747ce655bbfad922b207c37bca7">&#9670;&#160;</a></span>VAC_Polarity_last</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned VAC_Polarity_last</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00344_source.html#l00131">131</a> of file <a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a3f0c55f449560b03ce0ac43270c26600" name="a3f0c55f449560b03ce0ac43270c26600"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f0c55f449560b03ce0ac43270c26600">&#9670;&#160;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint16_t value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00344_source.html#l00144">144</a> of file <a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a2b8b261207d48823a4dedfde1ad66954" name="a2b8b261207d48823a4dedfde1ad66954"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b8b261207d48823a4dedfde1ad66954">&#9670;&#160;</a></span>VariableGain</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned VariableGain</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00344_source.html#l00141">141</a> of file <a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>C:/Users/M70027/Documents/Projects/tp-deployment/dspic33ch-power-totem-pole-demonstration-application-single-phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/sources/devices/<a class="el" href="a00344_source.html">dev_TPBLPFC_typedef.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.20-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath" style="padding-bottom: 12px; vertical-align: bottom;"><!-- id is needed for treeview function! -->
+  <ul>
+    <p class="footer" style="text-align: center; font-size: 90%;">
+      © Copyright 1998-2022 Microchip Technology Inc. All rights reserved.
+    </p>
+    </ul>
+</div>
+</body>
+</html>

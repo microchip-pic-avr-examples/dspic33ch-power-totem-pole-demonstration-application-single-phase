@@ -1,0 +1,13 @@
+@startuml
+participant Isolated_Voltage_Acquistion_Board order 10
+participant dsPIC33CH_Primary_Core order 20
+participant dsPIC33CH_Secondary_Core order 30
+
+title AC Voltage Acquistion 
+
+dsPIC33CH_Secondary_Core --> Isolated_Voltage_Acquistion_Board : Trigger for Voltage Acquistion
+Isolated_Voltage_Acquistion_Board -> dsPIC33CH_Primary_Core : AC Voltage Data over SPI
+dsPIC33CH_Primary_Core -> dsPIC33CH_Primary_Core : 4x received and processed
+dsPIC33CH_Primary_Core -> dsPIC33CH_Secondary_Core : processed data sent over Mailbox B 
+
+@enduml

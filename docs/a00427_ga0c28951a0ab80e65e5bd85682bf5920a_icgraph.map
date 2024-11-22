@@ -1,0 +1,11 @@
+<map id="Drv_SPI_get_Connected_Flag" name="Drv_SPI_get_Connected_Flag">
+<area shape="rect" id="Node000001" title="retrieve the value of the flag &quot;selfSpi.connected&quot;" alt="" coords="556,35,751,60"/>
+<area shape="rect" id="Node000002" href="$a00418.html#ga9f16d166d637fd9005839b1e1822dc63" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="353,5,508,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="543,35,508,31,509,26,544,30"/>
+<area shape="rect" id="Node000003" href="$a00424.html#ga9547e1b813e407c1cedf72e3b4744ea0" title="Update housekeeping flags related to PIC16s on SiC cards and PIC16 on main power board." alt="" coords="359,55,502,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="542,64,503,69,502,64,542,59"/>
+<area shape="rect" id="Node000004" href="$a00424.html#ga9511f6338931225152a644cd0b011f66" title="send frame to GUI when the FIFO from secondary to primary has been filled" alt="" coords="152,63,305,88"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="345,78,305,78,305,73,345,73"/>
+<area shape="rect" id="Node000005" href="$a00431.html#ga97fda594ad396d08b6a833ebb3b04538" title="tasks run every 100us" alt="" coords="5,63,104,88"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="138,78,104,78,104,73,138,73"/>
+</map>

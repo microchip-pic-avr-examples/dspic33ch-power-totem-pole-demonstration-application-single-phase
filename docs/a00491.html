@@ -1,0 +1,524 @@
+<!-- HTML header for doxygen 1.8.20-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>3.8/7.6 kw Totem pole Demonstration Application: HOUSEKEEPING_STATUS_s Struct Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="mchp.css" rel="stylesheet" type="text/css"/>
+<link href="mchp_theme.css" rel="stylesheet" type="text/css"/>
+<link href="search.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0" style="border:0px; border-spacing: 0px; border-collapse: collapse; vertical-align: middle; width: 100%;">
+    <tbody>
+        <tr style="border: none; background-color: #00000000;">
+            <!--SITE HEADER-->
+            <td style="width: 120px; border: none;">
+                <img alt="Bar" height="60px" src="images/mchp-brandingelement-rgb2.png"/>
+            </td>
+            <td style="width: 220px; border: none;">
+                <img alt="Logo" height=50px src="images/microchip.png"/>
+            </td>
+            <td colspan="4" style="font-size: 16pt; font-weight: bolder;">
+                3.8/7.6 kw Totem pole Demonstration Application (Part-No. (not specified)) 
+            </td>
+            <td style="text-align: right; vertical-align: middle;">
+                        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+            </td>
+            <!--END SITE HEADER-->
+        </tr>
+        <tr style="height:36px; border:none; background-color: #000000b0;">
+            <td style="width: 70px; color: white; font-size:14px; font-weight: bolder; margin-left: 30px;">
+                <div style="margin-left: 30px;">Content</div>
+            </td>
+            <td style="width: 10px; color: white; font-size:14px; font-weight: bolder;">
+                &nbsp;
+            </td>
+            <td style="width: 100px; color: white; font-size:14px; font-weight: bolder;">
+                <!-- Overview -->
+            </td>
+            <td style="width: 130px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Documentation -->
+            </td>
+            <td style="width: 170px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Additional Resources -->
+            </td>
+            <td style="width: auto; color: white; font-size:14px; font-weight: bolder;"> 
+              &nbsp;
+            </td>
+            <td style="width: 310px; margin-right: 30px; color: white; font-size:10px; font-weight: lighter; text-align: right;">
+                &nbsp;
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('a00491.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Data Fields</a>  </div>
+  <div class="headertitle"><div class="title">HOUSEKEEPING_STATUS_s Struct Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for HOUSEKEEPING_STATUS_s:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00489.svg" width="200" height="276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Data Fields</h2></td></tr>
+<tr class="memitem:ab7972f125f0f1714202ea212be1f3589" id="r_ab7972f125f0f1714202ea212be1f3589"><td class="memItemLeft" >union {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a456b115d1197c92c937020d085453108" id="r_a456b115d1197c92c937020d085453108"><td class="memItemLeft" >&#160;&#160;&#160;struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a456b115d1197c92c937020d085453108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81f6bbe0621770724a1f3de566474bcf" id="r_a81f6bbe0621770724a1f3de566474bcf"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile uint8_t&#160;&#160;&#160;<a class="el" href="#a81f6bbe0621770724a1f3de566474bcf">sic1_5v_ok</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a81f6bbe0621770724a1f3de566474bcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #0.  <a href="#a81f6bbe0621770724a1f3de566474bcf">More...</a><br /></td></tr>
+<tr class="separator:a81f6bbe0621770724a1f3de566474bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0b1bbc2d4c000e00e4696767600128e" id="r_ac0b1bbc2d4c000e00e4696767600128e"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile uint8_t&#160;&#160;&#160;<a class="el" href="#ac0b1bbc2d4c000e00e4696767600128e">sic2_5v_ok</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:ac0b1bbc2d4c000e00e4696767600128e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #1.  <a href="#ac0b1bbc2d4c000e00e4696767600128e">More...</a><br /></td></tr>
+<tr class="separator:ac0b1bbc2d4c000e00e4696767600128e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9457ddd0de64c104fc4fccafa86e054d" id="r_a9457ddd0de64c104fc4fccafa86e054d"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile uint8_t&#160;&#160;&#160;<a class="el" href="#a9457ddd0de64c104fc4fccafa86e054d">sic3_5v_ok</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a9457ddd0de64c104fc4fccafa86e054d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #2.  <a href="#a9457ddd0de64c104fc4fccafa86e054d">More...</a><br /></td></tr>
+<tr class="separator:a9457ddd0de64c104fc4fccafa86e054d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac14ed2685034bba2f1fda88bfb8c483" id="r_aac14ed2685034bba2f1fda88bfb8c483"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile uint8_t&#160;&#160;&#160;<a class="el" href="#aac14ed2685034bba2f1fda88bfb8c483">sic4_5v_ok</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:aac14ed2685034bba2f1fda88bfb8c483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #3.  <a href="#aac14ed2685034bba2f1fda88bfb8c483">More...</a><br /></td></tr>
+<tr class="separator:aac14ed2685034bba2f1fda88bfb8c483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3577674212bdf29fab894639bff23404" id="r_a3577674212bdf29fab894639bff23404"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile uint8_t&#160;&#160;&#160;<a class="el" href="#a3577674212bdf29fab894639bff23404">sic1_comms_ok</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a3577674212bdf29fab894639bff23404"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #4.  <a href="#a3577674212bdf29fab894639bff23404">More...</a><br /></td></tr>
+<tr class="separator:a3577674212bdf29fab894639bff23404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d028ea3eb222243dff51ebeabb66ecb" id="r_a8d028ea3eb222243dff51ebeabb66ecb"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile uint8_t&#160;&#160;&#160;<a class="el" href="#a8d028ea3eb222243dff51ebeabb66ecb">sic2_comms_ok</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a8d028ea3eb222243dff51ebeabb66ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #5.  <a href="#a8d028ea3eb222243dff51ebeabb66ecb">More...</a><br /></td></tr>
+<tr class="separator:a8d028ea3eb222243dff51ebeabb66ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f6f9f57566680e6eb9d4bd8c41f0b4c" id="r_a9f6f9f57566680e6eb9d4bd8c41f0b4c"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile uint8_t&#160;&#160;&#160;<a class="el" href="#a9f6f9f57566680e6eb9d4bd8c41f0b4c">sic3_comms_ok</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a9f6f9f57566680e6eb9d4bd8c41f0b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #6.  <a href="#a9f6f9f57566680e6eb9d4bd8c41f0b4c">More...</a><br /></td></tr>
+<tr class="separator:a9f6f9f57566680e6eb9d4bd8c41f0b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1aa4f36fd0267c128cff991af1f12a7" id="r_aa1aa4f36fd0267c128cff991af1f12a7"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile uint8_t&#160;&#160;&#160;<a class="el" href="#aa1aa4f36fd0267c128cff991af1f12a7">sic4_comms_ok</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:aa1aa4f36fd0267c128cff991af1f12a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #7.  <a href="#aa1aa4f36fd0267c128cff991af1f12a7">More...</a><br /></td></tr>
+<tr class="separator:aa1aa4f36fd0267c128cff991af1f12a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5960ff30ec0fbd0db0f9b88b692a4bc7" id="r_a5960ff30ec0fbd0db0f9b88b692a4bc7"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile uint8_t&#160;&#160;&#160;<a class="el" href="#a5960ff30ec0fbd0db0f9b88b692a4bc7">aux_5v_ok</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a5960ff30ec0fbd0db0f9b88b692a4bc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #8.  <a href="#a5960ff30ec0fbd0db0f9b88b692a4bc7">More...</a><br /></td></tr>
+<tr class="separator:a5960ff30ec0fbd0db0f9b88b692a4bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ac4520e4a0c946aea95e8905095f1c9" id="r_a9ac4520e4a0c946aea95e8905095f1c9"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile uint8_t&#160;&#160;&#160;<a class="el" href="#a9ac4520e4a0c946aea95e8905095f1c9">aux_12v_ok</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a9ac4520e4a0c946aea95e8905095f1c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #9.  <a href="#a9ac4520e4a0c946aea95e8905095f1c9">More...</a><br /></td></tr>
+<tr class="separator:a9ac4520e4a0c946aea95e8905095f1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b634daa4ac44c0408fa855c38619dfa" id="r_a0b634daa4ac44c0408fa855c38619dfa"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile uint8_t&#160;&#160;&#160;<a class="el" href="#a0b634daa4ac44c0408fa855c38619dfa">aux_24v_ok</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a0b634daa4ac44c0408fa855c38619dfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #10.  <a href="#a0b634daa4ac44c0408fa855c38619dfa">More...</a><br /></td></tr>
+<tr class="separator:a0b634daa4ac44c0408fa855c38619dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9919822da44995e8e50c65da0f859dc0" id="r_a9919822da44995e8e50c65da0f859dc0"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile uint8_t&#160;&#160;&#160;<a class="el" href="#a9919822da44995e8e50c65da0f859dc0">aux_comms_ok</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a9919822da44995e8e50c65da0f859dc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #11.  <a href="#a9919822da44995e8e50c65da0f859dc0">More...</a><br /></td></tr>
+<tr class="separator:a9919822da44995e8e50c65da0f859dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae22a5dd6e5c4906aabff39a94ee4de00" id="r_ae22a5dd6e5c4906aabff39a94ee4de00"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile uint8_t&#160;&#160;&#160;<a class="el" href="#ae22a5dd6e5c4906aabff39a94ee4de00">spi_checksum_ok</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:ae22a5dd6e5c4906aabff39a94ee4de00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #12.  <a href="#ae22a5dd6e5c4906aabff39a94ee4de00">More...</a><br /></td></tr>
+<tr class="separator:ae22a5dd6e5c4906aabff39a94ee4de00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09e2cb5cc03209502a732f539e7dd08e" id="r_a09e2cb5cc03209502a732f539e7dd08e"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile uint8_t&#160;&#160;&#160;<a class="el" href="#a09e2cb5cc03209502a732f539e7dd08e">spi_connection_ok</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a09e2cb5cc03209502a732f539e7dd08e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #13 <br  />
+  <a href="#a09e2cb5cc03209502a732f539e7dd08e">More...</a><br /></td></tr>
+<tr class="separator:a09e2cb5cc03209502a732f539e7dd08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32e93b068e309da5a319a7a69f3b3ff5" id="r_a32e93b068e309da5a319a7a69f3b3ff5"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;volatile&#160;&#160;&#160;<a class="el" href="#a32e93b068e309da5a319a7a69f3b3ff5">unsigned</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a32e93b068e309da5a319a7a69f3b3ff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #14: unused <br  />
+  <a href="#a32e93b068e309da5a319a7a69f3b3ff5">More...</a><br /></td></tr>
+<tr class="separator:a32e93b068e309da5a319a7a69f3b3ff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a456b115d1197c92c937020d085453108" id="r_a456b115d1197c92c937020d085453108"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="#a456b115d1197c92c937020d085453108">bits</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a456b115d1197c92c937020d085453108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c55f449560b03ce0ac43270c26600" id="r_a3f0c55f449560b03ce0ac43270c26600"><td class="memItemLeft" >&#160;&#160;&#160;volatile uint16_t&#160;&#160;&#160;<a class="el" href="#a3f0c55f449560b03ce0ac43270c26600">value</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a3f0c55f449560b03ce0ac43270c26600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7972f125f0f1714202ea212be1f3589" id="r_ab7972f125f0f1714202ea212be1f3589"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom">&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ab7972f125f0f1714202ea212be1f3589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00054">54</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+</div><h2 class="groupheader">Field Documentation</h2>
+<a id="ab7972f125f0f1714202ea212be1f3589" name="ab7972f125f0f1714202ea212be1f3589"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7972f125f0f1714202ea212be1f3589">&#9670;&#160;</a></span>[union]</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">union  { ... } </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ac4520e4a0c946aea95e8905095f1c9" name="a9ac4520e4a0c946aea95e8905095f1c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ac4520e4a0c946aea95e8905095f1c9">&#9670;&#160;</a></span>aux_12v_ok</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t aux_12v_ok</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00069">69</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<a id="a0b634daa4ac44c0408fa855c38619dfa" name="a0b634daa4ac44c0408fa855c38619dfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b634daa4ac44c0408fa855c38619dfa">&#9670;&#160;</a></span>aux_24v_ok</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t aux_24v_ok</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00070">70</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<a id="a5960ff30ec0fbd0db0f9b88b692a4bc7" name="a5960ff30ec0fbd0db0f9b88b692a4bc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5960ff30ec0fbd0db0f9b88b692a4bc7">&#9670;&#160;</a></span>aux_5v_ok</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t aux_5v_ok</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00068">68</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<a id="a9919822da44995e8e50c65da0f859dc0" name="a9919822da44995e8e50c65da0f859dc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9919822da44995e8e50c65da0f859dc0">&#9670;&#160;</a></span>aux_comms_ok</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t aux_comms_ok</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00071">71</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<a id="a456b115d1197c92c937020d085453108" name="a456b115d1197c92c937020d085453108"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a456b115d1197c92c937020d085453108">&#9670;&#160;</a></span>[struct]</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct  { ... }  bits</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81f6bbe0621770724a1f3de566474bcf" name="a81f6bbe0621770724a1f3de566474bcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81f6bbe0621770724a1f3de566474bcf">&#9670;&#160;</a></span>sic1_5v_ok</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t sic1_5v_ok</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00060">60</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<a id="a3577674212bdf29fab894639bff23404" name="a3577674212bdf29fab894639bff23404"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3577674212bdf29fab894639bff23404">&#9670;&#160;</a></span>sic1_comms_ok</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t sic1_comms_ok</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00064">64</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<a id="ac0b1bbc2d4c000e00e4696767600128e" name="ac0b1bbc2d4c000e00e4696767600128e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0b1bbc2d4c000e00e4696767600128e">&#9670;&#160;</a></span>sic2_5v_ok</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t sic2_5v_ok</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00061">61</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<a id="a8d028ea3eb222243dff51ebeabb66ecb" name="a8d028ea3eb222243dff51ebeabb66ecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d028ea3eb222243dff51ebeabb66ecb">&#9670;&#160;</a></span>sic2_comms_ok</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t sic2_comms_ok</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00065">65</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<a id="a9457ddd0de64c104fc4fccafa86e054d" name="a9457ddd0de64c104fc4fccafa86e054d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9457ddd0de64c104fc4fccafa86e054d">&#9670;&#160;</a></span>sic3_5v_ok</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t sic3_5v_ok</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00062">62</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<a id="a9f6f9f57566680e6eb9d4bd8c41f0b4c" name="a9f6f9f57566680e6eb9d4bd8c41f0b4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f6f9f57566680e6eb9d4bd8c41f0b4c">&#9670;&#160;</a></span>sic3_comms_ok</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t sic3_comms_ok</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00066">66</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<a id="aac14ed2685034bba2f1fda88bfb8c483" name="aac14ed2685034bba2f1fda88bfb8c483"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac14ed2685034bba2f1fda88bfb8c483">&#9670;&#160;</a></span>sic4_5v_ok</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t sic4_5v_ok</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00063">63</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<a id="aa1aa4f36fd0267c128cff991af1f12a7" name="aa1aa4f36fd0267c128cff991af1f12a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1aa4f36fd0267c128cff991af1f12a7">&#9670;&#160;</a></span>sic4_comms_ok</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t sic4_comms_ok</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00067">67</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<a id="ae22a5dd6e5c4906aabff39a94ee4de00" name="ae22a5dd6e5c4906aabff39a94ee4de00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae22a5dd6e5c4906aabff39a94ee4de00">&#9670;&#160;</a></span>spi_checksum_ok</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t spi_checksum_ok</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00072">72</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<a id="a09e2cb5cc03209502a732f539e7dd08e" name="a09e2cb5cc03209502a732f539e7dd08e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09e2cb5cc03209502a732f539e7dd08e">&#9670;&#160;</a></span>spi_connection_ok</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint8_t spi_connection_ok</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00073">73</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<a id="a32e93b068e309da5a319a7a69f3b3ff5" name="a32e93b068e309da5a319a7a69f3b3ff5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32e93b068e309da5a319a7a69f3b3ff5">&#9670;&#160;</a></span>unsigned</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Bit #15: unused <br  />
+ </p>
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00074">74</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<a id="a3f0c55f449560b03ce0ac43270c26600" name="a3f0c55f449560b03ce0ac43270c26600"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f0c55f449560b03ce0ac43270c26600">&#9670;&#160;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint16_t value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00227_source.html#l00077">77</a> of file <a class="el" href="a00227_source.html">drv_can.c</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>C:/Users/M70027/Documents/Projects/tp-deployment/dspic33ch-power-totem-pole-demonstration-application-single-phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/sources/driver/can/<a class="el" href="a00227_source.html">drv_can.c</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.20-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath" style="padding-bottom: 12px; vertical-align: bottom;"><!-- id is needed for treeview function! -->
+  <ul>
+    <p class="footer" style="text-align: center; font-size: 90%;">
+      © Copyright 1998-2022 Microchip Technology Inc. All rights reserved.
+    </p>
+    </ul>
+</div>
+</body>
+</html>

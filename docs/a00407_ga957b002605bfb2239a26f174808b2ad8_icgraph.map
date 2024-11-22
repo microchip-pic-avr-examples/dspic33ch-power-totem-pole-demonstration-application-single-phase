@@ -1,0 +1,21 @@
+<map id="PWM_OverrideHighDisable" name="PWM_OverrideHighDisable">
+<area shape="rect" id="Node000001" title="This inline function disables PWM override on PWMH output for specific PWM generator selected by the ..." alt="" coords="737,63,916,88"/>
+<area shape="rect" id="Node000002" href="$a00371.html#a69847930c99b34bceb7165143cd28b92" title=" " alt="" coords="575,5,657,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="766,62,657,32,658,26,767,56"/>
+<area shape="rect" id="Node000008" href="$a00371.html#ad3476b7cd98e6a22a65e1d89b7a59ea5" title=" " alt="" coords="543,55,689,95"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="724,78,690,78,690,73,724,73"/>
+<area shape="rect" id="Node000009" href="$a00371.html#a3e7091905b384bca668f6f12a50834f4" title=" " alt="" coords="543,119,689,159"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="772,95,683,122,682,117,770,90"/>
+<area shape="rect" id="Node000003" href="$a00371.html#a647fd6dacbfbcebe49cc34111a01493b" title=" " alt="" coords="396,63,495,88"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="566,38,485,65,483,60,564,33"/>
+<area shape="rect" id="Node000004" href="$a00371.html#aa7b8e2dc355948aa24cf22ca82f9e805" title=" " alt="" coords="181,37,348,63"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="382,69,348,64,349,59,383,64"/>
+<area shape="rect" id="Node000006" href="$a00371.html#a87fa9190951df7c866d828b8ad7b526b" title=" " alt="" coords="181,87,348,112"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="383,86,349,91,348,86,382,81"/>
+<area shape="rect" id="Node000005" href="$a00347.html#a968747854ba14331aa9f85784178d0da" title=" " alt="" coords="5,37,133,63"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="168,53,133,53,133,47,168,47"/>
+<area shape="rect" id="Node000007" href="$a00347.html#a6ac2591aa2e32874156ad3f8bf477d2f" title=" " alt="" coords="5,87,133,112"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="168,102,133,102,133,97,168,97"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="529,78,495,78,495,73,529,73"/>
+<area shape="poly" id="edge10_Node000009_Node000003" title=" " alt="" coords="548,117,479,91,481,86,550,112"/>
+</map>

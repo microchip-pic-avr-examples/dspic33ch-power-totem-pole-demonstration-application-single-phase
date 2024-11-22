@@ -1,0 +1,17 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/mcc_generated_files/timer/sccp1.h" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/mcc_generated_files/timer/sccp1.h">
+<area shape="rect" id="Node000001" title="This is the generated driver header file for the SCCP1&#45;TIMER driver." alt="" coords="52,5,280,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,247,73,273"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,120,56,237,52,234,128,117"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="97,247,163,273"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="156,119,146,167,136,234,130,233,141,166,150,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="299,167,345,192"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="243,117,297,156,294,161,240,121"/>
+<area shape="rect" id="Node000005" href="$a00883_source.html" title=" " alt="" coords="156,167,275,192"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="192,118,208,153,203,155,187,120"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="191,194,78,244,76,239,189,190"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="205,194,155,240,151,236,201,190"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="187,247,262,273"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="219,192,224,233,219,234,214,192"/>
+<area shape="rect" id="Node000007" href="$a00781_source.html" title=" " alt="" coords="286,240,414,280"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="237,190,307,231,304,235,234,194"/>
+</map>

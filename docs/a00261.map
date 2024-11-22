@@ -1,0 +1,18 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/sources/driver/vac_monitor/vac_monitor.h" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/sources/driver/vac_monitor/vac_monitor.h">
+<area shape="rect" id="Node000001" title="header of the VAC" alt="" coords="88,5,351,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,269,52,295"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,121,78,143,56,168,45,189,38,212,31,256,26,255,32,211,40,187,52,165,75,139,102,117"/>
+<area shape="rect" id="Node000003" href="$a00263.html" title="VAC Types define." alt="" coords="67,181,217,207"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,120,158,171,153,168,184,118"/>
+<area shape="rect" id="Node000007" href="$a00895_source.html" title=" " alt="" coords="242,181,354,207"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="255,118,286,168,282,171,251,120"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="378,167,535,221"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="322,116,398,157,395,162,320,121"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="128,209,56,263,53,259,125,205"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="76,269,141,295"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="140,208,121,257,116,255,135,206"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="166,269,241,295"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="152,205,189,256,185,259,148,208"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="265,269,320,295"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="164,205,262,260,259,265,161,209"/>
+</map>

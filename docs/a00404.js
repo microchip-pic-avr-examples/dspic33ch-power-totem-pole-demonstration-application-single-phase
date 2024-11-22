@@ -1,0 +1,106 @@
+var a00404 =
+[
+    [ "adc1.h", "a00281.html", null ],
+    [ "adc_features.h", "a00284.html", null ],
+    [ "adc_types.h", "a00290.html", null ],
+    [ "adc1.c", "a00293.html", null ],
+    [ "ADC_INTERFACE", "a00603.html", [
+      [ "adcMulticoreInterface", "a00603.html#a0fc678a1f390350d2dcccc4642004209", null ],
+      [ "ChannelSelect", "a00603.html#a34e9e7c166666ac3e8298e735925c288", null ],
+      [ "CommonCallbackRegister", "a00603.html#a55a433809ba4b94a177b9ab6ea136c82", null ],
+      [ "ConversionResultGet", "a00603.html#a43a7b9627f6354ec9372f61d7541acbd", null ],
+      [ "Deinitialize", "a00603.html#ab6aa2863d2196e9f95f70fde91049ee6", null ],
+      [ "Disable", "a00603.html#a7fd5c6c55c6a76c4d35e3f81609fab87", null ],
+      [ "Enable", "a00603.html#a04c571590cd163f474c876943a39e0f1", null ],
+      [ "Initialize", "a00603.html#afea2a7e78ccb7643d694c4bd7fa2ed5f", null ],
+      [ "InterruptDisable", "a00603.html#ad47cbb6a16eedbb47b44799ddeeaf1d0", null ],
+      [ "InterruptEnable", "a00603.html#a507fd2a1482b0387c85f4d7c93e63e37", null ],
+      [ "InterruptFlagClear", "a00603.html#ac333c30536a23ef637a08a1c0c3e7002", null ],
+      [ "InterruptPrioritySet", "a00603.html#a696054b07c8e4ca35fc6462a99cb0767", null ],
+      [ "IsConversionComplete", "a00603.html#a88ee9d7b9f1b1b6cbd7d63ada0983b6c", null ],
+      [ "ResolutionSet", "a00603.html#a40bfcec0fd49b45da14f36bab525382c", null ],
+      [ "SoftwareTriggerDisable", "a00603.html#acf8f490dff795aee221269798e98f0b0", null ],
+      [ "SoftwareTriggerEnable", "a00603.html#acf7a00f6739fe4180244f9236fbc70fe", null ],
+      [ "Tasks", "a00603.html#a1cd6ba5da58bb0185a3939d1fdcd25f5", null ]
+    ] ],
+    [ "ADC_MULTICORE", "a00607.html", [
+      [ "ChannelCallbackRegister", "a00607.html#abc2510a2a435fd0c5c37a56cfa732e47", null ],
+      [ "ChannelTasks", "a00607.html#ae3fe7b48113a92f320d89727df0c9b7c", null ],
+      [ "ComparatorCallbackRegister", "a00607.html#a292e0f89d364c1053064f1e282b5acf5", null ],
+      [ "ComparatorTasks", "a00607.html#a97c7ef7d4e053ae1a9c75b85dec70f07", null ],
+      [ "CorePowerEnable", "a00607.html#a415ad59e4b8144f1c758db5556932abf", null ],
+      [ "IndividualChannelInterruptDisable", "a00607.html#a9687d57a6b8c72e55484c40887a26314", null ],
+      [ "IndividualChannelInterruptEnable", "a00607.html#a3ae084298dffecf868a2180d4111f815", null ],
+      [ "IndividualChannelInterruptFlagClear", "a00607.html#a397992f7ede7840d43d2251a6d3c39fb", null ],
+      [ "IndividualChannelInterruptPrioritySet", "a00607.html#adbbcbe450cc0f43690a599b11dbc8a0a", null ],
+      [ "PWMTriggerSourceSet", "a00607.html#a41eb48477f4c5e0e256f8a237535464a", null ],
+      [ "SharedCorePowerEnable", "a00607.html#aa90dfb603622ed6295c16e283d542f40", null ]
+    ] ],
+    [ "ADC1_RESOLUTION", "a00404.html#ga256830d66c81421ed4f0e113df2b24b9", null ],
+    [ "ADC1_SCAN_MODE_SELECTED", "a00404.html#gaf9247b959d7cabf2a95b61017aa5ea14", null ],
+    [ "ADC_CALIBRATION_FEATURE_AVAILABLE", "a00404.html#ga6fc1d169018354c9fee7a3d269c11dd9", null ],
+    [ "ADC_COMPARATOR_FEATURE_AVAILABLE", "a00404.html#gafdd3d482f7c4ee22a19c7a4f88cfd129", null ],
+    [ "ADC_INDIVIDUAL_CHANNEL_INTERRUPT_FEATURE_AVAILABLE", "a00404.html#ga4f0b3f4936f494fd61bb2c3c4200621a", null ],
+    [ "ADC_POWER_ENABLE_FEATURE_AVAILABLE", "a00404.html#ga1a7ea463add29c0ca6d50352569ffe56", null ],
+    [ "ADC_CHANNEL", "a00404.html#gaecdfe48b0bc36d2dd1f99274613a6c92", [
+      [ "FB_Vout", "a00290.html#gaecdfe48b0bc36d2dd1f99274613a6c92afff304400aa71c29c46707f4047f5133", null ],
+      [ "FB_AC_N", "a00290.html#gaecdfe48b0bc36d2dd1f99274613a6c92a851ae50f0fe865c169467676e323085e", null ],
+      [ "IL1_F", "a00290.html#gaecdfe48b0bc36d2dd1f99274613a6c92a6aa83948d924c78f7287e6efe378362b", null ],
+      [ "IL2_F", "a00290.html#gaecdfe48b0bc36d2dd1f99274613a6c92ade230a335f1c7c80052c1aee3094aa87", null ],
+      [ "MAX_CHANNELS", "a00290.html#gaecdfe48b0bc36d2dd1f99274613a6c92aaa161b256a15eb3565f8c21867b688a4", null ],
+      [ "ADC_MAX_CHANNELS", "a00290.html#gaecdfe48b0bc36d2dd1f99274613a6c92a283fc408c73f71e632f751b3e515b89f", null ]
+    ] ],
+    [ "ADC_CMP", "a00404.html#ga748c94aa6be5d765a4ef59743a30475d", [
+      [ "MAX_CMPS", "a00290.html#ga748c94aa6be5d765a4ef59743a30475da5d68c93538a56dc174a1a635fde5e0b4", null ],
+      [ "ADC_MAX_CMPS", "a00290.html#ga748c94aa6be5d765a4ef59743a30475da2c3d371fbf9d90cc1f413d5b572a4e97", null ]
+    ] ],
+    [ "ADC_DEDICATED_CORE", "a00404.html#gac5315ce0e8c0f0a201a05d1cb8a935b7", [
+      [ "CORE_0", "a00290.html#gac5315ce0e8c0f0a201a05d1cb8a935b7a079f1742ac442d4e4dd33c816257b39e", null ],
+      [ "ADC_CORE_0", "a00290.html#gac5315ce0e8c0f0a201a05d1cb8a935b7aba84b5ff62396415a5c722d2cf1b0359", null ],
+      [ "CORE_1", "a00290.html#gac5315ce0e8c0f0a201a05d1cb8a935b7ac60cdaad26caf9e5ae125dea1019d832", null ],
+      [ "ADC_CORE_1", "a00290.html#gac5315ce0e8c0f0a201a05d1cb8a935b7a60dac48ac0a8c737988006f967375689", null ],
+      [ "MAX_DEDICATED_CORES", "a00290.html#gac5315ce0e8c0f0a201a05d1cb8a935b7ab7891ffb2bb659c07e440bc06da468ed", null ],
+      [ "ADC_MAX_DEDICATED_CORES", "a00290.html#gac5315ce0e8c0f0a201a05d1cb8a935b7ab130698c4414a35bab76b1f09d3e8add", null ]
+    ] ],
+    [ "ADC_PWM_INSTANCE", "a00404.html#ga878e3f5a2dd082b75b0c3aef6e4a525e", [
+      [ "ADC_PWM_HS_NOT_AVAILABLE", "a00290.html#ga878e3f5a2dd082b75b0c3aef6e4a525ea8b1314b2a1d7045b469f2cdf7be50e9a", null ]
+    ] ],
+    [ "ADC_PWM_TRIGGERS", "a00404.html#ga149ac70fba51af61abec9c9625d35e10", [
+      [ "ADC_PWM_TRIGGERS_NOT_AVAILABLE", "a00290.html#ga149ac70fba51af61abec9c9625d35e10a09ea052b51d5f1b1e0683baabad25ca1", null ]
+    ] ],
+    [ "ADC_RESOLUTION_TYPE", "a00404.html#ga1352ea5275d70f2bc7618fe8be81dfe2", [
+      [ "ADC_6_BIT_RESOLUTION", "a00290.html#ga1352ea5275d70f2bc7618fe8be81dfe2ad43795e03d13d9e4fec6e1531e2d791e", null ],
+      [ "ADC_8_BIT_RESOLUTION", "a00290.html#ga1352ea5275d70f2bc7618fe8be81dfe2adfa0fd0903d033327fce638e76878a34", null ],
+      [ "ADC_10_BIT_RESOLUTION", "a00290.html#ga1352ea5275d70f2bc7618fe8be81dfe2aff09d73fd4bfbecc292e68b5283bfb18", null ],
+      [ "ADC_12_BIT_RESOLUTION", "a00290.html#ga1352ea5275d70f2bc7618fe8be81dfe2a9cbb535bbbdfc1fd5f8742247d935996", null ]
+    ] ],
+    [ "ADC1_ChannelCallback", "a00404.html#ga9b0b6df07fa6f03a98b101045b35e39e", null ],
+    [ "ADC1_ChannelCallbackRegister", "a00404.html#gaf5a05de69c2fee35a21d798c01ce3417", null ],
+    [ "ADC1_ChannelSelect", "a00404.html#gae9214bb2aa5cb3a5faf4d651a7fe7289", null ],
+    [ "ADC1_ChannelTasks", "a00404.html#ga9acbdc22ba6772bc871334bba9d7100d", null ],
+    [ "ADC1_CommonCallback", "a00404.html#ga15c38c135acb0b6a4a3cd1474ce9ae9c", null ],
+    [ "ADC1_CommonCallbackRegister", "a00404.html#gaecf43569204fdaadc281671b99322935", null ],
+    [ "ADC1_ComparatorCallback", "a00404.html#ga451e7989cdee47c83772616b964f1828", null ],
+    [ "ADC1_ComparatorCallbackRegister", "a00404.html#ga80266aee20908dbc13be9199675ddef3", null ],
+    [ "ADC1_ConversionResultGet", "a00404.html#gaf4b6f81a05012533b633a78dad7b6a98", null ],
+    [ "ADC1_CorePowerEnable", "a00404.html#gaf051bfe964d4b2babd517b5445d53883", null ],
+    [ "ADC1_Deinitialize", "a00404.html#ga46c8d0b7e8905ebeb0834e5d70cf0578", null ],
+    [ "ADC1_Disable", "a00404.html#gac8a327c1dca2b6b06a8ff8dcfb4f6933", null ],
+    [ "ADC1_Enable", "a00404.html#ga792d03adf043973196b54a92c1c8ceb8", null ],
+    [ "ADC1_IndividualChannelInterruptDisable", "a00404.html#ga41f83cac279271a6e66e67b77ec7ea2b", null ],
+    [ "ADC1_IndividualChannelInterruptEnable", "a00404.html#ga5366f7fa92e91e3a85a85846fdb44dce", null ],
+    [ "ADC1_IndividualChannelInterruptFlagClear", "a00404.html#ga8e54ff06b9ea9167c9975fab7c59954b", null ],
+    [ "ADC1_IndividualChannelInterruptPrioritySet", "a00404.html#ga178920ddfe0093e488b8e599542d5542", null ],
+    [ "ADC1_Initialize", "a00404.html#gad272fc3ade4d66bfb9580444418b97ee", null ],
+    [ "ADC1_InterruptDisable", "a00404.html#gadf62e8dad67b55f71e073c29ebf670e6", null ],
+    [ "ADC1_InterruptEnable", "a00404.html#ga84a81b8cdb2c6c3ab3ed85a3669d475c", null ],
+    [ "ADC1_InterruptFlagClear", "a00404.html#ga108212c1230a0e074ed9687014c09ee8", null ],
+    [ "ADC1_InterruptPrioritySet", "a00404.html#ga8bdc9a1481cf4337bdf2b4ccf380d7d0", null ],
+    [ "ADC1_IsConversionComplete", "a00404.html#ga0a80bc862861bd96a1034b39589adf9f", null ],
+    [ "ADC1_ResolutionSet", "a00404.html#ga376b28487ea3f1b9d400a0f3c6dd8136", null ],
+    [ "ADC1_SharedCorePowerEnable", "a00404.html#ga497308e69536136ae422cf23a5eed40c", null ],
+    [ "ADC1_SoftwareTriggerDisable", "a00404.html#gaacd64e7d327b45c7c5a27f9f139184ba", null ],
+    [ "ADC1_SoftwareTriggerEnable", "a00404.html#gaebc385db92ab49c593f635282b8491db", null ],
+    [ "ADC1_Tasks", "a00404.html#ga63cbc7f448efdfea687b517ea0250273", null ],
+    [ "ADC1", "a00404.html#ga8085811289bfcf2af09e87c537541700", null ]
+];

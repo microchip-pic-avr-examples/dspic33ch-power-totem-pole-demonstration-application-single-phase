@@ -1,0 +1,16 @@
+<map id="CAN1_Transmit" name="CAN1_Transmit">
+<area shape="rect" id="Node000001" title="Writes the CAN message object to specified transmit FIFO channel." alt="" coords="5,113,119,139"/>
+<area shape="rect" id="Node000002" href="$a00405.html#ga61d156b0e75424f9b630cef5c424ac13" title="This function get the DLC enum based decimal value." alt="" coords="417,39,596,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,111,107,66,134,42,166,24,204,12,243,5,323,5,397,17,458,32,456,37,396,22,323,11,244,11,205,17,168,29,137,46,110,70,74,115"/>
+<area shape="rect" id="Node000003" href="$a00405.html#ga57b30800d7bd3b3c936f578ca1fd7e32" title="This function get the FIFO user address, message depth and payload size information." alt="" coords="198,39,338,64"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="84,111,122,92,166,73,190,65,192,70,168,78,124,96,87,116"/>
+<area shape="rect" id="Node000004" href="$a00405.html#ga0980f888cad241edaa859783bb4a89d7" title="This function Read the message object from user input and update to the CAN1 TX FIFO." alt="" coords="177,88,359,113"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="119,117,163,111,163,116,119,122"/>
+<area shape="rect" id="Node000005" href="$a00405.html#gaedd6e334545a38cd71fe86ff4f9e78c3" title="Get the CAN1 operation mode." alt="" coords="182,137,354,163"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="119,130,169,136,168,141,119,135"/>
+<area shape="rect" id="Node000006" href="$a00405.html#ga1d293f033f5d27b360cf00d4644c63eb" title="Returns the CAN1 transmitter FIFO status." alt="" coords="167,187,369,212"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="89,136,168,172,196,181,195,186,166,177,86,141"/>
+<area shape="rect" id="Node000007" href="$a00405.html#gaedb86f6e4e8ac0efba711d7f3d7b688c" title="This function enables The FIFO transmit message send request bit." alt="" coords="167,237,369,277"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="76,138,114,179,140,201,168,221,183,229,180,234,165,226,137,205,110,182,72,141"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="330,85,431,64,432,70,331,91"/>
+</map>

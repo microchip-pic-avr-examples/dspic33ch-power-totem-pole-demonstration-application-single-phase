@@ -1,0 +1,5 @@
+<map id="Power Control Compensator" name="Power Control Compensator">
+<area shape="rect" id="Node000001" title="Power controller Exposing DCDT assembly functionality to the C code." alt="" coords="157,7,341,33"/>
+<area shape="rect" id="Node000003" href="$a00438.html" title="Contains the control loop configuration and initialization functions." alt="" coords="479,7,653,33"/>
+<area shape="rect" id="Node000002" href="$a00432.html" title="The Power Control layer contains the state machine managing the power converter." alt="" coords="5,7,108,33"/>
+</map>

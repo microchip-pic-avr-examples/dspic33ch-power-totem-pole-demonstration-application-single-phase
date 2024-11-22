@@ -1,0 +1,5 @@
+<map id="MAIN_CORE_ProtocolRead" name="MAIN_CORE_ProtocolRead">
+<area shape="rect" id="Node000001" title="This routine reads data from mailbox." alt="" coords="5,5,188,31"/>
+<area shape="rect" id="Node000002" href="$a00420.html#ga8b485c96b189f1ace72033f47f88ddd3" title="This inline function checks whether mailbox is full. Returns true if New data are ready to read...." alt="" coords="236,5,420,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,15,222,15,222,21,188,21"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/sources/driver/vac_monitor/vac_monitor.h" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/sources/driver/vac_monitor/vac_monitor.h">
+<area shape="rect" id="Node000001" title="header of the VAC" alt="" coords="230,5,493,119"/>
+<area shape="rect" id="Node000002" href="$a00227.html" title="This is the driver source file for CAN driver." alt="" coords="5,167,227,280"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="266,128,203,169,200,164,263,124"/>
+<area shape="rect" id="Node000003" href="$a00233.html" title="This is the driver source file for DMA driver." alt="" coords="251,167,472,280"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="364,132,364,166,359,166,359,132"/>
+<area shape="rect" id="Node000004" href="$a00257.html" title="This is the driver source file for vac driver." alt="" coords="497,167,759,280"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="468,123,536,164,533,169,465,128"/>
+</map>

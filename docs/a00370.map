@@ -1,0 +1,9 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/sources/driver/power_controller/drv_pwrctrl_app_misc_TPBLPFC.h" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/sources/driver/power_controller/drv_pwrctrl_app_misc_TPBLPFC.h">
+<area shape="rect" id="Node000001" title="This is the driver header file for the power controller misc app." alt="" coords="305,5,535,133"/>
+<area shape="rect" id="Node000002" href="$a00730_source.html" title=" " alt="" coords="5,189,280,287"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="305,143,224,191,222,186,302,138"/>
+<area shape="rect" id="Node000003" href="$a00742_source.html" title=" " alt="" coords="305,181,535,295"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="423,147,423,181,417,181,417,147"/>
+<area shape="rect" id="Node000004" href="$a00347.html" title="This is the driver source file for adc builds upon mcc." alt="" coords="559,181,790,295"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="529,139,591,179,588,183,526,143"/>
+</map>

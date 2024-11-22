@@ -1,0 +1,9 @@
+<map id="VoutPreLoad_StateHandler" name="VoutPreLoad_StateHandler">
+<area shape="rect" id="Node000001" title="delay before relay on" alt="" coords="5,31,184,56"/>
+<area shape="rect" id="Node000002" href="$a00365.html#a315b78111431dff7a91b13e42f9133b1" title="stop and reset power controller" alt="" coords="232,31,420,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,41,219,41,219,46,184,46"/>
+<area shape="rect" id="Node000003" href="$a00407.html#ga531b59d8823e3ebda2da60f48582bcf3" title="This inline function enables PWM override on PWMH output for specific PWM generator selected by the a..." alt="" coords="468,5,643,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="420,30,454,26,455,32,420,36"/>
+<area shape="rect" id="Node000004" href="$a00407.html#ga2548ca8feda75ba6ab784280679da6ae" title="This inline function enables PWM override on PWML output for specific PWM generator selected by the a..." alt="" coords="469,55,641,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="420,51,456,54,456,60,420,56"/>
+</map>

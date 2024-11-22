@@ -1,0 +1,600 @@
+<!-- HTML header for doxygen 1.8.20-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>3.8/7.6 kw Totem pole Demonstration Application: C:/Users/M70027/Documents/Projects/tp-deployment/dspic33ch-power-totem-pole-demonstration-application-single-phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/sources/driver/power_controller/smps_control.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="mchp.css" rel="stylesheet" type="text/css"/>
+<link href="mchp_theme.css" rel="stylesheet" type="text/css"/>
+<link href="search.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0" style="border:0px; border-spacing: 0px; border-collapse: collapse; vertical-align: middle; width: 100%;">
+    <tbody>
+        <tr style="border: none; background-color: #00000000;">
+            <!--SITE HEADER-->
+            <td style="width: 120px; border: none;">
+                <img alt="Bar" height="60px" src="images/mchp-brandingelement-rgb2.png"/>
+            </td>
+            <td style="width: 220px; border: none;">
+                <img alt="Logo" height=50px src="images/microchip.png"/>
+            </td>
+            <td colspan="4" style="font-size: 16pt; font-weight: bolder;">
+                3.8/7.6 kw Totem pole Demonstration Application (Part-No. (not specified)) 
+            </td>
+            <td style="text-align: right; vertical-align: middle;">
+                        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+            </td>
+            <!--END SITE HEADER-->
+        </tr>
+        <tr style="height:36px; border:none; background-color: #000000b0;">
+            <td style="width: 70px; color: white; font-size:14px; font-weight: bolder; margin-left: 30px;">
+                <div style="margin-left: 30px;">Content</div>
+            </td>
+            <td style="width: 10px; color: white; font-size:14px; font-weight: bolder;">
+                &nbsp;
+            </td>
+            <td style="width: 100px; color: white; font-size:14px; font-weight: bolder;">
+                <!-- Overview -->
+            </td>
+            <td style="width: 130px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Documentation -->
+            </td>
+            <td style="width: 170px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Additional Resources -->
+            </td>
+            <td style="width: auto; color: white; font-size:14px; font-weight: bolder;"> 
+              &nbsp;
+            </td>
+            <td style="width: 310px; margin-right: 30px; color: white; font-size:10px; font-weight: lighter; text-align: right;">
+                &nbsp;
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('a00380.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">smps_control.h File Reference<div class="ingroups"><a class="el" href="a00400.html">Secondary Core Layer</a> &raquo; <a class="el" href="a00428.html">Driver Layer</a> &raquo; <a class="el" href="a00432.html">Power Control</a> &raquo; <a class="el" href="a00438.html">Control Loop Configuration</a> &#124; <a class="el" href="a00400.html">Secondary Core Layer</a> &raquo; <a class="el" href="a00428.html">Driver Layer</a> &raquo; <a class="el" href="a00432.html">Power Control</a> &raquo; <a class="el" href="a00436.html">Power Control Compensator</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Generated by the Microchip Digital Compensator Design Tool (DCDT).  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &lt;xc.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for smps_control.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00381.svg" width="242" height="212"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00382.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+</div>
+<p><a href="a00380_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00691.html">SMPS_3P3Z_T</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00695.html">SMPS_2P2Z_T</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00699.html">SMPS_PID_T</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00703.html">SMPS_Controller_Options_T</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00707.html">XFT_SMPS_2P2Z_T</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a4201f46447c8802666c1fe6ade902908" id="r_a4201f46447c8802666c1fe6ade902908"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4201f46447c8802666c1fe6ade902908">SMPS_Controller3P3ZInitialize</a> (<a class="el" href="a00691.html">SMPS_3P3Z_T</a> *controllerData)</td></tr>
+<tr class="separator:a4201f46447c8802666c1fe6ade902908"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ba04b5d00e0c881d269a9429b3ed34b" id="r_a8ba04b5d00e0c881d269a9429b3ed34b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ba04b5d00e0c881d269a9429b3ed34b">SMPS_Controller3P3ZUpdate</a> (<a class="el" href="a00691.html">SMPS_3P3Z_T</a> *controllerData, volatile uint16_t *controllerInputRegister, int16_t reference, volatile uint16_t *controllerOutputRegister)</td></tr>
+<tr class="separator:a8ba04b5d00e0c881d269a9429b3ed34b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3b1b597d1863e3a36a426c85d7a2862" id="r_ad3b1b597d1863e3a36a426c85d7a2862"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3b1b597d1863e3a36a426c85d7a2862">SMPS_Controller2P2ZUpdate_HW_Accel</a> (void)</td></tr>
+<tr class="separator:ad3b1b597d1863e3a36a426c85d7a2862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d5d0902200bbea692053e0d366488d4" id="r_a3d5d0902200bbea692053e0d366488d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d5d0902200bbea692053e0d366488d4">SMPS_Controller3P3ZUpdate_HW_Accel</a> (void)</td></tr>
+<tr class="separator:a3d5d0902200bbea692053e0d366488d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1277e1038046b837b803cd2ee3a2e102" id="r_a1277e1038046b837b803cd2ee3a2e102"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1277e1038046b837b803cd2ee3a2e102">SMPS_Controller4P4ZUpdate_HW_Accel</a> (void)</td></tr>
+<tr class="separator:a1277e1038046b837b803cd2ee3a2e102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab27323a90d36c5fcc1d4f4a69c3f31b4" id="r_ab27323a90d36c5fcc1d4f4a69c3f31b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab27323a90d36c5fcc1d4f4a69c3f31b4">SMPS_ControllerPIDUpdate_HW_Accel</a> (void)</td></tr>
+<tr class="separator:ab27323a90d36c5fcc1d4f4a69c3f31b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d0d916c7a3ca172408fcded86a6baa2" id="r_a8d0d916c7a3ca172408fcded86a6baa2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d0d916c7a3ca172408fcded86a6baa2">SMPS_Controller2P2ZInitialize</a> (<a class="el" href="a00695.html">SMPS_2P2Z_T</a> *controllerData)</td></tr>
+<tr class="separator:a8d0d916c7a3ca172408fcded86a6baa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4c8852561395f2969c08ff062325e03" id="r_ac4c8852561395f2969c08ff062325e03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4c8852561395f2969c08ff062325e03">SMPS_Controller2P2ZUpdate</a> (<a class="el" href="a00695.html">SMPS_2P2Z_T</a> *controllerData, volatile uint16_t *controllerInputRegister, int16_t reference, volatile uint16_t *controllerOutputRegister)</td></tr>
+<tr class="separator:ac4c8852561395f2969c08ff062325e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad495211ff0d3998ba64f08121e48db0a" id="r_ad495211ff0d3998ba64f08121e48db0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad495211ff0d3998ba64f08121e48db0a">SMPS_ControllerPIDInitialize</a> (<a class="el" href="a00699.html">SMPS_PID_T</a> *controllerData)</td></tr>
+<tr class="separator:ad495211ff0d3998ba64f08121e48db0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b4544d10d35a258c38c4caf0302cc39" id="r_a3b4544d10d35a258c38c4caf0302cc39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b4544d10d35a258c38c4caf0302cc39">SMPS_ControllerPIDUpdate</a> (<a class="el" href="a00699.html">SMPS_PID_T</a> *controllerData, volatile uint16_t *controllerInputRegister, int16_t reference, volatile uint16_t *controllerOutputRegister)</td></tr>
+<tr class="separator:a3b4544d10d35a258c38c4caf0302cc39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fd6e889896907ceaae34b73435d5627" id="r_a4fd6e889896907ceaae34b73435d5627"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fd6e889896907ceaae34b73435d5627">XFT_SMPS_Controller2P2ZUpdate</a> (<a class="el" href="a00695.html">SMPS_2P2Z_T</a> *controllerData, volatile uint16_t *controllerInputRegister, int16_t reference, volatile uint16_t *controllerOutputRegister)</td></tr>
+<tr class="separator:a4fd6e889896907ceaae34b73435d5627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>SMPS Control (Compensator) library interface header file.</p>
+<p>Power Controller SMPS Control File </p>
+
+<p class="definition">Definition in file <a class="el" href="a00380_source.html">smps_control.h</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a8d0d916c7a3ca172408fcded86a6baa2" name="a8d0d916c7a3ca172408fcded86a6baa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d0d916c7a3ca172408fcded86a6baa2">&#9670;&#160;</a></span>SMPS_Controller2P2ZInitialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SMPS_Controller2P2ZInitialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00695.html">SMPS_2P2Z_T</a> *</td>          <td class="paramname"><span class="paramname"><em>controllerData</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Function: void SMPS_2P2ZInitialize(void)</p>
+<p>Summary: This function clears the <a class="el" href="a00695.html">SMPS_2P2Z_T</a> data structure arrays</p>
+<p>Description: This function clears the <a class="el" href="a00695.html">SMPS_2P2Z_T</a> data history structure arrays. It's recommended to clear the error-history and controller-history arrays before 2P2Z controller implementation.</p>
+<p>Conditions: None. Input: SMPS_2P2Z_T* - This parameter is a pointer to a <a class="el" href="a00695.html">SMPS_2P2Z_T</a> type structure Return: void Example: <code lang="c++"> <a class="el" href="a00695.html">SMPS_2P2Z_T</a> controller2P2Z; SMPS_Controller2P2ZUpdateInitialize(&amp;controller2P2Z); </code> </p>
+<div id="dynsection-2" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00380_a8d0d916c7a3ca172408fcded86a6baa2_icgraph.svg" width="658" height="166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ac4c8852561395f2969c08ff062325e03" name="ac4c8852561395f2969c08ff062325e03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4c8852561395f2969c08ff062325e03">&#9670;&#160;</a></span>SMPS_Controller2P2ZUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SMPS_Controller2P2ZUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00695.html">SMPS_2P2Z_T</a> *</td>          <td class="paramname"><span class="paramname"><em>controllerData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">volatile uint16_t *</td>          <td class="paramname"><span class="paramname"><em>controllerInputRegister</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>reference</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">volatile uint16_t *</td>          <td class="paramname"><span class="paramname"><em>controllerOutputRegister</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Function: \ \</p>
+<p><code> void <a class="el" href="#ac4c8852561395f2969c08ff062325e03">SMPS_Controller2P2ZUpdate(SMPS_2P2Z_T* controllerData,
+                                     volatile uint16_t* controllerInputRegister,
+                                     int16_t reference,
+                                     volatile uint16_t* controllerOutputRegister)</a>;</code></p>
+<p><code> </code> Summary: This function calls the SMPS_Controller2P2ZUpdate controller</p>
+<p>Description: This function updates the 2P2Z controller and can be called as soon as the coefficients have been loaded into their arrays.</p>
+<p>Conditions: Before the controller can be used, it has to be initialized. The data structure has to be filled by copying the pointers to the coefficient, error and controller history arrays to the structure and the physical clamping limits of the output value. In the function call pointers to the Input source register, reference value, and pointer to the output register need to be called. Input: <a class="el" href="a00695.html">SMPS_2P2Z_T</a> * controllerData - This parameter is a pointer to a <a class="el" href="a00695.html">SMPS_2P2Z_T</a> type structure</p>
+<p>uint16_t* controllerInputRegister - This parameter is a pointer to the \input source register or variable being tracked by the 2P2Z (e.g. ADCBUF0).</p>
+<p>int16_t reference - This parameter is a signed integer value that will be used by the controller as the feedback reference or set-point.</p>
+<p>uint16_t* controllerOutputRegister - This parameter is a pointer to the Control loop target register of the calculated result(e.g. PDC1). Return: void Example: <code lang="c++"> int16_t controlReference; <a class="el" href="a00695.html">SMPS_2P2Z_T</a> controller2P2Z; SMPS_Controller2P2ZUpdate(&amp;controller2P2Z,&amp;ADCBUF0,controlReference,&amp;PDC1) </code> </p>
+<div id="dynsection-3" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00380_ac4c8852561395f2969c08ff062325e03_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad3b1b597d1863e3a36a426c85d7a2862" name="ad3b1b597d1863e3a36a426c85d7a2862"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3b1b597d1863e3a36a426c85d7a2862">&#9670;&#160;</a></span>SMPS_Controller2P2ZUpdate_HW_Accel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SMPS_Controller2P2ZUpdate_HW_Accel </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Function: void <a class="el" href="#ad3b1b597d1863e3a36a426c85d7a2862">SMPS_Controller2P2ZUpdate_HW_Accel( void )</a>;</p>
+<p>Summary: This function calls the 2-Pole, 2-Zero compensator/controller.</p>
+<p>Description: This function updates the duty cycle register (PDCx) once every function call. There are three options via the structure <a class="el" href="a00703.html">SMPS_Controller_Options_T</a> which allows the user to select whether the trigger update is enabled. The options are as follows:</p>
+<ol type="1">
+<li>No trigger option is selected.</li>
+<li><p class="startli">Trigger On-Time is selected:</p>
+<p class="startli">Trigger Register = PDCx/2 + Delay</p>
+</li>
+<li><p class="startli">Trigger Off-Time is selected:</p>
+<p class="startli">Trigger Register = PDCx + (PTPER - PDCx)/2 + Delay</p>
+</li>
+</ol>
+<p>It's recommended to clear the error-history and controller-history arrays before 2P2Z controller implementation.</p>
+<p>Conditions: For use with the new 'dsPIC33EPGS' parts that have the Alternate Working (Alt-W) register context features.</p>
+<p>Input: None. Return: Void. </p>
+
+</div>
+</div>
+<a id="a4201f46447c8802666c1fe6ade902908" name="a4201f46447c8802666c1fe6ade902908"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4201f46447c8802666c1fe6ade902908">&#9670;&#160;</a></span>SMPS_Controller3P3ZInitialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SMPS_Controller3P3ZInitialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00691.html">SMPS_3P3Z_T</a> *</td>          <td class="paramname"><span class="paramname"><em>controllerData</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Function: void SMPS_3P3ZInitialize( SMPS_3P3Z_T *controller_data )</p>
+<p>Summary: This function clears the <a class="el" href="a00691.html">SMPS_3P3Z_T</a> data history structure arrays</p>
+<p>Description: This function clears the <a class="el" href="a00691.html">SMPS_3P3Z_T</a> data history structure arrays. It's recommended to clear the error-history and controller-history arrays before 3P3Z controller implementation. Conditions: None. Input: <a class="el" href="a00691.html">SMPS_3P3Z_T</a> * - This parameter is a pointer to a <a class="el" href="a00691.html">SMPS_3P3Z_T</a> type structure Return: Void. Example: <code lang="c++"> <a class="el" href="a00691.html">SMPS_3P3Z_T</a> controller3P3Z; SMPS_3P3ZInitialize(&amp;controller3P3Z); </code> </p>
+
+</div>
+</div>
+<a id="a8ba04b5d00e0c881d269a9429b3ed34b" name="a8ba04b5d00e0c881d269a9429b3ed34b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ba04b5d00e0c881d269a9429b3ed34b">&#9670;&#160;</a></span>SMPS_Controller3P3ZUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SMPS_Controller3P3ZUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00691.html">SMPS_3P3Z_T</a> *</td>          <td class="paramname"><span class="paramname"><em>controllerData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">volatile uint16_t *</td>          <td class="paramname"><span class="paramname"><em>controllerInputRegister</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>reference</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">volatile uint16_t *</td>          <td class="paramname"><span class="paramname"><em>controllerOutputRegister</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Function: \ \</p>
+<p><code lang="c++"> void <a class="el" href="#a8ba04b5d00e0c881d269a9429b3ed34b">SMPS_Controller3P3ZUpdate(SMPS_3P3Z_T* controllerData,
+                                   volatile uint16_t* controllerInputRegister,
+                                   int16_t reference,
+                                   volatile uint16_t* controllerOutputRegister)</a>; </code></p>
+<p>Summary: This function calls the SMPS_Controller3P3ZUpdate controller</p>
+<p>Description: This function updates the 3P3Z controller and can be called as soon as the coefficients have been loaded into their arrays.</p>
+<p>Conditions: Before the controller can be used, it has to be initialized. The data structure has to be filled by copying the pointers to the coefficient, error and controller history arrays to the structure and the physical clamping limits of the output value. In the function call pointers to the Input source register, reference value, and pointer to the output register need to be called.</p>
+<p>Input: <a class="el" href="a00691.html">SMPS_3P3Z_T</a> * controllerData - This parameter is a pointer to a <a class="el" href="a00691.html">SMPS_3P3Z_T</a> type structure</p>
+<p>uint16_t* controllerInputRegister - This parameter is a pointer to the \input source register or variable being tracked by the 3P3Z (e.g. ADCBUF0).</p>
+<p>int16_t reference - This parameter is a signed integer value that will be used by the controller as the feedback reference or set-point.</p>
+<p>uint16_t* controllerOutputRegister - This parameter is a pointer to the Control loop target register of the calculated result(e.g. PDC1). Return: void Example: <code lang="c++"> int16_t controlReference; <a class="el" href="a00691.html">SMPS_3P3Z_T</a> controller3P3Z; SMPS_Controller3P3ZUpdate(&amp;controller3P3Z,&amp;ADCBUF0,controlReference,&amp;PDC1) </code> </p>
+
+</div>
+</div>
+<a id="a3d5d0902200bbea692053e0d366488d4" name="a3d5d0902200bbea692053e0d366488d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d5d0902200bbea692053e0d366488d4">&#9670;&#160;</a></span>SMPS_Controller3P3ZUpdate_HW_Accel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SMPS_Controller3P3ZUpdate_HW_Accel </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Function: void <a class="el" href="#a3d5d0902200bbea692053e0d366488d4">SMPS_Controller3P3ZUpdate_HW_Accel( void )</a>;</p>
+<p>Summary: This function calls the 3-Pole, 3-Zero compensator/controller.</p>
+<p>Description: This function updates the duty cycle register (PDCx) once every function call. There are three options via the structure <a class="el" href="a00703.html">SMPS_Controller_Options_T</a> which allows the user to select whether the trigger update is enabled. The options are as follows:</p>
+<ol type="1">
+<li>No trigger option is selected.</li>
+<li><p class="startli">Trigger On-Time is selected:</p>
+<p class="startli">Trigger Register = PDCx/2 + Delay</p>
+</li>
+<li><p class="startli">Trigger Off-Time is selected:</p>
+<p class="startli">Trigger Register = PDCx + (PTPER - PDCx)/2 + Delay</p>
+</li>
+</ol>
+<p>It's recommended to clear the error-history and controller-history arrays before the calling the 3P23 compensator/controller.</p>
+<p>Conditions: For use with the new 'dsPIC33EPGS' parts that have the Alternate Working (Alt-W) register context features.</p>
+<p>Input: None. Return: Void. </p>
+
+</div>
+</div>
+<a id="a1277e1038046b837b803cd2ee3a2e102" name="a1277e1038046b837b803cd2ee3a2e102"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1277e1038046b837b803cd2ee3a2e102">&#9670;&#160;</a></span>SMPS_Controller4P4ZUpdate_HW_Accel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SMPS_Controller4P4ZUpdate_HW_Accel </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Function: void <a class="el" href="#a1277e1038046b837b803cd2ee3a2e102">SMPS_Controller4P4ZUpdate_HW_Accel( void )</a>;</p>
+<p>Summary: This function calls the 4-Pole, 4-Zero compensator/controller.</p>
+<p>Description: This function updates the duty cycle register (PDCx) once every function call. There are three options via the structure <a class="el" href="a00703.html">SMPS_Controller_Options_T</a> which allows the user to select whether the trigger update is enabled. The options are as follows:</p>
+<ol type="1">
+<li>No trigger option is selected.</li>
+<li><p class="startli">Trigger On-Time is selected:</p>
+<p class="startli">Trigger Register = PDCx/2 + Delay</p>
+</li>
+<li><p class="startli">Trigger Off-Time is selected:</p>
+<p class="startli">Trigger Register = PDCx + (PTPER - PDCx)/2 + Delay</p>
+</li>
+</ol>
+<p>It's recommended to clear the error-history and controller-history arrays before the calling the 4P4P compensator/controller.</p>
+<p>Conditions: For use with the new 'dsPIC33EPGS' parts that have the Alternate Working (Alt-W) register context features.</p>
+<p>Input: None. Return: Void. </p>
+
+</div>
+</div>
+<a id="ad495211ff0d3998ba64f08121e48db0a" name="ad495211ff0d3998ba64f08121e48db0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad495211ff0d3998ba64f08121e48db0a">&#9670;&#160;</a></span>SMPS_ControllerPIDInitialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SMPS_ControllerPIDInitialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00699.html">SMPS_PID_T</a> *</td>          <td class="paramname"><span class="paramname"><em>controllerData</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Function: void SMPS_PIDInitialize( SMPS_PID_T *controller_data )</p>
+<p>Summary: This function clears the <a class="el" href="a00699.html">SMPS_PID_T</a> data structure arrays</p>
+<p>Description: This function clears the <a class="el" href="a00699.html">SMPS_PID_T</a> data history structure arrays. It's recommended to clear the error-history and controller-history arrays before PID controller implementation.</p>
+<p>Conditions: None. Input: SMPS_PID_T* - This parameter is a pointer to a <a class="el" href="a00699.html">SMPS_PID_T</a> type structure Return: void Example: <code lang="c++"> <a class="el" href="a00699.html">SMPS_PID_T</a> controllerPID; SMPS_ControllerPIDUpdateInitialize(&amp;controllerPID); </code> </p>
+
+</div>
+</div>
+<a id="a3b4544d10d35a258c38c4caf0302cc39" name="a3b4544d10d35a258c38c4caf0302cc39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b4544d10d35a258c38c4caf0302cc39">&#9670;&#160;</a></span>SMPS_ControllerPIDUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SMPS_ControllerPIDUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00699.html">SMPS_PID_T</a> *</td>          <td class="paramname"><span class="paramname"><em>controllerData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">volatile uint16_t *</td>          <td class="paramname"><span class="paramname"><em>controllerInputRegister</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>reference</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">volatile uint16_t *</td>          <td class="paramname"><span class="paramname"><em>controllerOutputRegister</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Function: \ \</p>
+<p><code> void <a class="el" href="#a3b4544d10d35a258c38c4caf0302cc39">SMPS_ControllerPIDUpdate(SMPS_PID_T* controllerData,
+                                 volatile uint16_t* controllerInputRegister,
+                                 int16_t reference,
+                                 volatile uint16_t* controllerOutputRegister)</a>; </code></p>
+<p>Summary: This function calls the SMPS_ControllerPIDUpdate controller</p>
+<p>Description: This function updates the PID controller and can be called as soon as the coefficients have been loaded into their arrays.</p>
+<p>Conditions: Before the controller can be used, it has to be initialized. The data structure has to be filled by copying the pointers to the coefficient, error and controller history arrays to the structure and the physical clamping limits of the output value. In the function call pointers to the Input source register, reference value, and pointer to the output register need to be called.</p>
+<p>Input: <a class="el" href="a00699.html">SMPS_PID_T</a> * controllerData - This parameter is a pointer to a <a class="el" href="a00699.html">SMPS_PID_T</a> type structure</p>
+<p>uint16_t* controllerInputRegister - This parameter is a pointer to the \input source register or variable being tracked by the PID (e.g. ADCBUF0).</p>
+<p>int16_t reference - This parameter is a signed integer value that will be used by the controller as the feedback reference or set-point.</p>
+<p>uint16_t* controllerOutputRegister - This parameter is a pointer to the Control loop target register of the calculated result(e.g. PDC1). Return: void Example: <code lang="c++"> int16_t controlReference; <a class="el" href="a00699.html">SMPS_PID_T</a> controllerPID; SMPS_ControllerPIDUpdate(&amp;controllerPID,&amp;ADCBUF0,controlReference,&amp;PDC1) </code> </p>
+
+</div>
+</div>
+<a id="ab27323a90d36c5fcc1d4f4a69c3f31b4" name="ab27323a90d36c5fcc1d4f4a69c3f31b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab27323a90d36c5fcc1d4f4a69c3f31b4">&#9670;&#160;</a></span>SMPS_ControllerPIDUpdate_HW_Accel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SMPS_ControllerPIDUpdate_HW_Accel </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Function: void <a class="el" href="#ab27323a90d36c5fcc1d4f4a69c3f31b4">SMPS_ControllerPIDUpdate_HW_Accel( void )</a>;</p>
+<p>Summary: This function calls the PID compensator/controller.</p>
+<p>Description: This function updates the duty cycle register (PDCx) once every function call. There are three options via the structure <a class="el" href="a00703.html">SMPS_Controller_Options_T</a> which allows the user to select whether the trigger update is enabled. The options are as follows:</p>
+<ol type="1">
+<li>No trigger option is selected.</li>
+<li><p class="startli">Trigger On-Time is selected:</p>
+<p class="startli">Trigger Register = PDCx/2 + Delay</p>
+</li>
+<li><p class="startli">Trigger Off-Time is selected:</p>
+<p class="startli">Trigger Register = PDCx + (PTPER - PDCx)/2 + Delay</p>
+</li>
+</ol>
+<p>It's recommended to clear the error-history and controller-history arrays before the calling the PID compensator/controller.</p>
+<p>Conditions: For use with the new 'dsPIC33EPGS' parts that have the Alternate Working (Alt-W) register context features.</p>
+<p>Input: None. Return: Void. </p>
+
+</div>
+</div>
+<a id="a4fd6e889896907ceaae34b73435d5627" name="a4fd6e889896907ceaae34b73435d5627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fd6e889896907ceaae34b73435d5627">&#9670;&#160;</a></span>XFT_SMPS_Controller2P2ZUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void XFT_SMPS_Controller2P2ZUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00695.html">SMPS_2P2Z_T</a> *</td>          <td class="paramname"><span class="paramname"><em>controllerData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">volatile uint16_t *</td>          <td class="paramname"><span class="paramname"><em>controllerInputRegister</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t</td>          <td class="paramname"><span class="paramname"><em>reference</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">volatile uint16_t *</td>          <td class="paramname"><span class="paramname"><em>controllerOutputRegister</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div id="dynsection-4" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00380_a4fd6e889896907ceaae34b73435d5627_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.20-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath" style="padding-bottom: 12px; vertical-align: bottom;"><!-- id is needed for treeview function! -->
+  <ul>
+    <p class="footer" style="text-align: center; font-size: 90%;">
+      © Copyright 1998-2022 Microchip Technology Inc. All rights reserved.
+    </p>
+    </ul>
+</div>
+</body>
+</html>

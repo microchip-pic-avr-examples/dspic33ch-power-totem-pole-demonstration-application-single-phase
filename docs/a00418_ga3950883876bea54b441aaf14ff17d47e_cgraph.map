@@ -1,0 +1,7 @@
+<map id="DMA_Initialize" name="DMA_Initialize">
+<area shape="rect" id="Node000001" title="Initializes the DMA module." alt="" coords="5,31,111,56"/>
+<area shape="rect" id="Node000002" href="$a00418.html#ga9f16d166d637fd9005839b1e1822dc63" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="183,5,337,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,34,168,27,169,32,112,39"/>
+<area shape="rect" id="Node000003" href="$a00418.html#gab9190941904dd0add59b63f1e774fb2c" title="This function can be used to override default callback and to define custom callback for DMA Channel ..." alt="" coords="159,55,361,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="112,47,145,51,145,56,111,52"/>
+</map>

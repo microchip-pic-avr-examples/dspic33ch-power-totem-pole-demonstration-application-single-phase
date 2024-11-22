@@ -1,0 +1,1137 @@
+<!-- HTML header for doxygen 1.8.20-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>3.8/7.6 kw Totem pole Demonstration Application: PWM_HS_INTERFACE Struct Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="mchp.css" rel="stylesheet" type="text/css"/>
+<link href="mchp_theme.css" rel="stylesheet" type="text/css"/>
+<link href="search.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0" style="border:0px; border-spacing: 0px; border-collapse: collapse; vertical-align: middle; width: 100%;">
+    <tbody>
+        <tr style="border: none; background-color: #00000000;">
+            <!--SITE HEADER-->
+            <td style="width: 120px; border: none;">
+                <img alt="Bar" height="60px" src="images/mchp-brandingelement-rgb2.png"/>
+            </td>
+            <td style="width: 220px; border: none;">
+                <img alt="Logo" height=50px src="images/microchip.png"/>
+            </td>
+            <td colspan="4" style="font-size: 16pt; font-weight: bolder;">
+                3.8/7.6 kw Totem pole Demonstration Application (Part-No. (not specified)) 
+            </td>
+            <td style="text-align: right; vertical-align: middle;">
+                        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+            </td>
+            <!--END SITE HEADER-->
+        </tr>
+        <tr style="height:36px; border:none; background-color: #000000b0;">
+            <td style="width: 70px; color: white; font-size:14px; font-weight: bolder; margin-left: 30px;">
+                <div style="margin-left: 30px;">Content</div>
+            </td>
+            <td style="width: 10px; color: white; font-size:14px; font-weight: bolder;">
+                &nbsp;
+            </td>
+            <td style="width: 100px; color: white; font-size:14px; font-weight: bolder;">
+                <!-- Overview -->
+            </td>
+            <td style="width: 130px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Documentation -->
+            </td>
+            <td style="width: 170px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Additional Resources -->
+            </td>
+            <td style="width: auto; color: white; font-size:14px; font-weight: bolder;"> 
+              &nbsp;
+            </td>
+            <td style="width: 310px; margin-right: 30px; color: white; font-size:10px; font-weight: lighter; text-align: right;">
+                &nbsp;
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('a00615.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Data Fields</a>  </div>
+  <div class="headertitle"><div class="title">PWM_HS_INTERFACE Struct Reference<div class="ingroups"><a class="el" href="a00401.html">MPLABX MCC Melody Code Generator</a> &raquo; <a class="el" href="a00407.html">PWM HS Driver</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Structure containing the function pointers of PWM driver.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="a00314_source.html">pwm_hs_interface.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for PWM_HS_INTERFACE:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00613.svg" width="162" height="276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Data Fields</h2></td></tr>
+<tr class="memitem:afea2a7e78ccb7643d694c4bd7fa2ed5f" id="r_afea2a7e78ccb7643d694c4bd7fa2ed5f"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afea2a7e78ccb7643d694c4bd7fa2ed5f">Initialize</a> )(void)</td></tr>
+<tr class="memdesc:afea2a7e78ccb7643d694c4bd7fa2ed5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga2cdee1aefacc04ad6ed59618550226d0">PWM_Initialize</a>.  <br /></td></tr>
+<tr class="separator:afea2a7e78ccb7643d694c4bd7fa2ed5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6aa2863d2196e9f95f70fde91049ee6" id="r_ab6aa2863d2196e9f95f70fde91049ee6"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6aa2863d2196e9f95f70fde91049ee6">Deinitialize</a> )(void)</td></tr>
+<tr class="memdesc:ab6aa2863d2196e9f95f70fde91049ee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga3ec1e3d2d4ba199e07f31f46e5f58a02">PWM_Deinitialize</a>.  <br /></td></tr>
+<tr class="separator:ab6aa2863d2196e9f95f70fde91049ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fd5c6c55c6a76c4d35e3f81609fab87" id="r_a7fd5c6c55c6a76c4d35e3f81609fab87"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fd5c6c55c6a76c4d35e3f81609fab87">Disable</a> )(void)</td></tr>
+<tr class="memdesc:a7fd5c6c55c6a76c4d35e3f81609fab87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga5a3ef0885c3937caeb4107df9fb91e81">PWM_Disable</a>.  <br /></td></tr>
+<tr class="separator:a7fd5c6c55c6a76c4d35e3f81609fab87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04c571590cd163f474c876943a39e0f1" id="r_a04c571590cd163f474c876943a39e0f1"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04c571590cd163f474c876943a39e0f1">Enable</a> )(void)</td></tr>
+<tr class="memdesc:a04c571590cd163f474c876943a39e0f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gaf61d06e6e907cd4dfcef3a40792ee82f">PWM_Enable</a>.  <br /></td></tr>
+<tr class="separator:a04c571590cd163f474c876943a39e0f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bd948a1becf7c2a0f1050644e88d724" id="r_a4bd948a1becf7c2a0f1050644e88d724"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bd948a1becf7c2a0f1050644e88d724">MasterPeriodSet</a> )(uint16_t period)</td></tr>
+<tr class="memdesc:a4bd948a1becf7c2a0f1050644e88d724"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga30a0afc0a5b95ad7073b57cedcf74611">PWM_MasterPeriodSet</a>.  <br /></td></tr>
+<tr class="separator:a4bd948a1becf7c2a0f1050644e88d724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6290fee98af07007b9e584f24f0a1da5" id="r_a6290fee98af07007b9e584f24f0a1da5"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6290fee98af07007b9e584f24f0a1da5">MasterDutyCycleSet</a> )(uint16_t masterDutyCycle)</td></tr>
+<tr class="memdesc:a6290fee98af07007b9e584f24f0a1da5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga9286dbd4dd5b204deebbc336cd297ebe">PWM_MasterDutyCycleSet</a>.  <br /></td></tr>
+<tr class="separator:a6290fee98af07007b9e584f24f0a1da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4cbc18fd5678cf9ea207cb7e344a09a" id="r_aa4cbc18fd5678cf9ea207cb7e344a09a"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4cbc18fd5678cf9ea207cb7e344a09a">MasterPhaseSet</a> )(uint16_t masterPhase)</td></tr>
+<tr class="memdesc:aa4cbc18fd5678cf9ea207cb7e344a09a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga03b54d8c42f60e6eabece7bfa885eceb">PWM_MasterPhaseSet</a> (Defined if PWM_GENERATOR_MASTER_PHASE_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:aa4cbc18fd5678cf9ea207cb7e344a09a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5702edde63f815c839b3226be77da684" id="r_a5702edde63f815c839b3226be77da684"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5702edde63f815c839b3226be77da684">PeriodSet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t period)</td></tr>
+<tr class="memdesc:a5702edde63f815c839b3226be77da684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gada46160823b0892a1af14a17c5ab516e">PWM_PeriodSet</a>.  <br /></td></tr>
+<tr class="separator:a5702edde63f815c839b3226be77da684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4942ec3b24d5ef0fa4ceee551f27b579" id="r_a4942ec3b24d5ef0fa4ceee551f27b579"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4942ec3b24d5ef0fa4ceee551f27b579">ModeSet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga89dd925d03364582d04713b3003571d0">PWM_MODES</a> mode)</td></tr>
+<tr class="memdesc:a4942ec3b24d5ef0fa4ceee551f27b579"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga7bc6a7a90dce612edebdf1a6e38b34dc">PWM_ModeSet</a>.  <br /></td></tr>
+<tr class="separator:a4942ec3b24d5ef0fa4ceee551f27b579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00ec1bf0543f76c35739ddd4d3c36e55" id="r_a00ec1bf0543f76c35739ddd4d3c36e55"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00ec1bf0543f76c35739ddd4d3c36e55">DutyCycleSet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t dutyCycle)</td></tr>
+<tr class="memdesc:a00ec1bf0543f76c35739ddd4d3c36e55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga37968a783e44cd80643478d2b559dbf4">PWM_DutyCycleSet</a>.  <br /></td></tr>
+<tr class="separator:a00ec1bf0543f76c35739ddd4d3c36e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab54e369f2db5338e1983b1d842476e0" id="r_aab54e369f2db5338e1983b1d842476e0"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab54e369f2db5338e1983b1d842476e0">PhaseSelect</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00317.html#aaf75b04e4ce65147e631b1c76af67934">PWM_SOURCE_SELECT</a> source)</td></tr>
+<tr class="memdesc:aab54e369f2db5338e1983b1d842476e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gacdab43b292251ff6ab87f4a2c46370a6">PWM_PhaseSelect</a>.  <br /></td></tr>
+<tr class="separator:aab54e369f2db5338e1983b1d842476e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca89c957d10febe88061d2d8c38bf9d6" id="r_aca89c957d10febe88061d2d8c38bf9d6"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca89c957d10febe88061d2d8c38bf9d6">PhaseSet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t phase)</td></tr>
+<tr class="memdesc:aca89c957d10febe88061d2d8c38bf9d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga5fee3ff17f5125e5f2feeb78d1b0811d">PWM_PhaseSet</a>.  <br /></td></tr>
+<tr class="separator:aca89c957d10febe88061d2d8c38bf9d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42bcb848bf117d6952ce8b1586ed01d7" id="r_a42bcb848bf117d6952ce8b1586ed01d7"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42bcb848bf117d6952ce8b1586ed01d7">OverrideDataSet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t overrideData)</td></tr>
+<tr class="memdesc:a42bcb848bf117d6952ce8b1586ed01d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gaa074d79d94a7983d4748f42cadbd00f9">PWM_OverrideDataSet</a>.  <br /></td></tr>
+<tr class="separator:a42bcb848bf117d6952ce8b1586ed01d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b745e8fcf577878f4099ee3ee98837" id="r_a31b745e8fcf577878f4099ee3ee98837"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b745e8fcf577878f4099ee3ee98837">OverrideDataHighSet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, bool overrideDataHigh)</td></tr>
+<tr class="memdesc:a31b745e8fcf577878f4099ee3ee98837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga1724e783e892c31579dcbeba54f6f790">PWM_OverrideDataHighSet</a>.  <br /></td></tr>
+<tr class="separator:a31b745e8fcf577878f4099ee3ee98837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3f56e06ae9ccf0307d5840c6f57ee1f" id="r_ad3f56e06ae9ccf0307d5840c6f57ee1f"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3f56e06ae9ccf0307d5840c6f57ee1f">OverrideDataLowSet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, bool overrideDataLow)</td></tr>
+<tr class="memdesc:ad3f56e06ae9ccf0307d5840c6f57ee1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga94c0da8590e068763474eb221aa46bb2">PWM_OverrideDataLowSet</a>.  <br /></td></tr>
+<tr class="separator:ad3f56e06ae9ccf0307d5840c6f57ee1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add961a3e0e83fe4ff43f81ce9e470317" id="r_add961a3e0e83fe4ff43f81ce9e470317"><td class="memItemLeft" align="right" valign="top">uint16_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add961a3e0e83fe4ff43f81ce9e470317">OverrideDataGet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td></tr>
+<tr class="memdesc:add961a3e0e83fe4ff43f81ce9e470317"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga22fd3b42435bdc6bd2e699b43ceb92bd">PWM_OverrideDataGet</a>.  <br /></td></tr>
+<tr class="separator:add961a3e0e83fe4ff43f81ce9e470317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86cfa3a47c0507cad5f36c38be7fdd4a" id="r_a86cfa3a47c0507cad5f36c38be7fdd4a"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86cfa3a47c0507cad5f36c38be7fdd4a">OverrideHighEnable</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td></tr>
+<tr class="memdesc:a86cfa3a47c0507cad5f36c38be7fdd4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga531b59d8823e3ebda2da60f48582bcf3">PWM_OverrideHighEnable</a>.  <br /></td></tr>
+<tr class="separator:a86cfa3a47c0507cad5f36c38be7fdd4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14f0250eed2e3ebdc45a2e2977250f69" id="r_a14f0250eed2e3ebdc45a2e2977250f69"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14f0250eed2e3ebdc45a2e2977250f69">OverrideLowEnable</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td></tr>
+<tr class="memdesc:a14f0250eed2e3ebdc45a2e2977250f69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga2548ca8feda75ba6ab784280679da6ae">PWM_OverrideLowEnable</a>.  <br /></td></tr>
+<tr class="separator:a14f0250eed2e3ebdc45a2e2977250f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35a968f6ae4ea6f068aefe6b2732c858" id="r_a35a968f6ae4ea6f068aefe6b2732c858"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35a968f6ae4ea6f068aefe6b2732c858">OverrideHighDisable</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td></tr>
+<tr class="memdesc:a35a968f6ae4ea6f068aefe6b2732c858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga957b002605bfb2239a26f174808b2ad8">PWM_OverrideHighDisable</a>.  <br /></td></tr>
+<tr class="separator:a35a968f6ae4ea6f068aefe6b2732c858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9b28c9b2b3f5e4eaef68e56ba5dcc33" id="r_ab9b28c9b2b3f5e4eaef68e56ba5dcc33"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9b28c9b2b3f5e4eaef68e56ba5dcc33">OverrideLowDisable</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td></tr>
+<tr class="memdesc:ab9b28c9b2b3f5e4eaef68e56ba5dcc33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gabbedef830c43428e96c7d5125662a8a6">PWM_OverrideLowDisable</a>.  <br /></td></tr>
+<tr class="separator:ab9b28c9b2b3f5e4eaef68e56ba5dcc33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46369d7a9218ec8cba499009730f0d10" id="r_a46369d7a9218ec8cba499009730f0d10"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46369d7a9218ec8cba499009730f0d10">DeadTimeLowSet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t deadtimeLow)</td></tr>
+<tr class="memdesc:a46369d7a9218ec8cba499009730f0d10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga124426b28426beb53948e9b57319ab4b">PWM_DeadTimeLowSet</a>.  <br /></td></tr>
+<tr class="separator:a46369d7a9218ec8cba499009730f0d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab027a5083d06d6c0e2b46cd3bf2e0eaf" id="r_ab027a5083d06d6c0e2b46cd3bf2e0eaf"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab027a5083d06d6c0e2b46cd3bf2e0eaf">DeadTimeHighSet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t deadtimeHigh)</td></tr>
+<tr class="memdesc:ab027a5083d06d6c0e2b46cd3bf2e0eaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gaf368256a569a5a9e12f85f84d7d42287">PWM_DeadTimeHighSet</a>.  <br /></td></tr>
+<tr class="separator:ab027a5083d06d6c0e2b46cd3bf2e0eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e9c2f66721154a8dadb47b021ac951f" id="r_a2e9c2f66721154a8dadb47b021ac951f"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e9c2f66721154a8dadb47b021ac951f">DeadTimeSet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t deadtime)</td></tr>
+<tr class="memdesc:a2e9c2f66721154a8dadb47b021ac951f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gaa2aa30934c754c78fa90e47cd786b84c">PWM_DeadTimeSet</a>.  <br /></td></tr>
+<tr class="separator:a2e9c2f66721154a8dadb47b021ac951f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e607f621577d98924efac4c33cc4501" id="r_a0e607f621577d98924efac4c33cc4501"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e607f621577d98924efac4c33cc4501">TriggerCompareValueSet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t trigCompValue)</td></tr>
+<tr class="memdesc:a0e607f621577d98924efac4c33cc4501"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga4180684cc8e53b92976af4300ce95fae">PWM_TriggerCompareValueSet</a>.  <br /></td></tr>
+<tr class="separator:a0e607f621577d98924efac4c33cc4501"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6944d8877190502c88e1510c5a2a271f" id="r_a6944d8877190502c88e1510c5a2a271f"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6944d8877190502c88e1510c5a2a271f">GeneratorInterruptEnable</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga26884aa075f9b9e9e4fe32e47ee22680">PWM_GENERATOR_INTERRUPT</a> interrupt)</td></tr>
+<tr class="memdesc:a6944d8877190502c88e1510c5a2a271f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gac6aa52bc11f1cdc6b0abc26428b7e8e7">PWM_GeneratorInterruptEnable</a>.  <br /></td></tr>
+<tr class="separator:a6944d8877190502c88e1510c5a2a271f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa342cc766b08cbbee90712ae24c3004e" id="r_aa342cc766b08cbbee90712ae24c3004e"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa342cc766b08cbbee90712ae24c3004e">GeneratorInterruptDisable</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga26884aa075f9b9e9e4fe32e47ee22680">PWM_GENERATOR_INTERRUPT</a> interrupt)</td></tr>
+<tr class="memdesc:aa342cc766b08cbbee90712ae24c3004e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga0f0107ea435e472b49e9e7ec3164439f">PWM_GeneratorInterruptDisable</a>.  <br /></td></tr>
+<tr class="separator:aa342cc766b08cbbee90712ae24c3004e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3d4675ffe192312983a0a568bba1b70" id="r_ab3d4675ffe192312983a0a568bba1b70"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3d4675ffe192312983a0a568bba1b70">GeneratorEventStatusGet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga26884aa075f9b9e9e4fe32e47ee22680">PWM_GENERATOR_INTERRUPT</a> interrupt)</td></tr>
+<tr class="memdesc:ab3d4675ffe192312983a0a568bba1b70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga6336e0d6ce9a4226f6a309f6018ecf74">PWM_GeneratorEventStatusGet</a>.  <br /></td></tr>
+<tr class="separator:ab3d4675ffe192312983a0a568bba1b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a494445dd827c6cd2ee9863bab9191acc" id="r_a494445dd827c6cd2ee9863bab9191acc"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a494445dd827c6cd2ee9863bab9191acc">GeneratorEventStatusClear</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga26884aa075f9b9e9e4fe32e47ee22680">PWM_GENERATOR_INTERRUPT</a> interrupt)</td></tr>
+<tr class="memdesc:a494445dd827c6cd2ee9863bab9191acc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gabb9b16cc2f06452f2dcc4605abfdd0e4">PWM_GeneratorEventStatusClear</a>.  <br /></td></tr>
+<tr class="separator:a494445dd827c6cd2ee9863bab9191acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56f2816aed25dc08125f6e1b3b15bf02" id="r_a56f2816aed25dc08125f6e1b3b15bf02"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56f2816aed25dc08125f6e1b3b15bf02">SpecialEventPrimaryCompareValueSet</a> )(uint16_t compareValue)</td></tr>
+<tr class="memdesc:a56f2816aed25dc08125f6e1b3b15bf02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to PWM_SpecialEventPrimaryCompareValueSet (Defined if PWM_SPECIAL_EVENT_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:a56f2816aed25dc08125f6e1b3b15bf02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf6e2a8bb48e9d9b6e1ffc09d9dde688" id="r_abf6e2a8bb48e9d9b6e1ffc09d9dde688"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf6e2a8bb48e9d9b6e1ffc09d9dde688">SpecialEventTriggerInterruptFlagClear</a> )(void)</td></tr>
+<tr class="memdesc:abf6e2a8bb48e9d9b6e1ffc09d9dde688"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to PWM_SpecialEventTriggerInterruptFlagClear (Defined if PWM_SPECIAL_EVENT_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:abf6e2a8bb48e9d9b6e1ffc09d9dde688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bda3cd3a30e39f06177561aafc79e0f" id="r_a8bda3cd3a30e39f06177561aafc79e0f"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bda3cd3a30e39f06177561aafc79e0f">SpecialEventPrimaryInterruptEnable</a> )(void)</td></tr>
+<tr class="memdesc:a8bda3cd3a30e39f06177561aafc79e0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to PWM_SpecialEventPrimaryInterruptEnable (Defined if PWM_SPECIAL_EVENT_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:a8bda3cd3a30e39f06177561aafc79e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c22f3a9c4e3991086502202e8a2f8a1" id="r_a0c22f3a9c4e3991086502202e8a2f8a1"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c22f3a9c4e3991086502202e8a2f8a1">SpecialEventPrimaryInterruptDisable</a> )(void)</td></tr>
+<tr class="memdesc:a0c22f3a9c4e3991086502202e8a2f8a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to PWM_SpecialEventPrimaryInterruptDisable (Defined if PWM_SPECIAL_EVENT_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:a0c22f3a9c4e3991086502202e8a2f8a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea517c71bef307d0ffe4a590b4b463a5" id="r_aea517c71bef307d0ffe4a590b4b463a5"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea517c71bef307d0ffe4a590b4b463a5">FaultModeLatchDisable</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td></tr>
+<tr class="memdesc:aea517c71bef307d0ffe4a590b4b463a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to PWM_FaultModeLatchDisable (Defined if PWM_FAULT_MODE_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:aea517c71bef307d0ffe4a590b4b463a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61d4ede05805e999005387a45d87e9b8" id="r_a61d4ede05805e999005387a45d87e9b8"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61d4ede05805e999005387a45d87e9b8">FaultModeLatchEnable</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td></tr>
+<tr class="memdesc:a61d4ede05805e999005387a45d87e9b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to PWM_FaultModeLatchEnable (Defined if PWM_FAULT_MODE_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:a61d4ede05805e999005387a45d87e9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a332724dc229715fa32b4b57112dfb737" id="r_a332724dc229715fa32b4b57112dfb737"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a332724dc229715fa32b4b57112dfb737">GeneratorDisable</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td></tr>
+<tr class="memdesc:a332724dc229715fa32b4b57112dfb737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga584717cfb97c0599fe871874c9a161e9">PWM_GeneratorDisable</a> (Defined if PWM_GENERATOR_ENABLE_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:a332724dc229715fa32b4b57112dfb737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dc2f77f9abf81eaa0444b4b52f9caa0" id="r_a7dc2f77f9abf81eaa0444b4b52f9caa0"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dc2f77f9abf81eaa0444b4b52f9caa0">GeneratorEnable</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td></tr>
+<tr class="memdesc:a7dc2f77f9abf81eaa0444b4b52f9caa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gae78d4b93260f34902cf74a4870f48081">PWM_GeneratorEnable</a> (Defined if PWM_GENERATOR_ENABLE_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:a7dc2f77f9abf81eaa0444b4b52f9caa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab28516cc25bad0a1ec7808621ff3fa01" id="r_ab28516cc25bad0a1ec7808621ff3fa01"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab28516cc25bad0a1ec7808621ff3fa01">TriggerACompareValueSet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t trigCompValue)</td></tr>
+<tr class="memdesc:ab28516cc25bad0a1ec7808621ff3fa01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga31ecd7d6fe3eb1adb712e3f055a88df9">PWM_TriggerACompareValueSet</a> (Defined if PWM_MULTIPLE_TRIGGER_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:ab28516cc25bad0a1ec7808621ff3fa01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18c054d4c66d1c8a1c5faf1a757177aa" id="r_a18c054d4c66d1c8a1c5faf1a757177aa"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18c054d4c66d1c8a1c5faf1a757177aa">TriggerBCompareValueSet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t trigCompValue)</td></tr>
+<tr class="memdesc:a18c054d4c66d1c8a1c5faf1a757177aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga3453a907bf8e14bb9bb434ddd0e82500">PWM_TriggerBCompareValueSet</a> (Defined if PWM_MULTIPLE_TRIGGER_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:a18c054d4c66d1c8a1c5faf1a757177aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af346efcf3e5cec2919bf0df865e9907a" id="r_af346efcf3e5cec2919bf0df865e9907a"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af346efcf3e5cec2919bf0df865e9907a">TriggerCCompareValueSet</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t trigCompValue)</td></tr>
+<tr class="memdesc:af346efcf3e5cec2919bf0df865e9907a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gacc5575148a6e8da6577d9be9e20541ce">PWM_TriggerCCompareValueSet</a> (Defined if PWM_MULTIPLE_TRIGGER_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:af346efcf3e5cec2919bf0df865e9907a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a410c1e41b21adf4df2e965fbe8362002" id="r_a410c1e41b21adf4df2e965fbe8362002"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a410c1e41b21adf4df2e965fbe8362002">SoftwareUpdateRequest</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td></tr>
+<tr class="memdesc:a410c1e41b21adf4df2e965fbe8362002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga83e780358618114f0d424ca7467cf751">PWM_SoftwareUpdateRequest</a> (Defined if PWM_SOFTWARE_UPDATE_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:a410c1e41b21adf4df2e965fbe8362002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafea482999bb1ceddf08eade54998b7a" id="r_aafea482999bb1ceddf08eade54998b7a"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafea482999bb1ceddf08eade54998b7a">SoftwareUpdatePending</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td></tr>
+<tr class="memdesc:aafea482999bb1ceddf08eade54998b7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gaaab351f9a0e195d99a8748e3d9d8449c">PWM_SoftwareUpdatePending</a> (Defined if PWM_SOFTWARE_UPDATE_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:aafea482999bb1ceddf08eade54998b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5de4c331047d7f31bbecdcdccca17142" id="r_a5de4c331047d7f31bbecdcdccca17142"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5de4c331047d7f31bbecdcdccca17142">FaultModeLatchClear</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td></tr>
+<tr class="memdesc:a5de4c331047d7f31bbecdcdccca17142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga67622db4175e2169fea756f5974d3446">PWM_FaultModeLatchClear</a> (Defined if PWM_FAULT_LATCH_SOFTWARE_CLEAR_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:a5de4c331047d7f31bbecdcdccca17142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae42735a372a31589fb8d41240ca99b66" id="r_ae42735a372a31589fb8d41240ca99b66"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae42735a372a31589fb8d41240ca99b66">Trigger1Enable</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga49a81b3d1835f88d40c81ea13ba7ffa6">PWM_TRIGGER_COMPARE</a> compareRegister)</td></tr>
+<tr class="memdesc:ae42735a372a31589fb8d41240ca99b66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gad6e8219dfcec3ef2b19c4f270dfaef79">PWM_Trigger1Enable</a> (Defined if PWM_TRIGGER_ENABLE_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:ae42735a372a31589fb8d41240ca99b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b9d8d4dadfe2ad8c8f9efc0797e338e" id="r_a6b9d8d4dadfe2ad8c8f9efc0797e338e"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b9d8d4dadfe2ad8c8f9efc0797e338e">Trigger1Disable</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga49a81b3d1835f88d40c81ea13ba7ffa6">PWM_TRIGGER_COMPARE</a> compareRegister)</td></tr>
+<tr class="memdesc:a6b9d8d4dadfe2ad8c8f9efc0797e338e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga1eb020515fe26918400ba83f3219a405">PWM_Trigger1Disable</a> (Defined if PWM_TRIGGER_ENABLE_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:a6b9d8d4dadfe2ad8c8f9efc0797e338e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a606b97f810d705f0a54589c994843419" id="r_a606b97f810d705f0a54589c994843419"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a606b97f810d705f0a54589c994843419">Trigger2Enable</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga49a81b3d1835f88d40c81ea13ba7ffa6">PWM_TRIGGER_COMPARE</a> compareRegister)</td></tr>
+<tr class="memdesc:a606b97f810d705f0a54589c994843419"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#ga008d7c2ebfd81591b868134ad6bbcc31">PWM_Trigger2Enable</a> (Defined if PWM_TRIGGER_ENABLE_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL) <br  />
+  <br /></td></tr>
+<tr class="separator:a606b97f810d705f0a54589c994843419"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af49e1a50dbf66f5b3efff0eee15d8342" id="r_af49e1a50dbf66f5b3efff0eee15d8342"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af49e1a50dbf66f5b3efff0eee15d8342">Trigger2Disable</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga49a81b3d1835f88d40c81ea13ba7ffa6">PWM_TRIGGER_COMPARE</a> compareRegister)</td></tr>
+<tr class="memdesc:af49e1a50dbf66f5b3efff0eee15d8342"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gab46a79debab6266da072bfd199e2649e">PWM_Trigger2Disable</a> (Defined if PWM_TRIGGER_ENABLE_FEATURE_AVAILABLE is 1 in <a class="el" href="a00311.html" title="This is the generated module feature header file for PWM driver. This file provides module feature li...">PWM_features.h</a>, else NULL)  <br /></td></tr>
+<tr class="separator:af49e1a50dbf66f5b3efff0eee15d8342"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e63802b68a1b78a5a19505f096445ca" id="r_a5e63802b68a1b78a5a19505f096445ca"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e63802b68a1b78a5a19505f096445ca">GeneratorEOCEventCallbackRegister</a> )(void(*callback)(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum))</td></tr>
+<tr class="memdesc:a5e63802b68a1b78a5a19505f096445ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gafb860e72fa5f565c22ceb026b37eb901">PWM_GeneratorEOCEventCallbackRegister</a>.  <br /></td></tr>
+<tr class="separator:a5e63802b68a1b78a5a19505f096445ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d04e50f0ac1923c83042a00cd4e7f4f" id="r_a9d04e50f0ac1923c83042a00cd4e7f4f"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d04e50f0ac1923c83042a00cd4e7f4f">CommonEventCallbackRegister</a> )(void(*callback)(enum <a class="el" href="a00407.html#gac417da9a87feb343098a4723078a4b43">PWM_COMMON_EVENT</a> event))</td></tr>
+<tr class="memdesc:a9d04e50f0ac1923c83042a00cd4e7f4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to PWM_CommonEventCallbackRegister.  <br /></td></tr>
+<tr class="separator:a9d04e50f0ac1923c83042a00cd4e7f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83e5d1f2b66c05581b6ea23de1ee6b0d" id="r_a83e5d1f2b66c05581b6ea23de1ee6b0d"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83e5d1f2b66c05581b6ea23de1ee6b0d">GeneratorTasks</a> )(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> intGen)</td></tr>
+<tr class="memdesc:a83e5d1f2b66c05581b6ea23de1ee6b0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="a00407.html#gaab52ca9a8ec34bfe428e7fe5ee6d516c">PWM_GeneratorTasks</a> (Supported only in polling mode)  <br /></td></tr>
+<tr class="separator:a83e5d1f2b66c05581b6ea23de1ee6b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a359fda768328428299e5f061b7573dc5" id="r_a359fda768328428299e5f061b7573dc5"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a359fda768328428299e5f061b7573dc5">CommonEventTasks</a> )(enum <a class="el" href="a00407.html#gac417da9a87feb343098a4723078a4b43">PWM_COMMON_EVENT</a> event)</td></tr>
+<tr class="memdesc:a359fda768328428299e5f061b7573dc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to PWM_CommonEventTasks (Supported only in polling mode)  <br /></td></tr>
+<tr class="separator:a359fda768328428299e5f061b7573dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00056">56</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+</div><h2 class="groupheader">Field Documentation</h2>
+<a id="a9d04e50f0ac1923c83042a00cd4e7f4f" name="a9d04e50f0ac1923c83042a00cd4e7f4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d04e50f0ac1923c83042a00cd4e7f4f">&#9670;&#160;</a></span>CommonEventCallbackRegister</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* CommonEventCallbackRegister) (void(*callback)(enum <a class="el" href="a00407.html#gac417da9a87feb343098a4723078a4b43">PWM_COMMON_EVENT</a> event))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00198">198</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a359fda768328428299e5f061b7573dc5" name="a359fda768328428299e5f061b7573dc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a359fda768328428299e5f061b7573dc5">&#9670;&#160;</a></span>CommonEventTasks</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* CommonEventTasks) (enum <a class="el" href="a00407.html#gac417da9a87feb343098a4723078a4b43">PWM_COMMON_EVENT</a> event)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00204">204</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="ab027a5083d06d6c0e2b46cd3bf2e0eaf" name="ab027a5083d06d6c0e2b46cd3bf2e0eaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab027a5083d06d6c0e2b46cd3bf2e0eaf">&#9670;&#160;</a></span>DeadTimeHighSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* DeadTimeHighSet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t deadtimeHigh)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00120">120</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a46369d7a9218ec8cba499009730f0d10" name="a46369d7a9218ec8cba499009730f0d10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46369d7a9218ec8cba499009730f0d10">&#9670;&#160;</a></span>DeadTimeLowSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* DeadTimeLowSet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t deadtimeLow)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00117">117</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a2e9c2f66721154a8dadb47b021ac951f" name="a2e9c2f66721154a8dadb47b021ac951f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e9c2f66721154a8dadb47b021ac951f">&#9670;&#160;</a></span>DeadTimeSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* DeadTimeSet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t deadtime)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00123">123</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="ab6aa2863d2196e9f95f70fde91049ee6" name="ab6aa2863d2196e9f95f70fde91049ee6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6aa2863d2196e9f95f70fde91049ee6">&#9670;&#160;</a></span>Deinitialize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* Deinitialize) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00060">60</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a7fd5c6c55c6a76c4d35e3f81609fab87" name="a7fd5c6c55c6a76c4d35e3f81609fab87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fd5c6c55c6a76c4d35e3f81609fab87">&#9670;&#160;</a></span>Disable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* Disable) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00063">63</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a00ec1bf0543f76c35739ddd4d3c36e55" name="a00ec1bf0543f76c35739ddd4d3c36e55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00ec1bf0543f76c35739ddd4d3c36e55">&#9670;&#160;</a></span>DutyCycleSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* DutyCycleSet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t dutyCycle)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00084">84</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a04c571590cd163f474c876943a39e0f1" name="a04c571590cd163f474c876943a39e0f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04c571590cd163f474c876943a39e0f1">&#9670;&#160;</a></span>Enable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* Enable) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00066">66</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a5de4c331047d7f31bbecdcdccca17142" name="a5de4c331047d7f31bbecdcdccca17142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5de4c331047d7f31bbecdcdccca17142">&#9670;&#160;</a></span>FaultModeLatchClear</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* FaultModeLatchClear) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00180">180</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="aea517c71bef307d0ffe4a590b4b463a5" name="aea517c71bef307d0ffe4a590b4b463a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea517c71bef307d0ffe4a590b4b463a5">&#9670;&#160;</a></span>FaultModeLatchDisable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* FaultModeLatchDisable) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00153">153</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a61d4ede05805e999005387a45d87e9b8" name="a61d4ede05805e999005387a45d87e9b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61d4ede05805e999005387a45d87e9b8">&#9670;&#160;</a></span>FaultModeLatchEnable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* FaultModeLatchEnable) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00156">156</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a332724dc229715fa32b4b57112dfb737" name="a332724dc229715fa32b4b57112dfb737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a332724dc229715fa32b4b57112dfb737">&#9670;&#160;</a></span>GeneratorDisable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* GeneratorDisable) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00159">159</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a7dc2f77f9abf81eaa0444b4b52f9caa0" name="a7dc2f77f9abf81eaa0444b4b52f9caa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dc2f77f9abf81eaa0444b4b52f9caa0">&#9670;&#160;</a></span>GeneratorEnable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* GeneratorEnable) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00162">162</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a5e63802b68a1b78a5a19505f096445ca" name="a5e63802b68a1b78a5a19505f096445ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e63802b68a1b78a5a19505f096445ca">&#9670;&#160;</a></span>GeneratorEOCEventCallbackRegister</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* GeneratorEOCEventCallbackRegister) (void(*callback)(enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00195">195</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a494445dd827c6cd2ee9863bab9191acc" name="a494445dd827c6cd2ee9863bab9191acc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a494445dd827c6cd2ee9863bab9191acc">&#9670;&#160;</a></span>GeneratorEventStatusClear</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* GeneratorEventStatusClear) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga26884aa075f9b9e9e4fe32e47ee22680">PWM_GENERATOR_INTERRUPT</a> interrupt)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00138">138</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="ab3d4675ffe192312983a0a568bba1b70" name="ab3d4675ffe192312983a0a568bba1b70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3d4675ffe192312983a0a568bba1b70">&#9670;&#160;</a></span>GeneratorEventStatusGet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool(* GeneratorEventStatusGet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga26884aa075f9b9e9e4fe32e47ee22680">PWM_GENERATOR_INTERRUPT</a> interrupt)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00135">135</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="aa342cc766b08cbbee90712ae24c3004e" name="aa342cc766b08cbbee90712ae24c3004e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa342cc766b08cbbee90712ae24c3004e">&#9670;&#160;</a></span>GeneratorInterruptDisable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* GeneratorInterruptDisable) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga26884aa075f9b9e9e4fe32e47ee22680">PWM_GENERATOR_INTERRUPT</a> interrupt)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00132">132</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a6944d8877190502c88e1510c5a2a271f" name="a6944d8877190502c88e1510c5a2a271f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6944d8877190502c88e1510c5a2a271f">&#9670;&#160;</a></span>GeneratorInterruptEnable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* GeneratorInterruptEnable) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga26884aa075f9b9e9e4fe32e47ee22680">PWM_GENERATOR_INTERRUPT</a> interrupt)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00129">129</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a83e5d1f2b66c05581b6ea23de1ee6b0d" name="a83e5d1f2b66c05581b6ea23de1ee6b0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83e5d1f2b66c05581b6ea23de1ee6b0d">&#9670;&#160;</a></span>GeneratorTasks</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* GeneratorTasks) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> intGen)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00201">201</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="afea2a7e78ccb7643d694c4bd7fa2ed5f" name="afea2a7e78ccb7643d694c4bd7fa2ed5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afea2a7e78ccb7643d694c4bd7fa2ed5f">&#9670;&#160;</a></span>Initialize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* Initialize) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00057">57</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a6290fee98af07007b9e584f24f0a1da5" name="a6290fee98af07007b9e584f24f0a1da5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6290fee98af07007b9e584f24f0a1da5">&#9670;&#160;</a></span>MasterDutyCycleSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* MasterDutyCycleSet) (uint16_t masterDutyCycle)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00072">72</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a4bd948a1becf7c2a0f1050644e88d724" name="a4bd948a1becf7c2a0f1050644e88d724"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bd948a1becf7c2a0f1050644e88d724">&#9670;&#160;</a></span>MasterPeriodSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* MasterPeriodSet) (uint16_t period)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00069">69</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="aa4cbc18fd5678cf9ea207cb7e344a09a" name="aa4cbc18fd5678cf9ea207cb7e344a09a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4cbc18fd5678cf9ea207cb7e344a09a">&#9670;&#160;</a></span>MasterPhaseSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* MasterPhaseSet) (uint16_t masterPhase)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00075">75</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a4942ec3b24d5ef0fa4ceee551f27b579" name="a4942ec3b24d5ef0fa4ceee551f27b579"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4942ec3b24d5ef0fa4ceee551f27b579">&#9670;&#160;</a></span>ModeSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* ModeSet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga89dd925d03364582d04713b3003571d0">PWM_MODES</a> mode)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00081">81</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="add961a3e0e83fe4ff43f81ce9e470317" name="add961a3e0e83fe4ff43f81ce9e470317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add961a3e0e83fe4ff43f81ce9e470317">&#9670;&#160;</a></span>OverrideDataGet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t(* OverrideDataGet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00102">102</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a31b745e8fcf577878f4099ee3ee98837" name="a31b745e8fcf577878f4099ee3ee98837"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b745e8fcf577878f4099ee3ee98837">&#9670;&#160;</a></span>OverrideDataHighSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* OverrideDataHighSet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, bool overrideDataHigh)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00096">96</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="ad3f56e06ae9ccf0307d5840c6f57ee1f" name="ad3f56e06ae9ccf0307d5840c6f57ee1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3f56e06ae9ccf0307d5840c6f57ee1f">&#9670;&#160;</a></span>OverrideDataLowSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* OverrideDataLowSet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, bool overrideDataLow)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00099">99</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a42bcb848bf117d6952ce8b1586ed01d7" name="a42bcb848bf117d6952ce8b1586ed01d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42bcb848bf117d6952ce8b1586ed01d7">&#9670;&#160;</a></span>OverrideDataSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* OverrideDataSet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t overrideData)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00093">93</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a35a968f6ae4ea6f068aefe6b2732c858" name="a35a968f6ae4ea6f068aefe6b2732c858"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35a968f6ae4ea6f068aefe6b2732c858">&#9670;&#160;</a></span>OverrideHighDisable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* OverrideHighDisable) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00111">111</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a86cfa3a47c0507cad5f36c38be7fdd4a" name="a86cfa3a47c0507cad5f36c38be7fdd4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86cfa3a47c0507cad5f36c38be7fdd4a">&#9670;&#160;</a></span>OverrideHighEnable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* OverrideHighEnable) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00105">105</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="ab9b28c9b2b3f5e4eaef68e56ba5dcc33" name="ab9b28c9b2b3f5e4eaef68e56ba5dcc33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9b28c9b2b3f5e4eaef68e56ba5dcc33">&#9670;&#160;</a></span>OverrideLowDisable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* OverrideLowDisable) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00114">114</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a14f0250eed2e3ebdc45a2e2977250f69" name="a14f0250eed2e3ebdc45a2e2977250f69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14f0250eed2e3ebdc45a2e2977250f69">&#9670;&#160;</a></span>OverrideLowEnable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* OverrideLowEnable) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00108">108</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a5702edde63f815c839b3226be77da684" name="a5702edde63f815c839b3226be77da684"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5702edde63f815c839b3226be77da684">&#9670;&#160;</a></span>PeriodSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* PeriodSet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t period)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00078">78</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="aab54e369f2db5338e1983b1d842476e0" name="aab54e369f2db5338e1983b1d842476e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab54e369f2db5338e1983b1d842476e0">&#9670;&#160;</a></span>PhaseSelect</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* PhaseSelect) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00317.html#aaf75b04e4ce65147e631b1c76af67934">PWM_SOURCE_SELECT</a> source)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00087">87</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="aca89c957d10febe88061d2d8c38bf9d6" name="aca89c957d10febe88061d2d8c38bf9d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca89c957d10febe88061d2d8c38bf9d6">&#9670;&#160;</a></span>PhaseSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* PhaseSet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t phase)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00090">90</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="aafea482999bb1ceddf08eade54998b7a" name="aafea482999bb1ceddf08eade54998b7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafea482999bb1ceddf08eade54998b7a">&#9670;&#160;</a></span>SoftwareUpdatePending</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool(* SoftwareUpdatePending) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00177">177</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a410c1e41b21adf4df2e965fbe8362002" name="a410c1e41b21adf4df2e965fbe8362002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a410c1e41b21adf4df2e965fbe8362002">&#9670;&#160;</a></span>SoftwareUpdateRequest</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* SoftwareUpdateRequest) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00174">174</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a56f2816aed25dc08125f6e1b3b15bf02" name="a56f2816aed25dc08125f6e1b3b15bf02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56f2816aed25dc08125f6e1b3b15bf02">&#9670;&#160;</a></span>SpecialEventPrimaryCompareValueSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* SpecialEventPrimaryCompareValueSet) (uint16_t compareValue)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00141">141</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a0c22f3a9c4e3991086502202e8a2f8a1" name="a0c22f3a9c4e3991086502202e8a2f8a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c22f3a9c4e3991086502202e8a2f8a1">&#9670;&#160;</a></span>SpecialEventPrimaryInterruptDisable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* SpecialEventPrimaryInterruptDisable) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00150">150</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a8bda3cd3a30e39f06177561aafc79e0f" name="a8bda3cd3a30e39f06177561aafc79e0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bda3cd3a30e39f06177561aafc79e0f">&#9670;&#160;</a></span>SpecialEventPrimaryInterruptEnable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* SpecialEventPrimaryInterruptEnable) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00147">147</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="abf6e2a8bb48e9d9b6e1ffc09d9dde688" name="abf6e2a8bb48e9d9b6e1ffc09d9dde688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf6e2a8bb48e9d9b6e1ffc09d9dde688">&#9670;&#160;</a></span>SpecialEventTriggerInterruptFlagClear</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* SpecialEventTriggerInterruptFlagClear) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00144">144</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a6b9d8d4dadfe2ad8c8f9efc0797e338e" name="a6b9d8d4dadfe2ad8c8f9efc0797e338e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b9d8d4dadfe2ad8c8f9efc0797e338e">&#9670;&#160;</a></span>Trigger1Disable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* Trigger1Disable) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga49a81b3d1835f88d40c81ea13ba7ffa6">PWM_TRIGGER_COMPARE</a> compareRegister)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00186">186</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="ae42735a372a31589fb8d41240ca99b66" name="ae42735a372a31589fb8d41240ca99b66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae42735a372a31589fb8d41240ca99b66">&#9670;&#160;</a></span>Trigger1Enable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* Trigger1Enable) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga49a81b3d1835f88d40c81ea13ba7ffa6">PWM_TRIGGER_COMPARE</a> compareRegister)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00183">183</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="af49e1a50dbf66f5b3efff0eee15d8342" name="af49e1a50dbf66f5b3efff0eee15d8342"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af49e1a50dbf66f5b3efff0eee15d8342">&#9670;&#160;</a></span>Trigger2Disable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* Trigger2Disable) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga49a81b3d1835f88d40c81ea13ba7ffa6">PWM_TRIGGER_COMPARE</a> compareRegister)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00192">192</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a606b97f810d705f0a54589c994843419" name="a606b97f810d705f0a54589c994843419"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a606b97f810d705f0a54589c994843419">&#9670;&#160;</a></span>Trigger2Enable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* Trigger2Enable) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, enum <a class="el" href="a00407.html#ga49a81b3d1835f88d40c81ea13ba7ffa6">PWM_TRIGGER_COMPARE</a> compareRegister)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00189">189</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="ab28516cc25bad0a1ec7808621ff3fa01" name="ab28516cc25bad0a1ec7808621ff3fa01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab28516cc25bad0a1ec7808621ff3fa01">&#9670;&#160;</a></span>TriggerACompareValueSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* TriggerACompareValueSet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t trigCompValue)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00165">165</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a18c054d4c66d1c8a1c5faf1a757177aa" name="a18c054d4c66d1c8a1c5faf1a757177aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18c054d4c66d1c8a1c5faf1a757177aa">&#9670;&#160;</a></span>TriggerBCompareValueSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* TriggerBCompareValueSet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t trigCompValue)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00168">168</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="af346efcf3e5cec2919bf0df865e9907a" name="af346efcf3e5cec2919bf0df865e9907a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af346efcf3e5cec2919bf0df865e9907a">&#9670;&#160;</a></span>TriggerCCompareValueSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* TriggerCCompareValueSet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t trigCompValue)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00171">171</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<a id="a0e607f621577d98924efac4c33cc4501" name="a0e607f621577d98924efac4c33cc4501"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e607f621577d98924efac4c33cc4501">&#9670;&#160;</a></span>TriggerCompareValueSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* TriggerCompareValueSet) (enum <a class="el" href="a00407.html#gaa552a948d5b08cc9a8345234b82fe5a8">PWM_GENERATOR</a> genNum, uint16_t trigCompValue)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00314_source.html#l00126">126</a> of file <a class="el" href="a00314_source.html">pwm_hs_interface.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>C:/Users/M70027/Documents/Projects/tp-deployment/dspic33ch-power-totem-pole-demonstration-application-single-phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/mcc_generated_files/pwm_hs/<a class="el" href="a00314_source.html">pwm_hs_interface.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.20-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath" style="padding-bottom: 12px; vertical-align: bottom;"><!-- id is needed for treeview function! -->
+  <ul>
+    <p class="footer" style="text-align: center; font-size: 90%;">
+      © Copyright 1998-2022 Microchip Technology Inc. All rights reserved.
+    </p>
+    </ul>
+</div>
+</body>
+</html>

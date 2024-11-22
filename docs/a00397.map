@@ -1,0 +1,15 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/sources_common/Totempole_Application_Setup.h" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/sources_common/Totempole_Application_Setup.h">
+<area shape="rect" id="Node000001" title="Allows the user to easily change the operation modes." alt="" coords="562,5,787,104"/>
+<area shape="rect" id="Node000002" href="$a00392.html" title="Allows the user to change the advanced operating parameters." alt="" coords="562,152,787,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="677,118,677,152,672,152,672,118"/>
+<area shape="rect" id="Node000003" href="$a00730_source.html" title=" " alt="" coords="5,313,280,412"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="549,232,424,262,293,301,253,316,251,311,291,296,423,257,548,227"/>
+<area shape="rect" id="Node000004" href="$a00742_source.html" title=" " alt="" coords="305,306,535,419"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="588,260,510,308,507,304,585,255"/>
+<area shape="rect" id="Node000005" href="$a00359.html" title="This is the driver source file for the power controller." alt="" coords="559,299,790,427"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="677,264,677,298,672,298,672,264"/>
+<area shape="rect" id="Node000006" href="$a00371.html" title="This is the driver source file for the power controller app." alt="" coords="814,299,1045,427"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="765,256,830,296,827,301,762,260"/>
+<area shape="rect" id="Node000007" href="$a00365.html" title="This is the driver source file for the power controller misc app." alt="" coords="1069,299,1299,427"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="802,225,927,255,1058,296,1069,300,1068,305,1056,301,925,260,800,230"/>
+</map>

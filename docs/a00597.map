@@ -1,0 +1,18 @@
+<map id="VACM_s" name="VACM_s">
+<area shape="rect" id="Node000001" title="Main AC Monitor data object data type declaration." alt="" coords="328,448,395,513"/>
+<area shape="rect" id="Node000002" href="$a00563.html" title="ADD_SHORT_DESCRIPTION." alt="" coords="5,120,128,385"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,372,142,383,182,413,227,436,272,454,312,466,311,471,270,459,225,441,179,417,138,387,126,375"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="179,5,330,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="190,81,142,122,130,136,126,132,138,118,187,77"/>
+<area shape="rect" id="Node000004" href="$a00575.html" title="ADD_SHORT_DESCRIPTION." alt="" coords="153,120,266,385"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="248,85,240,120,235,119,242,84"/>
+<area shape="rect" id="Node000005" href="$a00595.html" title="ADD_SHORT_DESCRIPTION." alt="" coords="291,150,432,355"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="279,82,313,149,308,151,274,84"/>
+<area shape="rect" id="Node000006" href="$a00587.html" title="ADD_SHORT_DESCRIPTION." alt="" coords="457,140,551,365"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="344,59,397,83,423,99,446,118,463,138,459,141,442,122,420,103,395,88,342,64"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="268,365,281,384,321,434,317,437,277,387,264,368"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="364,355,364,431,359,431,359,355"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="469,367,453,397,434,426,410,450,406,447,430,422,448,395,464,364"/>
+<area shape="rect" id="Node000007" href="$a00591.html" title=" " alt="" coords="576,200,771,305"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="641,307,607,349,566,387,528,413,487,435,412,466,410,461,485,430,525,408,562,383,603,345,637,304"/>
+</map>

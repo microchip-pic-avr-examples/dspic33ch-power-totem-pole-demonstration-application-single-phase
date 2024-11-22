@@ -1,0 +1,16 @@
+<map id="Drv_PwrCtrl_TPBLPFC_Init" name="Drv_PwrCtrl_TPBLPFC_Init">
+<area shape="rect" id="Node000001" title="initialization" alt="" coords="5,119,184,145"/>
+<area shape="rect" id="Node000002" href="$a00359.html#a46079d4255b0d0a571e9246e2fd8dd6f" title="initialize current controller coefficient array(s)" alt="" coords="235,5,395,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,117,231,55,246,48,248,53,233,60,118,122"/>
+<area shape="rect" id="Node000004" href="$a00407.html#gaf368256a569a5a9e12f85f84d7d42287" title="This inline function updates PWM Deadtime high register with the requested value for a specific PWM g..." alt="" coords="232,70,399,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="152,117,244,96,245,101,153,122"/>
+<area shape="rect" id="Node000005" href="$a00407.html#ga124426b28426beb53948e9b57319ab4b" title="This inline function updates PWM Deadtime low register with the requested value for a specific PWM ge..." alt="" coords="234,119,397,145"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="184,129,220,129,220,135,184,135"/>
+<area shape="rect" id="Node000006" href="$a00407.html#gae78d4b93260f34902cf74a4870f48081" title="This inline function enables the specific PWM generator selected by the argument PWM_GENERATOR." alt="" coords="236,169,395,194"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="153,142,245,163,244,168,152,147"/>
+<area shape="rect" id="Node000007" href="$a00359.html#a03f01aedf81f2d089607e8c412fce3bb" title="initialize voltage controller coefficient array(s)" alt="" coords="235,219,395,259"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="119,142,233,203,251,211,249,216,231,208,117,147"/>
+<area shape="rect" id="Node000003" href="$a00380.html#a8d0d916c7a3ca172408fcded86a6baa2" title=" " alt="" coords="447,119,645,145"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="371,43,400,55,510,110,508,115,398,60,369,48"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="367,216,398,203,507,149,510,154,400,208,369,221"/>
+</map>

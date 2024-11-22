@@ -1,0 +1,31 @@
+<map id="CAN_Transmit_to_GUI" name="CAN_Transmit_to_GUI">
+<area shape="rect" id="Node000001" title="send frame to GUI when the FIFO from secondary to primary has been filled" alt="" coords="5,243,159,268"/>
+<area shape="rect" id="Node000002" href="$a00405.html#gad99c960d1ed589ce80aca873a90e068e" title="Writes the CAN message object to specified transmit FIFO channel." alt="" coords="237,137,351,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,240,147,210,206,178,238,165,240,170,208,183,150,215,103,245"/>
+<area shape="rect" id="Node000009" href="$a00425.html#gaf058b1be15bd59ec5d57d06d1657b5e8" title="API function to get core buffer." alt="" coords="209,193,379,219"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="137,240,225,219,226,225,138,245"/>
+<area shape="rect" id="Node000010" href="$a00233.html#a5852ed0c8edfa25272ab834b747611ba" title=" " alt="" coords="207,243,381,268"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="159,253,193,253,193,258,159,258"/>
+<area shape="rect" id="Node000011" href="$a00426.html#ga5fe2662b714b85fd1b430cf48528c656" title="read copy of i2c_write object" alt="" coords="453,301,619,327"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="144,266,207,277,328,292,439,304,439,309,327,298,206,282,143,271"/>
+<area shape="rect" id="Node000012" href="$a00424.html#ga9547e1b813e407c1cedf72e3b4744ea0" title="Update housekeeping flags related to PIC16s on SiC cards and PIC16 on main power board." alt="" coords="223,343,365,383"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="106,266,208,322,235,335,232,340,205,327,104,271"/>
+<area shape="rect" id="Node000003" href="$a00405.html#ga61d156b0e75424f9b630cef5c424ac13" title="This function get the DLC enum based decimal value." alt="" coords="691,39,869,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="302,136,321,110,350,78,386,47,428,24,468,12,509,5,591,5,667,17,729,32,728,37,666,22,590,11,509,11,469,17,430,29,389,52,354,82,325,114,306,139"/>
+<area shape="rect" id="Node000004" href="$a00405.html#ga57b30800d7bd3b3c936f578ca1fd7e32" title="This function get the FIFO user address, message depth and payload size information." alt="" coords="466,39,606,64"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="313,135,364,104,428,73,452,65,453,70,430,78,366,109,315,140"/>
+<area shape="rect" id="Node000005" href="$a00405.html#ga0980f888cad241edaa859783bb4a89d7" title="This function Read the message object from user input and update to the CAN1 TX FIFO." alt="" coords="445,88,627,113"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="350,136,459,114,460,119,351,141"/>
+<area shape="rect" id="Node000006" href="$a00405.html#gaedd6e334545a38cd71fe86ff4f9e78c3" title="Get the CAN1 operation mode." alt="" coords="450,137,622,163"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="351,147,436,147,436,153,351,153"/>
+<area shape="rect" id="Node000007" href="$a00405.html#ga1d293f033f5d27b360cf00d4644c63eb" title="Returns the CAN1 transmitter FIFO status." alt="" coords="435,187,637,212"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="351,159,460,181,459,187,350,164"/>
+<area shape="rect" id="Node000008" href="$a00405.html#gaedb86f6e4e8ac0efba711d7f3d7b688c" title="This function enables The FIFO transmit message send request bit." alt="" coords="435,237,637,277"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="343,160,383,179,398,190,407,201,417,211,431,221,446,229,444,234,428,226,413,215,403,204,394,194,380,183,340,165"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="599,85,702,64,703,70,600,91"/>
+<area shape="poly" id="edge13_Node000012_Node000011" title=" " alt="" coords="365,346,459,327,460,332,366,352"/>
+<area shape="rect" id="Node000013" href="$a00427.html#gaf3fad6443af569b0da78810b219ebaaf" title="retrieve the value of the flag &quot;selfSpi.checksum_ok&quot;" alt="" coords="429,351,643,376"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="366,361,416,361,416,366,366,366"/>
+<area shape="rect" id="Node000014" href="$a00427.html#ga0c28951a0ab80e65e5bd85682bf5920a" title="retrieve the value of the flag &quot;selfSpi.connected&quot;" alt="" coords="439,400,633,425"/>
+<area shape="poly" id="edge15_Node000012_Node000014" title=" " alt="" coords="366,375,460,395,459,400,365,381"/>
+</map>
