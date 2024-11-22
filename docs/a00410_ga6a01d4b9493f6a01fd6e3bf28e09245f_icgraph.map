@@ -1,0 +1,7 @@
+<map id="SCCP2_Timer_TimeoutCallbackRegister" name="SCCP2_Timer_TimeoutCallbackRegister">
+<area shape="rect" id="Node000001" title="This function can be used to override default callback and to define custom callback for SCCP2 Timeou..." alt="" coords="388,5,594,48"/>
+<area shape="rect" id="Node000002" href="$a00410.html#ga6fbfc0d2bda9ddf180da21a07fdc440c" title="Initializes the SCCP2 module." alt="" coords="183,13,340,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="373,29,341,29,341,24,373,24"/>
+<area shape="rect" id="Node000003" href="$a00406.html#ga5e8391114a0cf91ac20002be25e3d352" title="Initializes the System module." alt="" coords="5,13,135,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="168,29,135,29,135,24,168,24"/>
+</map>

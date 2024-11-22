@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "3.8/7.6 kw Totem pole Demonstration Application", "index.html", [
-    [ "3.8kW / 7.6kW dsPIC33C Totem Pole Demonstration Application", "index.html#autotoc_md1", [
+    [ "3.8kW / 7.6kW dsPIC33C Totem-Pole Demonstration Application", "index.html#autotoc_md1", [
       [ "Introduction", "index.html#autotoc_md2", null ],
       [ "Highlights", "index.html#autotoc_md3", null ],
       [ "Related Collaterals", "index.html#autotoc_md4", null ],
@@ -37,25 +37,25 @@ var NAVTREE =
       [ "Powering On board through Power Board Visualizer", "index.html#autotoc_md10", null ],
       [ "Sequence of Actions to Power On", "index.html#autotoc_md11", null ]
     ] ],
-    [ "Firmware Detail", "a00724.html", [
-      [ "Introduction", "a00724.html#autotoc_md13", null ],
-      [ "Totempole PFC Firmware Responsibilities", "a00724.html#autotoc_md14", null ],
-      [ "Primary core", "a00724.html#autotoc_md15", null ],
-      [ "CAN-FD/Power Board Visualizer", "a00724.html#autotoc_md16", null ],
-      [ "SPI data frame", "a00724.html#autotoc_md17", null ],
-      [ "I2C", "a00724.html#autotoc_md18", null ],
-      [ "FIFO", "a00724.html#autotoc_md19", null ],
-      [ "Secondary core", "a00724.html#autotoc_md20", null ],
-      [ "Power Converter State Machine", "a00724.html#autotoc_md21", null ],
-      [ "Application Handler", "a00724.html#autotoc_md22", null ],
-      [ "Control", "a00724.html#autotoc_md23", null ],
-      [ "Interleaved Operation", "a00724.html#autotoc_md24", null ],
-      [ "Modes of Operation", "a00724.html#autotoc_md25", null ],
-      [ "Peripheral Setup and MCC", "a00724.html#autotoc_md26", null ]
+    [ "Firmware Detail", "a00718.html", [
+      [ "Introduction", "a00718.html#autotoc_md13", null ],
+      [ "Totempole PFC Firmware Responsibilities", "a00718.html#autotoc_md14", null ],
+      [ "Primary core", "a00718.html#autotoc_md15", null ],
+      [ "CAN-FD/Power Board Visualizer", "a00718.html#autotoc_md16", null ],
+      [ "SPI data frame", "a00718.html#autotoc_md17", null ],
+      [ "I2C", "a00718.html#autotoc_md18", null ],
+      [ "FIFO", "a00718.html#autotoc_md19", null ],
+      [ "Secondary core", "a00718.html#autotoc_md20", null ],
+      [ "Power Converter State Machine", "a00718.html#autotoc_md21", null ],
+      [ "Application Handler", "a00718.html#autotoc_md22", null ],
+      [ "Control", "a00718.html#autotoc_md23", null ],
+      [ "Interleaved Operation", "a00718.html#autotoc_md24", null ],
+      [ "Modes of Operation", "a00718.html#autotoc_md25", null ],
+      [ "Peripheral Setup and MCC", "a00718.html#autotoc_md26", null ]
     ] ],
-    [ "Appendix to Operational Manual", "a00725.html", [
-      [ "PFC Waveforms", "a00725.html#autotoc_md28", null ],
-      [ "Grid Tied Inverter Waveforms", "a00725.html#autotoc_md29", null ]
+    [ "Appendix to Operational Manual", "a00719.html", [
+      [ "PFC Waveforms", "a00719.html#autotoc_md28", null ],
+      [ "Grid Tied Inverter Waveforms", "a00719.html#autotoc_md29", null ]
     ] ],
     [ "Software Overview", "topics.html", "topics" ],
     [ "Data Structures", "annotated.html", [
@@ -81,12 +81,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "a00083.html",
-"a00405.html#ga41d9a27d9d5e04efcb58c31006f43f98",
-"a00411.html#ga348977cc9a3fcd57a2daf7e30892ad03",
-"a00418.html#ga8fe27df8e9db09f04e8b388b60f40dba",
-"a00467.html#a1394a077a133ff35b39fabd5656eaf2f",
-"a00611.html#a0b95fab1ec431402c4152bf0a4d12aaf",
-"a00724.html#autotoc_md19"
+"a00399.html#ga41d9a27d9d5e04efcb58c31006f43f98",
+"a00405.html#ga348977cc9a3fcd57a2daf7e30892ad03",
+"a00412.html#ga8fe27df8e9db09f04e8b388b60f40dba",
+"a00469.html#a67248793519661949863684a5052da7e",
+"a00609.html#a0c22f3a9c4e3991086502202e8a2f8a1",
+"a00802.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

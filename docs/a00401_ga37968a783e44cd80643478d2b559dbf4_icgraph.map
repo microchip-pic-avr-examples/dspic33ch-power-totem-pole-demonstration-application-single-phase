@@ -1,0 +1,22 @@
+<map id="PWM_DutyCycleSet" name="PWM_DutyCycleSet">
+<area shape="rect" id="Node000001" title="This inline function sets the PWM generator specific duty cycle register." alt="" coords="734,72,875,99"/>
+<area shape="rect" id="Node000002" href="$a00365.html#a647fd6dacbfbcebe49cc34111a01493b" title=" " alt="" coords="395,72,492,99"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="773,66,732,41,685,22,645,12,613,8,581,11,541,22,517,32,495,46,460,74,457,70,492,41,515,27,539,16,580,6,613,3,646,7,686,16,735,36,776,61"/>
+<area shape="rect" id="Node000007" href="$a00365.html#ad3476b7cd98e6a22a65e1d89b7a59ea5" title=" " alt="" coords="540,31,686,74"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="719,73,686,68,687,62,720,68"/>
+<area shape="rect" id="Node000008" href="$a00365.html#a3e7091905b384bca668f6f12a50834f4" title=" " alt="" coords="540,98,686,140"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="720,103,687,109,686,104,719,98"/>
+<area shape="rect" id="Node000009" href="$a00365.html#a9d01eea56aae5f1437eb541a321277cc" title=" " alt="" coords="557,164,669,191"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="770,110,687,155,658,166,656,161,685,150,767,105"/>
+<area shape="rect" id="Node000003" href="$a00365.html#aa7b8e2dc355948aa24cf22ca82f9e805" title=" " alt="" coords="181,47,347,74"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="380,79,347,75,348,69,380,74"/>
+<area shape="rect" id="Node000005" href="$a00365.html#a87fa9190951df7c866d828b8ad7b526b" title=" " alt="" coords="181,98,347,124"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="380,97,348,102,347,97,380,92"/>
+<area shape="rect" id="Node000004" href="$a00341.html#a968747854ba14331aa9f85784178d0da" title=" " alt="" coords="5,47,133,74"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="166,63,133,63,133,58,166,58"/>
+<area shape="rect" id="Node000006" href="$a00341.html#a6ac2591aa2e32874156ad3f8bf477d2f" title=" " alt="" coords="5,98,133,124"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="166,114,133,114,133,108,166,108"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="527,72,493,79,492,74,525,67"/>
+<area shape="poly" id="edge9_Node000008_Node000002" title=" " alt="" coords="525,104,492,98,493,93,527,99"/>
+<area shape="poly" id="edge11_Node000009_Node000002" title=" " alt="" coords="552,161,539,155,495,128,460,102,463,97,498,123,542,150,554,156"/>
+</map>

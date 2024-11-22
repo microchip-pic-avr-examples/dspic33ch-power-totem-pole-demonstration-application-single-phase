@@ -1,6 +1,7 @@
 ![](images/microchip.png)
 
 ---
+
 # 3.8kW / 7.6kW dsPIC33C Totem-Pole Demonstration Application
 
 ![3.8kW / 7.6 kW dsPIC33 Totem-Pole Demonstration Application](images/dsPIC33C_TP_DA_s.png "3.8kW / 7.6 kW dsPIC33 Totem Pole Demonstration Application")
@@ -106,7 +107,7 @@ To enable the CAN communication from the PC to Totem pole application board a US
 
 ### Prerequisites
 
-Following software must be installed on your pc to control/communicate between Power Board Visualizer and dsPIC33CH. 
+Following software must be installed on your pc to control/communicate between Power Board Visualizer and dsPIC33CH.
 
 - [Power Board Visualizer V2](https://www.microchip.com/en-us/software-library/power_board_visualizer)
 - [Peak System USB Drivers](https://www.peak-system.com/Drivers.523.0.html?&L=1&gad_source=1&gclid=EAIaIQobChMI45n6jYW1hQMVgBatBh3uEgOhEAAYASAAEgJEm_D_BwE)
@@ -114,7 +115,6 @@ Following software must be installed on your pc to control/communicate between P
 ### Setting up and Connecting the Power Board Visualizer
 
 Once the hardware setup is all done, Navigate to the power board visualizer xmls folder. Open the relevant project using Power Board Visualizer. Here PFC mode is taken as an example. Once the project is open you will be greeted by the following screen.  
-
 
 ![![PFC project running on Power Board Visualizer GUI ](images/pbv_open_s.png "PFC project running on Power Board Visualizer GUI ")](images/pbv_open_s.png)
 
@@ -136,7 +136,7 @@ This Status group lists the Line AC voltage Status word.
 
 #### 5. PFC Controller State
 
-This controller status group communicates the current state of the system. More information on what each state does, and state-machine can be found in Firmware Overview in detail.
+This controller status group communicates the current state of the system. More information on what each state does, and state-machine can be found in section **Firmware Overview** in detail.
 
 #### 6. PFC Status Flags
 
@@ -158,4 +158,3 @@ After opening the right Power board Visualizer Project, following sequence of ac
 ![PFC Up and Running](images/PoBoV_PFC_s.JPG "PFC Up and Running ")
 
 ![GTI Up and Running](images/PoBoV_GTI_s.JPG "GTI Up and Running ")
-

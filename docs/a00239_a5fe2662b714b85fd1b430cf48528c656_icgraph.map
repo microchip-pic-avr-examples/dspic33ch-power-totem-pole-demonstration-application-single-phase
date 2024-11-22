@@ -1,0 +1,8 @@
+<map id="Drv_I2C_Get_Write_Data" name="Drv_I2C_Get_Write_Data">
+<area shape="rect" id="Node000001" title=" " alt="" coords="396,5,561,32"/>
+<area shape="rect" id="Node000002" href="$a00227.html#a9511f6338931225152a644cd0b011f66" title=" " alt="" coords="5,5,158,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="381,18,348,17,206,17,158,18,158,13,206,12,348,12,381,13"/>
+<area shape="rect" id="Node000003" href="$a00227.html#a9547e1b813e407c1cedf72e3b4744ea0" title=" " alt="" coords="206,27,348,69"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="382,35,349,40,348,35,381,30"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="191,38,157,33,158,27,191,33"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="SEC_CORE1_ProtocolWrite" name="SEC_CORE1_ProtocolWrite">
+<area shape="rect" id="Node000001" title="This routine writes data to mailbox." alt="" coords="444,35,629,61"/>
+<area shape="rect" id="Node000002" href="$a00227.html#a77b41fe067ba8e8d666827b686e52cff" title=" " alt="" coords="221,5,383,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="429,37,383,31,383,26,430,32"/>
+<area shape="rect" id="Node000003" href="$a00233.html#adac725c6b0d49af14421e9812a0f58bb" title=" " alt="" coords="208,56,396,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="430,64,397,68,396,63,429,59"/>
+<area shape="rect" id="Node000004" href="$a00412.html#ga9f16d166d637fd9005839b1e1822dc63" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="5,64,160,91"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="193,80,160,80,160,75,193,75"/>
+</map>

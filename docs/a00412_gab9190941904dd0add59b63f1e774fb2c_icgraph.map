@@ -1,0 +1,11 @@
+<map id="DMA_ChannelCallbackRegister" name="DMA_ChannelCallbackRegister">
+<area shape="rect" id="Node000001" title="This function can be used to override default callback and to define custom callback for DMA Channel ..." alt="" coords="503,31,706,57"/>
+<area shape="rect" id="Node000002" href="$a00412.html#ga3950883876bea54b441aaf14ff17d47e" title="Initializes the DMA module." alt="" coords="351,31,455,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="488,47,455,47,455,41,488,41"/>
+<area shape="rect" id="Node000003" href="$a00251.html#a145f1f1255a7289b74ff5907798d21fa" title=" " alt="" coords="178,5,299,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="336,36,299,31,300,25,337,31"/>
+<area shape="rect" id="Node000005" href="$a00406.html#ga5e8391114a0cf91ac20002be25e3d352" title="Initializes the System module." alt="" coords="174,56,303,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="336,57,304,62,303,57,336,52"/>
+<area shape="rect" id="Node000004" href="$a00251.html#a931d1aef6dcb7d881ab27cf66cd94d00" title=" " alt="" coords="5,5,126,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="162,21,126,21,126,16,162,16"/>
+</map>

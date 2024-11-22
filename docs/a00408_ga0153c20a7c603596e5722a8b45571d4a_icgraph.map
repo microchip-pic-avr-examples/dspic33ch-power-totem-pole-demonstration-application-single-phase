@@ -1,0 +1,7 @@
+<map id="CLOCK_AuxPllLockStatusGet" name="CLOCK_AuxPllLockStatusGet">
+<area shape="rect" id="Node000001" title="Returns Auxiliary PLL status." alt="" coords="339,5,536,32"/>
+<area shape="rect" id="Node000002" href="$a00401.html#ga2cdee1aefacc04ad6ed59618550226d0" title="Initializes PWM module, using the given initialization data." alt="" coords="183,5,291,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="324,21,291,21,291,16,324,16"/>
+<area shape="rect" id="Node000003" href="$a00406.html#ga5e8391114a0cf91ac20002be25e3d352" title="Initializes the System module." alt="" coords="5,5,135,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="168,21,135,21,135,16,168,16"/>
+</map>

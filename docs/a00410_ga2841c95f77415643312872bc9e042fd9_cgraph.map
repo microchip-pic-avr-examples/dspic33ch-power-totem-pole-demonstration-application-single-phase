@@ -1,0 +1,5 @@
+<map id="TMR1_Deinitialize" name="TMR1_Deinitialize">
+<area shape="rect" id="Node000001" title="Deinitializes the TMR1 to POR values." alt="" coords="5,5,131,32"/>
+<area shape="rect" id="Node000002" href="$a00410.html#ga27bf11425ad1e1d2e8e16a14aebb5a9c" title="Stops the timer." alt="" coords="179,5,268,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,16,164,16,164,21,131,21"/>
+</map>

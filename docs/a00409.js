@@ -1,10 +1,7 @@
 var a00409 =
 [
-    [ "interrupt.c", "a00823.html", null ],
-    [ "interrupt.c", "a00826.html", null ],
-    [ "INTERRUPT_Deinitialize", "a00409.html#ga2b6583be540877d43388113fdc5bd110", null ],
-    [ "INTERRUPT_GlobalDisable", "a00409.html#gac2f23c6185e515ff80fb2f2549b0f10d", null ],
-    [ "INTERRUPT_GlobalEnable", "a00409.html#ga0e88e5f65ed34a762b4f9059e2a033ed", null ],
-    [ "INTERRUPT_Initialize", "a00409.html#ga5c526129ee879458dff6755f5768a6e3", null ],
-    [ "INTERRUPT_VectorNumberGet", "a00409.html#ga4f2787d36434a2df6c0c6009108da708", null ]
+    [ "traps.c", "a00841.html", null ],
+    [ "traps.c", "a00844.html", null ],
+    [ "TRAPS_ERROR_CODE", "a00409.html#ga36651271b5e1975bf9f203395c601ff7", null ],
+    [ "TRAPS_halt_on_error", "a00409.html#ga0333bbed0a73350c26f5e7c151de564f", null ]
 ];

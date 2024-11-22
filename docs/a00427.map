@@ -1,4 +1,4 @@
-<map id="SPI Driver" name="SPI Driver">
-<area shape="rect" id="Node000002" href="$a00422.html" title="Primary Driver Layer." alt="" coords="5,5,96,31"/>
-<area shape="rect" id="Node000001" title="builds upon MCC SPI" alt="" coords="144,5,223,31"/>
+<map id="Power Controller driver files" name="Power Controller driver files">
+<area shape="rect" id="Node000001" title="Power controller drv_controller." alt="" coords="156,5,306,48"/>
+<area shape="rect" id="Node000002" href="$a00426.html" title="The Power Control layer contains the state machine managing the power converter." alt="" coords="5,13,108,40"/>
 </map>

@@ -1,0 +1,17 @@
+<map id="Drv_SPI_Timeout" name="Drv_SPI_Timeout">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,126,108"/>
+<area shape="rect" id="Node000002" href="$a00251.html#a145f1f1255a7289b74ff5907798d21fa" title=" " alt="" coords="174,81,295,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,92,158,92,158,97,126,97"/>
+<area shape="rect" id="Node000003" href="$a00412.html#gab59dab7bbec7ad0589d0fa8f57769a94" title="This inline function disables the DMA channel." alt="" coords="343,5,490,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="262,78,342,42,359,35,361,40,344,46,264,83"/>
+<area shape="rect" id="Node000004" href="$a00412.html#gad10f447e17425a18eac1b5186e2e8699" title="This inline function enables the DMA channel." alt="" coords="345,56,489,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="295,84,329,79,330,84,296,89"/>
+<area shape="rect" id="Node000005" href="$a00412.html#ga3950883876bea54b441aaf14ff17d47e" title="Initializes the DMA module." alt="" coords="365,107,469,133"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="296,100,350,108,349,113,295,106"/>
+<area shape="rect" id="Node000008" href="$a00413.html#ga0607cad7a6b302950091fea719146a54" title="Initializes SPI1 module, using the given initialization data. This function must be called before any..." alt="" coords="365,157,468,184"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="264,106,344,143,361,149,359,154,342,148,262,111"/>
+<area shape="rect" id="Node000006" href="$a00412.html#ga9f16d166d637fd9005839b1e1822dc63" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="562,81,717,108"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="469,111,547,102,548,108,469,117"/>
+<area shape="rect" id="Node000007" href="$a00412.html#gab9190941904dd0add59b63f1e774fb2c" title="This function can be used to override default callback and to define custom callback for DMA Channel ..." alt="" coords="538,132,741,159"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="469,123,524,130,524,135,469,129"/>
+</map>

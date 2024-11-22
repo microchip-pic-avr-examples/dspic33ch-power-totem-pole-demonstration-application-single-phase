@@ -1,0 +1,5 @@
+<map id="CAN1_Receive" name="CAN1_Receive">
+<area shape="rect" id="Node000001" title="Reads the received single message object." alt="" coords="215,5,322,32"/>
+<area shape="rect" id="Node000002" href="$a00227.html#a77b41fe067ba8e8d666827b686e52cff" title=" " alt="" coords="5,5,167,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,21,167,21,167,16,200,16"/>
+</map>

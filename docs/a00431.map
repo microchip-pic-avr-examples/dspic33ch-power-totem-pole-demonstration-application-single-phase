@@ -1,4 +1,4 @@
-<map id="Secondary Core state machine" name="Secondary Core state machine">
-<area shape="rect" id="Node000001" title="main task" alt="" coords="204,5,352,45"/>
-<area shape="rect" id="Node000002" href="$a00400.html" title="Functions performed by the secondary core of the dsPIC33CH." alt="" coords="5,13,156,38"/>
+<map id="Power Control typedef" name="Power Control typedef">
+<area shape="rect" id="Node000001" title="Power controller type defintion." alt="" coords="156,5,304,32"/>
+<area shape="rect" id="Node000002" href="$a00426.html" title="The Power Control layer contains the state machine managing the power converter." alt="" coords="5,5,108,32"/>
 </map>

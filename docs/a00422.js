@@ -1,8 +1,6 @@
 var a00422 =
 [
-    [ "VAC Monitor", "a00423.html", "a00423" ],
-    [ "CAN Driver", "a00424.html", "a00424" ],
-    [ "DMA Driver", "a00425.html", "a00425" ],
-    [ "I2C Driver", "a00426.html", "a00426" ],
-    [ "SPI Driver", "a00427.html", "a00427" ]
+    [ "ADC driver.", "a00423.html", "a00423" ],
+    [ "MSI Driver. Commuincation Interface between Primary and Secondary Cores", "a00424.html", "a00424" ],
+    [ "Power Control", "a00426.html", "a00426" ]
 ];
