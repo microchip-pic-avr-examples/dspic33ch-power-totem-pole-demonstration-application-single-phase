@@ -136,7 +136,7 @@ This Status group lists the Line AC voltage Status word.
 
 #### 5. PFC Controller State
 
-This controller status group communicates the current state of the system. More information on what each state does, and state-machine can be found in [state machine overview](#state-machine-overview) in detail.
+This controller status group communicates the current state of the system. More information on what each state does, and state-machine can be found in Firmware Overview in detail.
 
 #### 6. PFC Status Flags
 
