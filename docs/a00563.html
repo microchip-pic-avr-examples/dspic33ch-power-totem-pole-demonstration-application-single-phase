@@ -1,0 +1,555 @@
+<!-- HTML header for doxygen 1.8.20-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>3.8/7.6 kw Totem pole Demonstration Application: VACM_STATUS_s Struct Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="mchp.css" rel="stylesheet" type="text/css"/>
+<link href="mchp_theme.css" rel="stylesheet" type="text/css"/>
+<link href="search.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0" style="border:0px; border-spacing: 0px; border-collapse: collapse; vertical-align: middle; width: 100%;">
+    <tbody>
+        <tr style="border: none; background-color: #00000000;">
+            <!--SITE HEADER-->
+            <td style="width: 120px; border: none;">
+                <img alt="Bar" height="60px" src="images/mchp-brandingelement-rgb2.png"/>
+            </td>
+            <td style="width: 220px; border: none;">
+                <img alt="Logo" height=50px src="images/microchip.png"/>
+            </td>
+            <td colspan="4" style="font-size: 16pt; font-weight: bolder;">
+                3.8/7.6 kw Totem pole Demonstration Application (Part-No. (not specified)) 
+            </td>
+            <td style="text-align: right; vertical-align: middle;">
+                        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+            </td>
+            <!--END SITE HEADER-->
+        </tr>
+        <tr style="height:36px; border:none; background-color: #000000b0;">
+            <td style="width: 70px; color: white; font-size:14px; font-weight: bolder; margin-left: 30px;">
+                <div style="margin-left: 30px;">Content</div>
+            </td>
+            <td style="width: 10px; color: white; font-size:14px; font-weight: bolder;">
+                &nbsp;
+            </td>
+            <td style="width: 100px; color: white; font-size:14px; font-weight: bolder;">
+                <!-- Overview -->
+            </td>
+            <td style="width: 130px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Documentation -->
+            </td>
+            <td style="width: 170px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Additional Resources -->
+            </td>
+            <td style="width: auto; color: white; font-size:14px; font-weight: bolder;"> 
+              &nbsp;
+            </td>
+            <td style="width: 310px; margin-right: 30px; color: white; font-size:10px; font-weight: lighter; text-align: right;">
+                &nbsp;
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('a00563.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Data Fields</a>  </div>
+  <div class="headertitle"><div class="title">VACM_STATUS_s Struct Reference<div class="ingroups"><a class="el" href="a00399.html">Primary Core Layer</a> &raquo; <a class="el" href="a00422.html">Driver Layer</a> &raquo; <a class="el" href="a00423.html">VAC Monitor</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>ADD_SHORT_DESCRIPTION.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for VACM_STATUS_s:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00562.svg" width="162" height="390"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Collaboration diagram for VACM_STATUS_s:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00561.svg" width="162" height="390"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Data Fields</h2></td></tr>
+<tr class="memitem:ab77ae5828c90133e48ae7eab24f95d4c" id="r_ab77ae5828c90133e48ae7eab24f95d4c"><td class="memItemLeft" >union {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a862ce13b1492a18510ec7d3bffe20945" id="r_a862ce13b1492a18510ec7d3bffe20945"><td class="memItemLeft" >&#160;&#160;&#160;struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a862ce13b1492a18510ec7d3bffe20945"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa2e69e24b28308eba65d294d1772d09" id="r_afa2e69e24b28308eba65d294d1772d09"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="#afa2e69e24b28308eba65d294d1772d09">ac_drop</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:afa2e69e24b28308eba65d294d1772d09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #0: flag indicating that an ac drop may have occurred.  <a href="#afa2e69e24b28308eba65d294d1772d09">More...</a><br /></td></tr>
+<tr class="separator:afa2e69e24b28308eba65d294d1772d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac85c5ac1f27878a6c8076fc4e315d743" id="r_ac85c5ac1f27878a6c8076fc4e315d743"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="#ac85c5ac1f27878a6c8076fc4e315d743">dc_mode</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:ac85c5ac1f27878a6c8076fc4e315d743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #1: 1 when Vin = DC, 0 when Vin = AC.  <a href="#ac85c5ac1f27878a6c8076fc4e315d743">More...</a><br /></td></tr>
+<tr class="separator:ac85c5ac1f27878a6c8076fc4e315d743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00866bf2603a029bea9613eee399b6a7" id="r_a00866bf2603a029bea9613eee399b6a7"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="#a00866bf2603a029bea9613eee399b6a7">ac_ok</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a00866bf2603a029bea9613eee399b6a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #2: flag indicating the status of the line voltage <br  />
+  <a href="#a00866bf2603a029bea9613eee399b6a7">More...</a><br /></td></tr>
+<tr class="separator:a00866bf2603a029bea9613eee399b6a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a3fa5d2e096a5aa58b623150f878c16" id="r_a3a3fa5d2e096a5aa58b623150f878c16"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="#a3a3fa5d2e096a5aa58b623150f878c16">zero_cross</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a3a3fa5d2e096a5aa58b623150f878c16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #3: flag indicating that we are in the zero cross region.  <a href="#a3a3fa5d2e096a5aa58b623150f878c16">More...</a><br /></td></tr>
+<tr class="separator:a3a3fa5d2e096a5aa58b623150f878c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b892e8b3cfec8b8c16ef3f50cfd3983" id="r_a6b892e8b3cfec8b8c16ef3f50cfd3983"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="#a6b892e8b3cfec8b8c16ef3f50cfd3983">polarity_pos</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a6b892e8b3cfec8b8c16ef3f50cfd3983"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #4: flag = 1 when polarity is positive, 0 when negative.  <a href="#a6b892e8b3cfec8b8c16ef3f50cfd3983">More...</a><br /></td></tr>
+<tr class="separator:a6b892e8b3cfec8b8c16ef3f50cfd3983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6867a0fb7aceb9add3162a918e1c4ad" id="r_ac6867a0fb7aceb9add3162a918e1c4ad"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="#ac6867a0fb7aceb9add3162a918e1c4ad">end_of_cycle</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:ac6867a0fb7aceb9add3162a918e1c4ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #5: flag indicating that the end of cycle has just occured <br  />
+  <a href="#ac6867a0fb7aceb9add3162a918e1c4ad">More...</a><br /></td></tr>
+<tr class="separator:ac6867a0fb7aceb9add3162a918e1c4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c89676384fddbb6d1a9539b5c86e1f0" id="r_a4c89676384fddbb6d1a9539b5c86e1f0"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="#a4c89676384fddbb6d1a9539b5c86e1f0">slope_pos</a>: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a4c89676384fddbb6d1a9539b5c86e1f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #6: flag = 1 when ac line slope is positive, 0 when negative <br  />
+  <a href="#a4c89676384fddbb6d1a9539b5c86e1f0">More...</a><br /></td></tr>
+<tr class="separator:a4c89676384fddbb6d1a9539b5c86e1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf71f3d8410c1f1dbbc96680a92c49af" id="r_adf71f3d8410c1f1dbbc96680a92c49af"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;unsigned&#160;&#160;&#160;: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:adf71f3d8410c1f1dbbc96680a92c49af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #7: unused.  <a href="#adf71f3d8410c1f1dbbc96680a92c49af">More...</a><br /></td></tr>
+<tr class="separator:adf71f3d8410c1f1dbbc96680a92c49af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaf2d0924a107ec6e8d2e31febaf66f9" id="r_acaf2d0924a107ec6e8d2e31febaf66f9"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;unsigned&#160;&#160;&#160;: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:acaf2d0924a107ec6e8d2e31febaf66f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #8: unused.  <a href="#acaf2d0924a107ec6e8d2e31febaf66f9">More...</a><br /></td></tr>
+<tr class="separator:acaf2d0924a107ec6e8d2e31febaf66f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d97cc5f7d51d22fc2bf3eab35c9cb7f" id="r_a4d97cc5f7d51d22fc2bf3eab35c9cb7f"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;unsigned&#160;&#160;&#160;: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a4d97cc5f7d51d22fc2bf3eab35c9cb7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #9: unused.  <a href="#a4d97cc5f7d51d22fc2bf3eab35c9cb7f">More...</a><br /></td></tr>
+<tr class="separator:a4d97cc5f7d51d22fc2bf3eab35c9cb7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7d7cee33e0c7f447abc4d171c628dd4" id="r_ad7d7cee33e0c7f447abc4d171c628dd4"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;unsigned&#160;&#160;&#160;: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:ad7d7cee33e0c7f447abc4d171c628dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #10: unused.  <a href="#ad7d7cee33e0c7f447abc4d171c628dd4">More...</a><br /></td></tr>
+<tr class="separator:ad7d7cee33e0c7f447abc4d171c628dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d1e932de3f1bdec682271c90f2ca15c" id="r_a8d1e932de3f1bdec682271c90f2ca15c"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;unsigned&#160;&#160;&#160;: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a8d1e932de3f1bdec682271c90f2ca15c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #11: unused.  <a href="#a8d1e932de3f1bdec682271c90f2ca15c">More...</a><br /></td></tr>
+<tr class="separator:a8d1e932de3f1bdec682271c90f2ca15c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6df3bf63e0997c63a76308dd8e93971e" id="r_a6df3bf63e0997c63a76308dd8e93971e"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;unsigned&#160;&#160;&#160;: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a6df3bf63e0997c63a76308dd8e93971e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #12: unused.  <a href="#a6df3bf63e0997c63a76308dd8e93971e">More...</a><br /></td></tr>
+<tr class="separator:a6df3bf63e0997c63a76308dd8e93971e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a256283d882551aafa45b89206222b475" id="r_a256283d882551aafa45b89206222b475"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;unsigned&#160;&#160;&#160;: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a256283d882551aafa45b89206222b475"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #13: unused.  <a href="#a256283d882551aafa45b89206222b475">More...</a><br /></td></tr>
+<tr class="separator:a256283d882551aafa45b89206222b475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b1a9ec8a77749f17b0de609eae7ecc5" id="r_a9b1a9ec8a77749f17b0de609eae7ecc5"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;unsigned&#160;&#160;&#160;: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a9b1a9ec8a77749f17b0de609eae7ecc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #14: unused.  <a href="#a9b1a9ec8a77749f17b0de609eae7ecc5">More...</a><br /></td></tr>
+<tr class="separator:a9b1a9ec8a77749f17b0de609eae7ecc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32f26ba685487d5581776a3a0723b802" id="r_a32f26ba685487d5581776a3a0723b802"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;unsigned&#160;&#160;&#160;: 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a32f26ba685487d5581776a3a0723b802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit #15: unused.  <a href="#a32f26ba685487d5581776a3a0723b802">More...</a><br /></td></tr>
+<tr class="separator:a32f26ba685487d5581776a3a0723b802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a862ce13b1492a18510ec7d3bffe20945" id="r_a862ce13b1492a18510ec7d3bffe20945"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="#a862ce13b1492a18510ec7d3bffe20945">bits</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a862ce13b1492a18510ec7d3bffe20945"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c55f449560b03ce0ac43270c26600" id="r_a3f0c55f449560b03ce0ac43270c26600"><td class="memItemLeft" >&#160;&#160;&#160;volatile uint16_t&#160;&#160;&#160;<a class="el" href="#a3f0c55f449560b03ce0ac43270c26600">value</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a3f0c55f449560b03ce0ac43270c26600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab77ae5828c90133e48ae7eab24f95d4c" id="r_ab77ae5828c90133e48ae7eab24f95d4c"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom">&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ab77ae5828c90133e48ae7eab24f95d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>ADD_DETAILED_DESCRIPTION </p>
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00051">51</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+</div><h2 class="groupheader">Field Documentation</h2>
+<a id="ab77ae5828c90133e48ae7eab24f95d4c" name="ab77ae5828c90133e48ae7eab24f95d4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab77ae5828c90133e48ae7eab24f95d4c">&#9670;&#160;</a></span>[union]</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">union  { ... } </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf71f3d8410c1f1dbbc96680a92c49af" name="adf71f3d8410c1f1dbbc96680a92c49af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf71f3d8410c1f1dbbc96680a92c49af">&#9670;&#160;</a></span>__pad0__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned __pad0__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00063">63</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="acaf2d0924a107ec6e8d2e31febaf66f9" name="acaf2d0924a107ec6e8d2e31febaf66f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaf2d0924a107ec6e8d2e31febaf66f9">&#9670;&#160;</a></span>__pad1__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned __pad1__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00064">64</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a4d97cc5f7d51d22fc2bf3eab35c9cb7f" name="a4d97cc5f7d51d22fc2bf3eab35c9cb7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d97cc5f7d51d22fc2bf3eab35c9cb7f">&#9670;&#160;</a></span>__pad2__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned __pad2__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00065">65</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="ad7d7cee33e0c7f447abc4d171c628dd4" name="ad7d7cee33e0c7f447abc4d171c628dd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7d7cee33e0c7f447abc4d171c628dd4">&#9670;&#160;</a></span>__pad3__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned __pad3__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00066">66</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a8d1e932de3f1bdec682271c90f2ca15c" name="a8d1e932de3f1bdec682271c90f2ca15c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d1e932de3f1bdec682271c90f2ca15c">&#9670;&#160;</a></span>__pad4__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned __pad4__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00067">67</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a6df3bf63e0997c63a76308dd8e93971e" name="a6df3bf63e0997c63a76308dd8e93971e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6df3bf63e0997c63a76308dd8e93971e">&#9670;&#160;</a></span>__pad5__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned __pad5__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00068">68</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a256283d882551aafa45b89206222b475" name="a256283d882551aafa45b89206222b475"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a256283d882551aafa45b89206222b475">&#9670;&#160;</a></span>__pad6__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned __pad6__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00069">69</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a9b1a9ec8a77749f17b0de609eae7ecc5" name="a9b1a9ec8a77749f17b0de609eae7ecc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b1a9ec8a77749f17b0de609eae7ecc5">&#9670;&#160;</a></span>__pad7__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned __pad7__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00070">70</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a32f26ba685487d5581776a3a0723b802" name="a32f26ba685487d5581776a3a0723b802"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32f26ba685487d5581776a3a0723b802">&#9670;&#160;</a></span>__pad8__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned __pad8__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00071">71</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="afa2e69e24b28308eba65d294d1772d09" name="afa2e69e24b28308eba65d294d1772d09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa2e69e24b28308eba65d294d1772d09">&#9670;&#160;</a></span>ac_drop</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ac_drop</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00055">55</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a00866bf2603a029bea9613eee399b6a7" name="a00866bf2603a029bea9613eee399b6a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00866bf2603a029bea9613eee399b6a7">&#9670;&#160;</a></span>ac_ok</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ac_ok</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00057">57</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a862ce13b1492a18510ec7d3bffe20945" name="a862ce13b1492a18510ec7d3bffe20945"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a862ce13b1492a18510ec7d3bffe20945">&#9670;&#160;</a></span>[struct]</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct  { ... }  bits</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac85c5ac1f27878a6c8076fc4e315d743" name="ac85c5ac1f27878a6c8076fc4e315d743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac85c5ac1f27878a6c8076fc4e315d743">&#9670;&#160;</a></span>dc_mode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dc_mode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00056">56</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="ac6867a0fb7aceb9add3162a918e1c4ad" name="ac6867a0fb7aceb9add3162a918e1c4ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6867a0fb7aceb9add3162a918e1c4ad">&#9670;&#160;</a></span>end_of_cycle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool end_of_cycle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00060">60</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a6b892e8b3cfec8b8c16ef3f50cfd3983" name="a6b892e8b3cfec8b8c16ef3f50cfd3983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b892e8b3cfec8b8c16ef3f50cfd3983">&#9670;&#160;</a></span>polarity_pos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool polarity_pos</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00059">59</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a4c89676384fddbb6d1a9539b5c86e1f0" name="a4c89676384fddbb6d1a9539b5c86e1f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c89676384fddbb6d1a9539b5c86e1f0">&#9670;&#160;</a></span>slope_pos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool slope_pos</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00061">61</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a3f0c55f449560b03ce0ac43270c26600" name="a3f0c55f449560b03ce0ac43270c26600"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f0c55f449560b03ce0ac43270c26600">&#9670;&#160;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile uint16_t value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00074">74</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="a3a3fa5d2e096a5aa58b623150f878c16" name="a3a3fa5d2e096a5aa58b623150f878c16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a3fa5d2e096a5aa58b623150f878c16">&#9670;&#160;</a></span>zero_cross</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool zero_cross</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00058">58</a> of file <a class="el" href="a00263_source.html">vac_monitor_typedef.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>C:/Users/M70027/Documents/Projects/tp-deployment/dspic33ch-power-totem-pole-demonstration-application-single-phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/sources/driver/vac_monitor/<a class="el" href="a00263_source.html">vac_monitor_typedef.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.20-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath" style="padding-bottom: 12px; vertical-align: bottom;"><!-- id is needed for treeview function! -->
+  <ul>
+    <p class="footer" style="text-align: center; font-size: 90%;">
+      © Copyright 1998-2022 Microchip Technology Inc. All rights reserved.
+    </p>
+    </ul>
+</div>
+</body>
+</html>

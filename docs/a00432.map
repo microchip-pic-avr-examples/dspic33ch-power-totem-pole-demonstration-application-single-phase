@@ -1,0 +1,10 @@
+<map id="Power Control" name="Power Control">
+<area shape="rect" id="Node000003" href="$a00433.html" title="Power controller drv_controller." alt="" coords="311,5,462,45"/>
+<area shape="rect" id="Node000005" href="$a00435.html" title="Power controller Application Handler." alt="" coords="323,70,451,95"/>
+<area shape="rect" id="Node000004" href="$a00434.html" title="Power controller misc app." alt="" coords="307,119,467,145"/>
+<area shape="rect" id="Node000006" href="$a00436.html" title="Power controller Exposing DCDT assembly functionality to the C code." alt="" coords="295,169,479,194"/>
+<area shape="rect" id="Node000007" href="$a00437.html" title="Power controller type defintion." alt="" coords="312,218,461,243"/>
+<area shape="rect" id="Node000008" href="$a00438.html" title="Contains the control loop configuration and initialization functions." alt="" coords="299,267,474,293"/>
+<area shape="rect" id="Node000002" href="$a00428.html" title="secondary Driver Layer" alt="" coords="5,145,96,170"/>
+<area shape="rect" id="Node000001" title="The Power Control layer contains the state machine managing the power converter." alt="" coords="144,145,247,170"/>
+</map>

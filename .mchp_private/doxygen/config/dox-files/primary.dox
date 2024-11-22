@@ -1,0 +1,63 @@
+/*----------------------------------------------------------------------------*/
+/* Primary Driver Layer */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	pdrv Driver Layer
+@ingroup	primary-core
+@brief		Primary Driver Layer
+@details    Primary Driver Layer
+*/
+
+
+/*----------------------------------------------------------------------------*/
+/* VAC Monitor */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	pri-layer-VAC VAC Monitor
+@ingroup	pdrv
+@brief		Driver for Isolated AC Voltage Acquistion Board
+@note		The Driver to parse the frame from AC Acquistion board.
+*/
+	
+
+/*----------------------------------------------------------------------------*/
+/* CAN DRIVER */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	pri-layer-CAN CAN Driver
+@ingroup	pdrv
+@brief		CAN-FD Driver to commuincate to Power Board Visualizer 
+@note		CAN-FD Driver builds upon the MCC drivers. This driver is used to commuincate with PBV.
+*/
+	
+
+
+/*----------------------------------------------------------------------------*/
+/* DMA DRIVER */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	pri-layer-DMA DMA Driver
+@ingroup	pdrv
+@brief		builds upon MCC DMA
+@note		Manages commuincation between the secondary and primary cores.
+*/    
+
+/*----------------------------------------------------------------------------*/
+/* I2C DRIVER */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	pri-layer-I2C I2C Driver
+@ingroup	pdrv
+@brief		builds upon MCC I2C
+@note		Builds upon MCC I2C for the housekeeping functions.
+*/    
+
+/*----------------------------------------------------------------------------*/
+/* SPI DRIVER */
+/*----------------------------------------------------------------------------*/
+/**
+@defgroup	pri-layer-SPI SPI Driver
+@ingroup	pdrv
+@brief		builds upon MCC SPI
+@note		Builds upon MCC SPI for the housekeeping functions.
+*/    

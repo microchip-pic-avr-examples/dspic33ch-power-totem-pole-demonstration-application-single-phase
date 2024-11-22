@@ -1,0 +1,4 @@
+<map id="Power Control app" name="Power Control app">
+<area shape="rect" id="Node000001" title="Power controller Application Handler." alt="" coords="156,5,284,31"/>
+<area shape="rect" id="Node000002" href="$a00432.html" title="The Power Control layer contains the state machine managing the power converter." alt="" coords="5,5,108,31"/>
+</map>

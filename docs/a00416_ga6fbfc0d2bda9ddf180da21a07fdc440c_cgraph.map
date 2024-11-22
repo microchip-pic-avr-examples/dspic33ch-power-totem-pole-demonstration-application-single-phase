@@ -1,0 +1,7 @@
+<map id="SCCP2_Timer_Initialize" name="SCCP2_Timer_Initialize">
+<area shape="rect" id="Node000001" title="Initializes the SCCP2 module." alt="" coords="5,35,164,60"/>
+<area shape="rect" id="Node000002" href="$a00416.html#gaa6c785187e0beb7a4d612bec1ade2dc2" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="231,5,399,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,35,217,28,218,33,165,40"/>
+<area shape="rect" id="Node000003" href="$a00416.html#ga6a01d4b9493f6a01fd6e3bf28e09245f" title="This function can be used to override default callback and to define custom callback for SCCP2 Timeou..." alt="" coords="212,55,419,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,54,199,58,198,64,164,60"/>
+</map>

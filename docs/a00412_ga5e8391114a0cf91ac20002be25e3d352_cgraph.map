@@ -1,0 +1,132 @@
+<map id="SYSTEM_Initialize" name="SYSTEM_Initialize">
+<area shape="rect" id="Node000001" title="Initializes the System module." alt="" coords="5,1200,136,1225"/>
+<area shape="rect" id="Node000002" href="$a00404.html#gad272fc3ade4d66bfb9580444418b97ee" title="Initializes ADC1 module, using the given initialization data This function must be called before any ..." alt="" coords="208,203,319,228"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,1199,112,958,181,580,253,241,259,242,187,581,118,959,77,1200"/>
+<area shape="rect" id="Node000011" href="$a00405.html#gadd8850a15e40f5316f9e614fd70ec956" title="Initializes CAN1 module." alt="" coords="208,593,319,619"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="72,1199,110,1034,143,912,181,788,216,700,247,630,252,632,221,702,187,790,148,914,116,1035,77,1201"/>
+<area shape="rect" id="Node000034" href="$a00414.html#ga98390d19c7087c52765eab23eb8ded96" title="Initializes all the INTERNAL OSCILLATOR sources and clock switch configurations." alt="" coords="203,801,323,827"/>
+<area shape="poly" id="edge33_Node000001_Node000034" title=" " alt="" coords="69,1200,72,1136,85,1039,99,985,119,931,147,881,182,836,189,830,193,834,186,840,151,884,124,933,104,986,91,1040,77,1136,74,1200"/>
+<area shape="rect" id="Node000035" href="$a00406.html#ga84bc24b25eabe4579b0322971bd1d86a" title="Initialize the CMP1 module." alt="" coords="207,851,319,876"/>
+<area shape="poly" id="edge34_Node000001_Node000035" title=" " alt="" coords="71,1199,81,1149,101,1074,133,989,156,949,182,911,200,894,219,880,222,885,203,898,186,914,160,951,138,992,106,1075,86,1150,76,1200"/>
+<area shape="rect" id="Node000038" href="$a00418.html#ga3950883876bea54b441aaf14ff17d47e" title="Initializes the DMA module." alt="" coords="211,925,316,951"/>
+<area shape="poly" id="edge37_Node000001_Node000038" title=" " alt="" coords="79,1198,243,961,247,964,83,1201"/>
+<area shape="rect" id="Node000041" href="$a00408.html#ga1bc5134c539119189fc912e50bb40f0c" title="Initializes the DMT module." alt="" coords="212,1073,315,1099"/>
+<area shape="poly" id="edge40_Node000001_Node000041" title=" " alt="" coords="83,1198,125,1158,183,1116,210,1102,213,1106,185,1120,129,1162,87,1201"/>
+<area shape="rect" id="Node000046" href="$a00409.html#ga0e88e5f65ed34a762b4f9059e2a033ed" title="Enables the global interrupt bit." alt="" coords="417,1172,594,1197"/>
+<area shape="poly" id="edge46_Node000001_Node000046" title=" " alt="" coords="92,1198,133,1177,183,1159,251,1151,319,1151,383,1157,438,1167,437,1172,383,1163,319,1157,251,1156,185,1165,135,1181,94,1202"/>
+<area shape="rect" id="Node000047" href="$a00409.html#ga5c526129ee879458dff6755f5768a6e3" title="Initializes the interrupt priorities of the modules that have been configured." alt="" coords="190,1175,337,1200"/>
+<area shape="poly" id="edge47_Node000001_Node000047" title=" " alt="" coords="136,1201,176,1196,177,1201,137,1207"/>
+<area shape="rect" id="Node000048" href="$a00420.html#ga6d233adbf75644c7c1fe84b62f1624b6" title="This routine initializes the MSI driver. This routine must be called before any other MSI routine is ..." alt="" coords="187,1224,339,1249"/>
+<area shape="poly" id="edge48_Node000001_Node000048" title=" " alt="" coords="137,1218,174,1223,173,1228,136,1223"/>
+<area shape="rect" id="Node000049" href="$a00411.html#gad6f767603dec823a33d6b0aceea97e27" title="Initializes the PINS module." alt="" coords="210,1273,317,1299"/>
+<area shape="poly" id="edge49_Node000001_Node000049" title=" " alt="" coords="101,1223,185,1258,208,1266,206,1271,183,1263,99,1228"/>
+<area shape="rect" id="Node000050" href="$a00407.html#ga2cdee1aefacc04ad6ed59618550226d0" title="Initializes PWM module, using the given initialization data." alt="" coords="209,1323,318,1348"/>
+<area shape="poly" id="edge50_Node000001_Node000050" title=" " alt="" coords="86,1224,127,1265,155,1288,185,1308,201,1315,199,1320,183,1312,152,1292,124,1269,82,1228"/>
+<area shape="rect" id="Node000054" href="$a00416.html#gaf803d32453022c0508ffb40f6163635d" title="Initializes the SCCP1 module." alt="" coords="184,1379,343,1404"/>
+<area shape="poly" id="edge54_Node000001_Node000054" title=" " alt="" coords="81,1224,120,1287,150,1324,186,1357,208,1371,205,1375,182,1361,146,1328,116,1290,76,1227"/>
+<area shape="rect" id="Node000057" href="$a00416.html#ga6fbfc0d2bda9ddf180da21a07fdc440c" title="Initializes the SCCP2 module." alt="" coords="184,1428,343,1453"/>
+<area shape="poly" id="edge57_Node000001_Node000057" title=" " alt="" coords="78,1225,90,1262,112,1313,143,1367,163,1392,186,1413,194,1419,191,1424,182,1417,159,1395,139,1370,107,1315,85,1264,73,1227"/>
+<area shape="rect" id="Node000060" href="$a00421.html#ga7ef278f3af3ccf73befec438057e65f0" title="This routine initializes the MSI driver. This routine must be called before any other MSI routine is ..." alt="" coords="186,1477,341,1503"/>
+<area shape="poly" id="edge60_Node000001_Node000060" title=" " alt="" coords="77,1225,86,1270,106,1334,138,1403,160,1435,186,1463,193,1468,190,1473,182,1467,156,1438,134,1406,101,1336,81,1272,71,1226"/>
+<area shape="rect" id="Node000061" href="$a00419.html#ga0607cad7a6b302950091fea719146a54" title="Initializes SPI1 module, using the given initialization data. This function must be called before any..." alt="" coords="211,1527,315,1552"/>
+<area shape="poly" id="edge61_Node000001_Node000061" title=" " alt="" coords="76,1225,82,1278,100,1355,114,1397,133,1439,156,1478,186,1512,201,1522,197,1527,182,1516,152,1481,128,1441,109,1399,95,1356,77,1279,70,1226"/>
+<area shape="rect" id="Node000062" href="$a00416.html#gaeca9435d024c8eeada966c9dffbb8427" title="Initializes the TMR1 module." alt="" coords="208,1639,319,1664"/>
+<area shape="poly" id="edge62_Node000001_Node000062" title=" " alt="" coords="77,1225,88,1281,109,1366,141,1465,162,1515,186,1562,212,1598,239,1627,236,1631,208,1601,182,1565,157,1517,136,1467,104,1368,82,1282,72,1226"/>
+<area shape="rect" id="Node000003" href="$a00404.html#ga9b0b6df07fa6f03a98b101045b35e39e" title="This is the default callback function for all the analog channels. This callback is triggered once th..." alt="" coords="425,5,585,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="268,201,284,168,310,124,345,78,389,40,411,29,413,34,392,44,349,82,314,127,288,171,272,204"/>
+<area shape="rect" id="Node000004" href="$a00404.html#gaf5a05de69c2fee35a21d798c01ce3417" title="This function can be used to override default callback ADC1_ChannelCallback and to define custom call..." alt="" coords="401,55,609,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="272,201,318,146,351,115,389,89,404,82,406,87,392,94,354,119,321,150,276,204"/>
+<area shape="rect" id="Node000005" href="$a00404.html#ga15c38c135acb0b6a4a3cd1474ce9ae9c" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="423,104,588,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="281,200,328,169,390,138,413,130,414,136,392,143,331,174,284,205"/>
+<area shape="rect" id="Node000006" href="$a00404.html#gaecf43569204fdaadc281671b99322935" title="This function can be used to override default callback and to define custom callback for ADC1 Common ..." alt="" coords="399,153,612,179"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="318,202,428,179,430,184,320,207"/>
+<area shape="rect" id="Node000007" href="$a00404.html#ga451e7989cdee47c83772616b964f1828" title="Comparator callback function." alt="" coords="415,203,595,228"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="319,213,402,213,402,218,319,218"/>
+<area shape="rect" id="Node000008" href="$a00404.html#ga80266aee20908dbc13be9199675ddef3" title="This function can be used to override default callback and to define custom callback for ADC1_Compara..." alt="" coords="415,253,595,293"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="318,225,408,247,407,252,317,231"/>
+<area shape="rect" id="Node000009" href="$a00404.html#gaf051bfe964d4b2babd517b5445d53883" title="Enables analog and digital power for ADC1 dedicated core." alt="" coords="422,317,589,343"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="280,226,328,264,359,285,392,302,416,311,414,316,390,307,356,289,325,268,277,230"/>
+<area shape="rect" id="Node000010" href="$a00404.html#ga497308e69536136ae422cf23a5eed40c" title="Enables power for ADC1 shared Core This function is used to set the analog and digital power for ADC1..." alt="" coords="402,367,609,392"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="274,226,319,287,353,322,392,352,408,360,406,364,389,356,349,326,315,291,270,230"/>
+<area shape="rect" id="Node000012" href="$a00405.html#gabad0a60bbd68c053885720c843f72ed5" title="This function configure the CAN1 bit rate settings." alt="" coords="415,416,596,441"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="269,592,286,562,312,524,347,484,389,450,401,444,403,449,392,455,351,488,317,527,290,565,273,595"/>
+<area shape="rect" id="Node000013" href="$a00405.html#gaa87a20920f9eeb971cc0fb144ab9f9ee" title="This function enables the CAN1 error notification interrupt." alt="" coords="408,465,603,491"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="274,591,321,546,354,521,389,500,407,492,409,497,392,504,357,525,325,550,278,595"/>
+<area shape="rect" id="Node000028" href="$a00405.html#gaf5fa07221c88fc4aadfb447301ebfb0e" title="Sets the CAN1 operation mode." alt="" coords="420,515,591,540"/>
+<area shape="poly" id="edge27_Node000011_Node000028" title=" " alt="" coords="289,591,335,569,390,549,419,541,421,546,391,554,337,574,291,596"/>
+<area shape="rect" id="Node000030" href="$a00405.html#ga705b1008d63bc7a6f8355bef60566883" title="This function configure the CAN1 receive FIFO settings." alt="" coords="407,564,604,589"/>
+<area shape="poly" id="edge29_Node000011_Node000030" title=" " alt="" coords="319,597,393,588,394,593,319,602"/>
+<area shape="rect" id="Node000031" href="$a00405.html#ga730492bf1df406365f732c477bcd8ef0" title="This function configure the CAN1 filter and mask settings." alt="" coords="414,614,597,654"/>
+<area shape="poly" id="edge30_Node000011_Node000031" title=" " alt="" coords="319,610,400,619,400,624,319,615"/>
+<area shape="rect" id="Node000032" href="$a00405.html#ga226812033c0e8cbd56c917ddd880c4dd" title="This function reset the CAN1 receive message head count." alt="" coords="417,679,593,704"/>
+<area shape="poly" id="edge31_Node000011_Node000032" title=" " alt="" coords="289,617,336,640,392,663,423,673,422,678,390,669,333,645,286,621"/>
+<area shape="rect" id="Node000033" href="$a00405.html#ga6fa4d488931d7c9ae4c2ef0d8898d202" title="This function configure the CAN1 transmit FIFO settings." alt="" coords="408,728,603,753"/>
+<area shape="poly" id="edge32_Node000011_Node000033" title=" " alt="" coords="277,617,324,664,356,691,392,713,412,721,410,726,389,718,353,695,320,668,273,621"/>
+<area shape="rect" id="Node000014" href="$a00405.html#gacbe5d017b9015e9756ea3530da8cc8db" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="700,80,864,105"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="601,464,618,451,634,430,645,410,654,369,650,327,641,285,632,243,629,200,638,157,649,136,666,115,686,100,689,105,670,119,654,139,643,159,634,200,637,242,646,284,656,326,659,369,650,412,639,433,622,455,605,468"/>
+<area shape="rect" id="Node000015" href="$a00405.html#ga55e70b90188be64bc08f86ac9d0d7566" title="This function can be used to override default callback and to define custom callback for CAN1_BusErro..." alt="" coords="676,129,888,155"/>
+<area shape="poly" id="edge14_Node000013_Node000015" title=" " alt="" coords="601,464,618,451,641,416,650,381,648,346,641,310,634,273,633,237,642,200,666,164,669,161,673,165,670,168,646,202,638,237,640,273,646,309,653,345,655,382,646,418,622,454,604,468"/>
+<area shape="rect" id="Node000016" href="$a00405.html#ga63ae61e90d5f2b4353ff69c3d774cd69" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="668,179,896,204"/>
+<area shape="poly" id="edge15_Node000013_Node000016" title=" " alt="" coords="602,463,618,451,638,423,646,394,646,365,641,335,637,305,637,275,645,244,666,215,672,210,675,214,670,218,650,247,642,275,642,305,647,334,651,364,651,395,643,425,622,455,605,467"/>
+<area shape="rect" id="Node000017" href="$a00405.html#gae58473b24d41be10392bd3cd5703b278" title="This function can be used to override default callback and to define custom callback for CAN1_BusWake..." alt="" coords="668,229,896,269"/>
+<area shape="poly" id="edge16_Node000013_Node000017" title=" " alt="" coords="601,463,618,451,634,431,641,410,642,367,642,323,650,301,666,279,671,275,674,278,670,282,655,303,648,324,647,367,647,411,639,433,622,455,604,467"/>
+<area shape="rect" id="Node000018" href="$a00405.html#ga9fd5634a4a1d0a49935799d20133a5b3" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="681,293,883,319"/>
+<area shape="poly" id="edge17_Node000013_Node000018" title=" " alt="" coords="599,463,618,451,631,437,637,422,641,392,646,360,653,344,666,329,674,323,677,328,670,333,657,347,651,362,647,392,642,424,635,440,622,455,601,468"/>
+<area shape="rect" id="Node000019" href="$a00405.html#gadf09a964fe2b5f408d5467bf0a195e7e" title="This function can be used to override default callback and to define custom callback for CAN1_Invalid..." alt="" coords="681,343,883,383"/>
+<area shape="poly" id="edge18_Node000013_Node000019" title=" " alt="" coords="591,463,619,450,633,437,642,423,651,408,666,393,677,387,680,392,670,397,655,411,646,426,638,441,621,455,594,468"/>
+<area shape="rect" id="Node000020" href="$a00405.html#ga9f3a8787946348d5982bd754b1907ec2" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="687,408,877,433"/>
+<area shape="poly" id="edge19_Node000013_Node000020" title=" " alt="" coords="567,463,706,433,707,439,568,468"/>
+<area shape="rect" id="Node000021" href="$a00405.html#ga180079a3530dfacdb86a24f764f6fc4d" title="This function can be used to override default callback and to define custom callback for CAN1_ModeCha..." alt="" coords="687,458,877,498"/>
+<area shape="poly" id="edge20_Node000013_Node000021" title=" " alt="" coords="603,475,673,475,673,481,603,481"/>
+<area shape="rect" id="Node000022" href="$a00405.html#gad8a749c14d472ac82978c7e593d06543" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="675,523,889,548"/>
+<area shape="poly" id="edge21_Node000013_Node000022" title=" " alt="" coords="568,488,707,517,706,523,567,493"/>
+<area shape="rect" id="Node000023" href="$a00405.html#ga1ce191440d01b9f65ab3c8837f6c4c5d" title="This function can be used to override default callback and to define custom callback for CAN1_RxBuffe..." alt="" coords="675,573,889,613"/>
+<area shape="poly" id="edge22_Node000013_Node000023" title=" " alt="" coords="597,488,621,500,638,514,647,529,655,543,670,557,682,565,680,569,666,561,651,547,642,532,634,517,619,504,594,493"/>
+<area shape="rect" id="Node000024" href="$a00405.html#ga9c0579a2606bbdcf40073c96c82e3fc9" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="689,637,875,663"/>
+<area shape="poly" id="edge23_Node000013_Node000024" title=" " alt="" coords="604,489,622,500,635,515,643,531,647,563,651,594,657,609,670,623,678,629,675,633,666,627,653,611,645,595,641,564,638,533,631,518,618,504,601,493"/>
+<area shape="rect" id="Node000025" href="$a00405.html#ga589e67cdfd74495013704b8357df54ad" title="This function can be used to override default callback and to define custom callback for CAN1_SystemE..." alt="" coords="689,687,875,727"/>
+<area shape="poly" id="edge24_Node000013_Node000025" title=" " alt="" coords="604,488,622,500,639,521,647,543,647,587,648,630,655,651,670,672,679,680,675,684,666,676,650,654,643,631,642,587,641,544,634,524,618,504,601,492"/>
+<area shape="rect" id="Node000026" href="$a00405.html#ga348dcbe373245ad35f5d4a22250ae3b8" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="695,752,869,777"/>
+<area shape="poly" id="edge25_Node000013_Node000026" title=" " alt="" coords="605,487,622,500,643,530,652,560,651,591,647,621,642,651,642,680,650,709,670,737,684,749,681,753,666,741,645,711,637,681,637,650,642,620,646,590,646,561,638,532,618,504,602,492"/>
+<area shape="rect" id="Node000027" href="$a00405.html#gaf093799d78b962becbf6810614899884" title="This function can be used to override default callback and to define custom callback for CAN1_TxAttem..." alt="" coords="671,801,893,827"/>
+<area shape="poly" id="edge26_Node000013_Node000027" title=" " alt="" coords="604,487,622,500,647,536,655,573,654,609,647,646,640,682,638,717,647,752,670,787,674,791,671,795,666,790,642,754,633,718,635,681,642,645,648,609,650,573,642,538,618,504,601,491"/>
+<area shape="rect" id="Node000029" href="$a00405.html#gaedd6e334545a38cd71fe86ff4f9e78c3" title="Get the CAN1 operation mode." alt="" coords="696,851,868,876"/>
+<area shape="poly" id="edge28_Node000028_Node000029" title=" " alt="" coords="592,531,608,538,622,550,647,585,655,622,654,659,647,695,640,731,638,766,647,801,670,836,685,848,682,852,666,840,642,804,633,767,635,730,642,694,648,658,650,623,642,588,618,553,605,543,590,535"/>
+<area shape="rect" id="Node000036" href="$a00406.html#ga45e264e4cac4f412bf60fa40a3d61dbe" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="432,777,579,803"/>
+<area shape="poly" id="edge35_Node000035_Node000036" title=" " alt="" coords="307,848,342,836,365,823,390,812,418,803,420,808,392,816,368,828,344,840,308,853"/>
+<area shape="rect" id="Node000037" href="$a00406.html#gada13a4830178c3947f7df4fdfafc7d07" title="This function can be used to override default callback and to define custom callback for CMP1 Event e..." alt="" coords="408,827,603,852"/>
+<area shape="poly" id="edge36_Node000035_Node000037" title=" " alt="" coords="319,855,394,848,394,853,320,860"/>
+<area shape="rect" id="Node000039" href="$a00418.html#ga9f16d166d637fd9005839b1e1822dc63" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="428,876,583,901"/>
+<area shape="poly" id="edge38_Node000038_Node000039" title=" " alt="" coords="315,925,428,902,429,907,317,930"/>
+<area shape="rect" id="Node000040" href="$a00418.html#gab9190941904dd0add59b63f1e774fb2c" title="This function can be used to override default callback and to define custom callback for DMA Channel ..." alt="" coords="404,925,607,951"/>
+<area shape="poly" id="edge39_Node000038_Node000040" title=" " alt="" coords="316,935,390,935,390,941,316,941"/>
+<area shape="rect" id="Node000042" href="$a00811.html#aebd96a4ba3fa41218490c57dca28e720" title=" " alt="" coords="452,975,559,1000"/>
+<area shape="poly" id="edge41_Node000041_Node000042" title=" " alt="" coords="281,1071,328,1040,390,1009,438,995,439,1000,392,1014,331,1044,284,1075"/>
+<area shape="rect" id="Node000043" href="$a00408.html#ga0c26f1adfdfa77d4ff761acc1e89be67" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="436,1024,575,1049"/>
+<area shape="poly" id="edge42_Node000041_Node000043" title=" " alt="" coords="314,1073,429,1050,430,1055,315,1078"/>
+<area shape="rect" id="Node000044" href="$a00408.html#ga96ee14343231d4dd8fd27dd480a0f5c3" title="This function can be used to override default callback and to define custom callback for DMT Event ev..." alt="" coords="412,1073,599,1099"/>
+<area shape="poly" id="edge43_Node000041_Node000044" title=" " alt="" coords="315,1083,398,1083,398,1089,315,1089"/>
+<area shape="rect" id="Node000045" href="$a00409.html#gac2f23c6185e515ff80fb2f2549b0f10d" title="Disables the global interrupt bit." alt="" coords="415,1123,595,1148"/>
+<area shape="poly" id="edge44_Node000041_Node000045" title=" " alt="" coords="315,1094,430,1117,429,1122,314,1099"/>
+<area shape="poly" id="edge45_Node000041_Node000046" title=" " alt="" coords="304,1096,344,1116,368,1138,378,1148,392,1157,412,1165,410,1170,389,1162,374,1152,364,1141,341,1120,302,1101"/>
+<area shape="rect" id="Node000051" href="$a00414.html#ga0153c20a7c603596e5722a8b45571d4a" title="Returns Auxiliary PLL status." alt="" coords="406,1221,605,1247"/>
+<area shape="poly" id="edge51_Node000050_Node000051" title=" " alt="" coords="316,1320,341,1308,355,1295,364,1282,373,1268,389,1256,403,1249,405,1254,392,1260,377,1272,369,1285,360,1299,344,1312,318,1325"/>
+<area shape="rect" id="Node000052" href="$a00407.html#ga3bd2ebdd8c0f5cbd912d441ad8bf0253" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="391,1271,620,1296"/>
+<area shape="poly" id="edge52_Node000050_Node000052" title=" " alt="" coords="318,1321,432,1296,433,1302,319,1326"/>
+<area shape="rect" id="Node000053" href="$a00407.html#gafb860e72fa5f565c22ceb026b37eb901" title="This function can be used to override default callback PWM_GeneratorEOCEventCallback and to define cu..." alt="" coords="391,1321,620,1361"/>
+<area shape="poly" id="edge53_Node000050_Node000053" title=" " alt="" coords="318,1334,377,1335,377,1340,318,1339"/>
+<area shape="rect" id="Node000055" href="$a00416.html#ga5477b39dcbd952bf6e17ad435f59dbef" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="421,1385,589,1411"/>
+<area shape="poly" id="edge55_Node000054_Node000055" title=" " alt="" coords="343,1391,407,1393,407,1398,343,1396"/>
+<area shape="rect" id="Node000056" href="$a00416.html#ga8997d5f758579b5b3629655f9972efaf" title="This function can be used to override default callback and to define custom callback for SCCP1 Timeou..." alt="" coords="402,1435,609,1475"/>
+<area shape="poly" id="edge56_Node000054_Node000056" title=" " alt="" coords="313,1402,416,1429,415,1434,312,1407"/>
+<area shape="rect" id="Node000058" href="$a00416.html#gaa6c785187e0beb7a4d612bec1ade2dc2" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="421,1500,589,1525"/>
+<area shape="poly" id="edge58_Node000057_Node000058" title=" " alt="" coords="311,1451,344,1462,392,1485,423,1494,422,1499,390,1490,342,1467,309,1456"/>
+<area shape="rect" id="Node000059" href="$a00416.html#ga6a01d4b9493f6a01fd6e3bf28e09245f" title="This function can be used to override default callback and to define custom callback for SCCP2 Timeou..." alt="" coords="402,1550,609,1590"/>
+<area shape="poly" id="edge59_Node000057_Node000059" title=" " alt="" coords="324,1451,344,1463,361,1481,369,1500,377,1518,392,1535,403,1541,400,1546,389,1539,372,1520,364,1502,357,1484,341,1467,321,1456"/>
+<area shape="rect" id="Node000063" href="$a00416.html#gafed3745413684e23104d29539be4f2e5" title="Starts the timer." alt="" coords="460,1615,551,1640"/>
+<area shape="poly" id="edge63_Node000062_Node000063" title=" " alt="" coords="319,1643,446,1630,446,1636,319,1649"/>
+<area shape="rect" id="Node000064" href="$a00416.html#ga68e2de2fe38060ac6e5538406974ed3d" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="426,1664,585,1689"/>
+<area shape="poly" id="edge64_Node000062_Node000064" title=" " alt="" coords="319,1654,413,1664,412,1670,319,1660"/>
+<area shape="rect" id="Node000065" href="$a00416.html#gacf9de8f06456af5b10227545089697ff" title="This function can be used to override default callback and to define custom callback for TMR1 Timeout..." alt="" coords="402,1713,609,1739"/>
+<area shape="poly" id="edge65_Node000062_Node000065" title=" " alt="" coords="293,1662,391,1699,422,1708,421,1713,390,1705,291,1667"/>
+</map>

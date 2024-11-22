@@ -1,0 +1,5 @@
+<map id="Control Loop Configuration" name="Control Loop Configuration">
+<area shape="rect" id="Node000003" href="$a00436.html" title="Power controller Exposing DCDT assembly functionality to the C code." alt="" coords="469,7,653,33"/>
+<area shape="rect" id="Node000001" title="Contains the control loop configuration and initialization functions." alt="" coords="157,7,332,33"/>
+<area shape="rect" id="Node000002" href="$a00432.html" title="The Power Control layer contains the state machine managing the power converter." alt="" coords="5,7,108,33"/>
+</map>

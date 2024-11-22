@@ -1,0 +1,9 @@
+<map id="UpAndRunning_StateHandler" name="UpAndRunning_StateHandler">
+<area shape="rect" id="Node000001" title="up and running state" alt="" coords="5,31,196,56"/>
+<area shape="rect" id="Node000002" href="$a00365.html#a315b78111431dff7a91b13e42f9133b1" title="stop and reset power controller" alt="" coords="244,31,432,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,41,230,41,230,46,196,46"/>
+<area shape="rect" id="Node000003" href="$a00407.html#ga531b59d8823e3ebda2da60f48582bcf3" title="This inline function enables PWM override on PWMH output for specific PWM generator selected by the a..." alt="" coords="480,5,655,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="432,30,466,26,467,32,432,36"/>
+<area shape="rect" id="Node000004" href="$a00407.html#ga2548ca8feda75ba6ab784280679da6ae" title="This inline function enables PWM override on PWML output for specific PWM generator selected by the a..." alt="" coords="481,55,653,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="432,51,468,54,468,60,432,56"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="CurrentController_PwrCtrl_TPBLPFC_Init" name="CurrentController_PwrCtrl_TPBLPFC_Init">
+<area shape="rect" id="Node000001" title="initialize current controller coefficient array(s)" alt="" coords="5,5,165,45"/>
+<area shape="rect" id="Node000002" href="$a00380.html#a8d0d916c7a3ca172408fcded86a6baa2" title=" " alt="" coords="213,13,412,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,23,200,23,200,28,166,28"/>
+</map>

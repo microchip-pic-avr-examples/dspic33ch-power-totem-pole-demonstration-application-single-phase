@@ -1,0 +1,17 @@
+<map id="CAN1_ReceiveMessageGet" name="CAN1_ReceiveMessageGet">
+<area shape="rect" id="Node000001" title="Reads the received single message object from the CAN1 receive FIFO." alt="" coords="5,133,188,159"/>
+<area shape="rect" id="Node000002" href="$a00405.html#ga57b30800d7bd3b3c936f578ca1fd7e32" title="This function get the FIFO user address, message depth and payload size information." alt="" coords="277,5,417,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,131,161,86,197,61,235,40,262,30,264,35,237,44,199,65,164,90,113,135"/>
+<area shape="rect" id="Node000003" href="$a00405.html#gaa89329ca22f234476d55536c446b70e3" title="This function read the message object from receive FIFO and update to the user &#160;&#160;message object point..." alt="" coords="248,55,445,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="125,131,176,110,235,89,265,81,266,86,237,94,178,115,127,136"/>
+<area shape="rect" id="Node000005" href="$a00405.html#ga0dab5f41a5a5ef032d23c2ba4890a866" title="This function Update the receive FIFO message increment tail position." alt="" coords="236,104,457,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="188,133,225,128,225,134,189,138"/>
+<area shape="rect" id="Node000006" href="$a00405.html#ga224fbf549503a57f5818cc8391105b8f" title="This function is used to clear the CAN1 receive FIFO overflow status bit." alt="" coords="243,154,451,194"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="189,154,229,158,228,163,188,159"/>
+<area shape="rect" id="Node000007" href="$a00405.html#ga4a6437adcdf1917fffef4e7e5761fda1" title="This returns the CAN1 receive FIFO status." alt="" coords="256,219,437,244"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="125,156,176,180,237,203,269,213,267,218,235,209,174,185,122,161"/>
+<area shape="rect" id="Node000008" href="$a00405.html#gaa1a63eced76d657863054390e3ae6df3" title="This function Search the CAN1 receive FIFO channel index." alt="" coords="276,268,417,293"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="112,157,164,204,199,231,237,253,263,263,261,268,235,258,196,235,160,208,109,161"/>
+<area shape="rect" id="Node000004" href="$a00405.html#ga61d156b0e75424f9b630cef5c424ac13" title="This function get the DLC enum based decimal value." alt="" coords="505,55,684,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="446,65,491,65,491,70,446,70"/>
+</map>

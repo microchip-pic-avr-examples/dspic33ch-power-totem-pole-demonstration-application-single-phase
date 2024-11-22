@@ -1,0 +1,9 @@
+<map id="Housekeeping_Flags_Update" name="Housekeeping_Flags_Update">
+<area shape="rect" id="Node000001" title="Update housekeeping flags related to PIC16s on SiC cards and PIC16 on main power board." alt="" coords="5,47,148,87"/>
+<area shape="rect" id="Node000002" href="$a00426.html#ga5fe2662b714b85fd1b430cf48528c656" title="read copy of i2c_write object" alt="" coords="219,5,386,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,49,230,31,231,36,149,54"/>
+<area shape="rect" id="Node000003" href="$a00427.html#gaf3fad6443af569b0da78810b219ebaaf" title="retrieve the value of the flag &quot;selfSpi.checksum_ok&quot;" alt="" coords="196,55,409,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,65,183,65,183,70,148,70"/>
+<area shape="rect" id="Node000004" href="$a00427.html#ga0c28951a0ab80e65e5bd85682bf5920a" title="retrieve the value of the flag &quot;selfSpi.connected&quot;" alt="" coords="205,104,400,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,80,231,98,230,104,147,85"/>
+</map>

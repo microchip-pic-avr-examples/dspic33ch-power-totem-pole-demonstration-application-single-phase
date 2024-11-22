@@ -1,0 +1,21 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/mcc_generated_files/secondary_core/sec_core_types.h" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/mcc_generated_files/secondary_core/sec_core_types.h">
+<area shape="rect" id="Node000001" title="This is the generated driver types header file for the SEC_CORE driver." alt="" coords="264,5,505,133"/>
+<area shape="rect" id="Node000002" href="$a00122.html" title="This is the generated driver header file for the SEC_CORE1 driver." alt="" coords="423,357,664,485"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="381,147,382,186,387,228,396,269,412,308,429,333,450,355,446,359,425,336,408,311,391,271,381,229,377,186,376,147"/>
+<area shape="rect" id="Node000004" href="$a00131.html" title="This is the generated driver source file for SEC_CORE1 driver." alt="" coords="5,533,247,661"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="350,147,159,534,155,532,345,145"/>
+<area shape="rect" id="Node000008" href="$a00125_source.html" title=" " alt="" coords="423,181,664,309"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="453,142,488,179,484,183,450,145"/>
+<area shape="rect" id="Node000003" href="$a00727_source.html" title=" " alt="" coords="271,548,528,647"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="484,498,441,550,437,546,480,495"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="411,479,388,488,323,511,259,536,248,540,246,536,257,531,321,506,386,483,409,474"/>
+<area shape="rect" id="Node000005" href="$a00841.html" title="This is the generated driver header file for the System driver." alt="" coords="553,541,825,654"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="607,495,644,538,640,542,603,498"/>
+<area shape="rect" id="Node000006" href="$a00227.html" title="This is the driver source file for CAN driver." alt="" coords="849,541,1070,654"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="678,467,838,531,854,538,852,543,836,536,676,472"/>
+<area shape="rect" id="Node000007" href="$a00233.html" title="This is the driver source file for DMA driver." alt="" coords="1094,541,1315,654"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="678,437,871,473,979,499,1083,531,1102,538,1100,543,1081,536,977,504,870,478,677,443"/>
+<area shape="poly" id="edge8_Node000008_Node000002" title=" " alt="" coords="546,323,546,357,541,357,541,323"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="454,320,412,359,382,394,361,424,339,454,306,487,242,535,238,531,303,483,335,450,356,421,377,391,408,355,450,317"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="675,313,1101,538,1098,543,673,318"/>
+</map>

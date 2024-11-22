@@ -1,0 +1,11 @@
+<map id="CAN1_RX_FIFO_OverflowStatusFlagClear" name="CAN1_RX_FIFO_OverflowStatusFlagClear">
+<area shape="rect" id="Node000001" title="This function is used to clear the CAN1 receive FIFO overflow status bit." alt="" coords="593,23,801,63"/>
+<area shape="rect" id="Node000002" href="$a00405.html#ga4fe1df4cd9f0ce122687dcfab0713b5b" title="Reads the received single message object." alt="" coords="400,5,508,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="579,34,508,26,508,21,580,28"/>
+<area shape="rect" id="Node000005" href="$a00405.html#ga2c655a58965fff8578916b59bed47297" title="Reads the received single message object from the CAN1 receive FIFO." alt="" coords="363,55,545,80"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="580,58,546,61,545,56,580,52"/>
+<area shape="rect" id="Node000003" href="$a00424.html#ga77b41fe067ba8e8d666827b686e52cff" title="received message from GUI. Send the data to the secondary core using mailbox protocol A" alt="" coords="152,5,315,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="386,21,315,21,315,15,386,15"/>
+<area shape="rect" id="Node000004" href="$a00431.html#ga97fda594ad396d08b6a833ebb3b04538" title="tasks run every 100us" alt="" coords="5,5,104,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="138,21,104,21,104,15,138,15"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="MAIN_CORE_ProtocolRead" name="MAIN_CORE_ProtocolRead">
+<area shape="rect" id="Node000001" title="This routine reads data from mailbox." alt="" coords="352,31,535,56"/>
+<area shape="rect" id="Node000002" href="$a00347.html#a968747854ba14331aa9f85784178d0da" title=" " alt="" coords="164,5,292,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="338,34,292,28,293,23,338,28"/>
+<area shape="rect" id="Node000003" href="$a00353.html#a1bd6d0d68ef0567dc026119f2dec1c03" title="M&#45;&gt;S protocolA mailbox, receive mailbox A." alt="" coords="152,55,304,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="339,58,305,62,304,56,338,52"/>
+<area shape="rect" id="Node000004" href="$a00431.html#ga97fda594ad396d08b6a833ebb3b04538" title="tasks run every 100us" alt="" coords="5,55,104,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="138,70,104,70,104,65,138,65"/>
+</map>

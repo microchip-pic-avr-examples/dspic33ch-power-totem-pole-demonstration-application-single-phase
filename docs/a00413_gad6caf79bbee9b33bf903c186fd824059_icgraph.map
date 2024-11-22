@@ -1,0 +1,5 @@
+<map id="RESET_CauseFromConfigurationMismatch" name="RESET_CauseFromConfigurationMismatch">
+<area shape="rect" id="Node000001" title="RESET cause from Configuration Mismatch" alt="" coords="207,5,421,45"/>
+<area shape="rect" id="Node000002" href="$a00413.html#ga40e7771ae89212f587dfacec87076438" title="It handles the reset cause by clearing the cause register values. This is a weak attribute function...." alt="" coords="5,13,159,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,28,159,28,159,23,193,23"/>
+</map>

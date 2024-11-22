@@ -1,0 +1,563 @@
+<!-- HTML header for doxygen 1.8.20-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>3.8/7.6 kw Totem pole Demonstration Application: C:/Users/M70027/Documents/Projects/tp-deployment/dspic33ch-power-totem-pole-demonstration-application-single-phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/mcc_generated_files/uart/src/uart1.c Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="mchp.css" rel="stylesheet" type="text/css"/>
+<link href="mchp_theme.css" rel="stylesheet" type="text/css"/>
+<link href="search.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0" style="border:0px; border-spacing: 0px; border-collapse: collapse; vertical-align: middle; width: 100%;">
+    <tbody>
+        <tr style="border: none; background-color: #00000000;">
+            <!--SITE HEADER-->
+            <td style="width: 120px; border: none;">
+                <img alt="Bar" height="60px" src="images/mchp-brandingelement-rgb2.png"/>
+            </td>
+            <td style="width: 220px; border: none;">
+                <img alt="Logo" height=50px src="images/microchip.png"/>
+            </td>
+            <td colspan="4" style="font-size: 16pt; font-weight: bolder;">
+                3.8/7.6 kw Totem pole Demonstration Application (Part-No. (not specified)) 
+            </td>
+            <td style="text-align: right; vertical-align: middle;">
+                        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+            </td>
+            <!--END SITE HEADER-->
+        </tr>
+        <tr style="height:36px; border:none; background-color: #000000b0;">
+            <td style="width: 70px; color: white; font-size:14px; font-weight: bolder; margin-left: 30px;">
+                <div style="margin-left: 30px;">Content</div>
+            </td>
+            <td style="width: 10px; color: white; font-size:14px; font-weight: bolder;">
+                &nbsp;
+            </td>
+            <td style="width: 100px; color: white; font-size:14px; font-weight: bolder;">
+                <!-- Overview -->
+            </td>
+            <td style="width: 130px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Documentation -->
+            </td>
+            <td style="width: 170px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Additional Resources -->
+            </td>
+            <td style="width: auto; color: white; font-size:14px; font-weight: bolder;"> 
+              &nbsp;
+            </td>
+            <td style="width: 310px; margin-right: 30px; color: white; font-size:10px; font-weight: lighter; text-align: right;">
+                &nbsp;
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('a00323_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">uart1.c</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="a00323.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">/*</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">© [2024] Microchip Technology Inc. and its subsidiaries.</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment"></span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment">    Subject to your compliance with these terms, you may use Microchip </span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="comment">    software and any derivatives exclusively with Microchip products. </span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="comment">    You are responsible for complying with 3rd party license terms  </span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">    applicable to your use of 3rd party software (including open source  </span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">    software) that may accompany Microchip software. SOFTWARE IS ?AS IS.? </span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">    NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS </span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="comment">    SOFTWARE, INCLUDING ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT,  </span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">    MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT </span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">    WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, </span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment">    INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY </span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment">    KIND WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF </span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment">    MICROCHIP HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE </span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="comment">    FORESEEABLE. TO THE FULLEST EXTENT ALLOWED BY LAW, MICROCHIP?S </span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="comment">    TOTAL LIABILITY ON ALL CLAIMS RELATED TO THE SOFTWARE WILL NOT </span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="comment">    EXCEED AMOUNT OF FEES, IF ANY, YOU PAID DIRECTLY TO MICROCHIP FOR </span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">    THIS SOFTWARE.</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment">*/</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="comment">// Section: Included Files</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#include &lt;xc.h&gt;</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#include &quot;<a class="code" href="a00326.html">../uart1.h</a>&quot;</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment">// Section: Macro Definitions</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="a00323.html#a8e916c853015fc003dd35d45dd1ee755">   46</a></span><span class="preprocessor">#define UART1_CLOCK 100000000U</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="a00323.html#aad64d38e030e67fbc35efc0772139318">   47</a></span><span class="preprocessor">#define UART1_BAUD_TO_BRG_WITH_FRACTIONAL(x) (UART1_CLOCK/(x))</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="a00323.html#a9dcdc12b6489619f7115901c4966c088">   48</a></span><span class="preprocessor">#define UART1_BAUD_TO_BRG_WITH_BRGH_1(x) (UART1_CLOCK/(4U*(x))-1U)</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="a00323.html#adcde889963403bc841dbb3901e6f645d">   49</a></span><span class="preprocessor">#define UART1_BAUD_TO_BRG_WITH_BRGH_0(x) (UART1_CLOCK/(16U*(x))-1U)</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="a00323.html#a5718df72d31b1aff9dd25d2cda252633">   50</a></span><span class="preprocessor">#define UART1_BRG_TO_BAUD_WITH_FRACTIONAL(x) (UART1_CLOCK/(x))</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="a00323.html#a0ebea3a210af2c708cc985ed6b49be60">   51</a></span><span class="preprocessor">#define UART1_BRG_TO_BAUD_WITH_BRGH_1(x) (UART1_CLOCK/(4U*((x)+1U)))</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="a00323.html#a0fb36d5cc248cdd65b29419907f43939">   52</a></span><span class="preprocessor">#define UART1_BRG_TO_BAUD_WITH_BRGH_0(x) (UART1_CLOCK/(16U*((x)+1U)))</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="a00323.html#ad351b80790d73f3e5e3a3ed584357c50">   54</a></span><span class="preprocessor">#define UART1_MIN_ACHIEVABLE_BAUD_WITH_FRACTIONAL 95U</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="a00323.html#a658770cce503b9ff43ae9045d8a41777">   55</a></span><span class="preprocessor">#define UART1_MIN_ACHIEVABLE_BAUD_WITH_BRGH_1 24U</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment">// Section: Driver Interface</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="foldopen" id="foldopen00059" data-start="{" data-end="};">
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="a00417.html#ga64f67285e9e72c2b50bd19567ec8fb16">   59</a></span><span class="keyword">const</span> <span class="keyword">struct </span><a class="code hl_struct" href="a00627.html">UART_INTERFACE</a> <a class="code hl_variable" href="a00417.html#ga64f67285e9e72c2b50bd19567ec8fb16">UART1_Drv</a> = {</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    .Initialize = &amp;<a class="code hl_function" href="a00417.html#ga10757505060dc7bf0fe148c5363eae08">UART1_Initialize</a>,</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    .Deinitialize = &amp;<a class="code hl_function" href="a00417.html#gab8ba2fd2eb61dcbfce8b7b1e1dbe5909">UART1_Deinitialize</a>,</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    .Read = &amp;<a class="code hl_function" href="a00417.html#ga4e34071aa3125eb037bd6ae844c7ffbb">UART1_Read</a>,</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    .Write = &amp;<a class="code hl_function" href="a00417.html#ga6be5aaf3406104a362f3a3438dafe83c">UART1_Write</a>,</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    .IsRxReady = &amp;<a class="code hl_function" href="a00417.html#ga35ebdf043c6e4995ff711ebc13954861">UART1_IsRxReady</a>,</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    .IsTxReady = &amp;<a class="code hl_function" href="a00417.html#gae2fc49fa99787bc951e12bd840b1248c">UART1_IsTxReady</a>,</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    .IsTxDone = &amp;<a class="code hl_function" href="a00417.html#ga693f8124b5bec099c5141b65e47f2bb9">UART1_IsTxDone</a>,</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    .TransmitEnable = &amp;<a class="code hl_function" href="a00417.html#ga378b1dbcd496537d87bacafa2ecb49e9">UART1_TransmitEnable</a>,</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    .TransmitDisable = &amp;<a class="code hl_function" href="a00417.html#ga221ffa21be6206c8c7d0ff5a22f14bce">UART1_TransmitDisable</a>,</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    .TransmitInterruptEnable = NULL,</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    .TransmitInterruptDisable = NULL,</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    .AutoBaudSet = &amp;<a class="code hl_function" href="a00417.html#ga3144eac41c391b44a5e75d9ec37dd989">UART1_AutoBaudSet</a>,</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    .AutoBaudQuery = &amp;<a class="code hl_function" href="a00417.html#gac3b02f60d9474f7b7f1cdda3e3cb005a">UART1_AutoBaudQuery</a>,</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    .AutoBaudEventEnableGet = &amp;<a class="code hl_function" href="a00417.html#gac3ffab5418715b2afcd1295d3aaca37a">UART1_AutoBaudEventEnableGet</a>,</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    .BRGCountSet = &amp;<a class="code hl_function" href="a00417.html#gaf08dfcac26c53b59cccd5d3100566346">UART1_BRGCountSet</a>,</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    .BRGCountGet = &amp;<a class="code hl_function" href="a00417.html#gae17ce6d866cf1df1a98a30b8b8aef089">UART1_BRGCountGet</a>,</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    .BaudRateSet = &amp;<a class="code hl_function" href="a00417.html#ga0184b510832e59754733272786b9b6f3">UART1_BaudRateSet</a>,</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    .BaudRateGet = &amp;<a class="code hl_function" href="a00417.html#gace0aa1c533605015c605693a58658214">UART1_BaudRateGet</a>,</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    .ErrorGet = &amp;<a class="code hl_function" href="a00417.html#gaa61abb32e644f425b8bd10a71e690a42">UART1_ErrorGet</a>,</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    .RxCompleteCallbackRegister = NULL,</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    .TxCompleteCallbackRegister = NULL,</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    .TxCollisionCallbackRegister = NULL,</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    .FramingErrorCallbackRegister = NULL,</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    .OverrunErrorCallbackRegister = NULL,</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    .ParityErrorCallbackRegister = NULL,</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>};</div>
+</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="comment">// Section: Private Variable Definitions</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="keyword">static</span> <span class="keyword">union</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>{</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keyword">struct</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    {</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="a00323.html#a3488d2043a125aec378ee1539ae9767f">   92</a></span>        uint16_t <a class="code hl_variable" href="a00323.html#a3488d2043a125aec378ee1539ae9767f">frammingError</a> :1;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="a00323.html#aafd6d704403172b766f2fcc92e58560f">   93</a></span>        uint16_t <a class="code hl_variable" href="a00323.html#aafd6d704403172b766f2fcc92e58560f">parityError</a> :1;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="a00323.html#ae7caae3e5d64874631b3e065e5c0a8ff">   94</a></span>        uint16_t <a class="code hl_variable" href="a00323.html#ae7caae3e5d64874631b3e065e5c0a8ff">overrunError</a> :1;</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="a00323.html#aa82616fc4cd8cb734021e705fa0324df">   95</a></span>        uint16_t <a class="code hl_variable" href="a00323.html#aa82616fc4cd8cb734021e705fa0324df">txCollisionError</a> :1;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="a00323.html#ad0568719d3547d4f89e16880020e07f5">   96</a></span>        uint16_t <a class="code hl_variable" href="a00323.html#ad0568719d3547d4f89e16880020e07f5">autoBaudOverflow</a> :1;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="a00323.html#a5a6ed8c04a3db86066924b1a1bf4dad3">   97</a></span>        uint16_t <a class="code hl_variable" href="a00323.html#a5a6ed8c04a3db86066924b1a1bf4dad3">reserved</a> :11;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    };</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="a00323.html#a64efe43f4fb2f2da8fdadf1440801df1">   99</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="a00323.html#a64efe43f4fb2f2da8fdadf1440801df1">status</a>;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="a00323.html#a61e0c87db0daca70fad5f241f37397da">  100</a></span>} <a class="code hl_variable" href="a00323.html#a61e0c87db0daca70fad5f241f37397da">uartError</a>;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="comment">// Section: UART1 APIs</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="foldopen" id="foldopen00104" data-start="{" data-end="}">
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="a00417.html#ga10757505060dc7bf0fe148c5363eae08">  104</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="a00417.html#ga10757505060dc7bf0fe148c5363eae08">UART1_Initialize</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>{</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="comment">/*    </span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="comment">     Set the UART1 module to the options selected in the user interface.</span></div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="comment">     Make sure to set LAT bit corresponding to TxPin as high before UART initialization</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="comment">*/</span></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="comment">//TODO: melody settings below  </span></div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="comment">// URXEN ; RXBIMD ; UARTEN disabled; MOD Asynchronous 8-bit UART; UTXBRK ; BRKOVR ; UTXEN ; USIDL ; WAKE ; ABAUD ; BRGH ; </span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><span class="comment">//    U1MODE = 0x0;</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="comment">//    // STSEL 1 Stop bit sent, 1 checked at RX; BCLKMOD enabled; SLPEN ; FLO ; BCLKSEL FOSC/2; C0EN ; RUNOVF ; UTXINV ; URXINV ; HALFDPLX ; </span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="comment">//    U1MODEH = 0x800;</span></div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span><span class="comment">//    // OERIE ; RXBKIF ; RXBKIE ; ABDOVF ; OERR ; TXCIE ; TXCIF ; FERIE ; TXMTIE ; ABDOVE ; CERIE ; CERIF ; PERIE ; </span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="comment">//    U1STA = 0x80;</span></div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="comment">//    // URXISEL ; UTXBE ; UTXISEL ; URXBE ; STPMD ; TXWRE ; </span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="comment">//    U1STAH = 0x2E;</span></div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="comment">//    // BaudRate 115207.37; Frequency 100000000 Hz; BRG 868; </span></div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span><span class="comment">//    U1BRG = 0x364;</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="comment">//    // BRG 0; </span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="comment">//    U1BRGH = 0x0;</span></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="comment">//    </span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="comment">//    U1MODEbits.UARTEN = 1;   // enabling UART ON bit</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="comment">//    U1MODEbits.UTXEN = 1;</span></div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="comment">//    U1MODEbits.URXEN = 1;</span></div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>  </div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="comment">// TODO: melody settings above</span></div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>  </div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span><span class="comment">// TODO: MCC settings below</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>  </div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    <span class="comment">// URXEN disabled; RXBIMD RXBKIF flag when Break makes low-to-high transition after being low for at least 23/11 bit periods; UARTEN enabled; MOD Asynchronous 8-bit UART; UTXBRK disabled; BRKOVR TX line driven by shifter; UTXEN disabled; USIDL disabled; WAKE disabled; ABAUD disabled; BRGH enabled; </span></div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    <span class="comment">// Data Bits = 8; Parity = None; Stop Bits = 1 Stop bit sent, 1 checked at RX;</span></div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    U1MODE = (0x8080 &amp; ~(1&lt;&lt;15));  <span class="comment">// disabling UARTEN bit</span></div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    <span class="comment">// STSEL 1 Stop bit sent, 1 checked at RX; BCLKMOD disabled; SLPEN disabled; FLO Off; BCLKSEL FOSC/2; C0EN disabled; RUNOVF disabled; UTXINV disabled; URXINV disabled; HALFDPLX disabled; </span></div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    U1MODEH = 0x00;</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>    <span class="comment">// OERIE disabled; RXBKIF disabled; RXBKIE disabled; ABDOVF disabled; OERR disabled; TXCIE disabled; TXCIF disabled; FERIE disabled; TXMTIE disabled; ABDOVE disabled; CERIE disabled; CERIF disabled; PERIE disabled; </span></div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    U1STA = 0x00;</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    <span class="comment">// URXISEL RX_ONE_WORD; UTXBE enabled; UTXISEL TX_BUF_EMPTY; URXBE enabled; STPMD disabled; TXWRE disabled; </span></div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    U1STAH = 0x22;</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    <span class="comment">// BaudRate = 115200; Frequency = 100000000 Hz; BRG 216; </span></div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    U1BRG = 0xD8;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    <span class="comment">// BRG 0; </span></div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    U1BRGH = 0x00;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    <span class="comment">// P1 0; </span></div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    U1P1 = 0x00;</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    <span class="comment">// P2 0; </span></div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    U1P2 = 0x00;</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    <span class="comment">// P3 0; </span></div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    U1P3 = 0x00;</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    <span class="comment">// P3H 0; </span></div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    U1P3H = 0x00;</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    <span class="comment">// TXCHK 0; </span></div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    U1TXCHK = 0x00;</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    <span class="comment">// RXCHK 0; </span></div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    U1RXCHK = 0x00;</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    <span class="comment">// T0PD 1 ETU; PTRCL disabled; TXRPT Retransmit the error byte once; CONV Direct logic; </span></div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    U1SCCON = 0x00;</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    <span class="comment">// TXRPTIF disabled; TXRPTIE disabled; WTCIF disabled; WTCIE disabled; BTCIE disabled; BTCIF disabled; GTCIF disabled; GTCIE disabled; RXRPTIE disabled; RXRPTIF disabled; </span></div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    U1SCINT = 0x00;</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    <span class="comment">// ABDIF disabled; WUIF disabled; ABDIE disabled; </span></div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    U1INT = 0x00;</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    </div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    U1MODEbits.UARTEN = 1;   <span class="comment">// enabling UART ON bit</span></div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>    U1MODEbits.UTXEN = 1;</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    U1MODEbits.URXEN = 1;    </div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span><span class="comment">// TODO: MCC settings above</span></div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>}</div>
+</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
+<div class="foldopen" id="foldopen00176" data-start="{" data-end="}">
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno"><a class="line" href="a00417.html#gab8ba2fd2eb61dcbfce8b7b1e1dbe5909">  176</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="a00417.html#gab8ba2fd2eb61dcbfce8b7b1e1dbe5909">UART1_Deinitialize</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>{</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>    U1MODE = 0x0;</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>    U1MODEH = 0x0;</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>    U1STA = 0x80;</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    U1STAH = 0x2E;</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>    U1BRG = 0x0;</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>    U1BRGH = 0x0;</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>}</div>
+</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
+<div class="foldopen" id="foldopen00186" data-start="{" data-end="}">
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno"><a class="line" href="a00417.html#ga4e34071aa3125eb037bd6ae844c7ffbb">  186</a></span>uint8_t <a class="code hl_function" href="a00417.html#ga4e34071aa3125eb037bd6ae844c7ffbb">UART1_Read</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>{</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    <span class="keywordflow">while</span>((U1STAHbits.URXBE == 1))</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    {</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>        </div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    }</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span> </div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    <span class="keywordflow">if</span> ((U1STAbits.OERR == 1))</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>    {</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>        U1STAbits.OERR = 0;</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    }</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    </div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    <span class="keywordflow">return</span> U1RXREG;</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>}</div>
+</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span> </div>
+<div class="foldopen" id="foldopen00201" data-start="{" data-end="}">
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno"><a class="line" href="a00417.html#ga6be5aaf3406104a362f3a3438dafe83c">  201</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="a00417.html#ga6be5aaf3406104a362f3a3438dafe83c">UART1_Write</a>(uint8_t txData)</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>{</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>    <span class="keywordflow">while</span>(U1STAHbits.UTXBF == 1)</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    {</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>        </div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    }</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>    U1TXREG = txData;    <span class="comment">// Write the data byte to the USART.</span></div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>}</div>
+</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span> </div>
+<div class="foldopen" id="foldopen00211" data-start="{" data-end="}">
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno"><a class="line" href="a00417.html#ga35ebdf043c6e4995ff711ebc13954861">  211</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="a00417.html#ga35ebdf043c6e4995ff711ebc13954861">UART1_IsRxReady</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>{</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>    <span class="keywordflow">return</span> (U1STAHbits.URXBE == 0);</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>}</div>
+</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span> </div>
+<div class="foldopen" id="foldopen00216" data-start="{" data-end="}">
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno"><a class="line" href="a00417.html#gae2fc49fa99787bc951e12bd840b1248c">  216</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="a00417.html#gae2fc49fa99787bc951e12bd840b1248c">UART1_IsTxReady</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>{</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    <span class="keywordflow">return</span> ((!U1STAHbits.UTXBF) &amp;&amp; U1MODEbits.UTXEN);</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>}</div>
+</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
+<div class="foldopen" id="foldopen00221" data-start="{" data-end="}">
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno"><a class="line" href="a00417.html#ga693f8124b5bec099c5141b65e47f2bb9">  221</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="a00417.html#ga693f8124b5bec099c5141b65e47f2bb9">UART1_IsTxDone</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>{</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    <span class="keywordflow">return</span> (<span class="keywordtype">bool</span>)(U1STAbits.TRMT &amp;&amp; U1STAHbits.UTXBE);</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>}</div>
+</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
+<div class="foldopen" id="foldopen00226" data-start="{" data-end="}">
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno"><a class="line" href="a00417.html#ga378b1dbcd496537d87bacafa2ecb49e9">  226</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="a00417.html#ga378b1dbcd496537d87bacafa2ecb49e9">UART1_TransmitEnable</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>{</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>    U1MODEbits.UTXEN = 1;</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>}</div>
+</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
+<div class="foldopen" id="foldopen00231" data-start="{" data-end="}">
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno"><a class="line" href="a00417.html#ga221ffa21be6206c8c7d0ff5a22f14bce">  231</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="a00417.html#ga221ffa21be6206c8c7d0ff5a22f14bce">UART1_TransmitDisable</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>{</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    U1MODEbits.UTXEN = 0;</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>}</div>
+</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
+<div class="foldopen" id="foldopen00236" data-start="{" data-end="}">
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno"><a class="line" href="a00417.html#ga3144eac41c391b44a5e75d9ec37dd989">  236</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="a00417.html#ga3144eac41c391b44a5e75d9ec37dd989">UART1_AutoBaudSet</a>(<span class="keywordtype">bool</span> enable)</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>{</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>    U1INTbits.ABDIF = 0U;</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>    U1INTbits.ABDIE = enable;</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>    U1MODEbits.ABAUD = enable;</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>}</div>
+</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span> </div>
+<div class="foldopen" id="foldopen00243" data-start="{" data-end="}">
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno"><a class="line" href="a00417.html#gac3b02f60d9474f7b7f1cdda3e3cb005a">  243</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="a00417.html#gac3b02f60d9474f7b7f1cdda3e3cb005a">UART1_AutoBaudQuery</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>{</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>    <span class="keywordflow">return</span> U1MODEbits.ABAUD;</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>}</div>
+</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span> </div>
+<div class="foldopen" id="foldopen00248" data-start="{" data-end="}">
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno"><a class="line" href="a00417.html#gac3ffab5418715b2afcd1295d3aaca37a">  248</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="a00417.html#gac3ffab5418715b2afcd1295d3aaca37a">UART1_AutoBaudEventEnableGet</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>{ </div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    <span class="keywordflow">return</span> U1INTbits.ABDIE; </div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>}</div>
+</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span> </div>
+<div class="foldopen" id="foldopen00253" data-start="{" data-end="}">
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno"><a class="line" href="a00417.html#gaa61abb32e644f425b8bd10a71e690a42">  253</a></span><span class="keywordtype">size_t</span> <a class="code hl_function" href="a00417.html#gaa61abb32e644f425b8bd10a71e690a42">UART1_ErrorGet</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>{</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    <a class="code hl_variable" href="a00323.html#a61e0c87db0daca70fad5f241f37397da">uartError</a>.status = 0;</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    <span class="keywordflow">if</span>(U1STAbits.FERR == 1U)</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    {</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>        <a class="code hl_variable" href="a00323.html#a61e0c87db0daca70fad5f241f37397da">uartError</a>.status = <a class="code hl_variable" href="a00323.html#a61e0c87db0daca70fad5f241f37397da">uartError</a>.status|<a class="code hl_enumvalue" href="a00332.html#a0a3dd05b76cb2737b01393490458d8bcabfdb4d381a6b2a21580d26c621a2c542">UART_ERROR_FRAMING_MASK</a>;</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    }</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>    <span class="keywordflow">if</span>(U1STAbits.PERR== 1U)</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    {</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>        <a class="code hl_variable" href="a00323.html#a61e0c87db0daca70fad5f241f37397da">uartError</a>.status = <a class="code hl_variable" href="a00323.html#a61e0c87db0daca70fad5f241f37397da">uartError</a>.status|<a class="code hl_enumvalue" href="a00332.html#a0a3dd05b76cb2737b01393490458d8bcabdbe5aa10ce87aa8de0c87209d361976">UART_ERROR_PARITY_MASK</a>;</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    }</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    <span class="keywordflow">if</span>(U1STAbits.OERR== 1U)</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    {</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>        <a class="code hl_variable" href="a00323.html#a61e0c87db0daca70fad5f241f37397da">uartError</a>.status = <a class="code hl_variable" href="a00323.html#a61e0c87db0daca70fad5f241f37397da">uartError</a>.status|<a class="code hl_enumvalue" href="a00332.html#a0a3dd05b76cb2737b01393490458d8bcade56f98b9bab2648473a7be7bca1b7fd">UART_ERROR_RX_OVERRUN_MASK</a>;</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>        U1STAbits.OERR = 0;</div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>    }</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>    <span class="keywordflow">if</span>(U1STAbits.TXCIF== 1U)</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    {</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>        <a class="code hl_variable" href="a00323.html#a61e0c87db0daca70fad5f241f37397da">uartError</a>.status = <a class="code hl_variable" href="a00323.html#a61e0c87db0daca70fad5f241f37397da">uartError</a>.status|<a class="code hl_enumvalue" href="a00332.html#a0a3dd05b76cb2737b01393490458d8bca066a2aa4da0463889e0e694cbaee2a39">UART_ERROR_TX_COLLISION_MASK</a>;</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>        U1STAbits.TXCIF = 0;</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    }</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>    <span class="keywordflow">if</span>(U1STAbits.ABDOVF== 1U)</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    {</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        <a class="code hl_variable" href="a00323.html#a61e0c87db0daca70fad5f241f37397da">uartError</a>.status = <a class="code hl_variable" href="a00323.html#a61e0c87db0daca70fad5f241f37397da">uartError</a>.status|<a class="code hl_enumvalue" href="a00332.html#a0a3dd05b76cb2737b01393490458d8bcae7d9757a81fe8d27a215c3e7231585f7">UART_ERROR_AUTOBAUD_OVERFLOW_MASK</a>;</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>        U1STAbits.ABDOVF = 0;</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>    }</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>    </div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="a00323.html#a61e0c87db0daca70fad5f241f37397da">uartError</a>.status;</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>}</div>
+</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span> </div>
+<div class="foldopen" id="foldopen00283" data-start="{" data-end="}">
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno"><a class="line" href="a00417.html#gaf08dfcac26c53b59cccd5d3100566346">  283</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="a00417.html#gaf08dfcac26c53b59cccd5d3100566346">UART1_BRGCountSet</a>(uint32_t brgValue)</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>{</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    U1BRG = brgValue &amp; 0xFFFFU;</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>    U1BRGH = (brgValue &gt;&gt;16U) &amp; 0x000FU;</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>}</div>
+</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span> </div>
+<div class="foldopen" id="foldopen00289" data-start="{" data-end="}">
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno"><a class="line" href="a00417.html#gae17ce6d866cf1df1a98a30b8b8aef089">  289</a></span>uint32_t <a class="code hl_function" href="a00417.html#gae17ce6d866cf1df1a98a30b8b8aef089">UART1_BRGCountGet</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>{</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>    uint32_t brgValue;</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    </div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    brgValue = U1BRGH;</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    brgValue = (brgValue &lt;&lt; 16U) | U1BRG;</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>    </div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>    <span class="keywordflow">return</span> brgValue;</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>}</div>
+</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span> </div>
+<div class="foldopen" id="foldopen00299" data-start="{" data-end="}">
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno"><a class="line" href="a00417.html#ga0184b510832e59754733272786b9b6f3">  299</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="a00417.html#ga0184b510832e59754733272786b9b6f3">UART1_BaudRateSet</a>(uint32_t baudRate)</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>{</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>    uint32_t brgValue;</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>    </div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>    <span class="keywordflow">if</span>((baudRate &gt;= <a class="code hl_define" href="a00323.html#ad351b80790d73f3e5e3a3ed584357c50">UART1_MIN_ACHIEVABLE_BAUD_WITH_FRACTIONAL</a>) &amp;&amp; (baudRate != 0))</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>    {</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>        U1MODEHbits.BCLKMOD = 1;</div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>        U1MODEbits.BRGH = 0;</div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>        brgValue = <a class="code hl_define" href="a00323.html#aad64d38e030e67fbc35efc0772139318">UART1_BAUD_TO_BRG_WITH_FRACTIONAL</a>(baudRate);</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>    }</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(baudRate &gt;= <a class="code hl_define" href="a00323.html#a658770cce503b9ff43ae9045d8a41777">UART1_MIN_ACHIEVABLE_BAUD_WITH_BRGH_1</a>)</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>    {</div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>        U1MODEHbits.BCLKMOD = 0;</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>        U1MODEbits.BRGH = 1;</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>        brgValue = <a class="code hl_define" href="a00323.html#a9dcdc12b6489619f7115901c4966c088">UART1_BAUD_TO_BRG_WITH_BRGH_1</a>(baudRate);</div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>    }</div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>    <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>    {</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>        U1MODEHbits.BCLKMOD = 0;</div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>        U1MODEbits.BRGH = 0;</div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>        brgValue = <a class="code hl_define" href="a00323.html#adcde889963403bc841dbb3901e6f645d">UART1_BAUD_TO_BRG_WITH_BRGH_0</a>(baudRate);</div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>    }</div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>    U1BRG = brgValue &amp; 0xFFFFU;</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>    U1BRGH = (brgValue &gt;&gt;16U) &amp; 0x000FU;</div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>}</div>
+</div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span> </div>
+<div class="foldopen" id="foldopen00325" data-start="{" data-end="}">
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno"><a class="line" href="a00417.html#gace0aa1c533605015c605693a58658214">  325</a></span>uint32_t <a class="code hl_function" href="a00417.html#gace0aa1c533605015c605693a58658214">UART1_BaudRateGet</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>{</div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>    uint32_t brgValue;</div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>    uint32_t baudRate;</div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>    </div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>    brgValue = <a class="code hl_function" href="a00417.html#gae17ce6d866cf1df1a98a30b8b8aef089">UART1_BRGCountGet</a>();</div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>    <span class="keywordflow">if</span>((U1MODEHbits.BCLKMOD == 1) &amp;&amp; (brgValue != 0))</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>    {</div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>        baudRate = <a class="code hl_define" href="a00323.html#a5718df72d31b1aff9dd25d2cda252633">UART1_BRG_TO_BAUD_WITH_FRACTIONAL</a>(brgValue);</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>    }</div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(U1MODEbits.BRGH == 1)</div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>    {</div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>        baudRate = <a class="code hl_define" href="a00323.html#a0ebea3a210af2c708cc985ed6b49be60">UART1_BRG_TO_BAUD_WITH_BRGH_1</a>(brgValue);</div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>    }</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>    <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>    {</div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>        baudRate = <a class="code hl_define" href="a00323.html#a0fb36d5cc248cdd65b29419907f43939">UART1_BRG_TO_BAUD_WITH_BRGH_0</a>(brgValue);</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>    }</div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>    <span class="keywordflow">return</span> baudRate;</div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>}</div>
+</div>
+<div class="ttc" id="aa00323_html_a0ebea3a210af2c708cc985ed6b49be60"><div class="ttname"><a href="a00323.html#a0ebea3a210af2c708cc985ed6b49be60">UART1_BRG_TO_BAUD_WITH_BRGH_1</a></div><div class="ttdeci">#define UART1_BRG_TO_BAUD_WITH_BRGH_1(x)</div><div class="ttdef"><b>Definition</b> <a href="#l00051">uart1.c:51</a></div></div>
+<div class="ttc" id="aa00323_html_a0fb36d5cc248cdd65b29419907f43939"><div class="ttname"><a href="a00323.html#a0fb36d5cc248cdd65b29419907f43939">UART1_BRG_TO_BAUD_WITH_BRGH_0</a></div><div class="ttdeci">#define UART1_BRG_TO_BAUD_WITH_BRGH_0(x)</div><div class="ttdef"><b>Definition</b> <a href="#l00052">uart1.c:52</a></div></div>
+<div class="ttc" id="aa00323_html_a3488d2043a125aec378ee1539ae9767f"><div class="ttname"><a href="a00323.html#a3488d2043a125aec378ee1539ae9767f">frammingError</a></div><div class="ttdeci">uint16_t frammingError</div><div class="ttdef"><b>Definition</b> <a href="#l00092">uart1.c:92</a></div></div>
+<div class="ttc" id="aa00323_html_a5718df72d31b1aff9dd25d2cda252633"><div class="ttname"><a href="a00323.html#a5718df72d31b1aff9dd25d2cda252633">UART1_BRG_TO_BAUD_WITH_FRACTIONAL</a></div><div class="ttdeci">#define UART1_BRG_TO_BAUD_WITH_FRACTIONAL(x)</div><div class="ttdef"><b>Definition</b> <a href="#l00050">uart1.c:50</a></div></div>
+<div class="ttc" id="aa00323_html_a5a6ed8c04a3db86066924b1a1bf4dad3"><div class="ttname"><a href="a00323.html#a5a6ed8c04a3db86066924b1a1bf4dad3">reserved</a></div><div class="ttdeci">uint16_t reserved</div><div class="ttdef"><b>Definition</b> <a href="#l00097">uart1.c:97</a></div></div>
+<div class="ttc" id="aa00323_html_a61e0c87db0daca70fad5f241f37397da"><div class="ttname"><a href="a00323.html#a61e0c87db0daca70fad5f241f37397da">uartError</a></div><div class="ttdeci">static union @21 uartError</div></div>
+<div class="ttc" id="aa00323_html_a64efe43f4fb2f2da8fdadf1440801df1"><div class="ttname"><a href="a00323.html#a64efe43f4fb2f2da8fdadf1440801df1">status</a></div><div class="ttdeci">size_t status</div><div class="ttdef"><b>Definition</b> <a href="#l00099">uart1.c:99</a></div></div>
+<div class="ttc" id="aa00323_html_a658770cce503b9ff43ae9045d8a41777"><div class="ttname"><a href="a00323.html#a658770cce503b9ff43ae9045d8a41777">UART1_MIN_ACHIEVABLE_BAUD_WITH_BRGH_1</a></div><div class="ttdeci">#define UART1_MIN_ACHIEVABLE_BAUD_WITH_BRGH_1</div><div class="ttdef"><b>Definition</b> <a href="#l00055">uart1.c:55</a></div></div>
+<div class="ttc" id="aa00323_html_a9dcdc12b6489619f7115901c4966c088"><div class="ttname"><a href="a00323.html#a9dcdc12b6489619f7115901c4966c088">UART1_BAUD_TO_BRG_WITH_BRGH_1</a></div><div class="ttdeci">#define UART1_BAUD_TO_BRG_WITH_BRGH_1(x)</div><div class="ttdef"><b>Definition</b> <a href="#l00048">uart1.c:48</a></div></div>
+<div class="ttc" id="aa00323_html_aa82616fc4cd8cb734021e705fa0324df"><div class="ttname"><a href="a00323.html#aa82616fc4cd8cb734021e705fa0324df">txCollisionError</a></div><div class="ttdeci">uint16_t txCollisionError</div><div class="ttdef"><b>Definition</b> <a href="#l00095">uart1.c:95</a></div></div>
+<div class="ttc" id="aa00323_html_aad64d38e030e67fbc35efc0772139318"><div class="ttname"><a href="a00323.html#aad64d38e030e67fbc35efc0772139318">UART1_BAUD_TO_BRG_WITH_FRACTIONAL</a></div><div class="ttdeci">#define UART1_BAUD_TO_BRG_WITH_FRACTIONAL(x)</div><div class="ttdef"><b>Definition</b> <a href="#l00047">uart1.c:47</a></div></div>
+<div class="ttc" id="aa00323_html_aafd6d704403172b766f2fcc92e58560f"><div class="ttname"><a href="a00323.html#aafd6d704403172b766f2fcc92e58560f">parityError</a></div><div class="ttdeci">uint16_t parityError</div><div class="ttdef"><b>Definition</b> <a href="#l00093">uart1.c:93</a></div></div>
+<div class="ttc" id="aa00323_html_ad0568719d3547d4f89e16880020e07f5"><div class="ttname"><a href="a00323.html#ad0568719d3547d4f89e16880020e07f5">autoBaudOverflow</a></div><div class="ttdeci">uint16_t autoBaudOverflow</div><div class="ttdef"><b>Definition</b> <a href="#l00096">uart1.c:96</a></div></div>
+<div class="ttc" id="aa00323_html_ad351b80790d73f3e5e3a3ed584357c50"><div class="ttname"><a href="a00323.html#ad351b80790d73f3e5e3a3ed584357c50">UART1_MIN_ACHIEVABLE_BAUD_WITH_FRACTIONAL</a></div><div class="ttdeci">#define UART1_MIN_ACHIEVABLE_BAUD_WITH_FRACTIONAL</div><div class="ttdef"><b>Definition</b> <a href="#l00054">uart1.c:54</a></div></div>
+<div class="ttc" id="aa00323_html_adcde889963403bc841dbb3901e6f645d"><div class="ttname"><a href="a00323.html#adcde889963403bc841dbb3901e6f645d">UART1_BAUD_TO_BRG_WITH_BRGH_0</a></div><div class="ttdeci">#define UART1_BAUD_TO_BRG_WITH_BRGH_0(x)</div><div class="ttdef"><b>Definition</b> <a href="#l00049">uart1.c:49</a></div></div>
+<div class="ttc" id="aa00323_html_ae7caae3e5d64874631b3e065e5c0a8ff"><div class="ttname"><a href="a00323.html#ae7caae3e5d64874631b3e065e5c0a8ff">overrunError</a></div><div class="ttdeci">uint16_t overrunError</div><div class="ttdef"><b>Definition</b> <a href="#l00094">uart1.c:94</a></div></div>
+<div class="ttc" id="aa00326_html"><div class="ttname"><a href="a00326.html">uart1.h</a></div><div class="ttdoc">This is the generated driver header file for the UART1 driver.</div></div>
+<div class="ttc" id="aa00332_html_a0a3dd05b76cb2737b01393490458d8bca066a2aa4da0463889e0e694cbaee2a39"><div class="ttname"><a href="a00332.html#a0a3dd05b76cb2737b01393490458d8bca066a2aa4da0463889e0e694cbaee2a39">UART_ERROR_TX_COLLISION_MASK</a></div><div class="ttdeci">@ UART_ERROR_TX_COLLISION_MASK</div><div class="ttdef"><b>Definition</b> <a href="a00332_source.html#l00051">uart_types.h:51</a></div></div>
+<div class="ttc" id="aa00332_html_a0a3dd05b76cb2737b01393490458d8bcabdbe5aa10ce87aa8de0c87209d361976"><div class="ttname"><a href="a00332.html#a0a3dd05b76cb2737b01393490458d8bcabdbe5aa10ce87aa8de0c87209d361976">UART_ERROR_PARITY_MASK</a></div><div class="ttdeci">@ UART_ERROR_PARITY_MASK</div><div class="ttdef"><b>Definition</b> <a href="a00332_source.html#l00049">uart_types.h:49</a></div></div>
+<div class="ttc" id="aa00332_html_a0a3dd05b76cb2737b01393490458d8bcabfdb4d381a6b2a21580d26c621a2c542"><div class="ttname"><a href="a00332.html#a0a3dd05b76cb2737b01393490458d8bcabfdb4d381a6b2a21580d26c621a2c542">UART_ERROR_FRAMING_MASK</a></div><div class="ttdeci">@ UART_ERROR_FRAMING_MASK</div><div class="ttdef"><b>Definition</b> <a href="a00332_source.html#l00048">uart_types.h:48</a></div></div>
+<div class="ttc" id="aa00332_html_a0a3dd05b76cb2737b01393490458d8bcade56f98b9bab2648473a7be7bca1b7fd"><div class="ttname"><a href="a00332.html#a0a3dd05b76cb2737b01393490458d8bcade56f98b9bab2648473a7be7bca1b7fd">UART_ERROR_RX_OVERRUN_MASK</a></div><div class="ttdeci">@ UART_ERROR_RX_OVERRUN_MASK</div><div class="ttdef"><b>Definition</b> <a href="a00332_source.html#l00050">uart_types.h:50</a></div></div>
+<div class="ttc" id="aa00332_html_a0a3dd05b76cb2737b01393490458d8bcae7d9757a81fe8d27a215c3e7231585f7"><div class="ttname"><a href="a00332.html#a0a3dd05b76cb2737b01393490458d8bcae7d9757a81fe8d27a215c3e7231585f7">UART_ERROR_AUTOBAUD_OVERFLOW_MASK</a></div><div class="ttdeci">@ UART_ERROR_AUTOBAUD_OVERFLOW_MASK</div><div class="ttdef"><b>Definition</b> <a href="a00332_source.html#l00052">uart_types.h:52</a></div></div>
+<div class="ttc" id="aa00417_html_ga0184b510832e59754733272786b9b6f3"><div class="ttname"><a href="a00417.html#ga0184b510832e59754733272786b9b6f3">UART1_BaudRateSet</a></div><div class="ttdeci">void UART1_BaudRateSet(uint32_t baudRate)</div><div class="ttdoc">Sets the calculated Baud-Rate of UART1.</div><div class="ttdef"><b>Definition</b> <a href="#l00299">uart1.c:299</a></div></div>
+<div class="ttc" id="aa00417_html_ga10757505060dc7bf0fe148c5363eae08"><div class="ttname"><a href="a00417.html#ga10757505060dc7bf0fe148c5363eae08">UART1_Initialize</a></div><div class="ttdeci">void UART1_Initialize(void)</div><div class="ttdoc">Initializes the UART driver.</div><div class="ttdef"><b>Definition</b> <a href="#l00104">uart1.c:104</a></div></div>
+<div class="ttc" id="aa00417_html_ga221ffa21be6206c8c7d0ff5a22f14bce"><div class="ttname"><a href="a00417.html#ga221ffa21be6206c8c7d0ff5a22f14bce">UART1_TransmitDisable</a></div><div class="ttdeci">void UART1_TransmitDisable(void)</div><div class="ttdoc">Disables UART1 transmit.</div><div class="ttdef"><b>Definition</b> <a href="#l00231">uart1.c:231</a></div></div>
+<div class="ttc" id="aa00417_html_ga3144eac41c391b44a5e75d9ec37dd989"><div class="ttname"><a href="a00417.html#ga3144eac41c391b44a5e75d9ec37dd989">UART1_AutoBaudSet</a></div><div class="ttdeci">void UART1_AutoBaudSet(bool enable)</div><div class="ttdoc">Enables or disables UART1 Auto-Baud detection.</div><div class="ttdef"><b>Definition</b> <a href="#l00236">uart1.c:236</a></div></div>
+<div class="ttc" id="aa00417_html_ga35ebdf043c6e4995ff711ebc13954861"><div class="ttname"><a href="a00417.html#ga35ebdf043c6e4995ff711ebc13954861">UART1_IsRxReady</a></div><div class="ttdeci">bool UART1_IsRxReady(void)</div><div class="ttdoc">Returns a boolean value if data is available to read.</div><div class="ttdef"><b>Definition</b> <a href="#l00211">uart1.c:211</a></div></div>
+<div class="ttc" id="aa00417_html_ga378b1dbcd496537d87bacafa2ecb49e9"><div class="ttname"><a href="a00417.html#ga378b1dbcd496537d87bacafa2ecb49e9">UART1_TransmitEnable</a></div><div class="ttdeci">void UART1_TransmitEnable(void)</div><div class="ttdoc">Enables UART1 transmit.</div><div class="ttdef"><b>Definition</b> <a href="#l00226">uart1.c:226</a></div></div>
+<div class="ttc" id="aa00417_html_ga4e34071aa3125eb037bd6ae844c7ffbb"><div class="ttname"><a href="a00417.html#ga4e34071aa3125eb037bd6ae844c7ffbb">UART1_Read</a></div><div class="ttdeci">uint8_t UART1_Read(void)</div><div class="ttdoc">Reads a byte of data from the UART1.</div><div class="ttdef"><b>Definition</b> <a href="#l00186">uart1.c:186</a></div></div>
+<div class="ttc" id="aa00417_html_ga64f67285e9e72c2b50bd19567ec8fb16"><div class="ttname"><a href="a00417.html#ga64f67285e9e72c2b50bd19567ec8fb16">UART1_Drv</a></div><div class="ttdeci">const struct UART_INTERFACE UART1_Drv</div><div class="ttdoc">Structure object of type UART_INTERFACE with the custom name given by the user in the Melody Driver U...</div><div class="ttdef"><b>Definition</b> <a href="#l00059">uart1.c:59</a></div></div>
+<div class="ttc" id="aa00417_html_ga693f8124b5bec099c5141b65e47f2bb9"><div class="ttname"><a href="a00417.html#ga693f8124b5bec099c5141b65e47f2bb9">UART1_IsTxDone</a></div><div class="ttdeci">bool UART1_IsTxDone(void)</div><div class="ttdoc">Indicates if all bytes have been transferred.</div><div class="ttdef"><b>Definition</b> <a href="#l00221">uart1.c:221</a></div></div>
+<div class="ttc" id="aa00417_html_ga6be5aaf3406104a362f3a3438dafe83c"><div class="ttname"><a href="a00417.html#ga6be5aaf3406104a362f3a3438dafe83c">UART1_Write</a></div><div class="ttdeci">void UART1_Write(uint8_t txData)</div><div class="ttdoc">Writes a byte of data to the UART1.</div><div class="ttdef"><b>Definition</b> <a href="#l00201">uart1.c:201</a></div></div>
+<div class="ttc" id="aa00417_html_gaa61abb32e644f425b8bd10a71e690a42"><div class="ttname"><a href="a00417.html#gaa61abb32e644f425b8bd10a71e690a42">UART1_ErrorGet</a></div><div class="ttdeci">size_t UART1_ErrorGet(void)</div><div class="ttdoc">Returns the error status of UART1.</div><div class="ttdef"><b>Definition</b> <a href="#l00253">uart1.c:253</a></div></div>
+<div class="ttc" id="aa00417_html_gab8ba2fd2eb61dcbfce8b7b1e1dbe5909"><div class="ttname"><a href="a00417.html#gab8ba2fd2eb61dcbfce8b7b1e1dbe5909">UART1_Deinitialize</a></div><div class="ttdeci">void UART1_Deinitialize(void)</div><div class="ttdoc">Deinitializes the UART to POR values.</div><div class="ttdef"><b>Definition</b> <a href="#l00176">uart1.c:176</a></div></div>
+<div class="ttc" id="aa00417_html_gac3b02f60d9474f7b7f1cdda3e3cb005a"><div class="ttname"><a href="a00417.html#gac3b02f60d9474f7b7f1cdda3e3cb005a">UART1_AutoBaudQuery</a></div><div class="ttdeci">bool UART1_AutoBaudQuery(void)</div><div class="ttdoc">Returns the status of Auto-Baud detection.</div><div class="ttdef"><b>Definition</b> <a href="#l00243">uart1.c:243</a></div></div>
+<div class="ttc" id="aa00417_html_gac3ffab5418715b2afcd1295d3aaca37a"><div class="ttname"><a href="a00417.html#gac3ffab5418715b2afcd1295d3aaca37a">UART1_AutoBaudEventEnableGet</a></div><div class="ttdeci">bool UART1_AutoBaudEventEnableGet(void)</div><div class="ttdoc">Returns enable state of the Auto-Baud feature.</div><div class="ttdef"><b>Definition</b> <a href="#l00248">uart1.c:248</a></div></div>
+<div class="ttc" id="aa00417_html_gace0aa1c533605015c605693a58658214"><div class="ttname"><a href="a00417.html#gace0aa1c533605015c605693a58658214">UART1_BaudRateGet</a></div><div class="ttdeci">uint32_t UART1_BaudRateGet(void)</div><div class="ttdoc">Gets the actual Baud-Rate of UART1.</div><div class="ttdef"><b>Definition</b> <a href="#l00325">uart1.c:325</a></div></div>
+<div class="ttc" id="aa00417_html_gae17ce6d866cf1df1a98a30b8b8aef089"><div class="ttname"><a href="a00417.html#gae17ce6d866cf1df1a98a30b8b8aef089">UART1_BRGCountGet</a></div><div class="ttdeci">uint32_t UART1_BRGCountGet(void)</div><div class="ttdoc">Gets the BRG value of UART1.</div><div class="ttdef"><b>Definition</b> <a href="#l00289">uart1.c:289</a></div></div>
+<div class="ttc" id="aa00417_html_gae2fc49fa99787bc951e12bd840b1248c"><div class="ttname"><a href="a00417.html#gae2fc49fa99787bc951e12bd840b1248c">UART1_IsTxReady</a></div><div class="ttdeci">bool UART1_IsTxReady(void)</div><div class="ttdoc">Returns a boolean value if data can be written.</div><div class="ttdef"><b>Definition</b> <a href="#l00216">uart1.c:216</a></div></div>
+<div class="ttc" id="aa00417_html_gaf08dfcac26c53b59cccd5d3100566346"><div class="ttname"><a href="a00417.html#gaf08dfcac26c53b59cccd5d3100566346">UART1_BRGCountSet</a></div><div class="ttdeci">void UART1_BRGCountSet(uint32_t brgValue)</div><div class="ttdoc">Sets the BRG value of UART1.</div><div class="ttdef"><b>Definition</b> <a href="#l00283">uart1.c:283</a></div></div>
+<div class="ttc" id="aa00627_html"><div class="ttname"><a href="a00627.html">UART_INTERFACE</a></div><div class="ttdoc">Structure containing the function pointers of UART driver.</div><div class="ttdef"><b>Definition</b> <a href="a00329_source.html#l00055">uart_interface.h:55</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.20-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath" style="padding-bottom: 12px; vertical-align: bottom;"><!-- id is needed for treeview function! -->
+  <ul>
+    <p class="footer" style="text-align: center; font-size: 90%;">
+      Â© Copyright 1998-2022 Microchip Technology Inc. All rights reserved.
+    </p>
+    </ul>
+</div>
+</body>
+</html>

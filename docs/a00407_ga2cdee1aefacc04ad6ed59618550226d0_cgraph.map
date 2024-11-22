@@ -1,0 +1,9 @@
+<map id="PWM_Initialize" name="PWM_Initialize">
+<area shape="rect" id="Node000001" title="Initializes PWM module, using the given initialization data." alt="" coords="5,55,115,80"/>
+<area shape="rect" id="Node000002" href="$a00414.html#ga0153c20a7c603596e5722a8b45571d4a" title="Returns Auxiliary PLL status." alt="" coords="178,5,377,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,52,162,39,200,31,202,36,163,45,111,57"/>
+<area shape="rect" id="Node000003" href="$a00407.html#ga3bd2ebdd8c0f5cbd912d441ad8bf0253" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="163,55,392,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="115,65,149,65,149,70,115,70"/>
+<area shape="rect" id="Node000004" href="$a00407.html#gafb860e72fa5f565c22ceb026b37eb901" title="This function can be used to override default callback PWM_GeneratorEOCEventCallback and to define cu..." alt="" coords="163,105,392,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="110,77,189,99,187,104,108,83"/>
+</map>

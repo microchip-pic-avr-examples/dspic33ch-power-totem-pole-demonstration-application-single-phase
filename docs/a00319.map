@@ -1,0 +1,12 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/mcc_generated_files/pwm_hs/pwm_hs_types.h" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/mcc_generated_files/pwm_hs/pwm_hs_types.h">
+<area shape="rect" id="Node000001" title="This is the generated driver types header file for the PWM driver." alt="" coords="132,5,431,119"/>
+<area shape="rect" id="Node000002" href="$a00308.html" title="This is the generated driver header file for the PWM driver." alt="" coords="162,343,401,456"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,132,228,167,220,203,218,231,220,259,228,294,247,341,242,343,223,295,215,260,212,231,215,202,223,166,236,130"/>
+<area shape="rect" id="Node000005" href="$a00314_source.html" title=" " alt="" coords="238,167,487,295"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="317,130,334,165,330,168,312,132"/>
+<area shape="rect" id="Node000003" href="$a00320.html" title="This is the generated driver source file for PWM driver." alt="" coords="5,504,267,617"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="223,468,189,505,185,502,219,464"/>
+<area shape="rect" id="Node000004" href="$a00844.html" title="This is the generated driver header file for the System driver." alt="" coords="291,504,563,617"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="343,464,378,502,374,505,339,468"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="328,308,311,343,306,341,324,306"/>
+</map>

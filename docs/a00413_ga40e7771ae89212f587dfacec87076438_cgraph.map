@@ -1,0 +1,19 @@
+<map id="RESET_CauseHandler" name="RESET_CauseHandler">
+<area shape="rect" id="Node000001" title="It handles the reset cause by clearing the cause register values. This is a weak attribute function...." alt="" coords="5,195,159,220"/>
+<area shape="rect" id="Node000002" href="$a00413.html#ga0174a76fda8d92f242395a797470b7b1" title="RESET cause from Clear" alt="" coords="246,5,385,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,193,103,162,129,120,163,77,205,41,232,28,234,33,208,46,167,81,133,123,108,164,92,195"/>
+<area shape="rect" id="Node000003" href="$a00413.html#gad6caf79bbee9b33bf903c186fd824059" title="RESET cause from Configuration Mismatch" alt="" coords="208,55,423,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="94,192,140,150,172,126,205,105,220,98,222,103,208,110,175,130,144,154,98,196"/>
+<area shape="rect" id="Node000004" href="$a00413.html#ga32b316332402fc7d3660d63a7fff528f" title="RESET cause from External" alt="" coords="222,120,409,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="110,192,206,154,235,146,236,151,208,159,112,197"/>
+<area shape="rect" id="Node000005" href="$a00413.html#gae9bed7f7c62488a1a1e1aa053665a46d" title="RESET cause from Illegal Opcode" alt="" coords="207,169,424,195"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="159,196,193,193,193,198,159,202"/>
+<area shape="rect" id="Node000006" href="$a00413.html#ga7f962e95fa6bd2864091df4cf882eee7" title="RESET cause from Software" alt="" coords="221,219,410,244"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="159,213,207,218,207,223,159,218"/>
+<area shape="rect" id="Node000007" href="$a00413.html#ga36c739c4dcee0f773bc467be47c87722" title="RESET cause from trap." alt="" coords="233,268,397,293"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="114,218,207,253,241,262,240,267,206,258,112,223"/>
+<area shape="rect" id="Node000008" href="$a00413.html#ga6283f56ec3cae6da1145799ddcc9b44a" title="RESET cause from Watchdog Time" alt="" coords="216,318,415,358"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="98,218,144,259,175,282,208,302,225,311,223,315,205,307,172,287,141,263,94,222"/>
+<area shape="rect" id="Node000009" href="$a00413.html#gaa218141dacf762880dc162a2f499657c" title="Returns the cause of previous reset." alt="" coords="250,383,381,408"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="92,219,108,250,133,291,167,333,208,368,238,382,236,386,205,372,163,336,129,294,103,253,87,222"/>
+</map>

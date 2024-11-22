@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['can_20driver_0',['CAN Driver',['../a00424.html',1,'']]],
+  ['can_20fd_20driver_1',['CAN FD Driver',['../a00405.html',1,'']]],
+  ['client_20driver_2',['SPI Client Driver',['../a00419.html',1,'']]],
+  ['clock_20driver_3',['Clock Driver',['../a00414.html',1,'']]],
+  ['cmp_20dac_20driver_4',['CMP DAC Driver',['../a00406.html',1,'']]],
+  ['code_20generator_5',['MPLABX MCC Melody Code Generator',['../a00401.html',1,'']]],
+  ['commuincation_20interface_20between_20primary_20and_20secondary_20cores_6',['MSI Driver. Commuincation Interface between Primary and Secondary Cores',['../a00430.html',1,'']]],
+  ['compensator_7',['Power Control Compensator',['../a00436.html',1,'']]],
+  ['configbits_20driver_8',['CONFIGBITS Driver',['../a00439.html',1,'']]],
+  ['configuration_9',['Control Loop Configuration',['../a00438.html',1,'']]],
+  ['configuration_20layer_10',['Configuration Layer',['../a00402.html',1,'']]],
+  ['content_11',['Hide-content',['../a00403.html',1,'']]],
+  ['control_12',['Power Control',['../a00432.html',1,'']]],
+  ['control_20app_13',['Power Control app',['../a00435.html',1,'']]],
+  ['control_20compensator_14',['Power Control Compensator',['../a00436.html',1,'']]],
+  ['control_20loop_20configuration_15',['Control Loop Configuration',['../a00438.html',1,'']]],
+  ['control_20misc_20app_16',['Power Control misc app',['../a00434.html',1,'']]],
+  ['control_20typedef_17',['Power Control typedef',['../a00437.html',1,'']]],
+  ['controller_20driver_20files_18',['Power Controller driver files',['../a00433.html',1,'']]],
+  ['core_20layer_19',['Core Layer',['../a00399.html',1,'Primary Core Layer'],['../a00400.html',1,'Secondary Core Layer']]],
+  ['core_20state_20machine_20',['Secondary Core state machine',['../a00431.html',1,'']]],
+  ['cores_21',['MSI Driver. Commuincation Interface between Primary and Secondary Cores',['../a00430.html',1,'']]]
+];

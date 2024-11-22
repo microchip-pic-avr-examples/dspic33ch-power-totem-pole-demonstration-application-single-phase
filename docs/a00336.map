@@ -1,0 +1,14 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/sources/devices/dev_TPBLPFC_numberconnection_typedef.c" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/sources/devices/dev_TPBLPFC_numberconnection_typedef.c">
+<area shape="rect" id="Node000001" title="This is the typedef file for power controller." alt="" coords="100,5,480,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,174,156,199"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,121,114,169,111,165,193,117"/>
+<area shape="rect" id="Node000003" href="$a00338.html" title="This is the typedef file for power controller." alt="" coords="181,167,399,207"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="293,119,293,153,287,153,287,119"/>
+<area shape="rect" id="Node000005" href="$a00344.html" title="This is the typedef file for power controller." alt="" coords="424,174,591,199"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="390,117,476,165,474,170,388,121"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="336,255,383,280"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="309,205,342,242,338,246,305,209"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="487,202,395,250,392,246,484,197"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="475,255,540,280"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="510,200,510,241,505,241,505,200"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="DMA_ChannelEnable" name="DMA_ChannelEnable">
+<area shape="rect" id="Node000001" title="This inline function enables the DMA channel." alt="" coords="524,31,669,56"/>
+<area shape="rect" id="Node000002" href="$a00418.html#ga9f16d166d637fd9005839b1e1822dc63" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="321,5,476,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="510,35,476,31,477,25,511,30"/>
+<area shape="rect" id="Node000003" href="$a00427.html#ga145f1f1255a7289b74ff5907798d21fa" title="synchronize to SPI bus" alt="" coords="337,55,460,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="511,56,460,63,460,57,510,51"/>
+<area shape="rect" id="Node000004" href="$a00427.html#ga931d1aef6dcb7d881ab27cf66cd94d00" title="check for SPI timeout" alt="" coords="152,55,273,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="324,70,274,70,274,65,324,65"/>
+<area shape="rect" id="Node000005" href="$a00431.html#ga97fda594ad396d08b6a833ebb3b04538" title="tasks run every 100us" alt="" coords="5,55,104,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="138,70,104,70,104,65,138,65"/>
+</map>

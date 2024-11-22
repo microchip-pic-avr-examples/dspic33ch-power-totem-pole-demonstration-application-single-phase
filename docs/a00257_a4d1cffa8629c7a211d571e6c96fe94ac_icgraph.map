@@ -1,0 +1,26 @@
+<map id="vacm_vin_average" name="vacm_vin_average">
+<area shape="rect" id="Node000001" title=" " alt="" coords="841,129,967,155"/>
+<area shape="rect" id="Node000002" href="$a00257.html#a6620ac4371af55881bc354c83de9b1a9" title=" " alt="" coords="641,5,785,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="882,121,842,82,792,44,767,33,769,28,795,40,846,78,885,117"/>
+<area shape="rect" id="Node000006" href="$a00257.html#a438efdbe3c5bfcf7b66052f6e3f99fc1" title=" " alt="" coords="637,55,789,80"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="865,126,792,94,760,83,761,78,794,89,867,121"/>
+<area shape="rect" id="Node000007" href="$a00257.html#a7b65d2b2f06bd653e747d28a897e964b" title=" " alt="" coords="639,104,787,129"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="827,135,787,129,788,124,828,129"/>
+<area shape="rect" id="Node000008" href="$a00257.html#afa82391466200dde740b703017e91eec" title=" " alt="" coords="649,153,778,179"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="828,154,779,161,778,155,827,149"/>
+<area shape="rect" id="Node000009" href="$a00257.html#a190d0ac02bb30bdb63d3ddff1373a807" title=" " alt="" coords="643,203,784,228"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="864,163,794,192,758,205,756,200,792,188,862,158"/>
+<area shape="rect" id="Node000010" href="$a00257.html#a4dbe7572d068bb830e05117273a90817" title=" " alt="" coords="633,252,793,277"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="884,168,844,205,795,242,766,254,764,249,792,237,841,201,880,164"/>
+<area shape="rect" id="Node000003" href="$a00257.html#a3a965bf809d4454e8cc529cc6c3eed03" title=" " alt="" coords="441,129,585,155"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="648,38,635,44,602,65,573,89,528,131,525,127,569,85,599,61,632,40,646,33"/>
+<area shape="rect" id="Node000004" href="$a00425.html#ga41351a49d0335be286c2947c26d0a07c" title="run AC monitor for each of the 3 phases" alt="" coords="208,129,393,155"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="427,145,393,145,393,139,427,139"/>
+<area shape="rect" id="Node000005" href="$a00418.html#ga9f16d166d637fd9005839b1e1822dc63" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="5,129,160,155"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="194,145,160,145,160,139,194,139"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="655,87,634,94,543,132,541,127,632,89,654,82"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="626,130,586,135,586,130,625,125"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="635,159,585,153,586,148,635,154"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="657,201,632,193,544,157,546,152,634,187,659,196"/>
+<area shape="poly" id="edge14_Node000010_Node000003" title=" " alt="" coords="649,250,632,242,600,221,570,198,526,157,529,153,574,194,603,217,635,237,651,245"/>
+</map>

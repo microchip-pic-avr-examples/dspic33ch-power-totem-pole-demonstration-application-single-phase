@@ -1,0 +1,13 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/sources_common/PFC_frameworkSetup.h" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/sources_common/PFC_frameworkSetup.h">
+<area shape="rect" id="Node000001" title="Allows the user to change the advanced operating parameters." alt="" coords="43,5,268,104"/>
+<area shape="rect" id="Node000002" href="$a00395.html" title="Allows the user to easily change the operation modes." alt="" coords="79,152,232,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,105,158,138,153,138,153,105"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,240,52,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,194,60,235,57,231,123,190"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="76,240,141,265"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="146,194,125,229,120,227,142,191"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="166,240,241,265"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="169,191,191,227,187,229,165,194"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="265,240,320,265"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="190,190,262,231,259,235,187,194"/>
+</map>

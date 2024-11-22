@@ -1,0 +1,5 @@
+<map id="CAN1_MessageReadFromFifo" name="CAN1_MessageReadFromFifo">
+<area shape="rect" id="Node000001" title="This function read the message object from receive FIFO and update to the user &#160;&#160;message object point..." alt="" coords="5,5,203,31"/>
+<area shape="rect" id="Node000002" href="$a00405.html#ga61d156b0e75424f9b630cef5c424ac13" title="This function get the DLC enum based decimal value." alt="" coords="251,5,429,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,15,237,15,237,21,203,21"/>
+</map>

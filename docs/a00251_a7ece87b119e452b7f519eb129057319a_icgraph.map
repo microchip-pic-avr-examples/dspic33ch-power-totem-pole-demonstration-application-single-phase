@@ -1,0 +1,5 @@
+<map id="Drv_SPI_Reset_Timeout_Counter" name="Drv_SPI_Reset_Timeout_Counter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="208,5,371,45"/>
+<area shape="rect" id="Node000002" href="$a00418.html#ga9f16d166d637fd9005839b1e1822dc63" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="5,13,160,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,28,160,28,160,23,194,23"/>
+</map>

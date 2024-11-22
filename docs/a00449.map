@@ -1,0 +1,5 @@
+<map id="CAN_MSG_OBJ" name="CAN_MSG_OBJ">
+<area shape="rect" id="Node000001" title="This data structure used to configure the CAN FD message object." alt="" coords="11,213,121,299"/>
+<area shape="rect" id="Node000002" href="$a00447.html" title="This data structure used to configure the message fields. Some of the fields formatType and brs data ..." alt="" coords="5,5,127,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,151,69,196,63,196,63,151"/>
+</map>

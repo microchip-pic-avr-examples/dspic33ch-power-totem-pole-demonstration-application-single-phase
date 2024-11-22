@@ -1,0 +1,399 @@
+<!-- HTML header for doxygen 1.8.20-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>3.8/7.6 kw Totem pole Demonstration Application: SIC_CLIENT_RECEIVE_FRAME_s Struct Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="mchp.css" rel="stylesheet" type="text/css"/>
+<link href="mchp_theme.css" rel="stylesheet" type="text/css"/>
+<link href="search.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0" style="border:0px; border-spacing: 0px; border-collapse: collapse; vertical-align: middle; width: 100%;">
+    <tbody>
+        <tr style="border: none; background-color: #00000000;">
+            <!--SITE HEADER-->
+            <td style="width: 120px; border: none;">
+                <img alt="Bar" height="60px" src="images/mchp-brandingelement-rgb2.png"/>
+            </td>
+            <td style="width: 220px; border: none;">
+                <img alt="Logo" height=50px src="images/microchip.png"/>
+            </td>
+            <td colspan="4" style="font-size: 16pt; font-weight: bolder;">
+                3.8/7.6 kw Totem pole Demonstration Application (Part-No. (not specified)) 
+            </td>
+            <td style="text-align: right; vertical-align: middle;">
+                        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+            </td>
+            <!--END SITE HEADER-->
+        </tr>
+        <tr style="height:36px; border:none; background-color: #000000b0;">
+            <td style="width: 70px; color: white; font-size:14px; font-weight: bolder; margin-left: 30px;">
+                <div style="margin-left: 30px;">Content</div>
+            </td>
+            <td style="width: 10px; color: white; font-size:14px; font-weight: bolder;">
+                &nbsp;
+            </td>
+            <td style="width: 100px; color: white; font-size:14px; font-weight: bolder;">
+                <!-- Overview -->
+            </td>
+            <td style="width: 130px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Documentation -->
+            </td>
+            <td style="width: 170px; color: white; font-size:14px; font-weight: bolder;"> 
+                <!-- Additional Resources -->
+            </td>
+            <td style="width: auto; color: white; font-size:14px; font-weight: bolder;"> 
+              &nbsp;
+            </td>
+            <td style="width: 310px; margin-right: 30px; color: white; font-size:10px; font-weight: lighter; text-align: right;">
+                &nbsp;
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('a00543.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Data Fields</a>  </div>
+  <div class="headertitle"><div class="title">SIC_CLIENT_RECEIVE_FRAME_s Struct Reference</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="a00242_source.html">drv_i2c.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for SIC_CLIENT_RECEIVE_FRAME_s:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00541.svg" width="270" height="519"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Data Fields</h2></td></tr>
+<tr class="memitem:af3312c9f62fa8433a69248e74b4af48a" id="r_af3312c9f62fa8433a69248e74b4af48a"><td class="memItemLeft" >union {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39df01e3dbd5aaaafc64496504bba7d9" id="r_a39df01e3dbd5aaaafc64496504bba7d9"><td class="memItemLeft" >&#160;&#160;&#160;struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a39df01e3dbd5aaaafc64496504bba7d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c881a6d06732ecad995c604b724f32e" id="r_a3c881a6d06732ecad995c604b724f32e"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="#a3c881a6d06732ecad995c604b724f32e">command_id</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a3c881a6d06732ecad995c604b724f32e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a604aca77fbb583aa7f8eb1d783dfc3ed" id="r_a604aca77fbb583aa7f8eb1d783dfc3ed"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="a00242.html#a74cf16fa7d93fdf0d71700cda8398d16">SIC_FLAGS_t</a>&#160;&#160;&#160;<a class="el" href="#a604aca77fbb583aa7f8eb1d783dfc3ed">sic_status_flags</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a604aca77fbb583aa7f8eb1d783dfc3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedff1a1f17eb49d11262327764d6e59f" id="r_aedff1a1f17eb49d11262327764d6e59f"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="#aedff1a1f17eb49d11262327764d6e59f">temp_sic1</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:aedff1a1f17eb49d11262327764d6e59f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb1b5775dd92263ce098747c2f392912" id="r_abb1b5775dd92263ce098747c2f392912"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="#abb1b5775dd92263ce098747c2f392912">temp_sic2</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:abb1b5775dd92263ce098747c2f392912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e26ffa8a1bda518ac66b23b78ad1bfd" id="r_a6e26ffa8a1bda518ac66b23b78ad1bfd"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="#a6e26ffa8a1bda518ac66b23b78ad1bfd">temp_sic3</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a6e26ffa8a1bda518ac66b23b78ad1bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac426f032f09c8cc0522431a1efb6d3b2" id="r_ac426f032f09c8cc0522431a1efb6d3b2"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="#ac426f032f09c8cc0522431a1efb6d3b2">temp_sic4</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:ac426f032f09c8cc0522431a1efb6d3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaba4b0bfb32e7970ba951a87ed7b2fa6" id="r_aaba4b0bfb32e7970ba951a87ed7b2fa6"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="a00242.html#aa5f17fa3f5ec74f50b322b1dc534f015">AUX_FLAGS_t</a>&#160;&#160;&#160;<a class="el" href="#aaba4b0bfb32e7970ba951a87ed7b2fa6">aux_fault_flags</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:aaba4b0bfb32e7970ba951a87ed7b2fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a740d5aaccdf303c7fcff197b7f4c04cf" id="r_a740d5aaccdf303c7fcff197b7f4c04cf"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="#a740d5aaccdf303c7fcff197b7f4c04cf">fan_duty</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a740d5aaccdf303c7fcff197b7f4c04cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5066b44d9d6c5de32f14e710b74dd1a8" id="r_a5066b44d9d6c5de32f14e710b74dd1a8"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="#a5066b44d9d6c5de32f14e710b74dd1a8">crc_rx</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a5066b44d9d6c5de32f14e710b74dd1a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39df01e3dbd5aaaafc64496504bba7d9" id="r_a39df01e3dbd5aaaafc64496504bba7d9"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="#a39df01e3dbd5aaaafc64496504bba7d9">bytes</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a39df01e3dbd5aaaafc64496504bba7d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d8963801eddda0c47cd9e18fd7045da" id="r_a1d8963801eddda0c47cd9e18fd7045da"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="#a1d8963801eddda0c47cd9e18fd7045da">array</a> [<a class="el" href="a00242.html#a9d70b7d225632bfc75ea4b9329ecf16a">I2C_WRITE_BUFFER_SIZE</a>]&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a1d8963801eddda0c47cd9e18fd7045da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3312c9f62fa8433a69248e74b4af48a" id="r_af3312c9f62fa8433a69248e74b4af48a"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom">&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:af3312c9f62fa8433a69248e74b4af48a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="a00242_source.html#l00110">110</a> of file <a class="el" href="a00242_source.html">drv_i2c.h</a>.</p>
+</div><h2 class="groupheader">Field Documentation</h2>
+<a id="af3312c9f62fa8433a69248e74b4af48a" name="af3312c9f62fa8433a69248e74b4af48a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3312c9f62fa8433a69248e74b4af48a">&#9670;&#160;</a></span>[union]</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">union  { ... } </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d8963801eddda0c47cd9e18fd7045da" name="a1d8963801eddda0c47cd9e18fd7045da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d8963801eddda0c47cd9e18fd7045da">&#9670;&#160;</a></span>array</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t array[<a class="el" href="a00242.html#a9d70b7d225632bfc75ea4b9329ecf16a">I2C_WRITE_BUFFER_SIZE</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00242_source.html#l00126">126</a> of file <a class="el" href="a00242_source.html">drv_i2c.h</a>.</p>
+
+</div>
+</div>
+<a id="aaba4b0bfb32e7970ba951a87ed7b2fa6" name="aaba4b0bfb32e7970ba951a87ed7b2fa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaba4b0bfb32e7970ba951a87ed7b2fa6">&#9670;&#160;</a></span>aux_fault_flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00242.html#aa5f17fa3f5ec74f50b322b1dc534f015">AUX_FLAGS_t</a> aux_fault_flags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00242_source.html#l00121">121</a> of file <a class="el" href="a00242_source.html">drv_i2c.h</a>.</p>
+
+</div>
+</div>
+<a id="a39df01e3dbd5aaaafc64496504bba7d9" name="a39df01e3dbd5aaaafc64496504bba7d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39df01e3dbd5aaaafc64496504bba7d9">&#9670;&#160;</a></span>[struct]</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct  { ... }  bytes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c881a6d06732ecad995c604b724f32e" name="a3c881a6d06732ecad995c604b724f32e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c881a6d06732ecad995c604b724f32e">&#9670;&#160;</a></span>command_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t command_id</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00242_source.html#l00115">115</a> of file <a class="el" href="a00242_source.html">drv_i2c.h</a>.</p>
+
+</div>
+</div>
+<a id="a5066b44d9d6c5de32f14e710b74dd1a8" name="a5066b44d9d6c5de32f14e710b74dd1a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5066b44d9d6c5de32f14e710b74dd1a8">&#9670;&#160;</a></span>crc_rx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t crc_rx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00242_source.html#l00124">124</a> of file <a class="el" href="a00242_source.html">drv_i2c.h</a>.</p>
+
+</div>
+</div>
+<a id="a740d5aaccdf303c7fcff197b7f4c04cf" name="a740d5aaccdf303c7fcff197b7f4c04cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a740d5aaccdf303c7fcff197b7f4c04cf">&#9670;&#160;</a></span>fan_duty</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t fan_duty</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00242_source.html#l00122">122</a> of file <a class="el" href="a00242_source.html">drv_i2c.h</a>.</p>
+
+</div>
+</div>
+<a id="a604aca77fbb583aa7f8eb1d783dfc3ed" name="a604aca77fbb583aa7f8eb1d783dfc3ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a604aca77fbb583aa7f8eb1d783dfc3ed">&#9670;&#160;</a></span>sic_status_flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00242.html#a74cf16fa7d93fdf0d71700cda8398d16">SIC_FLAGS_t</a> sic_status_flags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00242_source.html#l00116">116</a> of file <a class="el" href="a00242_source.html">drv_i2c.h</a>.</p>
+
+</div>
+</div>
+<a id="aedff1a1f17eb49d11262327764d6e59f" name="aedff1a1f17eb49d11262327764d6e59f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedff1a1f17eb49d11262327764d6e59f">&#9670;&#160;</a></span>temp_sic1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t temp_sic1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00242_source.html#l00117">117</a> of file <a class="el" href="a00242_source.html">drv_i2c.h</a>.</p>
+
+</div>
+</div>
+<a id="abb1b5775dd92263ce098747c2f392912" name="abb1b5775dd92263ce098747c2f392912"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb1b5775dd92263ce098747c2f392912">&#9670;&#160;</a></span>temp_sic2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t temp_sic2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00242_source.html#l00118">118</a> of file <a class="el" href="a00242_source.html">drv_i2c.h</a>.</p>
+
+</div>
+</div>
+<a id="a6e26ffa8a1bda518ac66b23b78ad1bfd" name="a6e26ffa8a1bda518ac66b23b78ad1bfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e26ffa8a1bda518ac66b23b78ad1bfd">&#9670;&#160;</a></span>temp_sic3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t temp_sic3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00242_source.html#l00119">119</a> of file <a class="el" href="a00242_source.html">drv_i2c.h</a>.</p>
+
+</div>
+</div>
+<a id="ac426f032f09c8cc0522431a1efb6d3b2" name="ac426f032f09c8cc0522431a1efb6d3b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac426f032f09c8cc0522431a1efb6d3b2">&#9670;&#160;</a></span>temp_sic4</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t temp_sic4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="a00242_source.html#l00120">120</a> of file <a class="el" href="a00242_source.html">drv_i2c.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>C:/Users/M70027/Documents/Projects/tp-deployment/dspic33ch-power-totem-pole-demonstration-application-single-phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/sources/driver/i2c/<a class="el" href="a00242_source.html">drv_i2c.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.20-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath" style="padding-bottom: 12px; vertical-align: bottom;"><!-- id is needed for treeview function! -->
+  <ul>
+    <p class="footer" style="text-align: center; font-size: 90%;">
+      © Copyright 1998-2022 Microchip Technology Inc. All rights reserved.
+    </p>
+    </ul>
+</div>
+</body>
+</html>

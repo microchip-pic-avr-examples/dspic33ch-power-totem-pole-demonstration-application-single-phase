@@ -1,0 +1,20 @@
+<map id="Drv_PwrCtrl_TPBLPFC_Stop" name="Drv_PwrCtrl_TPBLPFC_Stop">
+<area shape="rect" id="Node000001" title="stop and reset power controller" alt="" coords="391,129,579,155"/>
+<area shape="rect" id="Node000002" href="$a00347.html#a968747854ba14331aa9f85784178d0da" title=" " alt="" coords="183,5,311,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="457,122,406,83,342,44,311,33,312,28,344,40,409,78,461,118"/>
+<area shape="rect" id="Node000003" href="$a00347.html#a6ac2591aa2e32874156ad3f8bf477d2f" title=" " alt="" coords="183,55,311,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="437,127,342,94,301,83,303,77,343,89,439,122"/>
+<area shape="rect" id="Node000004" href="$a00431.html#ga6a8f059084b08dc82c20c9d8e714152a" title="check run bit during soft start" alt="" coords="170,104,325,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="377,133,325,128,325,122,377,128"/>
+<area shape="rect" id="Node000006" href="$a00431.html#ga5c3037f09ca5d5feb40ca3c3aa16dc90" title="up and running state" alt="" coords="152,153,343,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="378,155,343,159,343,154,377,150"/>
+<area shape="rect" id="Node000007" href="$a00431.html#ga4fc797d6e302efdf04cccc92f1094252" title="check VACok flag(s) in fast while loop" alt="" coords="191,203,303,228"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="436,162,343,193,299,205,297,200,342,187,435,157"/>
+<area shape="rect" id="Node000008" href="$a00431.html#gacc4bae28b11e678430b4ecb1b2f52144" title="delay before relay on" alt="" coords="158,252,337,277"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="460,166,408,204,344,242,309,254,308,249,342,237,405,200,456,161"/>
+<area shape="rect" id="Node000005" href="$a00431.html#ga97fda594ad396d08b6a833ebb3b04538" title="tasks run every 100us" alt="" coords="5,179,104,204"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="175,136,153,143,113,162,78,181,75,176,110,157,151,138,173,131"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="138,183,105,188,104,182,138,178"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="177,209,104,200,105,195,178,204"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="177,251,151,242,77,207,79,202,153,237,179,246"/>
+</map>

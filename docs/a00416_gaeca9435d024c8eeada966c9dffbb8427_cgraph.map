@@ -1,0 +1,9 @@
+<map id="TMR1_Initialize" name="TMR1_Initialize">
+<area shape="rect" id="Node000001" title="Initializes the TMR1 module." alt="" coords="5,55,116,80"/>
+<area shape="rect" id="Node000002" href="$a00416.html#gafed3745413684e23104d29539be4f2e5" title="Starts the timer." alt="" coords="222,5,313,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,52,163,39,208,29,209,34,165,45,113,57"/>
+<area shape="rect" id="Node000003" href="$a00416.html#ga68e2de2fe38060ac6e5538406974ed3d" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="188,55,347,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="116,65,174,65,174,70,116,70"/>
+<area shape="rect" id="Node000004" href="$a00416.html#gacf9de8f06456af5b10227545089697ff" title="This function can be used to override default callback and to define custom callback for TMR1 Timeout..." alt="" coords="164,104,371,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="115,77,201,98,199,103,114,83"/>
+</map>

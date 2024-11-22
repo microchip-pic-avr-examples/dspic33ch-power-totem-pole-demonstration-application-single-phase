@@ -1,0 +1,5 @@
+<map id="RESET_CauseFromTrap" name="RESET_CauseFromTrap">
+<area shape="rect" id="Node000001" title="RESET cause from trap." alt="" coords="207,5,371,31"/>
+<area shape="rect" id="Node000002" href="$a00413.html#ga40e7771ae89212f587dfacec87076438" title="It handles the reset cause by clearing the cause register values. This is a weak attribute function...." alt="" coords="5,5,159,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,21,159,21,159,15,192,15"/>
+</map>

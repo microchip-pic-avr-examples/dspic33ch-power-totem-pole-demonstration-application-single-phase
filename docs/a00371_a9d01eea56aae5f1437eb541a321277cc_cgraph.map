@@ -1,0 +1,9 @@
+<map id="ZeroCross_PHx" name="ZeroCross_PHx">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,119,80"/>
+<area shape="rect" id="Node000002" href="$a00407.html#ga37968a783e44cd80643478d2b559dbf4" title="This inline function sets the PWM generator specific duty cycle register." alt="" coords="183,5,325,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,52,190,32,191,37,113,57"/>
+<area shape="rect" id="Node000003" href="$a00407.html#ga531b59d8823e3ebda2da60f48582bcf3" title="This inline function enables PWM override on PWMH output for specific PWM generator selected by the a..." alt="" coords="167,55,341,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="119,65,153,65,153,70,119,70"/>
+<area shape="rect" id="Node000004" href="$a00407.html#ga2548ca8feda75ba6ab784280679da6ae" title="This inline function enables PWM override on PWML output for specific PWM generator selected by the a..." alt="" coords="168,104,340,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="113,77,191,98,190,103,111,83"/>
+</map>

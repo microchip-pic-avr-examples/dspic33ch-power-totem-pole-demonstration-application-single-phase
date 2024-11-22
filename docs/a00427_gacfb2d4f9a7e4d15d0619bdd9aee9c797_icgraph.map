@@ -1,0 +1,5 @@
+<map id="Drv_SPI_get_Adr_Data_Obj" name="Drv_SPI_get_Adr_Data_Obj">
+<area shape="rect" id="Node000001" title="get address of the SPI data buffer" alt="" coords="163,5,344,31"/>
+<area shape="rect" id="Node000002" href="$a00425.html#ga2cbf2efea529b8033999a6fa72a6b3a1" title="initialize the local DMA structure" alt="" coords="5,5,115,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,21,115,21,115,15,149,15"/>
+</map>

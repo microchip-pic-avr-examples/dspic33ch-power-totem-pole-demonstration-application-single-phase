@@ -1,0 +1,5 @@
+<map id="VoltageController_PwrCtrl_TPBLPFC_Init" name="VoltageController_PwrCtrl_TPBLPFC_Init">
+<area shape="rect" id="Node000001" title="initialize voltage controller coefficient array(s)" alt="" coords="232,5,392,45"/>
+<area shape="rect" id="Node000002" href="$a00365.html#abecfb276359657d445e0f49eaa51166d" title="initialization" alt="" coords="5,13,184,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,28,184,28,184,23,218,23"/>
+</map>

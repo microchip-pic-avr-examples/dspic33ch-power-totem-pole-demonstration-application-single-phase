@@ -1,0 +1,14 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/sources/driver/i2c/drv_i2c.h" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_primary_IL.X/sources/driver/i2c/drv_i2c.h">
+<area shape="rect" id="Node000001" title="This is the driver header file for DMA driver." alt="" coords="5,5,227,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="53,240,99,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,119,84,227,79,226,102,118"/>
+<area shape="rect" id="Node000003" href="$a00248_source.html" title=" " alt="" coords="127,167,185,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,118,150,153,145,155,133,120"/>
+<area shape="poly" id="edge6_Node000003_Node000002" title=" " alt="" coords="145,194,101,233,97,229,141,190"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="123,240,189,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="159,192,159,226,153,226,153,192"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="213,240,288,265"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="173,190,226,229,223,234,170,194"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="313,240,381,265"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="186,189,304,233,302,238,184,194"/>
+</map>

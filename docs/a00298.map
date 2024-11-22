@@ -1,0 +1,11 @@
+<map id="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/mcc_generated_files/main_core/main_core.h" name="C:/Users/M70027/Documents/Projects/tp&#45;deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase_v2/dspic33ch_totem_pole_single_phase_secondary_IL.X/mcc_generated_files/main_core/main_core.h">
+<area shape="rect" id="Node000001" title="This is the generated driver header file for the MAIN_CORE driver." alt="" coords="392,5,676,119"/>
+<area shape="rect" id="Node000002" href="$a00305.html" title="This is the generated driver source file for MAIN_CORE driver." alt="" coords="5,167,236,295"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="380,119,250,169,237,175,235,170,248,164,378,114"/>
+<area shape="rect" id="Node000003" href="$a00844.html" title="This is the generated driver header file for the System driver." alt="" coords="261,174,533,287"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="481,131,445,175,441,172,477,128"/>
+<area shape="rect" id="Node000004" href="$a00347.html" title="This is the driver source file for adc builds upon mcc." alt="" coords="557,174,788,287"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="591,128,628,172,624,175,587,131"/>
+<area shape="rect" id="Node000005" href="$a00353.html" title="This is the driver source file for MSI." alt="" coords="812,174,1043,287"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="690,118,802,164,818,171,816,176,800,169,688,123"/>
+</map>

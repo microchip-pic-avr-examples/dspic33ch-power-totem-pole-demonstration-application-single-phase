@@ -1,0 +1,7 @@
+<map id="ReceiveMSIAMessage" name="ReceiveMSIAMessage">
+<area shape="rect" id="Node000001" title="M&#45;&gt;S protocolA mailbox, receive mailbox A." alt="" coords="5,5,157,31"/>
+<area shape="rect" id="Node000002" href="$a00420.html#ga6441b5fad8233f83a6afe63a8861b333" title="This routine reads data from mailbox." alt="" coords="205,5,388,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,15,192,15,192,21,158,21"/>
+<area shape="rect" id="Node000003" href="$a00420.html#ga8b485c96b189f1ace72033f47f88ddd3" title="This inline function checks whether mailbox is full. Returns true if New data are ready to read...." alt="" coords="436,5,620,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="388,15,422,15,422,21,388,21"/>
+</map>

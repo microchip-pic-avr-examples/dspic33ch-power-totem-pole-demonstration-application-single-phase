@@ -1,0 +1,9 @@
+<map id="CAN1_SystemErrorCallbackRegister" name="CAN1_SystemErrorCallbackRegister">
+<area shape="rect" id="Node000001" title="This function can be used to override default callback and to define custom callback for CAN1_SystemE..." alt="" coords="585,5,772,45"/>
+<area shape="rect" id="Node000002" href="$a00405.html#gaa87a20920f9eeb971cc0fb144ab9f9ee" title="This function enables the CAN1 error notification interrupt." alt="" coords="343,13,537,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="571,28,537,28,537,23,571,23"/>
+<area shape="rect" id="Node000003" href="$a00405.html#gadd8850a15e40f5316f9e614fd70ec956" title="Initializes CAN1 module." alt="" coords="184,13,295,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="329,28,295,28,295,23,329,23"/>
+<area shape="rect" id="Node000004" href="$a00412.html#ga5e8391114a0cf91ac20002be25e3d352" title="Initializes the System module." alt="" coords="5,13,136,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="170,28,136,28,136,23,170,23"/>
+</map>
