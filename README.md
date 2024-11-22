@@ -54,7 +54,7 @@ This readme aims to provide a quick start guide in controlling and running the P
 ## Software Used
 
 - [MPLAB&reg; X IDE v6.20](https://www.microchip.com/mplabx-ide-windows-installer)
-- [MPLAB&reg; XC-DSC Compiler v3.00](https://www.microchip.com/en-us/tools-resources/archives/mplab-ecosystem)
+- [MPLAB&reg; XC-DSC Compiler v3.10](https://www.microchip.com/en-us/tools-resources/archives/mplab-ecosystem)
 - [Microchip Code Configurator v5.7.0](https://www.microchip.com/mplab/mplab-code-configurator)
 - [MPLAB® PowerSmart™ Development Suite](https://www.microchip.com/en-us/solutions/power-management-and-conversion/intelligent-power/mplab-powersmart-development-suite)
 - [Digital Compensator Design Tool](https://www.microchip.com/developmenttools/ProductDetails/DCDT)

@@ -8,8 +8,7 @@ This is the new revision demonstrating the following operating modes
 
 ### Features Added\Updated
 
-Interleaved mode added to increase the power output. Now the same hardware can do up 7.8Kw 
-
+Interleaved mode added to increase the power output. Now the same hardware can do up 7.8KW
 
 
 
