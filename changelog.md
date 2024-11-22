@@ -1,3 +1,10 @@
+# dspic33ch-power-totem-pole-demonstration-application-single-phase v2.0.1
+
+### Features Added\Updated
+
+* Minor corrections in documentation
+
+
 # dspic33ch-power-totem-pole-demonstration-application-single-phase v2.0.0
 ### Release Highlights
 

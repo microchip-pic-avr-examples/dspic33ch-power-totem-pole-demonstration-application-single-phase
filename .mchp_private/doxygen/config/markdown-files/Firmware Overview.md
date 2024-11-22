@@ -228,18 +228,38 @@ In grid tied inverter there is only internal current loop, and the voltage loop 
 
 <p>
 <p>
-<a target="_blank" rel="nofollow" href="images/Complete.png">
-<img src="images/Complete.png" alt="Control Scheme PFC" width="600">
+<a target="_blank" rel="nofollow" href="images/complete.png">
+<img src="images/complete.png" alt="Control Scheme PFC" width="600">
 </a>
 </p>
 
+<p>
+<center>
+<a target="_blank" rel="nofollow">
+<b>
+PFC Control Scheme
+</b>
+</a>
+</center>
+</p>
+ 
 <p>
 <p>
 <a target="_blank" rel="nofollow" href="images/inverter_control_hres.png">
 <img src="images/inverter_control_hres.png" alt="Inverter Control Scheme" width="600">
 </a>
 </p>
-
+                                                                                     
+<p>
+<center>
+<a target="_blank" rel="nofollow">
+<b>
+Inverter Control Scheme
+</b>
+</a>
+</center>
+</p>
+                                                                                    
 ### DCDT
 
 In this project, the [Microchip Digital Compensator Design Tool](https://www.microchip.com/en-us/development-tool/dcdt) has been employed for managing control loops. This software utility is specifically designed to aid engineers in the development and optimization of digital compensators for power supply systems. The tool streamlines the design process of digital control loops by offering an intuitive interface for configuring and tuning compensators.
