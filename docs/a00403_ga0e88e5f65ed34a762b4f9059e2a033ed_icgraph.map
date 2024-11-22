@@ -1,0 +1,8 @@
+<map id="INTERRUPT_GlobalEnable" name="INTERRUPT_GlobalEnable">
+<area shape="rect" id="Node000001" title="Enables the global interrupt bit." alt="" coords="333,31,509,57"/>
+<area shape="rect" id="Node000002" href="$a00402.html#ga1bc5134c539119189fc912e50bb40f0c" title="Initializes the DMT module." alt="" coords="183,5,285,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="318,33,285,28,286,23,318,27"/>
+<area shape="rect" id="Node000003" href="$a00406.html#ga5e8391114a0cf91ac20002be25e3d352" title="Initializes the System module." alt="" coords="5,31,135,57"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="318,47,135,47,135,41,318,41"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="168,31,135,37,135,31,168,26"/>
+</map>

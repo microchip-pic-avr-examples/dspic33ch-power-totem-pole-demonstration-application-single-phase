@@ -1,0 +1,11 @@
+<map id="I2C_s" name="I2C_s">
+<area shape="rect" id="Node000001" title=" " alt="" coords="37,608,153,699"/>
+<area shape="rect" id="Node000002" href="$a00501.html" title=" " alt="" coords="5,296,108,515"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,514,88,591,83,592,71,515"/>
+<area shape="rect" id="Node000003" href="$a00537.html" title=" " alt="" coords="133,267,282,544"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,545,140,585,136,594,131,592,136,583,154,543"/>
+<area shape="rect" id="Node000004" href="$a00513.html" title=" " alt="" coords="91,5,188,203"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="139,202,144,242,146,250,140,251,139,243,134,203"/>
+<area shape="rect" id="Node000005" href="$a00525.html" title=" " alt="" coords="226,5,327,203"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="259,203,250,243,248,251,243,250,245,242,254,202"/>
+</map>

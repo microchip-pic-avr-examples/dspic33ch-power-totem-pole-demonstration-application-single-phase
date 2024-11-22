@@ -1,32 +1,30 @@
 var a00413 =
 [
-    [ "reset_types.h", "a00799.html", null ],
-    [ "reset.c", "a00835.html", null ],
-    [ "reset_types.h", "a00802.html", null ],
-    [ "reset.c", "a00838.html", null ],
-    [ "RESET_MASKS", "a00413.html#ga3b9230c673ed49797255d1f6173d45bc", [
-      [ "RESET_MASK_POR", "a00799.html#ga3b9230c673ed49797255d1f6173d45bcade24eaaa45bcfb478a59f3883741fb88", null ],
-      [ "RESET_MASK_WDTO", "a00799.html#ga3b9230c673ed49797255d1f6173d45bca0195abe5d431a7bed22c78fab34e17ad", null ],
-      [ "RESET_MASK_SWR", "a00799.html#ga3b9230c673ed49797255d1f6173d45bca614781b5da4962bd9265aa5fca72c7c1", null ],
-      [ "RESET_MASK_EXTR", "a00799.html#ga3b9230c673ed49797255d1f6173d45bca3fa962659b419b21fc3d0a6543384e6f", null ],
-      [ "RESET_MASK_CM", "a00799.html#ga3b9230c673ed49797255d1f6173d45bca8d4a8d4c0d7ad5ea8646046862decb4e", null ],
-      [ "RESET_MASK_IOPUWR", "a00799.html#ga3b9230c673ed49797255d1f6173d45bcaaae0abec60599ee127c50bc78bf200fa", null ],
-      [ "RESET_MASK_TRAPR", "a00799.html#ga3b9230c673ed49797255d1f6173d45bcac55f85ffed9cf26e28cd21e20dc062aa", null ]
+    [ "spi1.h", "a00134.html", null ],
+    [ "spi1.c", "a00140.html", null ],
+    [ "SPI_CLIENT_INTERFACE", "a00473.html", [
+      [ "ByteExchange", "a00473.html#a4ea469c34e8de32706328d231027012e", null ],
+      [ "ByteRead", "a00473.html#a9a1f275e5f9e8f8fa79a1d3066721586", null ],
+      [ "ByteWrite", "a00473.html#af64d3608a61bb8db3dd630cf013b2925", null ],
+      [ "Close", "a00473.html#afe54572dbd83578a45d1cd4156c0979d", null ],
+      [ "Deinitialize", "a00473.html#ab6aa2863d2196e9f95f70fde91049ee6", null ],
+      [ "Initialize", "a00473.html#afea2a7e78ccb7643d694c4bd7fa2ed5f", null ],
+      [ "IsRxReady", "a00473.html#a111cc52d412b65057c6d68192920cf15", null ],
+      [ "IsTxReady", "a00473.html#a295aa5a5eac0e7f79874046787b8c211", null ],
+      [ "Open", "a00473.html#a093c641789bd1654c0dddbfac775a789", null ]
     ] ],
-    [ "RESET_TYPES", "a00413.html#ga92cc33c67de24fe26250120e3aafda6c", [
-      [ "RESET_ERROR_RCON_TRAPR", "a00799.html#ga92cc33c67de24fe26250120e3aafda6cad974210eb3f052af587cafd1471f0f67", null ],
-      [ "RESET_ERROR_RCON_IOPUWR", "a00799.html#ga92cc33c67de24fe26250120e3aafda6cad50f2cab06dc54dd6fee62dc023aadb9", null ],
-      [ "RESET_ERROR_RCON_CM", "a00799.html#ga92cc33c67de24fe26250120e3aafda6cad15efd66bf9cfb08382194b72b39cd96", null ],
-      [ "RESET_ERROR_RCON_WDTO_ISR", "a00799.html#ga92cc33c67de24fe26250120e3aafda6caad384de18a0059f8c1f7edd96d92fcd6", null ]
+    [ "SPI1_CONFIG", "a00709.html", null ],
+    [ "SPI1_CLIENT_USER_CONFIG", "a00413.html#ga9097219fca2b4ee441a220d652f3f048", [
+      [ "CLIENT_CONFIG", "a00134.html#ga9097219fca2b4ee441a220d652f3f048aaea3328b4776cdc1e6bf86541ceecc2b", null ]
     ] ],
-    [ "RESET_CauseClear", "a00413.html#ga0174a76fda8d92f242395a797470b7b1", null ],
-    [ "RESET_CauseClearAll", "a00413.html#gab767709d3fa8a3900d01d4bd65158049", null ],
-    [ "RESET_CauseFromConfigurationMismatch", "a00413.html#gad6caf79bbee9b33bf903c186fd824059", null ],
-    [ "RESET_CauseFromExternal", "a00413.html#ga32b316332402fc7d3660d63a7fff528f", null ],
-    [ "RESET_CauseFromIllegalOpcode", "a00413.html#gae9bed7f7c62488a1a1e1aa053665a46d", null ],
-    [ "RESET_CauseFromSoftware", "a00413.html#ga7f962e95fa6bd2864091df4cf882eee7", null ],
-    [ "RESET_CauseFromTrap", "a00413.html#ga36c739c4dcee0f773bc467be47c87722", null ],
-    [ "RESET_CauseFromWatchdogTimer", "a00413.html#ga6283f56ec3cae6da1145799ddcc9b44a", null ],
-    [ "RESET_CauseGet", "a00413.html#gaa218141dacf762880dc162a2f499657c", null ],
-    [ "RESET_CauseHandler", "a00413.html#ga40e7771ae89212f587dfacec87076438", null ]
+    [ "SPI1_ByteExchange", "a00413.html#gafe7ea6074b9931e750e16043b6a432a7", null ],
+    [ "SPI1_ByteRead", "a00413.html#ga6c479f25d71ac806a14494998f6a7960", null ],
+    [ "SPI1_ByteWrite", "a00413.html#gad728d5aedee1185bc3a09b0d36ea37d8", null ],
+    [ "SPI1_Close", "a00413.html#ga8d97c5f4dff35a4940b7843207912659", null ],
+    [ "SPI1_Deinitialize", "a00413.html#ga35e445e1268256e17c999e392dfbd734", null ],
+    [ "SPI1_Initialize", "a00413.html#ga0607cad7a6b302950091fea719146a54", null ],
+    [ "SPI1_IsRxReady", "a00413.html#ga624a3d4d7745168fa766bb73fd586110", null ],
+    [ "SPI1_IsTxReady", "a00413.html#ga8ae0bf6204e8a3db81a06e3ae21af89e", null ],
+    [ "SPI1_Open", "a00413.html#ga430a72b7ceaf37d93533d857cff57a3a", null ],
+    [ "SPI1_Client", "a00413.html#ga5db4392bd13bcc017bc2713b5e1196e4", null ]
 ];

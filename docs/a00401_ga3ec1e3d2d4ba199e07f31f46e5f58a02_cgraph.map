@@ -1,0 +1,5 @@
+<map id="PWM_Deinitialize" name="PWM_Deinitialize">
+<area shape="rect" id="Node000001" title="Deinitializes the PWM to POR values." alt="" coords="5,5,130,32"/>
+<area shape="rect" id="Node000002" href="$a00401.html#ga5a3ef0885c3937caeb4107df9fb91e81" title="This inline function will disable all the generators of PWM module." alt="" coords="178,5,282,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,16,163,16,163,21,130,21"/>
+</map>

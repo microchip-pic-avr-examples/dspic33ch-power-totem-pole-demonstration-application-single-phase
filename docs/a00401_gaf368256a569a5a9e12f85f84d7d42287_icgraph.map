@@ -1,0 +1,5 @@
+<map id="PWM_DeadTimeHighSet" name="PWM_DeadTimeHighSet">
+<area shape="rect" id="Node000001" title="This inline function updates PWM Deadtime high register with the requested value for a specific PWM g..." alt="" coords="231,5,396,32"/>
+<area shape="rect" id="Node000002" href="$a00359.html#abecfb276359657d445e0f49eaa51166d" title=" " alt="" coords="5,5,183,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,21,183,21,183,16,216,16"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="CAN1_OperationModeGet" name="CAN1_OperationModeGet">
+<area shape="rect" id="Node000001" title="Get the CAN1 operation mode." alt="" coords="601,107,773,133"/>
+<area shape="rect" id="Node000002" href="$a00399.html#gaf5fa07221c88fc4aadfb447301ebfb0e" title="Sets the CAN1 operation mode." alt="" coords="383,69,553,96"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="590,106,550,99,551,94,591,101"/>
+<area shape="rect" id="Node000007" href="$a00399.html#gad99c960d1ed589ce80aca873a90e068e" title="Writes the CAN message object to specified transmit FIFO channel." alt="" coords="412,132,524,159"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="587,134,525,141,525,136,586,129"/>
+<area shape="rect" id="Node000003" href="$a00399.html#gaeb50d539a3c66d129458ae0927c3ba34" title="Deinitializes CAN1 to POR values." alt="" coords="196,5,322,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="407,67,304,35,306,30,409,62"/>
+<area shape="rect" id="Node000004" href="$a00399.html#gadd8850a15e40f5316f9e614fd70ec956" title="Initializes CAN1 module." alt="" coords="204,56,314,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="368,79,314,75,314,70,369,74"/>
+<area shape="rect" id="Node000006" href="$a00399.html#ga41d9a27d9d5e04efcb58c31006f43f98" title="Sets the CAN node in sleep mode." alt="" coords="211,107,307,133"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="376,102,307,114,306,109,375,97"/>
+<area shape="rect" id="Node000005" href="$a00406.html#ga5e8391114a0cf91ac20002be25e3d352" title="Initializes the System module." alt="" coords="5,56,135,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="189,72,135,72,135,67,189,67"/>
+<area shape="rect" id="Node000008" href="$a00227.html#a9511f6338931225152a644cd0b011f66" title=" " alt="" coords="183,157,335,184"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="398,156,336,164,335,159,397,151"/>
+</map>

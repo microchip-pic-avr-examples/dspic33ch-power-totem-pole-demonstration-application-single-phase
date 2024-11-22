@@ -1,0 +1,9 @@
+<map id="Housekeeping_Flags_Update" name="Housekeeping_Flags_Update">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,148,91"/>
+<area shape="rect" id="Node000002" href="$a00239.html#a5fe2662b714b85fd1b430cf48528c656" title=" " alt="" coords="219,5,385,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,51,224,33,225,38,149,56"/>
+<area shape="rect" id="Node000003" href="$a00251.html#af3fad6443af569b0da78810b219ebaaf" title=" " alt="" coords="196,56,408,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,67,181,67,181,72,148,72"/>
+<area shape="rect" id="Node000004" href="$a00251.html#a0c28951a0ab80e65e5bd85682bf5920a" title=" " alt="" coords="205,107,399,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,83,225,100,224,105,148,88"/>
+</map>

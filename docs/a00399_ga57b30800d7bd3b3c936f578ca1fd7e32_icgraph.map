@@ -1,0 +1,16 @@
+<map id="CAN1_FIFO_InfoGet" name="CAN1_FIFO_InfoGet">
+<area shape="rect" id="Node000001" title="This function get the FIFO user address, message depth and payload size information." alt="" coords="485,81,624,108"/>
+<area shape="rect" id="Node000002" href="$a00399.html#ga4fe1df4cd9f0ce122687dcfab0713b5b" title="Reads the received single message object." alt="" coords="272,5,380,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="511,77,436,47,379,31,380,26,438,41,513,72"/>
+<area shape="rect" id="Node000004" href="$a00399.html#gac27e97593d8d9bd7787d116910adc40d" title="Returns the number of CAN messages received in all the FIFO." alt="" coords="215,56,437,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="470,88,437,84,438,79,471,83"/>
+<area shape="rect" id="Node000005" href="$a00399.html#ga2c655a58965fff8578916b59bed47297" title="Reads the received single message object from the CAN1 receive FIFO." alt="" coords="235,107,417,133"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="471,107,417,113,417,107,470,101"/>
+<area shape="rect" id="Node000006" href="$a00399.html#gad99c960d1ed589ce80aca873a90e068e" title="Writes the CAN message object to specified transmit FIFO channel." alt="" coords="270,157,382,184"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="513,117,438,148,383,163,382,157,436,143,511,112"/>
+<area shape="rect" id="Node000003" href="$a00227.html#a77b41fe067ba8e8d666827b686e52cff" title=" " alt="" coords="5,31,167,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="258,28,168,38,167,33,257,23"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="199,59,167,55,168,50,200,53"/>
+<area shape="rect" id="Node000007" href="$a00227.html#a9511f6338931225152a644cd0b011f66" title=" " alt="" coords="10,157,162,184"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="255,173,163,173,163,168,255,168"/>
+</map>

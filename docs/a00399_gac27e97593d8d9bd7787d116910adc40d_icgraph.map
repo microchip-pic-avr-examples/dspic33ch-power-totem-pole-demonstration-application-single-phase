@@ -1,0 +1,5 @@
+<map id="CAN1_ReceivedMessageCountGet" name="CAN1_ReceivedMessageCountGet">
+<area shape="rect" id="Node000001" title="Returns the number of CAN messages received in all the FIFO." alt="" coords="215,5,437,32"/>
+<area shape="rect" id="Node000002" href="$a00227.html#a77b41fe067ba8e8d666827b686e52cff" title=" " alt="" coords="5,5,167,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,21,167,21,167,16,200,16"/>
+</map>

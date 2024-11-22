@@ -1,0 +1,11 @@
+<map id="CAN1_OperationModeSet" name="CAN1_OperationModeSet">
+<area shape="rect" id="Node000001" title="Sets the CAN1 operation mode." alt="" coords="356,56,526,83"/>
+<area shape="rect" id="Node000002" href="$a00399.html#gaeb50d539a3c66d129458ae0927c3ba34" title="Deinitializes CAN1 to POR values." alt="" coords="183,5,308,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="372,54,299,35,300,30,373,49"/>
+<area shape="rect" id="Node000003" href="$a00399.html#gadd8850a15e40f5316f9e614fd70ec956" title="Initializes CAN1 module." alt="" coords="191,56,300,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="341,72,301,72,301,67,341,67"/>
+<area shape="rect" id="Node000005" href="$a00399.html#ga41d9a27d9d5e04efcb58c31006f43f98" title="Sets the CAN node in sleep mode." alt="" coords="198,107,293,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="373,90,294,110,293,105,372,84"/>
+<area shape="rect" id="Node000004" href="$a00406.html#ga5e8391114a0cf91ac20002be25e3d352" title="Initializes the System module." alt="" coords="5,56,135,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="176,72,135,72,135,67,176,67"/>
+</map>

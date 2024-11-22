@@ -1,0 +1,18 @@
+<map id="D:/Firmware/MCU16ASMPS_TestEnvironment/_deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase/dspic33ch_totem_pole_single_phase_secondary_IL.X/mcc_generated_files/adc/adc1.h" name="D:/Firmware/MCU16ASMPS_TestEnvironment/_deployment/dspic33ch&#45;power&#45;totem&#45;pole&#45;demonstration&#45;application&#45;single&#45;phase/dspic33ch_totem_pole_single_phase_secondary_IL.X/mcc_generated_files/adc/adc1.h">
+<area shape="rect" id="Node000001" title="This is the generated driver header file for the ADC1 driver." alt="" coords="14,5,265,128"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,176,52,203"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,130,52,167,48,163,82,127"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="9,259,83,285"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="114,129,60,246,55,244,109,127"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="107,259,171,285"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="142,128,142,243,137,243,137,128"/>
+<area shape="rect" id="Node000005" href="$a00284.html" title="This is the generated driver types header file for the ADC driver." alt="" coords="346,259,439,285"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="236,126,300,174,340,211,374,246,370,250,336,215,296,178,233,131"/>
+<area shape="rect" id="Node000006" href="$a00281_source.html" title=" " alt="" coords="177,176,286,203"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="188,127,215,163,211,166,183,130"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="203,206,89,255,87,250,201,201"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="219,205,166,251,162,247,215,201"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="258,201,356,249,353,254,255,206"/>
+<area shape="rect" id="Node000007" href="$a00778_source.html" title=" " alt="" coords="196,251,323,293"/>
+<area shape="poly" id="edge9_Node000006_Node000007" title=" " alt="" coords="238,202,250,236,245,238,233,204"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="VACM_s" name="VACM_s">
+<area shape="rect" id="Node000001" title="Main AC Monitor data object data type declaration." alt="" coords="324,471,389,540"/>
+<area shape="rect" id="Node000002" href="$a00557.html" title="ADD_SHORT_DESCRIPTION." alt="" coords="5,124,127,407"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,391,141,405,181,435,225,459,269,477,309,490,307,495,267,482,222,464,178,439,138,409,124,395"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="178,5,327,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="187,85,141,126,129,142,124,139,137,122,183,81"/>
+<area shape="rect" id="Node000004" href="$a00569.html" title="ADD_SHORT_DESCRIPTION." alt="" coords="151,124,263,407"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="246,89,238,125,233,124,240,88"/>
+<area shape="rect" id="Node000005" href="$a00589.html" title="ADD_SHORT_DESCRIPTION." alt="" coords="287,156,426,375"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="277,86,309,155,304,157,272,88"/>
+<area shape="rect" id="Node000006" href="$a00581.html" title="ADD_SHORT_DESCRIPTION." alt="" coords="450,145,543,385"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="342,63,394,87,418,103,440,122,457,144,453,147,436,126,415,107,391,92,340,68"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="266,386,278,405,316,456,312,459,273,408,261,388"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="359,375,359,454,354,454,354,375"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="464,386,448,418,429,448,404,475,400,471,425,445,444,416,459,384"/>
+<area shape="rect" id="Node000007" href="$a00585.html" title=" " alt="" coords="568,209,761,321"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="633,323,599,367,557,409,520,435,480,457,406,490,404,485,478,453,517,430,554,405,595,364,629,319"/>
+</map>

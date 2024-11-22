@@ -1,0 +1,5 @@
+<map id="RESET_CauseGet" name="RESET_CauseGet">
+<area shape="rect" id="Node000001" title="Returns the cause of previous reset." alt="" coords="206,5,335,32"/>
+<area shape="rect" id="Node000002" href="$a00407.html#ga40e7771ae89212f587dfacec87076438" title="It handles the reset cause by clearing the cause register values. This is a weak attribute function...." alt="" coords="5,5,158,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,21,158,21,158,16,191,16"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="VOUT_HystereticCheck" name="VOUT_HystereticCheck">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,165,57"/>
+<area shape="rect" id="Node000002" href="$a00401.html#ga531b59d8823e3ebda2da60f48582bcf3" title="This inline function enables PWM override on PWMH output for specific PWM generator selected by the a..." alt="" coords="213,5,387,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,32,197,28,198,33,165,37"/>
+<area shape="rect" id="Node000003" href="$a00401.html#ga2548ca8feda75ba6ab784280679da6ae" title="This inline function enables PWM override on PWML output for specific PWM generator selected by the a..." alt="" coords="214,56,386,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,51,199,55,199,60,164,56"/>
+</map>

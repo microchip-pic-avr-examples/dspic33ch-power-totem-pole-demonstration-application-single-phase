@@ -1,0 +1,13 @@
+<map id="DutyCycleFeedForward_PHx" name="DutyCycleFeedForward_PHx">
+<area shape="rect" id="Node000001" title=" " alt="" coords="540,31,729,57"/>
+<area shape="rect" id="Node000002" href="$a00365.html#a647fd6dacbfbcebe49cc34111a01493b" title=" " alt="" coords="395,31,492,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="526,47,493,47,493,41,526,41"/>
+<area shape="rect" id="Node000003" href="$a00365.html#aa7b8e2dc355948aa24cf22ca82f9e805" title=" " alt="" coords="181,5,347,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="380,38,347,33,348,28,380,32"/>
+<area shape="rect" id="Node000005" href="$a00365.html#a87fa9190951df7c866d828b8ad7b526b" title=" " alt="" coords="181,56,347,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="380,56,348,60,347,55,380,50"/>
+<area shape="rect" id="Node000004" href="$a00341.html#a968747854ba14331aa9f85784178d0da" title=" " alt="" coords="5,5,133,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="166,21,133,21,133,16,166,16"/>
+<area shape="rect" id="Node000006" href="$a00341.html#a6ac2591aa2e32874156ad3f8bf477d2f" title=" " alt="" coords="5,56,133,83"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="166,72,133,72,133,67,166,67"/>
+</map>

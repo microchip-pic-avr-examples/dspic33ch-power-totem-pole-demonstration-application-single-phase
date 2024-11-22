@@ -1,0 +1,5 @@
+<map id="SEC_CORE1_ProtocolWrite" name="SEC_CORE1_ProtocolWrite">
+<area shape="rect" id="Node000001" title="This routine writes data to mailbox." alt="" coords="5,5,191,32"/>
+<area shape="rect" id="Node000002" href="$a00415.html#ga7048b9c95d3c78e856b4af93f8bac646" title="This inline function checks whether mailbox is empty. Returns true if Protocol is empty indicating ma..." alt="" coords="239,5,441,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,16,224,16,224,21,191,21"/>
+</map>

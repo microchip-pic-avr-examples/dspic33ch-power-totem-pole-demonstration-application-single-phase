@@ -19,11 +19,8 @@ var searchData=
   ['vacm_5fvin_5faverage_16',['vacm_vin_average',['../a00257.html#a4d1cffa8629c7a211d571e6c96fe94ac',1,'vac_monitor.c']]],
   ['vacm_5fvloop_5ffeedforward_5fupdate_17',['vacm_vloop_feedforward_update',['../a00257.html#a2cdea5653d497660110732024dff3bc2',1,'vac_monitor.c']]],
   ['vacm_5fzerocross_5fdetect_18',['vacm_zerocross_detect',['../a00257.html#ae168f993edb4be6bef378eeb2f7d62d6',1,'vac_monitor.c']]],
-  ['vacok_5fcheck_19',['VACOK_Check',['../a00431.html#ga4fc797d6e302efdf04cccc92f1094252',1,'main_tasks.c']]],
-  ['vacok_5fstatehandler_20',['VacOk_StateHandler',['../a00431.html#ga8acb56a7c46813c75b69dff40a252898',1,'main_tasks.c']]],
-  ['voltagecontroller_5fpwrctrl_5ftpblpfc_5finit_21',['VoltageController_PwrCtrl_TPBLPFC_Init',['../a00359.html#a03f01aedf81f2d089607e8c412fce3bb',1,'VoltageController_PwrCtrl_TPBLPFC_Init(void):&#160;drv_controller_TPBLPFC.c'],['../a00362.html#a03f01aedf81f2d089607e8c412fce3bb',1,'VoltageController_PwrCtrl_TPBLPFC_Init(void):&#160;drv_controller_TPBLPFC.c']]],
-  ['vout_5fhystereticcheck_22',['VOUT_HystereticCheck',['../a00371.html#a3c1c3278a759d0a53b473f7ee8786d12',1,'drv_pwrctrl_app_TPBLPFC.c']]],
-  ['voutaveraging_23',['VOUTaveraging',['../a00371.html#a88d1001937f9c64e4327a9828fc17b45',1,'drv_pwrctrl_app_TPBLPFC.c']]],
-  ['voutbalancecontroller_5fpwrctrl_5ftpblpfc_5finit_24',['VoutBalanceController_PwrCtrl_TPBLPFC_Init',['../a00362.html#a2384eb213eb5184149182202f95f51e7',1,'drv_controller_TPBLPFC.h']]],
-  ['voutpreload_5fstatehandler_25',['VoutPreLoad_StateHandler',['../a00431.html#gacc4bae28b11e678430b4ecb1b2f52144',1,'main_tasks.c']]]
+  ['voltagecontroller_5fpwrctrl_5ftpblpfc_5finit_19',['VoltageController_PwrCtrl_TPBLPFC_Init',['../a00353.html#a03f01aedf81f2d089607e8c412fce3bb',1,'VoltageController_PwrCtrl_TPBLPFC_Init(void):&#160;drv_controller_TPBLPFC.c'],['../a00356.html#a03f01aedf81f2d089607e8c412fce3bb',1,'VoltageController_PwrCtrl_TPBLPFC_Init(void):&#160;drv_controller_TPBLPFC.c']]],
+  ['vout_5fhystereticcheck_20',['VOUT_HystereticCheck',['../a00365.html#a3c1c3278a759d0a53b473f7ee8786d12',1,'drv_pwrctrl_app_TPBLPFC.c']]],
+  ['voutaveraging_21',['VOUTaveraging',['../a00365.html#a88d1001937f9c64e4327a9828fc17b45',1,'drv_pwrctrl_app_TPBLPFC.c']]],
+  ['voutbalancecontroller_5fpwrctrl_5ftpblpfc_5finit_22',['VoutBalanceController_PwrCtrl_TPBLPFC_Init',['../a00356.html#a2384eb213eb5184149182202f95f51e7',1,'drv_controller_TPBLPFC.h']]]
 ];
