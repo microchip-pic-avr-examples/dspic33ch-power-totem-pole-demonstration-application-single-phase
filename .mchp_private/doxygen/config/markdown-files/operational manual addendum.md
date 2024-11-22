@@ -85,8 +85,8 @@ Current Source OFF
 (@LV: 13V ≙ 500digit)
 ```
 
-
-### PFC STARTUP
+## PFC Waveforms
+### PFC Startup
 
 On startup, PFC precharges the output caps, and then maintains an output voltage by periodically turning on the fast switching legs in Burst Mode
 
@@ -226,31 +226,6 @@ Interleaved Operation Zoomed in to show how the PWM interleaving works
 <a target="_blank" rel="nofollow">
 <b>
 Grid Tied Inverter Current and Voltage Waveforms
-</b>
-</a>
-</center>
-</p>
-
-
-<p>
-<center>
-<p>
-<a target="_blank" rel="nofollow" href="images/GTI/GTI_pos_ZC.png">
-<img src="images/GTI/GTI_pos_ZC.png" alt="zerocross" width="800">
-</a>
-&nbsp;
-<a target="_blank" rel="nofollow" href="images/GTI/GTI_neg_ZC.png"> 
-<img src="images/GTI/GTI_neg_ZC.png" width="800"></p>
-</a>
-</center>
-</p>
-  
-
-<p>
-<center>
-<a target="_blank" rel="nofollow">
-<b>
-Switching Behaviour at Positive and Negative Zero Cross
 </b>
 </a>
 </center>

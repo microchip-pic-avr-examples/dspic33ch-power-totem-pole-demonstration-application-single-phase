@@ -26,8 +26,8 @@ This readme aims to provide a quick start guide in controlling and running the P
 
 ### Firmware Documentation
 
-[Online Firmware Documentation of this Code Example](C:\Users\M70027\Documents\Projects\tp-deployment\v2\3.8kw-7.6kw-dspic33c-totem-pole-demonstration-applicatio\docs\html\index.html)  
-_refering to internal link, will not work for other machines_
+[Online Firmware Documentation of this Code Example](https://microchip-pic-avr-examples.github.io/dspic33ch-power-totem-pole-demonstration-application-single-phase/)
+
 
 ### Hardware Used
 
@@ -63,11 +63,11 @@ _refering to internal link, will not work for other machines_
 
 ## Directory Structure
 
-Note that there are two MPLABx projects associated with this deployment, one for the primary core and one for the secondary core.
+Note that there are two MPLABx projects associated with this project, one for the primary core and one for the secondary core.
 
 ```
-├───dspic33ch_totem_pole_single_phase_primary.X      dspic33ch512mp506 Primary core Project
-├───dspic33ch_totem_pole_single_phase_secondary.X    dspic33ch512mp506 Secondary core Project
+├───dspic33ch_totem_pole_single_phase_primary_IL.X      dspic33ch512mp506 Primary core Project
+├───dspic33ch_totem_pole_single_phase_secondary_IL.X    dspic33ch512mp506 Secondary core Project
 ├───images                                           Images for the Readme
 ├───power_board_visualizer_xmls                      Power Board Visualizer Projects
 ├───pre_compiled_hex_files                           Pre compiled Hex files for PFC and GTI modes
@@ -160,8 +160,8 @@ Thie status group lists the health and communication of SiC cards, as well as th
 After opening the right Power board Visualizer Project, following sequence of actions are to be taken to start the board
 
 1. Select the right comm port and enable the port. 
-2. If everything is setup correctly, you will see some status/housekeeping data, and the system in PCS_STANDBY state.
-3. Change reference voltage/current if you want to. 
+2. If everything is setup correctly, you will see some status/housekeeping data, and the system in PCS_STANDBY state. Confirm that the right operation Mode is programmed by looking at the Status Flags.
+3. Change reference voltage/current if needed. 
 4. Click on Start. The system will jump quickly through the states, and then should land on PCS_UP_AND_RUNNING.
 
 

@@ -258,7 +258,7 @@ The corresponding gain factors for certain load cases were measured in the appli
 </a>
 </p>
 
-## Interleaved
+## Interleaved Operation
 
 <p>
 <p>
