@@ -1,0 +1,5 @@
+<map id="SEC_CORE1_FIFOWrite" name="SEC_CORE1_FIFOWrite">
+<area shape="rect" id="Node000001" title="This routine transfers FIFO data to SEC_CORE1." alt="" coords="5,5,172,32"/>
+<area shape="rect" id="Node000002" href="$a00415.html#gae2a8e983197032ff0a21c300f6e047df" title="This inline function checks whether the status of Write FIFO is Full. Returns true if last write by M..." alt="" coords="220,5,417,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,16,205,16,205,21,172,21"/>
+</map>

@@ -1,0 +1,54 @@
+<map id="Application_handler_PH1" name="Application_handler_PH1">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,259,172,285"/>
+<area shape="rect" id="Node000002" href="$a00365.html#a647fd6dacbfbcebe49cc34111a01493b" title=" " alt="" coords="226,259,324,285"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,269,211,269,211,275,172,275"/>
+<area shape="rect" id="Node000017" href="$a00365.html#a3c1c3278a759d0a53b473f7ee8786d12" title=" " alt="" coords="409,5,568,32"/>
+<area shape="poly" id="edge31_Node000001_Node000017" title=" " alt="" coords="101,256,143,214,208,156,288,94,332,66,377,42,394,34,396,39,379,46,334,71,291,99,211,160,147,218,105,260"/>
+<area shape="rect" id="Node000018" href="$a00365.html#a88d1001937f9c64e4327a9828fc17b45" title=" " alt="" coords="220,309,330,336"/>
+<area shape="poly" id="edge34_Node000001_Node000018" title=" " alt="" coords="141,283,210,302,209,308,140,289"/>
+<area shape="rect" id="Node000003" href="$a00365.html#af6c4a58221bd490ef4d2084547601a10" title=" " alt="" coords="386,259,592,285"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="324,269,370,269,370,275,324,275"/>
+<area shape="rect" id="Node000004" href="$a00365.html#a51a90512029dd0d15f013ea8548c5e7c" title=" " alt="" coords="431,56,547,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="277,258,289,224,308,179,337,132,356,111,376,93,395,82,415,74,417,79,397,87,380,97,359,115,342,135,313,181,294,226,282,259"/>
+<area shape="rect" id="Node000007" href="$a00365.html#a69847930c99b34bceb7165143cd28b92" title=" " alt="" coords="448,309,530,336"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="324,281,379,295,434,308,432,313,377,300,323,287"/>
+<area shape="rect" id="Node000010" href="$a00365.html#a02e735cc5f9ec0075b4b0157326fd3db" title=" " alt="" coords="395,107,583,133"/>
+<area shape="poly" id="edge11_Node000002_Node000010" title=" " alt="" coords="281,257,317,201,344,170,377,143,387,137,390,142,379,148,348,173,321,204,286,259"/>
+<area shape="rect" id="Node000011" href="$a00401.html#ga37968a783e44cd80643478d2b559dbf4" title="This inline function sets the PWM generator specific duty cycle register." alt="" coords="665,499,807,525"/>
+<area shape="poly" id="edge12_Node000002_Node000011" title=" " alt="" coords="319,284,332,296,350,328,356,360,355,391,350,421,347,450,348,478,357,505,380,530,415,552,455,564,497,569,540,568,583,561,623,552,690,529,692,534,624,557,584,566,541,573,497,574,454,570,413,557,376,534,353,507,342,479,341,450,345,420,350,390,351,360,345,330,328,299,315,288"/>
+<area shape="rect" id="Node000012" href="$a00374.html#ac4c8852561395f2969c08ff062325e03" title=" " alt="" coords="393,157,585,184"/>
+<area shape="poly" id="edge13_Node000002_Node000012" title=" " alt="" coords="288,257,326,225,377,194,394,187,396,192,379,198,330,229,292,261"/>
+<area shape="rect" id="Node000013" href="$a00365.html#ad3476b7cd98e6a22a65e1d89b7a59ea5" title=" " alt="" coords="416,477,561,520"/>
+<area shape="poly" id="edge14_Node000002_Node000013" title=" " alt="" coords="318,284,332,296,347,318,354,340,355,383,357,423,365,443,380,463,404,480,401,485,376,467,360,446,352,425,350,383,348,341,342,320,328,299,314,288"/>
+<area shape="rect" id="Node000014" href="$a00365.html#a3e7091905b384bca668f6f12a50834f4" title=" " alt="" coords="416,411,561,453"/>
+<area shape="poly" id="edge20_Node000002_Node000014" title=" " alt="" coords="316,284,332,295,350,322,356,348,362,373,380,397,404,412,401,416,376,401,357,375,350,350,345,324,328,299,313,288"/>
+<area shape="rect" id="Node000015" href="$a00374.html#a4fd6e889896907ceaae34b73435d5627" title=" " alt="" coords="378,208,599,235"/>
+<area shape="poly" id="edge26_Node000002_Node000015" title=" " alt="" coords="323,257,377,244,412,236,413,241,379,249,324,263"/>
+<area shape="rect" id="Node000016" href="$a00365.html#a9d01eea56aae5f1437eb541a321277cc" title=" " alt="" coords="433,360,545,387"/>
+<area shape="poly" id="edge27_Node000002_Node000016" title=" " alt="" coords="312,284,332,295,346,309,355,322,365,334,379,346,419,361,417,366,377,350,361,338,351,325,342,312,328,299,309,288"/>
+<area shape="rect" id="Node000005" href="$a00401.html#ga531b59d8823e3ebda2da60f48582bcf3" title="This inline function enables PWM override on PWMH output for specific PWM generator selected by the a..." alt="" coords="649,347,823,373"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="548,68,576,76,601,93,623,123,631,153,631,184,627,214,622,244,622,274,630,303,649,333,652,336,648,339,645,336,625,306,617,275,617,244,622,214,626,184,626,154,618,125,597,97,574,81,546,73"/>
+<area shape="rect" id="Node000006" href="$a00401.html#ga2548ca8feda75ba6ab784280679da6ae" title="This inline function enables PWM override on PWML output for specific PWM generator selected by the a..." alt="" coords="650,296,822,323"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="548,71,575,79,601,92,625,113,647,136,683,188,710,239,728,281,723,283,705,241,679,190,643,139,622,117,598,97,573,84,547,77"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="531,326,635,342,634,347,530,331"/>
+<area shape="poly" id="edge10_Node000007_Node000006" title=" " alt="" coords="530,318,635,312,636,317,531,323"/>
+<area shape="rect" id="Node000008" href="$a00401.html#ga957b002605bfb2239a26f174808b2ad8" title="This inline function disables PWM override on PWMH output for specific PWM generator selected by the ..." alt="" coords="647,448,825,475"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="531,321,567,329,601,346,619,368,626,391,633,413,649,434,655,438,652,443,645,438,628,415,621,392,615,370,598,350,565,334,530,327"/>
+<area shape="rect" id="Node000009" href="$a00401.html#gabbedef830c43428e96c7d5125662a8a6" title="This inline function disables PWM override on PWML output for specific PWM generator selected by the ..." alt="" coords="649,397,823,424"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="531,325,565,333,601,346,615,355,625,364,649,383,663,389,661,394,646,388,622,368,612,359,598,350,564,338,530,330"/>
+<area shape="poly" id="edge17_Node000013_Node000005" title=" " alt="" coords="561,483,598,463,614,444,621,424,628,404,646,383,653,378,656,383,649,387,633,406,626,426,618,447,601,467,563,487"/>
+<area shape="poly" id="edge19_Node000013_Node000006" title=" " alt="" coords="561,485,580,476,598,463,610,448,617,432,621,400,624,366,632,349,645,333,650,329,654,333,649,337,636,352,630,368,626,400,622,434,615,451,601,467,583,480,563,490"/>
+<area shape="poly" id="edge16_Node000013_Node000008" title=" " alt="" coords="561,485,632,474,633,480,562,490"/>
+<area shape="poly" id="edge18_Node000013_Node000009" title=" " alt="" coords="561,477,598,463,622,448,646,434,664,427,666,432,649,438,625,453,601,468,562,482"/>
+<area shape="poly" id="edge15_Node000013_Node000011" title=" " alt="" coords="562,500,651,505,650,510,561,505"/>
+<area shape="poly" id="edge23_Node000014_Node000005" title=" " alt="" coords="561,408,647,383,672,375,673,381,648,388,562,413"/>
+<area shape="poly" id="edge25_Node000014_Node000006" title=" " alt="" coords="561,415,598,397,613,381,621,365,629,349,646,333,655,327,658,332,649,337,634,352,626,368,617,384,601,401,563,420"/>
+<area shape="poly" id="edge22_Node000014_Node000008" title=" " alt="" coords="562,438,633,446,632,452,561,443"/>
+<area shape="poly" id="edge24_Node000014_Node000009" title=" " alt="" coords="561,423,634,417,634,422,562,428"/>
+<area shape="poly" id="edge21_Node000014_Node000011" title=" " alt="" coords="562,450,600,463,648,484,669,491,668,496,646,489,598,468,561,455"/>
+<area shape="poly" id="edge29_Node000016_Node000005" title=" " alt="" coords="545,368,634,363,634,368,545,373"/>
+<area shape="poly" id="edge30_Node000016_Node000006" title=" " alt="" coords="545,359,599,345,672,325,674,330,600,351,546,364"/>
+<area shape="poly" id="edge28_Node000016_Node000011" title=" " alt="" coords="546,374,574,382,601,397,619,419,626,442,633,464,649,485,655,489,652,493,645,489,628,466,621,443,615,421,598,401,572,387,544,380"/>
+<area shape="poly" id="edge32_Node000017_Node000005" title=" " alt="" coords="570,23,587,31,601,42,626,79,635,116,634,152,627,189,620,225,618,261,626,297,649,333,652,336,648,339,645,336,622,299,613,262,615,225,622,188,628,152,630,116,621,81,597,46,584,35,568,27"/>
+<area shape="poly" id="edge33_Node000017_Node000006" title=" " alt="" coords="570,26,601,42,629,68,653,98,691,165,717,229,731,281,726,282,712,231,686,167,649,101,625,72,598,46,567,30"/>
+</map>

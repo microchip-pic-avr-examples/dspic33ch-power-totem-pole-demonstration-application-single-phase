@@ -1,0 +1,5 @@
+<map id="ADC_INTERFACE" name="ADC_INTERFACE">
+<area shape="rect" id="Node000001" title="Structure containing the function pointers of ADC driver." alt="" coords="21,416,177,699"/>
+<area shape="rect" id="Node000002" href="$a00601.html" title="Structure containing the function pointers of ADC driver." alt="" coords="5,5,193,352"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,351,102,399,97,399,97,351"/>
+</map>

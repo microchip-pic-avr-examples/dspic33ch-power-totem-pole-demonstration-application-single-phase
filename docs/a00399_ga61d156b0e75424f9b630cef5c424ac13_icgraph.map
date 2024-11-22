@@ -1,0 +1,18 @@
+<map id="CAN1_DlcToDataBytesGet" name="CAN1_DlcToDataBytesGet">
+<area shape="rect" id="Node000001" title="This function get the DLC enum based decimal value." alt="" coords="688,81,866,108"/>
+<area shape="rect" id="Node000002" href="$a00399.html#gaa89329ca22f234476d55536c446b70e3" title="This function read the message object from receive FIFO and update to the user &#160;&#160;message object point..." alt="" coords="444,31,640,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="697,80,607,61,608,55,698,75"/>
+<area shape="rect" id="Node000006" href="$a00399.html#ga0980f888cad241edaa859783bb4a89d7" title="This function Read the message object from user input and update to the CAN1 TX FIFO." alt="" coords="452,81,633,108"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="674,97,633,97,633,92,674,92"/>
+<area shape="rect" id="Node000007" href="$a00399.html#gad99c960d1ed589ce80aca873a90e068e" title="Writes the CAN message object to specified transmit FIFO channel." alt="" coords="249,119,362,145"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="698,114,641,123,489,133,362,135,362,130,489,128,640,117,697,109"/>
+<area shape="rect" id="Node000003" href="$a00399.html#ga4fe1df4cd9f0ce122687dcfab0713b5b" title="Reads the received single message object." alt="" coords="252,5,359,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="429,35,359,27,359,22,430,29"/>
+<area shape="rect" id="Node000005" href="$a00399.html#ga2c655a58965fff8578916b59bed47297" title="Reads the received single message object from the CAN1 receive FIFO." alt="" coords="215,56,396,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="430,59,397,62,396,57,429,53"/>
+<area shape="rect" id="Node000004" href="$a00227.html#a77b41fe067ba8e8d666827b686e52cff" title=" " alt="" coords="5,5,167,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="237,21,167,21,167,16,237,16"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="440,114,362,126,361,121,439,108"/>
+<area shape="rect" id="Node000008" href="$a00227.html#a9511f6338931225152a644cd0b011f66" title=" " alt="" coords="10,119,162,145"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="234,135,162,135,162,129,234,129"/>
+</map>

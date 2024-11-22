@@ -1,7 +1,9 @@
 var a00426 =
 [
-    [ "drv_i2c.c", "a00239.html", null ],
-    [ "drv_i2c.h", "a00242.html", null ],
-    [ "Drv_I2C_Get_Write_Data", "a00426.html#ga5fe2662b714b85fd1b430cf48528c656", null ],
-    [ "Drv_I2C_Timeout", "a00426.html#ga56112e634e1b04cd17dbe4d05905db9c", null ]
+    [ "Power Controller driver files", "a00427.html", "a00427" ],
+    [ "Power Control misc app", "a00428.html", "a00428" ],
+    [ "Power Control app", "a00429.html", "a00429" ],
+    [ "Power Control Compensator", "a00430.html", "a00430" ],
+    [ "Power Control typedef", "a00431.html", "a00431" ],
+    [ "Control Loop Configuration", "a00432.html", "a00432" ]
 ];

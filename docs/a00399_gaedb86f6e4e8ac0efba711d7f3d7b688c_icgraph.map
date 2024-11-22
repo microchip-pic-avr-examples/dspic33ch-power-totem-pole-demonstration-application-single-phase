@@ -1,0 +1,7 @@
+<map id="CAN1_TX_FIFO_MessageSendRequest" name="CAN1_TX_FIFO_MessageSendRequest">
+<area shape="rect" id="Node000001" title="This function enables The FIFO transmit message send request bit." alt="" coords="366,5,568,48"/>
+<area shape="rect" id="Node000002" href="$a00399.html#gad99c960d1ed589ce80aca873a90e068e" title="Writes the CAN message object to specified transmit FIFO channel." alt="" coords="206,13,318,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="351,29,318,29,318,24,351,24"/>
+<area shape="rect" id="Node000003" href="$a00227.html#a9511f6338931225152a644cd0b011f66" title=" " alt="" coords="5,13,158,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="191,29,158,29,158,24,191,24"/>
+</map>

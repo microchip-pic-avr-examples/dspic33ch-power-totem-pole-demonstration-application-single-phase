@@ -1,0 +1,5 @@
+<map id="MAIN_CORE_FIFOReadIsEmpty" name="MAIN_CORE_FIFOReadIsEmpty">
+<area shape="rect" id="Node000001" title="This inline function checks whether the status of Read FIFO is Empty. Returns true if last read by Ma..." alt="" coords="217,5,428,32"/>
+<area shape="rect" id="Node000002" href="$a00414.html#ga268766044691ef85de45b0f3981f1612" title="This routine reads FIFO data sent from the Main Core." alt="" coords="5,5,169,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,21,169,21,169,16,202,16"/>
+</map>

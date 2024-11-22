@@ -1,0 +1,27 @@
+<map id="CAN_Receive_from_GUI" name="CAN_Receive_from_GUI">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,157,167,184"/>
+<area shape="rect" id="Node000002" href="$a00399.html#ga4fe1df4cd9f0ce122687dcfab0713b5b" title="Reads the received single message object." alt="" coords="272,157,380,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,168,257,168,257,173,167,173"/>
+<area shape="rect" id="Node000009" href="$a00399.html#gac27e97593d8d9bd7787d116910adc40d" title="Returns the number of CAN messages received in all the FIFO." alt="" coords="215,81,437,108"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="130,154,266,110,268,116,132,159"/>
+<area shape="rect" id="Node000011" href="$a00415.html#gab313dfcda98b03477bba5f3812dbb3cc" title="This routine writes data to mailbox." alt="" coords="233,267,419,293"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="118,182,282,258,280,262,116,187"/>
+<area shape="rect" id="Node000003" href="$a00399.html#ga57b30800d7bd3b3c936f578ca1fd7e32" title="This function get the FIFO user address, message depth and payload size information." alt="" coords="529,107,668,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="379,158,514,133,515,138,380,163"/>
+<area shape="rect" id="Node000004" href="$a00399.html#gaa89329ca22f234476d55536c446b70e3" title="This function read the message object from receive FIFO and update to the user &#160;&#160;message object point..." alt="" coords="500,157,696,184"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="380,168,485,168,485,173,380,173"/>
+<area shape="rect" id="Node000006" href="$a00399.html#ga0dab5f41a5a5ef032d23c2ba4890a866" title="This function Update the receive FIFO message increment tail position." alt="" coords="488,208,708,235"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="380,178,509,202,508,207,379,183"/>
+<area shape="rect" id="Node000007" href="$a00399.html#ga224fbf549503a57f5818cc8391105b8f" title="This function is used to clear the CAN1 receive FIFO overflow status bit." alt="" coords="495,259,702,301"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="354,182,414,212,486,244,504,251,503,256,484,249,411,217,352,187"/>
+<area shape="rect" id="Node000008" href="$a00399.html#ga4a6437adcdf1917fffef4e7e5761fda1" title="This returns the CAN1 receive FIFO status." alt="" coords="508,56,688,83"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="357,154,436,118,459,104,484,92,508,84,510,89,486,97,462,109,438,122,360,159"/>
+<area shape="rect" id="Node000005" href="$a00399.html#ga61d156b0e75424f9b630cef5c424ac13" title="This function get the DLC enum based decimal value." alt="" coords="759,157,937,184"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="697,168,745,168,745,173,697,173"/>
+<area shape="poly" id="edge9_Node000009_Node000003" title=" " alt="" coords="438,102,514,110,513,115,437,108"/>
+<area shape="poly" id="edge11_Node000009_Node000008" title=" " alt="" coords="437,82,493,76,493,82,438,87"/>
+<area shape="rect" id="Node000010" href="$a00399.html#ga5532c9a884cedd0805a011bf8baaabdd" title="This function get the Receiver FIFO message index value." alt="" coords="485,5,711,32"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="366,78,484,41,516,33,518,38,486,47,368,83"/>
+<area shape="rect" id="Node000012" href="$a00415.html#ga7048b9c95d3c78e856b4af93f8bac646" title="This inline function checks whether mailbox is empty. Returns true if Protocol is empty indicating ma..." alt="" coords="497,325,699,352"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="392,291,519,319,518,324,391,297"/>
+</map>

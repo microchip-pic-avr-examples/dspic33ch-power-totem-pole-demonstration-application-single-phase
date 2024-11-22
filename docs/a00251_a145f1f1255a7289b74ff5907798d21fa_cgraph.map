@@ -1,0 +1,15 @@
+<map id="SPI_Synchronize" name="SPI_Synchronize">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,127,108"/>
+<area shape="rect" id="Node000002" href="$a00412.html#gab59dab7bbec7ad0589d0fa8f57769a94" title="This inline function disables the DMA channel." alt="" coords="175,5,322,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,78,174,42,191,35,193,40,176,46,96,83"/>
+<area shape="rect" id="Node000003" href="$a00412.html#gad10f447e17425a18eac1b5186e2e8699" title="This inline function enables the DMA channel." alt="" coords="176,56,321,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="127,84,161,79,162,84,128,89"/>
+<area shape="rect" id="Node000004" href="$a00412.html#ga3950883876bea54b441aaf14ff17d47e" title="Initializes the DMA module." alt="" coords="196,107,301,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="128,100,182,108,181,113,127,106"/>
+<area shape="rect" id="Node000007" href="$a00413.html#ga0607cad7a6b302950091fea719146a54" title="Initializes SPI1 module, using the given initialization data. This function must be called before any..." alt="" coords="197,157,300,184"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="96,106,176,143,193,149,191,154,174,148,94,111"/>
+<area shape="rect" id="Node000005" href="$a00412.html#ga9f16d166d637fd9005839b1e1822dc63" title="This is the default callback with weak attribute. The user can override and implement the default cal..." alt="" coords="394,81,548,108"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="300,111,379,102,380,108,301,117"/>
+<area shape="rect" id="Node000006" href="$a00412.html#gab9190941904dd0add59b63f1e774fb2c" title="This function can be used to override default callback and to define custom callback for DMA Channel ..." alt="" coords="370,132,572,159"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="301,123,356,130,355,135,300,129"/>
+</map>

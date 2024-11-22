@@ -1,0 +1,7 @@
+<map id="CAN1_Deinitialize" name="CAN1_Deinitialize">
+<area shape="rect" id="Node000001" title="Deinitializes CAN1 to POR values." alt="" coords="5,5,131,32"/>
+<area shape="rect" id="Node000002" href="$a00399.html#gaf5fa07221c88fc4aadfb447301ebfb0e" title="Sets the CAN1 operation mode." alt="" coords="179,5,349,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,16,164,16,164,21,131,21"/>
+<area shape="rect" id="Node000003" href="$a00399.html#gaedd6e334545a38cd71fe86ff4f9e78c3" title="Get the CAN1 operation mode." alt="" coords="397,5,568,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="349,16,382,16,382,21,349,21"/>
+</map>

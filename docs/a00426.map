@@ -1,4 +1,10 @@
-<map id="I2C Driver" name="I2C Driver">
-<area shape="rect" id="Node000002" href="$a00422.html" title="Primary Driver Layer." alt="" coords="5,5,96,31"/>
-<area shape="rect" id="Node000001" title="builds upon MCC I2C" alt="" coords="144,5,221,31"/>
+<map id="Power Control" name="Power Control">
+<area shape="rect" id="Node000003" href="$a00427.html" title="Power controller drv_controller." alt="" coords="310,5,460,48"/>
+<area shape="rect" id="Node000005" href="$a00429.html" title="Power controller Application Handler." alt="" coords="321,72,448,99"/>
+<area shape="rect" id="Node000004" href="$a00428.html" title="Power controller misc app." alt="" coords="305,123,464,149"/>
+<area shape="rect" id="Node000006" href="$a00430.html" title="Power controller Exposing DCDT assembly functionality to the C code." alt="" coords="293,173,476,200"/>
+<area shape="rect" id="Node000007" href="$a00431.html" title="Power controller type defintion." alt="" coords="311,224,459,251"/>
+<area shape="rect" id="Node000008" href="$a00432.html" title="Contains the control loop configuration and initialization functions." alt="" coords="298,275,471,301"/>
+<area shape="rect" id="Node000002" href="$a00422.html" title="secondary Driver Layer" alt="" coords="5,148,95,175"/>
+<area shape="rect" id="Node000001" title="The Power Control layer contains the state machine managing the power converter." alt="" coords="143,148,245,175"/>
 </map>

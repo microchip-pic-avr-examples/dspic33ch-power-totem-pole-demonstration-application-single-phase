@@ -1,0 +1,31 @@
+<map id="CAN_Transmit_to_GUI" name="CAN_Transmit_to_GUI">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,249,158,276"/>
+<area shape="rect" id="Node000002" href="$a00399.html#gad99c960d1ed589ce80aca873a90e068e" title="Writes the CAN message object to specified transmit FIFO channel." alt="" coords="237,140,349,166"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,246,147,216,204,184,237,170,239,175,207,189,150,221,104,251"/>
+<area shape="rect" id="Node000009" href="$a00233.html#af058b1be15bd59ec5d57d06d1657b5e8" title=" " alt="" coords="208,198,378,225"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="140,246,219,226,221,232,141,251"/>
+<area shape="rect" id="Node000010" href="$a00233.html#a5852ed0c8edfa25272ab834b747611ba" title=" " alt="" coords="206,249,380,276"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="158,260,191,260,191,265,158,265"/>
+<area shape="rect" id="Node000011" href="$a00239.html#a5fe2662b714b85fd1b430cf48528c656" title=" " alt="" coords="452,308,617,334"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="145,274,206,285,326,300,437,311,436,316,325,306,205,290,144,279"/>
+<area shape="rect" id="Node000012" href="$a00227.html#a9547e1b813e407c1cedf72e3b4744ea0" title=" " alt="" coords="222,350,364,393"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="107,274,207,329,231,341,229,346,204,334,105,278"/>
+<area shape="rect" id="Node000003" href="$a00399.html#ga61d156b0e75424f9b630cef5c424ac13" title="This function get the DLC enum based decimal value." alt="" coords="688,38,866,65"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="301,138,320,111,349,79,385,48,427,24,465,12,505,5,585,5,660,16,722,31,721,36,659,21,585,10,505,11,466,17,429,29,388,52,353,83,325,115,305,141"/>
+<area shape="rect" id="Node000004" href="$a00399.html#ga57b30800d7bd3b3c936f578ca1fd7e32" title="This function get the FIFO user address, message depth and payload size information." alt="" coords="465,38,604,65"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="313,137,363,106,427,74,450,67,451,72,429,79,366,110,316,141"/>
+<area shape="rect" id="Node000005" href="$a00399.html#ga0980f888cad241edaa859783bb4a89d7" title="This function Read the message object from user input and update to the CAN1 TX FIFO." alt="" coords="444,89,625,116"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="349,139,452,117,454,122,350,144"/>
+<area shape="rect" id="Node000006" href="$a00399.html#gaedd6e334545a38cd71fe86ff4f9e78c3" title="Get the CAN1 operation mode." alt="" coords="449,140,620,166"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="350,150,433,150,433,156,350,156"/>
+<area shape="rect" id="Node000007" href="$a00399.html#ga1d293f033f5d27b360cf00d4644c63eb" title="Returns the CAN1 transmitter FIFO status." alt="" coords="434,190,634,217"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="350,162,454,184,452,189,349,167"/>
+<area shape="rect" id="Node000008" href="$a00399.html#gaedb86f6e4e8ac0efba711d7f3d7b688c" title="This function enables The FIFO transmit message send request bit." alt="" coords="433,241,635,284"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="340,164,381,184,396,195,406,206,415,216,429,227,440,232,437,237,427,231,412,220,402,210,392,199,379,189,338,169"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="601,86,695,66,696,71,602,91"/>
+<area shape="poly" id="edge13_Node000012_Node000011" title=" " alt="" coords="364,354,452,335,453,341,365,359"/>
+<area shape="rect" id="Node000013" href="$a00251.html#af3fad6443af569b0da78810b219ebaaf" title=" " alt="" coords="428,358,640,385"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="364,369,413,369,413,374,364,374"/>
+<area shape="rect" id="Node000014" href="$a00251.html#a0c28951a0ab80e65e5bd85682bf5920a" title=" " alt="" coords="438,409,631,436"/>
+<area shape="poly" id="edge15_Node000012_Node000014" title=" " alt="" coords="365,384,453,403,452,408,364,389"/>
+</map>
