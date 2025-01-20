@@ -6,7 +6,7 @@
  * @ingroup   p-controller-app-TPBLPFC
  * 
  * @brief     This is the driver source file for the power controller app
-*/
+ */
 
 /*
 � [2024] Microchip Technology Inc. and its subsidiaries.
@@ -445,7 +445,6 @@ static void __inline__ SoftstartAfterZC_PHx_GTIMode(struct PHASE_VALUES_s* Phase
     if (++PhaseX->Controller_Values.PWM_Counter < OPEN_LOOP_STARTUP_PULSES)
     {
       pg1dc_ = (PhaseX->Controller_Values.PWM_Counter << OPEN_LOOP_PWM_COUNTER_SHIFT);
-      //      GPIO_Y_L_Toggle();
       PWM_DutyCycleSet(PWMnr, pg1dc_);
     }
     else
@@ -546,8 +545,8 @@ static void __inline__ SoftstartAfterZC_PHx_PFCMode(struct PHASE_VALUES_s* Phase
       )
 #else
     // openloop startup after ZC  
-    //    if (++PhaseX->Controller_Values.PWM_Counter < OPEN_LOOP_STARTUP_PULSES)
-    if (++PhaseX->Controller_Values.PWM_Counter < OpenLoopStartupDuration)
+    if (++PhaseX->Controller_Values.PWM_Counter < OPEN_LOOP_STARTUP_PULSES)
+      //    if (++PhaseX->Controller_Values.PWM_Counter < OpenLoopStartupDuration)
 #endif      
     {
 
@@ -564,7 +563,6 @@ static void __inline__ SoftstartAfterZC_PHx_PFCMode(struct PHASE_VALUES_s* Phase
         GPIO_Y_H_SetHigh();
 #else     
       pg1dc_ = (PhaseX->Controller_Values.PWM_Counter << OPEN_LOOP_PWM_COUNTER_SHIFT);
-      //      GPIO_Y_L_Toggle();
       PWM_DutyCycleSet(PWMnr, pg1dc_);
 #endif
     }

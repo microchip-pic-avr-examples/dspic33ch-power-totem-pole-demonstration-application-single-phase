@@ -26,7 +26,7 @@
 
 #define MAJOR       '9'
 #define MINOR       '0'
-#define PATCH       '2'
+#define PATCH       '3'
 
 
 /*******************************************************************************
@@ -107,6 +107,10 @@
  * @fn     revision history 9.0.2
  * @details 
  *              Interleaved mode option in place and working
+ *
+ * @fn     revision history 9.0.3
+ * @details 
+ *              PFC_frameworkSetup.h fixed for PFC and chargepump mode
  *******************************************************************************/
 
 #endif	/* REVISION_H */

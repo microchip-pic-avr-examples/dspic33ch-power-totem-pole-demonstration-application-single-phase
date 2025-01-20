@@ -56,20 +56,21 @@
 #endif
 
 //always considered in PFC and GTI
-//#define CHARGEPUMP_ENABLED      //chargepump option for startup after ZC
-//#define COMMON_MODE_DETECTION   //AC_N measurement to limit startup after ZC time
+#define CHARGEPUMP_ENABLED      //chargepump option for startup after ZC
+#define COMMON_MODE_DETECTION   //AC_N measurement to limit startup after ZC time
+#define VOUT_PRECHARGE_PCS_ENABLE   //precharge state enabled to VOUT_PRECHARGE_VOLTAGE
+
 #undef AUTO_START               //PFC starts after poweron. not via GUI
 
 //*** DEBUG ONLY *** 
 //#define ADAPTIVE_GAIN_SLIDER_MODE   //only for debug purposes
-//#define VOUT_PRECHARGE_PCS_ENABLE   //only for debug purposes
 //*** ---------- *** 
 
 #if HIGH_VOLTAGE
     #define VOUT_REF 3152   //400 V
     #define IIN_OC 930      //30 A
     #define VOUT_OV 3546    //450 V
-    #define CCM_CURRENT 62  //2.0 A
+    #define CCM_CURRENT 31  //2.0 A
     #define DEAD_TIME 400   //100 ns
     #define VOUT_PRECHARGE_VOLTAGE 360  // Volt
     #define VOUT_PRECHARGE_VALUE (uint16_t)(VOUT_PRECHARGE_VOLTAGE * 7.88)    //2834   //360V 
