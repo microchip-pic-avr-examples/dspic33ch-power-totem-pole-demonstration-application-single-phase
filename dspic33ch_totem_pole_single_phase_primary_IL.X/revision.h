@@ -33,12 +33,16 @@
 
 #define REV_MAJOR       '1'
 #define REV_MINOR       '1'
-#define REV_PATCH       '3'
+#define REV_PATCH       '4'
 
 /*******************************************************************************
  * @fn      revision history 1.1.2
  * @details 
  *          protocolB increased to 10 words to send Vin avg          
+ *
+ * @fn      revision history 1.1.4
+ * @details 
+ *          Totempole_Application_Setup.h fixed for PFC mode          
  *******************************************************************************/
          
 #endif	/* REVISION_H */

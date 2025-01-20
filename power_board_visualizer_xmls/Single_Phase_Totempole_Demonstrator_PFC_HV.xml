@@ -184,7 +184,7 @@
         <Offset>0</Offset>
         <MinimumValue>10</MinimumValue>
         <MaximumValue>600</MaximumValue>
-        <DefaultValue>200</DefaultValue>
+        <DefaultValue>400</DefaultValue>
         <Step>5</Step>
         <ButtonText>Set</ButtonText>
         <Data>02 03 00 04 ef 00 [value]</Data>
